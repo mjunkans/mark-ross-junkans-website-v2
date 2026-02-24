@@ -75,7 +75,7 @@ export default function BooksPage() {
                     <div className="relative w-[220px] h-[330px] md:w-[260px] md:h-[390px] shadow-xl shadow-black/50 hover:-translate-y-1 transition-transform duration-300">
                       <Image
                         src={book.coverImage}
-                        alt={book.title}
+                        alt={`${book.title} — book by Mark Ross Junkans`}
                         fill
                         className="object-cover"
                         sizes="260px"

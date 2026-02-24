@@ -74,10 +74,10 @@ const topics = [
 ];
 
 const engagements = [
-  { title: "Keynotes", desc: "Conference and event presentations", image: "/images/speaking-stage.jpg" },
-  { title: "Podcasts", desc: "Guest appearances and interviews", image: "/images/hero-workspace.jpg" },
-  { title: "Churches", desc: "Sunday messages and series", image: "/images/church-interior.jpg" },
-  { title: "Media", desc: "TV, radio, and online", image: "/images/tech-minimal.jpg" },
+  { title: "Keynotes", desc: "Conference and event presentations on faith and technology", image: "/images/speaking-stage.jpg" },
+  { title: "Podcasts", desc: "Guest appearances and interviews on faith and AI", image: "/images/hero-workspace.jpg" },
+  { title: "Churches", desc: "Sunday messages and sermon series on faith and technology", image: "/images/church-interior.jpg" },
+  { title: "Media", desc: "TV, radio, and online appearances on AI ethics and faith", image: "/images/tech-minimal.jpg" },
 ];
 
 export default function SpeakingPage() {

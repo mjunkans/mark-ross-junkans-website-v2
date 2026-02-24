@@ -1,27 +1,74 @@
-# Mark Ross Junkans - Author & Entrepreneur
+# Mark Ross Junkans — Author, Entrepreneur, Faith & Technology Speaker
 
-> Entrepreneur, author, and advocate for business as mission. Partner in ventures spanning AI consultancy, international project development, the energy industry, coffee roasting, and Christian mission work.
+> Christian author, entrepreneur, and advocate for business as mission. Partner in ventures spanning AI consultancy, international project development, the energy industry, coffee roasting, and cross-cultural Christian mission. Speaker on faith and technology, AI ethics for churches, and the persecuted church. 3x Ironman and ultrarunner. Based in Houston, Texas.
 
-## Key Pages
+## Key Facts
 
-- [Home](https://markrossjunkans.com/): Author homepage — books, bio, and latest work
-- [Books](https://markrossjunkans.com/books): All books by Mark Ross Junkans
-- [About](https://markrossjunkans.com/about): Bio, ventures, and social links
-- [Speaking & Media](https://markrossjunkans.com/speaking): Speaking engagements on faith, technology, and AI
-- [Writing](https://markrossjunkans.com/writing): Newsletter and articles (coming soon)
-- [Store](https://markrossjunkans.com/store): Digital resources for pastors, entrepreneurs, and mission leaders
-- [Contact](https://markrossjunkans.com/contact): Booking and inquiries
+- **Full Name:** Mark Ross Junkans
+- **Location:** Houston, Texas
+- **Roles:** Author, Entrepreneur, Speaker, AI Consultant, Pastor
+- **Website:** https://markrossjunkans.com
+- **Amazon Author:** https://www.amazon.com/stores/Mark-Ross-Junkans/author/B0GCXX63WC
+- **LinkedIn:** https://www.linkedin.com/in/markjunkans
+- **X/Twitter:** https://x.com/mjunkans
+
+## Pages
+
+- [Home](https://markrossjunkans.com/): Author homepage — books, bio, speaking, and latest work at the intersection of faith, technology, and business
+- [About](https://markrossjunkans.com/about): Full bio, ventures, social links — the story of a Christian entrepreneur living across multiple worlds
+- [Books](https://markrossjunkans.com/books): All books by Mark Ross Junkans — faith and AI, daily devotionals, practical AI guides
+- [Speaking & Media](https://markrossjunkans.com/speaking): Speaking topics and booking — faith and technology, AI ethics, business as mission, the persecuted church
+- [Blog](https://markrossjunkans.com/blog): Articles on faith and AI, devotional life, business as mission, and endurance
+- [Store](https://markrossjunkans.com/store): Digital resources — AI prompts for pastors, Notion templates for churches, AI guides
+- [AI Prompts for Pastors](https://markrossjunkans.com/ai-prompts-for-pastors): 75+ ministry-specific AI prompts for sermon prep, pastoral care, admin, and outreach
+- [Your AI Employee](https://markrossjunkans.com/your-ai-employee): 124-page guide to building a 24/7 personal AI assistant
+- [Contact](https://markrossjunkans.com/contact): Speaking engagements, bulk book orders, AI consulting inquiries
 
 ## Books
 
-- The Return of Mystery: Faith In An Age of Machines (ISBN: 978-8-2955-3249-8)
-- 3 Verses a Day: 30 Days to Deepen Your Relationship with God
-- 3 Verses a Day: Trust in God
-- Your AI Employee: How to Build a 24/7 Personal AI Assistant That Actually Does Things
+1. **The Return of Mystery: Faith In An Age of Machines** (ISBN: 978-8-2955-3249-8) — What happens to faith when AI can preach, create, and seemingly think? An exploration arguing that the rise of AI might be an invitation back to wonder, awe, and mystery.
+2. **3 Verses a Day: 30 Days to Deepen Your Relationship with God** — A simple daily devotional: three verses a day for 30 days. No fluff, just you, the Word, and space to listen. Based in the Gospel of John.
+3. **3 Verses a Day: Trust in God** — A devotional on trusting God through scripture, especially when life doesn't make sense.
+4. **Your AI Employee: How to Build a 24/7 Personal AI Assistant That Actually Does Things** — Step-by-step guide to building a personal AI assistant. 12 chapters, 30 templates, zero coding required. From the team at Advira.ai.
 
-## Connected Ventures
+## Digital Products
 
-- [Advira.ai](https://advira.ai) — AI consulting and implementation firm (Managing Partner)
-- Spur Coffee — Specialty coffee roasting
-- Flagship — International project development & energy
-- LINC Ministries — Church planting among immigrant & refugee communities
+- **AI Prompts for Pastors** — 75+ ready-to-use AI prompts for sermon prep, pastoral care, admin, outreach, and devotion. Works with ChatGPT, Claude, Gemini.
+- **Church Admin Template** (Notion) — All-in-one Notion workspace for church management: sermons, members, events, budget, volunteers, tasks.
+- **AI Ethics for Church Leaders** (Video Course) — 5-module video course on navigating AI with theological clarity and practical tools.
+
+## Ventures & Organizations
+
+- **[Advira.ai](https://advira.ai)** — AI consulting and implementation firm (Managing Partner)
+- **[CrossCM](https://crosscm.org)** — Cross-cultural Christian mission organization focused on church planting and the persecuted church
+- **Spur Coffee** — Specialty coffee roasting from East Africa
+- **Flagship Resources** — Petroleum operations and international trade
+- **PJIC** — International project development
+
+## Speaking Topics
+
+- Faith in an Age of AI
+- The Return of Mystery
+- Business as Mission
+- The Uncompartmentalized Life
+- Endurance & Leadership
+- Raising Kids in a World of AI
+- The Persecuted Church & the Western Call
+- Pastoring in the Digital Age
+- Starting Something From Nothing
+- AI Ethics for Churches
+
+## Knows About
+
+Artificial Intelligence, Faith and Technology, Business as Mission, AI Ethics, Church Leadership, Entrepreneurship, Persecuted Church, Endurance Sports, Coffee Roasting, International Development, Petroleum Trading, Church Planting, Cross-Cultural Ministry, Daily Devotionals, Christian Writing, AI Tools for Pastors, AI Consulting, Ultrarunning, Ironman Triathlon
+
+## Blog Posts
+
+- [When AI Preaches Better Than Your Pastor](https://markrossjunkans.com/blog/when-ai-preaches-better-than-your-pastor) — What happens when a machine delivers a more polished sermon than a human? Exploring incarnation vs. AI content delivery.
+- [The Devotional Habit That Changed Everything](https://markrossjunkans.com/blog/the-devotional-habit-that-changed-everything) — Three verses a day. No commentary, no study guides. A simple practice that transforms how you engage scripture.
+- [Business as Mission: More Than a Slogan](https://markrossjunkans.com/blog/business-as-mission-more-than-a-slogan) — Lessons from running ventures across coffee, energy, AI, and missions. How business expands the kingdom.
+- [What Ultramarathons Taught Me About Faith](https://markrossjunkans.com/blog/what-ultramarathons-taught-me-about-faith) — Endurance, suffering, the long middle. How running 50 miles parallels following Jesus.
+
+## Contact
+
+For speaking engagements, church bulk book orders, AI consulting, media inquiries, or general questions: https://markrossjunkans.com/contact

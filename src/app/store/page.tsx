@@ -158,7 +158,7 @@ export default function StorePage() {
                     <div className="relative aspect-[3/4] overflow-hidden bg-dark-card">
                       <Image
                         src={product.image}
-                        alt={product.title}
+                        alt={`${product.title} — digital resource by Mark Ross Junkans`}
                         fill
                         className="object-cover"
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"

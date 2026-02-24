@@ -7,13 +7,23 @@ import FAQSection from "./FAQSection";
 export const metadata: Metadata = {
   title: "Your AI Employee – Build a 24/7 AI Assistant",
   description:
-    "Build a 24/7 personal AI assistant that actually does things. 124-page step-by-step guide to setting up your own always-on AI employee. From the team at Advira.ai.",
+    "Build a 24/7 personal AI assistant that actually does things. 124-page step-by-step guide. No coding required. From Advira.ai, a Christian AI consulting firm.",
   openGraph: {
     title: "Your AI Employee – Build a 24/7 AI Assistant",
     description:
       "124-page step-by-step guide to building your own always-on AI employee. No coding required. From the team at Advira.ai.",
     url: "https://markrossjunkans.com/your-ai-employee",
     images: [{ url: "/images/your-ai-employee-cover.jpg" }],
+  },
+  keywords: [
+    "AI assistant guide",
+    "build AI employee",
+    "AI consulting Christian",
+    "personal AI assistant",
+    "AI tools",
+  ],
+  alternates: {
+    canonical: "https://markrossjunkans.com/your-ai-employee",
   },
 };
 

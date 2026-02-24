@@ -4,14 +4,27 @@ import ScrollFade from "@/components/ScrollFade";
 import FAQSection from "./FAQSection";
 
 export const metadata: Metadata = {
-  title: "AI Prompts for Pastors – 75+ Ministry-Specific AI Prompts",
+  title: "AI Prompts for Pastors – 75+ Ministry AI Prompts",
   description:
-    "50+ battle-tested AI prompts designed for ministry. Sermon prep, pastoral care, admin, outreach, and devotion. By a bivocational pastor, for pastors.",
+    "75+ battle-tested AI prompts for pastors. Sermon prep, pastoral care, admin, outreach. Works with ChatGPT, Claude, Gemini. AI tools for church leaders.",
   openGraph: {
     title: "AI Prompts for Pastors – 75+ Ministry-Specific AI Prompts",
     description:
-      "75+ battle-tested AI prompts designed for ministry. Sermon prep, pastoral care, admin, outreach, and more. Works with ChatGPT, Claude, and Gemini.",
+      "75+ battle-tested AI prompts designed for ministry. AI sermon preparation, pastoral care, church admin, and outreach. Works with ChatGPT, Claude, and Gemini.",
     url: "https://markrossjunkans.com/ai-prompts-for-pastors",
+    images: [{ url: "/images/ai-prompts-cover.svg" }],
+  },
+  keywords: [
+    "AI prompts for pastors",
+    "AI for pastors",
+    "AI tools for church leaders",
+    "AI sermon preparation",
+    "how to use AI in ministry",
+    "should Christians use AI",
+    "AI ethics church",
+  ],
+  alternates: {
+    canonical: "https://markrossjunkans.com/ai-prompts-for-pastors",
   },
 };
 
