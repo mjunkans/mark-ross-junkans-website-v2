@@ -29,7 +29,7 @@ export default function HomePage() {
             <p className="text-cream/70 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
               I write about faith, AI, and the stuff that keeps me up at night.
               <br className="hidden sm:block" />
-              Author. Entrepreneur. Restless thinker.
+              Author. Entrepreneur. Ultrarunner. Restless thinker.
             </p>
           </ScrollFade>
 
@@ -58,7 +58,10 @@ export default function HomePage() {
           <ScrollFade>
             <div className="text-center mb-16">
               <h2 className="section-heading">The Intersection</h2>
-              <div className="w-16 h-[2px] bg-gold mx-auto mt-4" />
+              <p className="text-warm-gray mt-4 max-w-2xl mx-auto">
+                For anyone living in two or more of these worlds at once.
+              </p>
+              <div className="w-16 h-[2px] bg-gold mx-auto mt-6" />
             </div>
           </ScrollFade>
 
@@ -67,9 +70,10 @@ export default function HomePage() {
               <div className="group p-8 border border-dark-border hover:border-gold/30 transition-colors">
                 <h3 className="font-playfair text-xl text-gold mb-4">Faith</h3>
                 <p className="text-cream/70 leading-relaxed">
-                  I write devotionals and wrestle with what it means to follow God
-                  in a world that&apos;s automating everything — including church.
-                  The questions are harder than ever. That&apos;s what makes them worth asking.
+                  I write devotionals, plant churches, and wrestle with what it means
+                  to follow God in a world that&apos;s automating everything — including
+                  church. I believe business should help expand Jesus&apos; kingdom of grace.
+                  That&apos;s not a bumper sticker. It&apos;s the business plan.
                 </p>
               </div>
             </ScrollFade>
@@ -89,9 +93,9 @@ export default function HomePage() {
               <div className="group p-8 border border-dark-border hover:border-gold/30 transition-colors">
                 <h3 className="font-playfair text-xl text-gold mb-4">Business</h3>
                 <p className="text-cream/70 leading-relaxed">
-                  Coffee roasting, fuel trading, international projects. Business as
-                  mission isn&apos;t a slogan — it&apos;s Monday through Friday. Every
-                  venture is an experiment in doing good work that actually does good.
+                  Coffee roasting, fuel trading, international projects. I start
+                  ventures, build teams, and keep them all going on caffeine and a
+                  high tolerance for pain. Three Ironmans will do that to you.
                 </p>
               </div>
             </ScrollFade>

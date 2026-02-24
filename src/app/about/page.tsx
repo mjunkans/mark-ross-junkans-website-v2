@@ -6,7 +6,7 @@ import ScrollFade from "@/components/ScrollFade";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Mark Ross Junkans — author, AI consultant, coffee roaster, fuel trader, and restless thinker. Partner at Advira.ai, founder of Spur Coffee, and co-founder of LINC Ministries.",
+    "Mark Ross Junkans — author, AI consultant, endurance athlete, coffee roaster, and restless thinker. 3x Ironman, ultrarunner, partner at Advira.ai, and founder of LINC Ministries.",
   openGraph: {
     title: "About Mark Ross Junkans",
     description:
@@ -38,6 +38,11 @@ const ventures = [
     href: "https://advira.ai",
   },
   {
+    name: "CrossCM",
+    desc: "Cross-cultural Christian mission",
+    href: "https://crosscm.org",
+  },
+  {
     name: "Spur Coffee",
     desc: "Specialty coffee roasting",
   },
@@ -47,7 +52,8 @@ const ventures = [
   },
   {
     name: "LINC Ministries",
-    desc: "Church planting among immigrant & refugee communities",
+    desc: "Church planting among immigrant & refugee communities (founder)",
+    href: "https://linc.org",
   },
 ];
 
@@ -81,15 +87,16 @@ export default function AboutPage() {
                 <div className="w-16 h-[2px] bg-gold mb-8 mx-auto md:mx-0" />
                 <p className="text-cream/70 text-lg leading-relaxed mb-6">
                   I&apos;m the kind of person who writes a book about AI and faith,
-                  then turns around and roasts coffee beans for fun. My wife Natalia
-                  thinks this is charming. My accountant is less sure.
+                  runs an ultramarathon, then turns around and roasts coffee beans
+                  for fun. My wife Natalia thinks this is charming. My accountant
+                  is less sure.
                 </p>
                 <p className="text-cream/70 leading-relaxed">
                   I live in Houston, Texas, where I split my time between running
-                  an AI consultancy, writing books that probably don&apos;t fit neatly
-                  into any single Amazon category, and trying to figure out how to
-                  follow Jesus in a world that&apos;s changing faster than any of us
-                  expected.
+                  an AI consultancy, writing books that don&apos;t fit neatly into
+                  any single Amazon category, training for the next race, and trying
+                  to figure out how to follow Jesus in a world that&apos;s changing
+                  faster than any of us expected.
                 </p>
               </div>
             </div>
@@ -111,16 +118,17 @@ export default function AboutPage() {
               <p>
                 My career has been... non-linear. I&apos;ve traded fuel on international
                 markets, developed infrastructure projects across multiple countries,
-                co-founded a church planting ministry, started a specialty coffee
-                roasting company, and now run an AI consultancy. If that sounds
-                scattered, I prefer &quot;interdisciplinary.&quot;
+                founded a church planting ministry, started a specialty coffee
+                roasting company, completed three Ironmans and more ultramarathons
+                than my knees would like to remember, and now run an AI consultancy.
+                If that sounds scattered, I prefer &quot;interdisciplinary.&quot;
               </p>
 
               <p>
-                The thread connecting all of it is a conviction that work matters —
-                not just as a way to pay bills, but as a way to participate in
-                something larger. Business as mission isn&apos;t a tagline for me.
-                It&apos;s the operating system.
+                The thread connecting all of it is a conviction that business should
+                help expand Jesus&apos; kingdom of grace — not just as a way to pay
+                bills, but as a way to participate in something eternal.
+                That&apos;s not a tagline. It&apos;s the operating system.
               </p>
 
               <p>
@@ -148,9 +156,11 @@ export default function AboutPage() {
               </p>
 
               <p>
-                When I&apos;m not writing or consulting, I&apos;m probably roasting
-                coffee, reading something I shouldn&apos;t be reading at 2am, or
-                having a conversation about theology that goes 45 minutes too long.
+                When I&apos;m not writing or consulting, I&apos;m probably training
+                for my next race, roasting coffee, reading something I shouldn&apos;t
+                be reading at 2am, or having a conversation about theology that goes
+                45 minutes too long. The endurance athlete thing isn&apos;t a hobby —
+                it&apos;s how I process. Some people journal. I run 50 miles.
               </p>
             </div>
           </ScrollFade>
