@@ -3,7 +3,11 @@ import ScrollFade from "@/components/ScrollFade";
 
 export const metadata: Metadata = {
   title: "Terms of Use",
-  description: "Terms of use for markrossjunkans.com",
+  description:
+    "Terms of use for markrossjunkans.com. Guidelines for using content, digital products, and services from Mark Ross Junkans.",
+  alternates: {
+    canonical: "https://markrossjunkans.com/terms",
+  },
 };
 
 export default function TermsPage() {

@@ -5,14 +5,28 @@ import NewsletterSignup from "@/components/NewsletterSignup";
 import { books } from "@/data/books";
 
 export const metadata: Metadata = {
-  title: "Books",
+  title: "Books — Faith, AI & Daily Devotionals",
   description:
-    "Books by Mark Ross Junkans — faith, technology, AI, and devotionals. The Return of Mystery, 3 Verses a Day, Your AI Employee, and more.",
+    "Christian books about technology, faith and AI, and daily devotionals by Mark Ross Junkans. The Return of Mystery, 3 Verses a Day, Your AI Employee.",
   openGraph: {
-    title: "Books – Mark Ross Junkans",
+    title: "Books by Mark Ross Junkans — Faith, AI & Devotionals",
     description:
-      "Books exploring faith in an age of machines, daily devotionals, and practical AI guides.",
+      "Christian books exploring faith in an age of machines, daily devotionals for busy people, and practical AI guides. Church bulk book orders available.",
     url: "https://markrossjunkans.com/books",
+    images: [{ url: "/images/Cover Return of Mystery Kindle New.jpg" }],
+  },
+  keywords: [
+    "Christian books about technology",
+    "faith in the age of AI",
+    "devotional books",
+    "daily devotional",
+    "church bulk book orders",
+    "devotional for busy people",
+    "what does the Bible say about AI",
+    "faith and AI",
+  ],
+  alternates: {
+    canonical: "https://markrossjunkans.com/books",
   },
 };
 
@@ -134,6 +148,41 @@ export default function BooksPage() {
         </section>
       ))}
 
+      {/* FAQ Section */}
+      <section className="py-16 md:py-24 bg-dark-deeper">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6">
+          <ScrollFade>
+            <h2 className="section-heading text-center mb-12">Frequently Asked Questions</h2>
+          </ScrollFade>
+          <div className="space-y-6">
+            <ScrollFade delay={0}>
+              <div className="border border-dark-border p-6">
+                <h3 className="font-playfair text-lg text-gold mb-3">What is The Return of Mystery about?</h3>
+                <p className="text-cream/70 leading-relaxed">
+                  <em>The Return of Mystery: Faith In An Age of Machines</em> examines what happens to faith when AI can write sermons, teach children, and create art indistinguishable from human work. It argues that the rise of AI is actually an invitation back to wonder, awe, and the irreducibly human dimensions of faith that machines cannot replicate. It&apos;s a book for anyone wrestling with what it means to believe in God in an age of artificial intelligence.
+                </p>
+              </div>
+            </ScrollFade>
+            <ScrollFade delay={100}>
+              <div className="border border-dark-border p-6">
+                <h3 className="font-playfair text-lg text-gold mb-3">What is the 3 Verses a Day devotional?</h3>
+                <p className="text-cream/70 leading-relaxed">
+                  The <em>3 Verses a Day</em> series is a simple daily devotional practice: read three Bible verses each day, then sit with them. No fluff, no theological gymnastics — just you, the Word, and space to listen. The first volume covers 30 days in the Gospel of John; <em>Trust in God</em> focuses on what scripture says about trusting God when life doesn&apos;t make sense. Perfect as a devotional for busy people who want depth without overwhelm.
+                </p>
+              </div>
+            </ScrollFade>
+            <ScrollFade delay={200}>
+              <div className="border border-dark-border p-6">
+                <h3 className="font-playfair text-lg text-gold mb-3">Can I order books in bulk for my church?</h3>
+                <p className="text-cream/70 leading-relaxed">
+                  Yes! Church bulk book orders are available for all titles with group discounts. Whether you want copies for a small group study, a church-wide reading program, or an event, reach out through the contact page for pricing and details.
+                </p>
+              </div>
+            </ScrollFade>
+          </div>
+        </div>
+      </section>
+
       <NewsletterSignup
         heading="Get notified about new releases"
         className="bg-dark"
@@ -155,9 +204,47 @@ export default function BooksPage() {
               },
               url: book.buyLink,
               image: `https://markrossjunkans.com${book.coverImage}`,
+              description: book.description,
               ...(book.isbn ? { isbn: book.isbn } : {}),
             }))
           ),
+        }}
+      />
+
+      {/* FAQ JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is The Return of Mystery about?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The Return of Mystery: Faith In An Age of Machines examines what happens to faith when AI can write sermons, teach children, and create art. It argues that the rise of AI is actually an invitation back to wonder, awe, and the irreducibly human dimensions of faith that machines cannot replicate.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What is the 3 Verses a Day devotional?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The 3 Verses a Day series is a simple daily devotional practice: read three Bible verses each day, then sit with them. No fluff, no theological gymnastics. The first volume covers 30 days in the Gospel of John; Trust in God focuses on what scripture says about trusting God when life doesn't make sense.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can I order books in bulk for my church?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes! Church bulk book orders are available for all titles with group discounts. Reach out through the contact page for pricing and details on bulk orders for small groups, church-wide reading programs, or events.",
+                },
+              },
+            ],
+          }),
         }}
       />
     </>

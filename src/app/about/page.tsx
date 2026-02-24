@@ -4,14 +4,28 @@ import Link from "next/link";
 import ScrollFade from "@/components/ScrollFade";
 
 export const metadata: Metadata = {
-  title: "About",
+  title: "About Mark — Christian Author & Entrepreneur",
   description:
-    "Mark Ross Junkans — author, AI consultant, endurance athlete, coffee roaster, and restless thinker. 3x Ironman, ultrarunner, and partner at Advira.ai.",
+    "Mark Ross Junkans: Christian author, AI consultant, faith driven entrepreneur, ultrarunner. 3x Ironman, business as mission advocate, partner at Advira.ai.",
   openGraph: {
-    title: "About Mark Ross Junkans",
+    title: "About Mark Ross Junkans — Faith & Technology Author",
     description:
-      "Author, entrepreneur, and advocate for business as mission. The guy who writes about AI and devotionals in the same week.",
+      "Christian entrepreneur, author, and advocate for business as mission. AI consultant, endurance athlete, and faith and technology speaker.",
     url: "https://markrossjunkans.com/about",
+    images: [{ url: "/images/mark-headshot.png" }],
+  },
+  keywords: [
+    "Christian entrepreneur",
+    "faith driven entrepreneur",
+    "business as mission",
+    "ultrarunner author",
+    "endurance athlete faith",
+    "AI consulting Christian",
+    "Christian author AI",
+    "faith and technology speaker",
+  ],
+  alternates: {
+    canonical: "https://markrossjunkans.com/about",
   },
 };
 
@@ -72,7 +86,7 @@ export default function AboutPage() {
                 <div className="relative w-[250px] h-[300px] md:w-[300px] md:h-[380px] overflow-hidden">
                   <Image
                     src="/images/e2e238733b_6268_0_1753817246.png"
-                    alt="Mark Ross Junkans"
+                    alt="Mark Ross Junkans — Christian author, entrepreneur, and faith and technology speaker"
                     fill
                     className="object-cover"
                     sizes="300px"

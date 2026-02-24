@@ -5,18 +5,31 @@ import ScrollFade from "@/components/ScrollFade";
 import NewsletterSignup from "@/components/NewsletterSignup";
 
 export const metadata: Metadata = {
-  title: "Store",
+  title: "Store — AI Tools for Pastors & Church Leaders",
   description:
-    "Digital resources for pastors, entrepreneurs, and mission leaders. AI prompts, guides, templates, and courses by Mark Ross Junkans.",
+    "AI prompts for pastors, Notion templates for churches, and AI guides. Digital resources for church leaders, entrepreneurs, and mission leaders by Mark Ross Junkans.",
   openGraph: {
-    title: "Store – Digital Resources | Mark Ross Junkans",
+    title: "Store – AI Tools for Pastors & Church Leaders | Mark Ross Junkans",
     description:
-      "Practical AI tools, prompts, and guides for pastors, entrepreneurs, and mission leaders.",
+      "AI prompts for pastors, Notion templates for churches, and practical guides for ministry and business. Built from real-world experience.",
     url: "https://markrossjunkans.com/store",
     images: [{ url: "/images/your-ai-employee-cover.jpg" }],
   },
   twitter: {
     card: "summary_large_image",
+  },
+  keywords: [
+    "AI for pastors",
+    "AI tools for church leaders",
+    "AI prompts for pastors",
+    "Notion template church",
+    "AI ethics church",
+    "AI consulting Christian",
+    "AI sermon preparation",
+    "how to use AI in ministry",
+  ],
+  alternates: {
+    canonical: "https://markrossjunkans.com/store",
   },
 };
 
@@ -254,9 +267,9 @@ export default function StorePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "CollectionPage",
-            name: "Store – Digital Resources for Pastors & Entrepreneurs",
+            name: "Store – AI Tools for Pastors & Church Leaders",
             description:
-              "Digital resources for pastors and church leaders by Mark Ross Junkans.",
+              "Digital resources including AI prompts for pastors, Notion templates for churches, and AI guides by Mark Ross Junkans.",
             url: "https://markrossjunkans.com/store",
             author: {
               "@type": "Person",
@@ -264,6 +277,75 @@ export default function StorePage() {
               url: "https://markrossjunkans.com/",
             },
           }),
+        }}
+      />
+
+      {/* Product JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Product",
+              name: "AI Prompts for Pastors",
+              description: "75+ ready-to-use AI prompts designed specifically for ministry tasks. Sermon prep, pastoral care, admin, outreach, and more. Works with ChatGPT, Claude, Gemini.",
+              image: "https://markrossjunkans.com/images/ai-prompts-cover.svg",
+              url: "https://markrossjunkans.com/ai-prompts-for-pastors",
+              brand: { "@type": "Brand", name: "Mark Ross Junkans" },
+              offers: {
+                "@type": "Offer",
+                price: "27.00",
+                priceCurrency: "USD",
+                availability: "https://schema.org/InStock",
+                url: "https://mrjbooks.lemonsqueezy.com/checkout/buy/1bf7a95e-2bfb-4c45-b296-824bc39fe5a3",
+              },
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Product",
+              name: "Your AI Employee",
+              description: "Build a 24/7 personal AI assistant that actually does things. 124-page step-by-step guide. 12 chapters, 30 templates, zero coding required.",
+              image: "https://markrossjunkans.com/images/your-ai-employee-cover.jpg",
+              url: "https://markrossjunkans.com/your-ai-employee",
+              brand: { "@type": "Brand", name: "Mark Ross Junkans" },
+              offers: {
+                "@type": "Offer",
+                price: "29.00",
+                priceCurrency: "USD",
+                availability: "https://schema.org/InStock",
+                url: "https://mrjbooks.lemonsqueezy.com/checkout/buy/51b84553-323c-4b00-842b-8913763c7f9a",
+              },
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Product",
+              name: "Church Admin Template for Notion",
+              description: "All-in-one Notion workspace for managing your church. Sermons, members, events, budget, volunteers, and tasks in 6 interconnected databases.",
+              url: "https://markrossjunkans.com/store",
+              brand: { "@type": "Brand", name: "Mark Ross Junkans" },
+              offers: {
+                "@type": "Offer",
+                price: "49.00",
+                priceCurrency: "USD",
+                availability: "https://schema.org/PreOrder",
+              },
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Product",
+              name: "AI Ethics for Church Leaders",
+              description: "5-module video course equipping church leaders to navigate AI with theological clarity, practical tools, and biblical wisdom. 70+ page workbook included.",
+              url: "https://markrossjunkans.com/store",
+              brand: { "@type": "Brand", name: "Mark Ross Junkans" },
+              offers: {
+                "@type": "Offer",
+                price: "97.00",
+                priceCurrency: "USD",
+                availability: "https://schema.org/PreOrder",
+              },
+            },
+          ]),
         }}
       />
     </>

@@ -5,14 +5,23 @@ import ScrollFade from "@/components/ScrollFade";
 import ContactForm from "./ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact",
+  title: "Contact — Speaking, Bulk Orders & Inquiries",
   description:
-    "Get in touch with Mark Ross Junkans for speaking engagements, media inquiries, bulk book orders, or general questions about faith and technology.",
+    "Get in touch with Mark Ross Junkans for speaking engagements, church bulk book orders, AI consulting, media inquiries, or questions about faith and technology.",
   openGraph: {
-    title: "Contact Mark Ross Junkans",
+    title: "Contact Mark Ross Junkans — Speaking & Bulk Orders",
     description:
-      "Speaking engagements, media inquiries, bulk book orders, and general questions.",
+      "Speaking engagements, church bulk book orders, AI consulting inquiries, and general questions about faith and technology.",
     url: "https://markrossjunkans.com/contact",
+  },
+  keywords: [
+    "church bulk book orders",
+    "Christian speaker booking",
+    "AI consulting Christian",
+    "faith and technology speaker",
+  ],
+  alternates: {
+    canonical: "https://markrossjunkans.com/contact",
   },
 };
 
@@ -33,7 +42,7 @@ const quickLinks = [
     title: "Find My Books",
     desc: "Browse all titles on Amazon",
     href: "https://www.amazon.com/stores/Mark-Ross-Junkans/author/B0GCXX63WC",
-    image: "/images/bible-study.jpg",
+    image: "/images/find-my-books.jpg",
     external: true,
   },
 ];
@@ -77,7 +86,7 @@ export default function ContactPage() {
                   >
                     <Image
                       src={link.image}
-                      alt={link.title}
+                      alt={`${link.title} — ${link.desc}`}
                       fill
                       className="object-cover transition-transform duration-300 group-hover:scale-105"
                       sizes="(max-width: 640px) 100vw, 33vw"
@@ -97,7 +106,7 @@ export default function ContactPage() {
                   >
                     <Image
                       src={link.image}
-                      alt={link.title}
+                      alt={`${link.title} — ${link.desc}`}
                       fill
                       className="object-cover transition-transform duration-300 group-hover:scale-105"
                       sizes="(max-width: 640px) 100vw, 33vw"

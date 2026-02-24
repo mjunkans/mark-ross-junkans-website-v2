@@ -4,14 +4,29 @@ import ScrollFade from "@/components/ScrollFade";
 import SpeakingForm from "./SpeakingForm";
 
 export const metadata: Metadata = {
-  title: "Speaking & Media",
+  title: "Speaking — Faith & Technology Speaker",
   description:
-    "Book Mark Ross Junkans for speaking engagements, podcast interviews, and media appearances on faith, technology, AI ethics, and the future of the church.",
+    "Book Mark Ross Junkans for speaking on faith and AI, business as mission, AI ethics, the persecuted church, and endurance. Keynotes, podcasts, churches.",
   openGraph: {
-    title: "Speaking & Media – Mark Ross Junkans",
+    title: "Speaking & Media – Mark Ross Junkans | Faith & Technology Speaker",
     description:
-      "Engaging conversations on faith, technology, and the future. Available for keynotes, podcasts, churches, and workshops.",
+      "Christian speaker on faith and technology, AI ethics for churches, business as mission, and the persecuted church. Available for keynotes, podcasts, and workshops.",
     url: "https://markrossjunkans.com/speaking",
+    images: [{ url: "/images/speaking-stage.jpg" }],
+  },
+  keywords: [
+    "Christian speaker",
+    "faith and technology speaker",
+    "AI ethics church",
+    "AI ethics Christian",
+    "business as mission",
+    "persecuted church",
+    "AI for pastors",
+    "faith and AI",
+    "should Christians use AI",
+  ],
+  alternates: {
+    canonical: "https://markrossjunkans.com/speaking",
   },
 };
 
@@ -99,7 +114,7 @@ export default function SpeakingPage() {
                 <div className="relative w-[200px] h-[240px] md:w-[240px] md:h-[300px] overflow-hidden">
                   <Image
                     src="/images/mark-headshot.png"
-                    alt="Mark Ross Junkans"
+                    alt="Mark Ross Junkans — Christian speaker on faith and technology"
                     fill
                     className="object-cover"
                     sizes="240px"
@@ -201,6 +216,41 @@ export default function SpeakingPage() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-16 md:py-24 bg-dark">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6">
+          <ScrollFade>
+            <h2 className="section-heading text-center mb-12">Frequently Asked Questions</h2>
+          </ScrollFade>
+          <div className="space-y-6">
+            <ScrollFade delay={0}>
+              <div className="border border-dark-border p-6">
+                <h3 className="font-playfair text-lg text-gold mb-3">What topics does Mark speak on?</h3>
+                <p className="text-cream/70 leading-relaxed">
+                  Mark speaks on faith and technology, AI ethics for churches, business as mission, the persecuted church and the Western call, endurance and leadership, raising kids in a world of AI, pastoring in the digital age, and starting ventures from nothing. He develops custom presentations tailored to each audience.
+                </p>
+              </div>
+            </ScrollFade>
+            <ScrollFade delay={100}>
+              <div className="border border-dark-border p-6">
+                <h3 className="font-playfair text-lg text-gold mb-3">How do I book Mark for a speaking engagement?</h3>
+                <p className="text-cream/70 leading-relaxed">
+                  Fill out the speaking request form above with details about your event — date, audience, format, and topic preferences. Mark&apos;s team typically responds within 2–3 business days. You can also reach out directly through the contact page.
+                </p>
+              </div>
+            </ScrollFade>
+            <ScrollFade delay={200}>
+              <div className="border border-dark-border p-6">
+                <h3 className="font-playfair text-lg text-gold mb-3">Does Mark speak at churches?</h3>
+                <p className="text-cream/70 leading-relaxed">
+                  Yes! Mark regularly speaks at churches, delivering Sunday messages and sermon series. His most requested church topics include faith in an age of AI, the return of mystery, and what the persecuted church can teach the Western church about courage and conviction.
+                </p>
+              </div>
+            </ScrollFade>
+          </div>
+        </div>
+      </section>
+
       {/* JSON-LD */}
       <script
         type="application/ld+json"
@@ -210,13 +260,54 @@ export default function SpeakingPage() {
             "@type": "WebPage",
             name: "Speaking & Media – Mark Ross Junkans",
             description:
-              "Book Mark Ross Junkans for speaking engagements on faith, technology, and AI.",
+              "Book Mark Ross Junkans for speaking engagements on faith, technology, AI ethics, and business as mission.",
             url: "https://markrossjunkans.com/speaking",
+            speakable: {
+              "@type": "SpeakableSpecification",
+              cssSelector: ["h1", "h2", ".text-cream\\/70"],
+            },
             author: {
               "@type": "Person",
               name: "Mark Ross Junkans",
               url: "https://markrossjunkans.com/",
             },
+          }),
+        }}
+      />
+
+      {/* FAQ JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What topics does Mark speak on?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Mark speaks on faith and technology, AI ethics for churches, business as mission, the persecuted church and the Western call, endurance and leadership, raising kids in a world of AI, pastoring in the digital age, and starting ventures from nothing.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How do I book Mark for a speaking engagement?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Fill out the speaking request form on the speaking page with details about your event. Mark's team typically responds within 2–3 business days. You can also reach out through the contact page.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Does Mark speak at churches?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes! Mark regularly speaks at churches, delivering Sunday messages and sermon series. His most requested topics include faith in an age of AI, the return of mystery, and what the persecuted church can teach the Western church.",
+                },
+              },
+            ],
           }),
         }}
       />

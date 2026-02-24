@@ -1,8 +1,35 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import BookCard from "@/components/BookCard";
 import NewsletterSignup from "@/components/NewsletterSignup";
 import ScrollFade from "@/components/ScrollFade";
 import { books } from "@/data/books";
+import { getRecentPosts } from "@/data/blog";
+
+export const metadata: Metadata = {
+  title: "Mark Ross Junkans — Faith & Technology Author",
+  description:
+    "Christian author exploring faith and AI, business as mission, and daily devotionals. Books, speaking, and AI tools for church leaders.",
+  openGraph: {
+    title: "Mark Ross Junkans — Faith & Technology Author, Entrepreneur",
+    description:
+      "Christian author and entrepreneur at the intersection of faith, technology, and business as mission. Books on AI, devotionals, and practical ministry tools.",
+    url: "https://markrossjunkans.com",
+  },
+  keywords: [
+    "faith and technology",
+    "faith and AI",
+    "Christian author",
+    "business as mission",
+    "devotional books",
+    "AI for pastors",
+    "Christian entrepreneur",
+    "faith driven entrepreneur",
+  ],
+  alternates: {
+    canonical: "https://markrossjunkans.com",
+  },
+};
 
 export default function HomePage() {
   return (
@@ -136,7 +163,7 @@ export default function HomePage() {
         className="bg-dark"
       />
 
-      {/* ── Latest Writing (Placeholder) ── */}
+      {/* ── Latest Writing ── */}
       <section className="py-20 md:py-28 bg-dark-deeper">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <ScrollFade>
@@ -148,35 +175,37 @@ export default function HomePage() {
 
           <ScrollFade delay={200}>
             <div className="grid sm:grid-cols-3 gap-6">
-              {[
-                {
-                  title: "When AI Preaches Better Than Your Pastor",
-                  desc: "What does it mean when a machine delivers a more polished sermon than a human?",
-                },
-                {
-                  title: "The Devotional Habit That Changed Everything",
-                  desc: "Three verses a day. No commentary. Just you and the text.",
-                },
-                {
-                  title: "Business as Mission: More Than a Slogan",
-                  desc: "What I've learned from coffee, fuel, and trying to do good work.",
-                },
-              ].map((post) => (
-                <div
-                  key={post.title}
-                  className="p-6 border border-dark-border text-left hover:border-gold/30 transition-colors"
+              {getRecentPosts(3).map((post) => (
+                <Link
+                  key={post.slug}
+                  href={`/blog/${post.slug}`}
+                  className="group p-6 border border-dark-border text-left hover:border-gold/30 transition-colors"
                 >
-                  <h3 className="font-playfair text-base text-cream mb-3">
+                  <p className="text-gold text-xs font-semibold tracking-[0.1em] uppercase mb-3">
+                    {post.category}
+                  </p>
+                  <h3 className="font-playfair text-base text-cream mb-3 group-hover:text-gold transition-colors">
                     {post.title}
                   </h3>
                   <p className="text-warm-gray text-sm leading-relaxed mb-4">
-                    {post.desc}
+                    {post.excerpt}
                   </p>
-                  <span className="text-gold/50 text-xs tracking-widest uppercase">
-                    Coming Soon
+                  <span className="text-gold text-xs font-semibold tracking-[0.1em] uppercase">
+                    Read More →
                   </span>
-                </div>
+                </Link>
               ))}
+            </div>
+          </ScrollFade>
+
+          <ScrollFade delay={400}>
+            <div className="mt-10">
+              <Link
+                href="/blog"
+                className="text-gold text-xs font-semibold tracking-[0.1em] uppercase hover:text-gold-light transition-colors"
+              >
+                View All Posts →
+              </Link>
             </div>
           </ScrollFade>
         </div>
@@ -205,6 +234,78 @@ export default function HomePage() {
           </ScrollFade>
         </div>
       </section>
+
+      {/* ── FAQ Section for AEO ── */}
+      <section className="py-16 md:py-20 bg-dark-deeper">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6">
+          <ScrollFade>
+            <h2 className="section-heading text-center mb-12">Frequently Asked Questions</h2>
+          </ScrollFade>
+          <div className="space-y-6">
+            <ScrollFade delay={0}>
+              <div className="border border-dark-border p-6">
+                <h3 className="font-playfair text-lg text-gold mb-3">Who is Mark Ross Junkans?</h3>
+                <p className="text-cream/70 leading-relaxed">
+                  Mark Ross Junkans is a Christian author, entrepreneur, and faith and technology speaker. He writes about faith in the age of AI, publishes daily devotionals, and runs an AI consultancy (Advira.ai) alongside ventures in coffee roasting, energy, international development, and cross-cultural Christian mission. He&apos;s a 3x Ironman and ultrarunner who lives in Houston, Texas.
+                </p>
+              </div>
+            </ScrollFade>
+            <ScrollFade delay={100}>
+              <div className="border border-dark-border p-6">
+                <h3 className="font-playfair text-lg text-gold mb-3">What does Mark write about?</h3>
+                <p className="text-cream/70 leading-relaxed">
+                  Mark writes Christian books about technology, faith and AI, and daily devotionals. His book <em>The Return of Mystery</em> explores what happens to faith when machines can do everything we thought made us human. His <em>3 Verses a Day</em> devotional series helps readers engage scripture simply and deeply. <em>Your AI Employee</em> is a practical guide to building AI assistants for life and business.
+                </p>
+              </div>
+            </ScrollFade>
+            <ScrollFade delay={200}>
+              <div className="border border-dark-border p-6">
+                <h3 className="font-playfair text-lg text-gold mb-3">What is business as mission?</h3>
+                <p className="text-cream/70 leading-relaxed">
+                  Business as mission is the conviction that business should help expand Jesus&apos; kingdom of grace — not just as a way to pay bills, but as a way to participate in something eternal. It means doing excellent work in real markets with real accountability in a way that creates human flourishing and points to the kingdom of God. Mark lives this through ventures in AI consulting, coffee roasting, energy, and international development.
+                </p>
+              </div>
+            </ScrollFade>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Who is Mark Ross Junkans?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Mark Ross Junkans is a Christian author, entrepreneur, and faith and technology speaker. He writes about faith in the age of AI, publishes daily devotionals, and runs an AI consultancy (Advira.ai) alongside ventures in coffee roasting, energy, international development, and cross-cultural Christian mission. He's a 3x Ironman and ultrarunner who lives in Houston, Texas.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What does Mark write about?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Mark writes Christian books about technology, faith and AI, and daily devotionals. His book The Return of Mystery explores what happens to faith when machines can do everything we thought made us human. His 3 Verses a Day devotional series helps readers engage scripture simply and deeply. Your AI Employee is a practical guide to building AI assistants.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What is business as mission?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Business as mission is the conviction that business should help expand Jesus' kingdom of grace — doing excellent work in real markets with real accountability in a way that creates human flourishing and points to the kingdom of God. Mark lives this through ventures in AI consulting, coffee roasting, energy, and international development.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </>
   );
 }

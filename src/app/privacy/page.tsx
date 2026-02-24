@@ -3,7 +3,11 @@ import ScrollFade from "@/components/ScrollFade";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Privacy policy for markrossjunkans.com",
+  description:
+    "Privacy policy for markrossjunkans.com. How your information is collected, used, and protected on Mark Ross Junkans' website.",
+  alternates: {
+    canonical: "https://markrossjunkans.com/privacy",
+  },
 };
 
 export default function PrivacyPage() {
