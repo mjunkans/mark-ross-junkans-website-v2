@@ -7,11 +7,11 @@ import { books } from "@/data/books";
 import { getRecentPosts } from "@/data/blog";
 
 export const metadata: Metadata = {
-  title: "Mark Ross Junkans — Faith & Technology Author",
+  title: "Mark Ross Junkans | Faith & Technology Author",
   description:
     "Christian author exploring faith and AI, business as mission, and daily devotionals. Books, speaking, and AI tools for church leaders.",
   openGraph: {
-    title: "Mark Ross Junkans — Faith & Technology Author, Entrepreneur",
+    title: "Mark Ross Junkans | Faith & Technology Author, Entrepreneur",
     description:
       "Christian author and entrepreneur at the intersection of faith, technology, and business as mission. Books on AI, devotionals, and practical ministry tools.",
     url: "https://markrossjunkans.com",
@@ -35,7 +35,7 @@ export default function HomePage() {
   return (
     <>
       {/* ── Hero ── */}
-      <section className="relative bg-dark-deeper py-20 md:py-28 overflow-hidden">
+      <section className="relative bg-dark-deeper py-12 md:py-28 overflow-hidden">
         {/* Subtle gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-dark-deeper via-dark to-dark-deeper opacity-50" />
 
@@ -47,7 +47,7 @@ export default function HomePage() {
           </ScrollFade>
 
           <ScrollFade delay={100}>
-            <h2 className="font-playfair text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium text-cream mb-6 leading-tight">
+            <h2 className="font-playfair text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium text-cream mb-6 leading-tight hidden sm:block">
               Mark Ross Junkans
             </h2>
           </ScrollFade>
@@ -97,7 +97,7 @@ export default function HomePage() {
                 <p className="text-cream/70 leading-relaxed">
                   I write devotionals, help spread the Gospel around the world, and
                   wrestle with what it means to follow God in a world that&apos;s
-                  automating everything — including church. I believe business should help expand Jesus&apos; kingdom of grace.
+                  automating everything, including church. I believe business should help expand Jesus&apos; kingdom of grace.
                   That&apos;s not a bumper sticker. It&apos;s the business plan.
                 </p>
               </div>
@@ -107,7 +107,7 @@ export default function HomePage() {
               <div className="group p-8 border border-dark-border hover:border-gold/30 transition-colors">
                 <h3 className="font-playfair text-xl text-gold mb-4">Technology</h3>
                 <p className="text-cream/70 leading-relaxed">
-                  By day, I run multiple enterprises and ventures — including an
+                  By day, I run multiple enterprises and ventures, including an
                   AI consultancy. By night, I wonder if we&apos;re building something
                   beautiful or something dangerous. Usually both.
                 </p>
@@ -221,7 +221,7 @@ export default function HomePage() {
                   Invite Mark to Speak
                 </h2>
                 <p className="text-warm-gray">
-                  Keynotes, podcasts, churches, workshops — let&apos;s talk.
+                  Keynotes, podcasts, churches, workshops. Let&apos;s talk.
                 </p>
               </div>
               <Link
@@ -262,7 +262,7 @@ export default function HomePage() {
               <div className="border border-dark-border p-6">
                 <h3 className="font-playfair text-lg text-gold mb-3">What is business as mission?</h3>
                 <p className="text-cream/70 leading-relaxed">
-                  Business as mission is the conviction that business should help expand Jesus&apos; kingdom of grace — not just as a way to pay bills, but as a way to participate in something eternal. It means doing excellent work in real markets with real accountability in a way that creates human flourishing and points to the kingdom of God. Mark lives this through ventures in AI consulting, coffee roasting, energy, and international development.
+                  Business as mission is the conviction that business should help expand Jesus&apos; kingdom of grace, not just as a way to pay bills, but as a way to participate in something eternal. It means doing excellent work in real markets with real accountability in a way that creates human flourishing and points to the kingdom of God. Mark lives this through ventures in AI consulting, coffee roasting, energy, and international development.
                 </p>
               </div>
             </ScrollFade>
@@ -299,7 +299,7 @@ export default function HomePage() {
                 name: "What is business as mission?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Business as mission is the conviction that business should help expand Jesus' kingdom of grace — doing excellent work in real markets with real accountability in a way that creates human flourishing and points to the kingdom of God. Mark lives this through ventures in AI consulting, coffee roasting, energy, and international development.",
+                  text: "Business as mission is the conviction that business should help expand Jesus' kingdom of grace: doing excellent work in real markets with real accountability in a way that creates human flourishing and points to the kingdom of God. Mark lives this through ventures in AI consulting, coffee roasting, energy, and international development.",
                 },
               },
             ],

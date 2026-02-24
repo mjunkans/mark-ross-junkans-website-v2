@@ -5,7 +5,7 @@ import NewsletterSignup from "@/components/NewsletterSignup";
 import { blogPosts } from "@/data/blog";
 
 export const metadata: Metadata = {
-  title: "Blog — Faith, AI & Business Reflections",
+  title: "Blog | Faith, AI & Business Reflections",
   description:
     "Mark Ross Junkans writes about faith and AI, business as mission, devotional life, and what the Bible says about technology. Honest reflections from the intersection.",
   openGraph: {

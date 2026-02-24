@@ -4,11 +4,11 @@ import Link from "next/link";
 import ScrollFade from "@/components/ScrollFade";
 
 export const metadata: Metadata = {
-  title: "About Mark — Christian Author & Entrepreneur",
+  title: "About Mark | Christian Author & Entrepreneur",
   description:
     "Mark Ross Junkans: Christian author, AI consultant, faith driven entrepreneur, ultrarunner. 3x Ironman, business as mission advocate, partner at Advira.ai.",
   openGraph: {
-    title: "About Mark Ross Junkans — Faith & Technology Author",
+    title: "About Mark Ross Junkans | Faith & Technology Author",
     description:
       "Christian entrepreneur, author, and advocate for business as mission. AI consultant, endurance athlete, and faith and technology speaker.",
     url: "https://markrossjunkans.com/about",
@@ -86,7 +86,7 @@ export default function AboutPage() {
                 <div className="relative w-[250px] h-[300px] md:w-[300px] md:h-[380px] overflow-hidden">
                   <Image
                     src="/images/e2e238733b_6268_0_1753817246.png"
-                    alt="Mark Ross Junkans — Christian author, entrepreneur, and faith and technology speaker"
+                    alt="Mark Ross Junkans, Christian author, entrepreneur, and faith and technology speaker"
                     fill
                     className="object-cover"
                     sizes="300px"
@@ -104,7 +104,7 @@ export default function AboutPage() {
                 <p className="text-cream/70 text-lg leading-relaxed mb-6">
                   I&apos;m the kind of person who writes a book about AI and faith,
                   runs an ultramarathon, flies to three continents, then comes home
-                  and roasts coffee beans — because apparently I needed one more thing
+                  and roasts coffee beans, because apparently I needed one more thing
                   to explain at dinner parties. My wife Natalia thinks this is
                   charming. My accountant is less sure.
                 </p>
@@ -146,7 +146,7 @@ export default function AboutPage() {
 
               <p>
                 The thread connecting all of it is a conviction that business should
-                help expand Jesus&apos; kingdom of grace — not just as a way to pay
+                help expand Jesus&apos; kingdom of grace, not just as a way to pay
                 bills, but as a way to participate in something eternal.
                 That&apos;s not a tagline. It&apos;s the operating system.
               </p>
@@ -164,8 +164,8 @@ export default function AboutPage() {
                 When I&apos;m not writing or consulting, I&apos;m probably training
                 for my next race, roasting coffee, reading something I shouldn&apos;t
                 be reading at 2am, or having a conversation about theology that goes
-                45 minutes too long. The endurance athlete thing isn&apos;t a hobby —
-                it&apos;s how I process. Some people journal. I run 50 miles.
+                45 minutes too long. The endurance athlete thing isn&apos;t a hobby.
+                It&apos;s how I process. Some people journal. I run 50 miles.
               </p>
             </div>
           </ScrollFade>

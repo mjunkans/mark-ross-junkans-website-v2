@@ -248,7 +248,7 @@ export default function YourAIEmployeePage() {
                 , where our team designs and deploys private AI systems for businesses every day.
               </p>
               <p>
-                This book distills what we&apos;ve learned from building these systems professionally into a guide anyone can follow. The same frameworks, the same architecture, the same thinking — just written so you can do it yourself.
+                This book distills what we&apos;ve learned from building these systems professionally into a guide anyone can follow. The same frameworks, the same architecture, the same thinking, just written so you can do it yourself.
               </p>
               <p>
                 <strong className="text-cream">Prefer hands-on help?</strong> If you&apos;d rather have our team set things up for you, we&apos;re available for that too.

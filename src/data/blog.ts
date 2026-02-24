@@ -15,19 +15,23 @@ export const blogPosts: BlogPost[] = [
     category: "Faith & AI",
     excerpt:
       "What happens when a machine delivers a more polished sermon than a human? Does delivery matter more than incarnation?",
-    content: `I need to tell you about the Sunday morning that broke something in me.
+    content: `I need to tell you about the moment that broke something in me.
 
-A friend of mine — a pastor, sharp guy, loves his congregation — texted me a link to a sermon. "Listen to this," he said. "Tell me what you think."
+A pastor I know, a guy I respect, someone who genuinely loves his people, sent me his sermon outline and manuscript. He wanted feedback. I started reading, and within a few paragraphs I knew something was off.
 
-So I did. It was good. Really good. The theology was tight, the illustrations were vivid, the application was specific and pastoral. I texted back: "Who is this? I'd listen to this guy every week."
+The theology was tight. The illustrations were vivid. The application was specific. But it wasn't *him*. I've heard this guy preach. I know his voice, his rhythms, the way he circles back to a point three different ways because he wants to make sure it lands. This wasn't that.
 
-"It's ChatGPT," he said. "I gave it my sermon notes and asked it to write a 20-minute message."
+It was too polished. Too even. Too perfect.
 
-I stared at my phone for a long time.
+"Did you use AI for this?" I asked.
+
+Long pause. "Yeah. I gave it my notes and asked it to write the manuscript."
+
+My heart sank. Not because he used a tool. I use AI tools every day. But because I could tell. And if I could tell, his congregation could tell. They just might not know what they were sensing.
 
 ## The Uncomfortable Question
 
-Here's what kept me up that night: if AI can deliver a sermon that's theologically sound, emotionally resonant, and practically applicable — what exactly are we paying pastors for?
+Here's what kept me up that night: if AI can deliver a sermon that's theologically sound, emotionally resonant, and practically applicable, what exactly are we paying pastors for?
 
 I don't ask that flippantly. I'm an ordained pastor. I've sweated through sermon prep at 2 AM. I've rewritten introductions six times. I've stood in a pulpit with a lump in my throat because the text hit *me* before it hit anyone else.
 
@@ -45,17 +49,17 @@ It can't cry at your mother's funeral.
 
 The word the church has always used for this is *incarnation*. God didn't send a memo. He didn't post a blog. He showed up. In flesh. In a specific place, at a specific time, with specific people.
 
-That's what pastors do. Not perfectly — Lord knows, not perfectly — but we show up.
+That's what pastors do. Not perfectly (Lord knows, not perfectly) but we show up.
 
 ## The Delivery Trap
 
 Silicon Valley wants you to believe that content is king. That if the information is right, the medium doesn't matter. That a perfectly crafted AI sermon is functionally identical to a human one.
 
-I think that's a lie from the pit of — well, from the pit of Palo Alto.
+I think that's a lie from the pit of... well, from the pit of Palo Alto.
 
 Here's why: a sermon isn't information delivery. A sermon is an encounter. It's a particular person, formed by a particular life, standing before a particular community, speaking a particular word that the Holy Spirit makes alive in that particular moment.
 
-The stuttering, the tears, the awkward pause when the pastor loses their place — those aren't bugs. They're features. They remind us that this word comes through flesh.
+The stuttering, the tears, the awkward pause when the pastor loses their place? Those aren't bugs. They're features. They remind us that this word comes through flesh.
 
 That's not a weakness. That's the whole point.
 
@@ -65,7 +69,7 @@ I'm not saying ignore AI. I use it. I've written a whole book of AI prompts for 
 
 But there's a difference between using AI as a tool and outsourcing the spiritual work of preparation to a machine.
 
-The difference is this: when you sit with a text all week, wrestle with it, pray over it, let it read *you* before you try to preach it to anyone else — that process changes you. And a changed preacher preaches differently than an AI ever could.
+The difference is this: when you sit with a text all week, wrestle with it, pray over it, let it read *you* before you try to preach it to anyone else, that process changes you. And a changed preacher preaches differently than an AI ever could.
 
 People don't just need good sermons. They need a shepherd who has been with God that week and comes bearing the marks of it.
 
@@ -77,7 +81,7 @@ The question is: "What am I actually looking for on Sunday morning?"
 
 If it's a polished TED talk, yeah, AI wins.
 
-If it's an encounter with the living God through the stumbling, beautiful, incarnate presence of another human being who has been broken open by the same text — that's something else entirely.
+If it's an encounter with the living God through the stumbling, beautiful, incarnate presence of another human being who has been broken open by the same text? That's something else entirely.
 
 And I think that's what the church has always been about.
 
@@ -138,7 +142,7 @@ You don't speed-read a love letter.
 
 Pick a book. I'd recommend John, or one of the Psalms. Start at the beginning.
 
-Read three verses. Out loud if you can — there's something about hearing the words that changes the experience.
+Read three verses. Out loud if you can. There's something about hearing the words that changes the experience.
 
 Then close the book. That's it. Don't analyze. Don't journal (unless you want to). Don't feel guilty about not doing more.
 
@@ -158,7 +162,7 @@ Three verses a day is just giving it room to catch you.
 
 ## The Book
 
-I ended up writing a whole devotional based on this method — *3 Verses a Day: 30 Days*. It walks you through a month of this practice with the Gospel of John. No commentary from me. Just the verses, a brief reflection question, and space.
+I ended up writing a whole devotional based on this method: *3 Verses a Day: 30 Days*. It walks you through a month of this practice with the Gospel of John. No commentary from me. Just the verses, a brief reflection question, and space.
 
 But honestly? You don't need the book. You just need a Bible and the willingness to go slow.
 
@@ -177,11 +181,11 @@ Coffee roasting. Energy and commodities trading. AI consultancy. International d
 
 "So... what do you actually do?" they ask.
 
-The honest answer: I try to build things that make money and do good at the same time. And I've learned — the hard way, multiple times — that those two goals aren't as contradictory as most people think.
+The honest answer: I try to build things that make money and do good at the same time. And I've learned (the hard way, multiple times) that those two goals aren't as contradictory as most people think.
 
 ## The Problem with "Business as Mission"
 
-Let me be upfront: I cringe a little every time someone uses "business as mission" as a hashtag. Not because the concept is wrong — it's deeply right — but because it's become a slogan that lets people slap a spiritual label on their side hustle and feel holy about it.
+Let me be upfront: I cringe a little every time someone uses "business as mission" as a hashtag. Not because the concept is wrong (it's deeply right) but because it's become a slogan that lets people slap a spiritual label on their side hustle and feel holy about it.
 
 Real business as mission is messier than that. It means making payroll in a country where the currency just collapsed. It means sitting across from a government official who wants a bribe and figuring out how to say no without losing the contract. It means wrestling with whether to cut costs in a way that's legal but exploitative.
 
@@ -189,9 +193,9 @@ It's business. All the way. With all the complexity, pressure, and moral ambigui
 
 ## What I've Learned from Coffee
 
-My wife and I got into specialty coffee years ago, roasting beans from East Africa. It wasn't a missions project — it was a real business. We needed to compete on quality, price, and logistics.
+My wife and I got into specialty coffee years ago, roasting beans from East Africa. It wasn't a missions project. It was a real business. We needed to compete on quality, price, and logistics.
 
-But the farmers we bought from were real people. Their families depended on the price we paid. The supply chain decisions we made — direct trade vs. commodity markets, payment terms, shipping methods — all had human consequences.
+But the farmers we bought from were real people. Their families depended on the price we paid. The supply chain decisions we made (direct trade vs. commodity markets, payment terms, shipping methods) all had human consequences.
 
 That's where "mission" lives. Not in a mission statement. In the actual decisions you make on Tuesday afternoon when nobody's watching.
 
@@ -199,11 +203,11 @@ I learned that paying a fair price isn't charity. It's justice. And it's also go
 
 ## What I've Learned from Energy
 
-The energy sector taught me that scale matters. You can change one family's life by buying their coffee at a fair price. But structural economic development — the kind that lifts communities — requires capital, infrastructure, and systems.
+The energy sector taught me that scale matters. You can change one family's life by buying their coffee at a fair price. But structural economic development, the kind that lifts communities, requires capital, infrastructure, and systems.
 
 That means working with governments, banks, and multinational partners. It means navigating regulations and politics. It's not romantic. It's often tedious.
 
-But here's what I keep coming back to: the gospel doesn't just save souls. It builds societies. The Great Commission isn't just "go and preach." It's "go and make disciples of all nations" — and discipled nations need functional economies, honest institutions, and businesses that serve the common good.
+But here's what I keep coming back to: the gospel doesn't just save souls. It builds societies. The Great Commission isn't just "go and preach." It's "go and make disciples of all nations," and discipled nations need functional economies, honest institutions, and businesses that serve the common good.
 
 ## What I've Learned from AI
 
@@ -235,13 +239,13 @@ Here's my working definition of business as mission, refined by a decade of gett
 
 **Business as mission is doing excellent work, in real markets, with real accountability, in a way that creates human flourishing and points to the kingdom of God.**
 
-It's not charity with a business plan. It's not a side hustle with a Jesus fish. It's the conviction that God cares about economies, supply chains, and balance sheets — because he cares about the people who depend on them.
+It's not charity with a business plan. It's not a side hustle with a Jesus fish. It's the conviction that God cares about economies, supply chains, and balance sheets, because he cares about the people who depend on them.
 
 Every job you create is a family you feed. Every honest deal you close is trust you build. Every product you make with integrity is a small act of kingdom-building.
 
 That's not a slogan. That's a calling.
 
-And if you're a business person who's ever felt like your work doesn't "count" because it's not ministry — I'm telling you, as a pastor: it counts. It counts more than you know.`,
+And if you're a business person who's ever felt like your work doesn't "count" because it's not ministry, I'm telling you, as a pastor: it counts. It counts more than you know.`,
   },
   {
     slug: "what-ultramarathons-taught-me-about-faith",
@@ -250,11 +254,11 @@ And if you're a business person who's ever felt like your work doesn't "count" b
     category: "Endurance & Faith",
     excerpt:
       "Endurance, suffering, the finish line. How running 50 miles parallels following Jesus.",
-    content: `At mile 38 of my first 50-miler, I sat down on a rock and cried.
+    content: `At mile 50 of a 100km race, I sat down on the side of the trail and couldn't get back up.
 
-Not dramatically. Not cinematically. Just... sat there, on a trail in the middle of nowhere, with salt-crusted cheeks and blistered feet, and quietly fell apart.
+I was so dehydrated and nauseated I could barely walk. Just sat there, in the middle of nowhere, salt-crusted and broken, and quietly fell apart.
 
-My legs had stopped cooperating around mile 30. My stomach had staged a full revolt at mile 34. By 38, the voice in my head — the one that's always looking for the exit — had gotten very, very loud.
+My legs had stopped cooperating miles ago. My stomach had staged a full revolt. By mile 50, the voice in my head, the one that's always looking for the exit, had gotten very, very loud.
 
 *Why are you doing this? Nobody's making you. You could stop. Nobody would blame you.*
 
@@ -270,7 +274,7 @@ Nobody cheers during the long middle. There are no cameras. The aid stations are
 
 Faith has a long middle too.
 
-It's the years between the conversion experience and — well, whatever comes after. It's the Tuesday mornings when you pray and feel nothing. The decade of marriage where you're choosing love as a verb, not a feeling. The slow, unglamorous work of showing up.
+It's the years between the conversion experience and... well, whatever comes after. It's the Tuesday mornings when you pray and feel nothing. The decade of marriage where you're choosing love as a verb, not a feeling. The slow, unglamorous work of showing up.
 
 Most people don't quit their faith during a crisis. They quit during the long middle. When nothing dramatic is happening. When it's just repetition, discipline, and the absence of fireworks.
 
@@ -286,7 +290,7 @@ But here's the thing experienced ultra runners know: pain is information, not a 
 
 Learning to distinguish between pain and actual injury is the skill that separates finishers from dropouts.
 
-In faith, we have the same confusion. Suffering, doubt, spiritual dryness — these are painful. They feel like something is wrong. Like God has abandoned you. Like your faith is dying.
+In faith, we have the same confusion. Suffering, doubt, spiritual dryness: these are painful. They feel like something is wrong. Like God has abandoned you. Like your faith is dying.
 
 But pain is not the same as damage. Doubt is not the same as unbelief. Dryness is not the same as death. Sometimes the most faithful thing you can do is keep moving when it hurts.
 
@@ -306,15 +310,15 @@ The writer of Hebrews says to "run with endurance the race set before us." Not r
 
 ## The Finish Line Changes You
 
-When I crossed the finish line of my first 50-miler — 12 hours and 47 minutes after I started — I didn't feel triumphant. I felt demolished. I sat in a camping chair, wrapped in a space blanket, eating a cold burrito, and my only thought was: *I never have to do that again.*
+When I crossed the finish line of my first 50-miler, 12 hours and 47 minutes after I started, I didn't feel triumphant. I felt demolished. I sat in a camping chair, wrapped in a space blanket, eating a cold burrito, and my only thought was: *I never have to do that again.*
 
 (I did it again six months later.)
 
-But something had changed. Not during the race. After. In the days and weeks that followed, I carried something I hadn't had before. A quiet confidence. Not arrogance — just the knowledge that I could endure more than I thought.
+But something had changed. Not during the race. After. In the days and weeks that followed, I carried something I hadn't had before. A quiet confidence. Not arrogance, just the knowledge that I could endure more than I thought.
 
 That I could sit on a rock at mile 38, cry, and then get up and keep going.
 
-That's what faith does too. Not in the dramatic moments. In the quiet aftermath. You look back at the long middle — the years of ordinary faithfulness — and you realize it shaped you into someone you couldn't have become any other way.
+That's what faith does too. Not in the dramatic moments. In the quiet aftermath. You look back at the long middle, the years of ordinary faithfulness, and you realize it shaped you into someone you couldn't have become any other way.
 
 ## The Secret
 
@@ -324,7 +328,7 @@ The people who finish aren't the strongest, the fastest, or the most talented. T
 
 That's it. That's the whole strategy.
 
-Keep going. Even when it hurts. Especially when it hurts. Because the finish line isn't just an end point — it's a transformation.
+Keep going. Even when it hurts. Especially when it hurts. Because the finish line isn't just an end point. It's a transformation.
 
 "Let us not grow weary of doing good, for at the proper time we will reap a harvest if we do not give up." — Galatians 6:9
 

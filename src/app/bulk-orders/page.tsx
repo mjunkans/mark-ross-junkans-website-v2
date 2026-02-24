@@ -115,7 +115,7 @@ export default function BulkOrdersPage() {
                           {v ? (
                             <span className="text-gold font-bold">✓</span>
                           ) : (
-                            <span className="text-warm-gray/30">—</span>
+                            <span className="text-warm-gray/30">-</span>
                           )}
                         </td>
                       ))}

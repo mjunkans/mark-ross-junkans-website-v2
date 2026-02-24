@@ -4,7 +4,7 @@ import ScrollFade from "@/components/ScrollFade";
 import SpeakingForm from "./SpeakingForm";
 
 export const metadata: Metadata = {
-  title: "Speaking — Faith & Technology Speaker",
+  title: "Speaking | Faith & Technology Speaker",
   description:
     "Book Mark Ross Junkans for speaking on faith and AI, business as mission, AI ethics, the persecuted church, and endurance. Keynotes, podcasts, churches.",
   openGraph: {
@@ -41,11 +41,11 @@ const topics = [
   },
   {
     title: "Business as Mission",
-    desc: "Coffee, petroleum, AI consulting, international development — how to build ventures that expand Jesus' kingdom of grace, not just the bottom line.",
+    desc: "Coffee, petroleum, AI consulting, international development: how to build ventures that expand Jesus' kingdom of grace, not just the bottom line.",
   },
   {
     title: "The Uncompartmentalized Life",
-    desc: "You don't have to pick one lane. How to run multiple ventures, pursue big goals, and stay grounded in faith without burning out — or going crazy.",
+    desc: "You don't have to pick one lane. How to run multiple ventures, pursue big goals, and stay grounded in faith without burning out (or going crazy).",
   },
   {
     title: "Endurance & Leadership",
@@ -65,11 +65,11 @@ const topics = [
   },
   {
     title: "Starting Something From Nothing",
-    desc: "Lessons from launching ventures across industries and continents. What it actually takes to go from idea to operating business — and why most advice is wrong.",
+    desc: "Lessons from launching ventures across industries and continents. What it actually takes to go from idea to operating business, and why most advice is wrong.",
   },
   {
     title: "Custom Topics",
-    desc: "Mark develops custom presentations tailored to your audience — whether it's a church, a boardroom, a podcast, or something in between.",
+    desc: "Mark develops custom presentations tailored to your audience, whether it's a church, a boardroom, a podcast, or something in between.",
   },
 ];
 
@@ -114,7 +114,7 @@ export default function SpeakingPage() {
                 <div className="relative w-[200px] h-[240px] md:w-[240px] md:h-[300px] overflow-hidden">
                   <Image
                     src="/images/mark-headshot.png"
-                    alt="Mark Ross Junkans — Christian speaker on faith and technology"
+                    alt="Mark Ross Junkans, Christian speaker on faith and technology"
                     fill
                     className="object-cover"
                     sizes="240px"
@@ -235,7 +235,7 @@ export default function SpeakingPage() {
               <div className="border border-dark-border p-6">
                 <h3 className="font-playfair text-lg text-gold mb-3">How do I book Mark for a speaking engagement?</h3>
                 <p className="text-cream/70 leading-relaxed">
-                  Fill out the speaking request form above with details about your event — date, audience, format, and topic preferences. Mark&apos;s team typically responds within 2–3 business days. You can also reach out directly through the contact page.
+                  Fill out the speaking request form above with details about your event: date, audience, format, and topic preferences. Mark&apos;s team typically responds within 2–3 business days. You can also reach out directly through the contact page.
                 </p>
               </div>
             </ScrollFade>

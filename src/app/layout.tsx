@@ -20,7 +20,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://markrossjunkans.com"),
   title: {
-    default: "Mark Ross Junkans — Faith & Technology Author, Entrepreneur",
+    default: "Mark Ross Junkans | Faith & Technology Author, Entrepreneur",
     template: "%s | Mark Ross Junkans",
   },
   description:
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
         url: "/images/mark-headshot.png",
         width: 800,
         height: 800,
-        alt: "Mark Ross Junkans — Christian author, entrepreneur, and faith and technology speaker",
+        alt: "Mark Ross Junkans, Christian author, entrepreneur, and faith and technology speaker",
       },
     ],
   },
@@ -171,7 +171,7 @@ export default function RootLayout({
                   isbn: "978-8-2955-3249-8",
                   url: "https://www.amazon.com/Return-Mystery-Faith-Age-Machines-ebook/dp/B0GD4L9SH2",
                   image: "https://markrossjunkans.com/images/Cover Return of Mystery Kindle New.jpg",
-                  description: "An exploration of faith in an age of AI — what happens when machines can preach, create, and seemingly think. Examines how the rise of AI might be an invitation back to wonder, awe, and mystery.",
+                  description: "An exploration of faith in an age of AI, asking what happens when machines can preach, create, and seemingly think. Examines how the rise of AI might be an invitation back to wonder, awe, and mystery.",
                   genre: ["Christian Living", "Faith and Technology", "AI Ethics"],
                   bookFormat: "https://schema.org/Paperback",
                 },
@@ -182,7 +182,7 @@ export default function RootLayout({
                   author: { "@id": "https://markrossjunkans.com/#person" },
                   url: "https://www.amazon.com/Verses-Day-Days-Deepen-Relationship-ebook/dp/B0FLZ7SC8P",
                   image: "https://markrossjunkans.com/images/Cover Final.jpeg",
-                  description: "A simple daily devotional practice: three verses a day for 30 days. No fluff, no theological gymnastics — just you, the Word, and space to listen.",
+                  description: "A simple daily devotional practice: three verses a day for 30 days. No fluff, no theological gymnastics. Just you, the Word, and space to listen.",
                   genre: ["Devotional", "Daily Devotional", "Christian Living"],
                   bookFormat: "https://schema.org/Paperback",
                 },

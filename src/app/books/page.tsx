@@ -5,11 +5,11 @@ import NewsletterSignup from "@/components/NewsletterSignup";
 import { books } from "@/data/books";
 
 export const metadata: Metadata = {
-  title: "Books — Faith, AI & Daily Devotionals",
+  title: "Books | Faith, AI & Daily Devotionals",
   description:
     "Christian books about technology, faith and AI, and daily devotionals by Mark Ross Junkans. The Return of Mystery, 3 Verses a Day, Your AI Employee.",
   openGraph: {
-    title: "Books by Mark Ross Junkans — Faith, AI & Devotionals",
+    title: "Books by Mark Ross Junkans | Faith, AI & Devotionals",
     description:
       "Christian books exploring faith in an age of machines, daily devotionals for busy people, and practical AI guides. Church bulk book orders available.",
     url: "https://markrossjunkans.com/books",
@@ -75,7 +75,7 @@ export default function BooksPage() {
                     <div className="relative w-[220px] h-[330px] md:w-[260px] md:h-[390px] shadow-xl shadow-black/50 hover:-translate-y-1 transition-transform duration-300">
                       <Image
                         src={book.coverImage}
-                        alt={`${book.title} — book by Mark Ross Junkans`}
+                        alt={`${book.title}, book by Mark Ross Junkans`}
                         fill
                         className="object-cover"
                         sizes="260px"
@@ -167,7 +167,7 @@ export default function BooksPage() {
               <div className="border border-dark-border p-6">
                 <h3 className="font-playfair text-lg text-gold mb-3">What is the 3 Verses a Day devotional?</h3>
                 <p className="text-cream/70 leading-relaxed">
-                  The <em>3 Verses a Day</em> series is a simple daily devotional practice: read three Bible verses each day, then sit with them. No fluff, no theological gymnastics — just you, the Word, and space to listen. The first volume covers 30 days in the Gospel of John; <em>Trust in God</em> focuses on what scripture says about trusting God when life doesn&apos;t make sense. Perfect as a devotional for busy people who want depth without overwhelm.
+                  The <em>3 Verses a Day</em> series is a simple daily devotional practice: read three Bible verses each day, then sit with them. No fluff, no theological gymnastics. Just you, the Word, and space to listen. The first volume covers 30 days in the Gospel of John; <em>Trust in God</em> focuses on what scripture says about trusting God when life doesn&apos;t make sense. Perfect as a devotional for busy people who want depth without overwhelm.
                 </p>
               </div>
             </ScrollFade>

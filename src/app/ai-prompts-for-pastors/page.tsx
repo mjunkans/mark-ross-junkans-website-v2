@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 };
 
 const features = [
-  { title: "50+ deep, specific prompts", desc: "Not generic 'write me a sermon' — real ministry problems solved" },
+  { title: "50+ deep, specific prompts", desc: "Not generic 'write me a sermon.' Real ministry problems solved" },
   { title: "5 ministry categories", desc: "Sermon Prep, Admin, Counseling, Outreach, Personal Devotion" },
   { title: "Why It Works explanations", desc: "Understand the strategy behind each prompt" },
   { title: "Pro Tips included", desc: "Get better results with expert guidance" },

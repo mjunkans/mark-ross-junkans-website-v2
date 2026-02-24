@@ -5,7 +5,7 @@ import ScrollFade from "@/components/ScrollFade";
 import NewsletterSignup from "@/components/NewsletterSignup";
 
 export const metadata: Metadata = {
-  title: "Store — AI Tools for Pastors & Church Leaders",
+  title: "Store | AI Tools for Pastors & Church Leaders",
   description:
     "AI prompts for pastors, Notion templates for churches, and AI guides. Digital resources for church leaders, entrepreneurs, and mission leaders by Mark Ross Junkans.",
   openGraph: {
@@ -158,7 +158,7 @@ export default function StorePage() {
                     <div className="relative aspect-[3/4] overflow-hidden bg-dark-card">
                       <Image
                         src={product.image}
-                        alt={`${product.title} — digital resource by Mark Ross Junkans`}
+                        alt={`${product.title}, digital resource by Mark Ross Junkans`}
                         fill
                         className="object-cover"
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"

@@ -41,8 +41,8 @@ export default function TermsPage() {
                 Use of Content
               </h2>
               <p>
-                All content on this website — including text, images, book excerpts,
-                and digital products — is the intellectual property of Mark Ross
+                All content on this website, including text, images, book excerpts,
+                and digital products, is the intellectual property of Mark Ross
                 Junkans unless otherwise noted. You&apos;re welcome to share links
                 and brief quotes with attribution. Please don&apos;t reproduce,
                 distribute, or sell content without written permission.

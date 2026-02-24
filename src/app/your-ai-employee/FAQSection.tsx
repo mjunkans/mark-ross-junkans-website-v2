@@ -6,7 +6,7 @@ import ScrollFade from "@/components/ScrollFade";
 const faqs = [
   {
     q: "Who wrote this, and why should I trust it?",
-    a: "This book was written by Mark Junkans and the team at Advira.ai, an AI consulting and implementation firm that deploys private AI systems for businesses professionally. This isn't theory — it's the same approach we use with paying clients.",
+    a: "This book was written by Mark Junkans and the team at Advira.ai, an AI consulting and implementation firm that deploys private AI systems for businesses professionally. This isn't theory. It's the same approach we use with paying clients.",
   },
   {
     q: "Do I need to know how to code?",

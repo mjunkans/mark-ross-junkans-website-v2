@@ -5,11 +5,11 @@ import ScrollFade from "@/components/ScrollFade";
 import ContactForm from "./ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact — Speaking, Bulk Orders & Inquiries",
+  title: "Contact | Speaking, Bulk Orders & Inquiries",
   description:
     "Get in touch with Mark Ross Junkans for speaking engagements, church bulk book orders, AI consulting, media inquiries, or questions about faith and technology.",
   openGraph: {
-    title: "Contact Mark Ross Junkans — Speaking & Bulk Orders",
+    title: "Contact Mark Ross Junkans | Speaking & Bulk Orders",
     description:
       "Speaking engagements, church bulk book orders, AI consulting inquiries, and general questions about faith and technology.",
     url: "https://markrossjunkans.com/contact",
@@ -62,7 +62,7 @@ export default function ContactPage() {
             </p>
             <p className="text-cream/70 leading-relaxed">
               Whether you have a question about my books, want to discuss a
-              speaking engagement, or just want to say hello — feel free to reach
+              speaking engagement, or just want to say hello, feel free to reach
               out using the form below.
             </p>
           </ScrollFade>
@@ -86,7 +86,7 @@ export default function ContactPage() {
                   >
                     <Image
                       src={link.image}
-                      alt={`${link.title} — ${link.desc}`}
+                      alt={`${link.title}, ${link.desc}`}
                       fill
                       className="object-cover transition-transform duration-300 group-hover:scale-105"
                       sizes="(max-width: 640px) 100vw, 33vw"
@@ -106,7 +106,7 @@ export default function ContactPage() {
                   >
                     <Image
                       src={link.image}
-                      alt={`${link.title} — ${link.desc}`}
+                      alt={`${link.title}, ${link.desc}`}
                       fill
                       className="object-cover transition-transform duration-300 group-hover:scale-105"
                       sizes="(max-width: 640px) 100vw, 33vw"
