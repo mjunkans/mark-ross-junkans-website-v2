@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mark Ross Junkans | Faith & Technology Author, Entrepreneur",
     description:
-      "Christian author and entrepreneur at the intersection of faith, technology, and business as mission. Books on AI, devotionals, and practical ministry tools.",
+      "Christian author and entrepreneur at the intersection of faith, technology, and ventures as mission. Books on AI, devotionals, and practical ministry tools.",
     url: "https://markrossjunkans.com",
   },
   keywords: [
@@ -42,7 +42,7 @@ export default function HomePage() {
         <div className="relative max-w-5xl mx-auto px-4 sm:px-6 text-center">
           <ScrollFade>
             <p className="font-playfair text-gold italic text-lg md:text-xl mb-6">
-              Faith × Technology × Business
+              Faith × Technology × Ventures
             </p>
           </ScrollFade>
 
@@ -116,7 +116,7 @@ export default function HomePage() {
 
             <ScrollFade delay={300}>
               <div className="group p-8 border border-dark-border hover:border-gold/30 transition-colors">
-                <h3 className="font-playfair text-xl text-gold mb-4">Business</h3>
+                <h3 className="font-playfair text-xl text-gold mb-4">Ventures</h3>
                 <p className="text-cream/70 leading-relaxed">
                   Coffee roasting, energy and commodities, international finance
                   and development. I start ventures, build teams, and keep them all
