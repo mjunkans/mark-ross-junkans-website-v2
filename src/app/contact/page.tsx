@@ -27,13 +27,13 @@ const quickLinks = [
     title: "Bulk Orders",
     desc: "Group discounts for churches & organizations",
     href: "/contact",
-    image: "/images/bible-study.jpg",
+    image: "/images/bulk-orders-books.jpg",
   },
   {
     title: "Find My Books",
     desc: "Browse all titles on Amazon",
     href: "https://www.amazon.com/stores/Mark-Ross-Junkans/author/B0GCXX63WC",
-    image: "/images/hero-workspace.jpg",
+    image: "/images/bible-study.jpg",
     external: true,
   },
 ];

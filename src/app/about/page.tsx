@@ -6,7 +6,7 @@ import ScrollFade from "@/components/ScrollFade";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Mark Ross Junkans — author, AI consultant, endurance athlete, coffee roaster, and restless thinker. 3x Ironman, ultrarunner, partner at Advira.ai, and founder of LINC Ministries.",
+    "Mark Ross Junkans — author, AI consultant, endurance athlete, coffee roaster, and restless thinker. 3x Ironman, ultrarunner, and partner at Advira.ai.",
   openGraph: {
     title: "About Mark Ross Junkans",
     description:
@@ -45,15 +45,17 @@ const ventures = [
   {
     name: "Spur Coffee",
     desc: "Specialty coffee roasting",
+    href: "https://spur.coffee",
   },
   {
-    name: "Flagship",
-    desc: "International project development & energy",
+    name: "Flagship Resources",
+    desc: "Petroleum operations & international trade",
+    href: "https://flagshipresources.com",
   },
   {
-    name: "LINC Ministries",
-    desc: "Church planting among immigrant & refugee communities (founder)",
-    href: "https://linc.org",
+    name: "PJIC",
+    desc: "International project development",
+    href: "https://pjic.com",
   },
 ];
 
@@ -87,16 +89,20 @@ export default function AboutPage() {
                 <div className="w-16 h-[2px] bg-gold mb-8 mx-auto md:mx-0" />
                 <p className="text-cream/70 text-lg leading-relaxed mb-6">
                   I&apos;m the kind of person who writes a book about AI and faith,
-                  runs an ultramarathon, then turns around and roasts coffee beans
-                  for fun. My wife Natalia thinks this is charming. My accountant
-                  is less sure.
+                  runs an ultramarathon, flies to three continents, then comes home
+                  and roasts coffee beans — because apparently I needed one more thing
+                  to explain at dinner parties. My wife Natalia thinks this is
+                  charming. My accountant is less sure.
+                </p>
+                <p className="text-cream/70 leading-relaxed mb-6">
+                  I also run a mission organization and an AI consultancy.
+                  I&apos;ve been blessed with energy and a mind that thrives on
+                  holding opposites together.
                 </p>
                 <p className="text-cream/70 leading-relaxed">
-                  I live in Houston, Texas, where I split my time between running
-                  an AI consultancy, writing books that don&apos;t fit neatly into
-                  any single Amazon category, training for the next race, and trying
-                  to figure out how to follow Jesus in a world that&apos;s changing
-                  faster than any of us expected.
+                  I live in Houston, Texas, and I&apos;m trying to figure out how
+                  to follow Jesus in a world that&apos;s changing faster than any of
+                  us expected. That question drives everything else.
                 </p>
               </div>
             </div>
@@ -138,21 +144,6 @@ export default function AboutPage() {
                 is for people who want to engage scripture without a PhD in theology.
                 And &quot;Your AI Employee&quot; is for anyone who wants to actually use AI
                 instead of just talking about it.
-              </p>
-
-              <p>
-                At{" "}
-                <a
-                  href="https://advira.ai"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gold hover:text-gold-light transition-colors"
-                >
-                  Advira.ai
-                </a>
-                , my team helps businesses deploy AI in ways that are practical,
-                ethical, and actually work. We&apos;re not selling hype — we&apos;re
-                building tools that let people do their best work.
               </p>
 
               <p>

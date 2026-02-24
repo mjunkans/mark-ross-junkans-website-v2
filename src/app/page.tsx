@@ -27,8 +27,6 @@ export default function HomePage() {
 
           <ScrollFade delay={200}>
             <p className="text-cream/70 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-              I write about faith, AI, and the stuff that keeps me up at night.
-              <br className="hidden sm:block" />
               Author. Entrepreneur. Ultrarunner. Restless thinker.
             </p>
           </ScrollFade>
@@ -70,9 +68,9 @@ export default function HomePage() {
               <div className="group p-8 border border-dark-border hover:border-gold/30 transition-colors">
                 <h3 className="font-playfair text-xl text-gold mb-4">Faith</h3>
                 <p className="text-cream/70 leading-relaxed">
-                  I write devotionals, plant churches, and wrestle with what it means
-                  to follow God in a world that&apos;s automating everything — including
-                  church. I believe business should help expand Jesus&apos; kingdom of grace.
+                  I write devotionals, help spread the Gospel around the world, and
+                  wrestle with what it means to follow God in a world that&apos;s
+                  automating everything — including church. I believe business should help expand Jesus&apos; kingdom of grace.
                   That&apos;s not a bumper sticker. It&apos;s the business plan.
                 </p>
               </div>
@@ -82,9 +80,9 @@ export default function HomePage() {
               <div className="group p-8 border border-dark-border hover:border-gold/30 transition-colors">
                 <h3 className="font-playfair text-xl text-gold mb-4">Technology</h3>
                 <p className="text-cream/70 leading-relaxed">
-                  By day, I run an AI consultancy. By night, I wonder if we&apos;re
-                  building something beautiful or something dangerous. Usually both.
-                  The future is coming fast — someone should be asking the hard questions.
+                  By day, I run multiple enterprises and ventures — including an
+                  AI consultancy. By night, I wonder if we&apos;re building something
+                  beautiful or something dangerous. Usually both.
                 </p>
               </div>
             </ScrollFade>
@@ -93,9 +91,10 @@ export default function HomePage() {
               <div className="group p-8 border border-dark-border hover:border-gold/30 transition-colors">
                 <h3 className="font-playfair text-xl text-gold mb-4">Business</h3>
                 <p className="text-cream/70 leading-relaxed">
-                  Coffee roasting, fuel trading, international projects. I start
-                  ventures, build teams, and keep them all going on caffeine and a
-                  high tolerance for pain. Three Ironmans will do that to you.
+                  Coffee roasting, energy and commodities, international finance
+                  and development. I start ventures, build teams, and keep them all
+                  going on caffeine and a high tolerance for pain. Three Ironmans
+                  will do that to you.
                 </p>
               </div>
             </ScrollFade>

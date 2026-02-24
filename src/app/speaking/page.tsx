@@ -25,20 +25,36 @@ const topics = [
     desc: "Why the rise of AI might actually be an invitation back to wonder, awe, and the irreducibly human dimensions of faith that machines cannot replicate.",
   },
   {
-    title: "Pastoring in the Digital Age",
-    desc: "Practical guidance for church leaders navigating AI-generated content, digital discipleship, and maintaining authentic community in a tech-saturated world.",
+    title: "Business as Mission",
+    desc: "Coffee, petroleum, AI consulting, international development — how to build ventures that expand Jesus' kingdom of grace, not just the bottom line.",
   },
   {
-    title: "Spiritual Disciplines for the Digital Age",
-    desc: "How ancient practices of Scripture, prayer, and presence take on new significance when we're surrounded by algorithms competing for our attention.",
+    title: "The Uncompartmentalized Life",
+    desc: "You don't have to pick one lane. How to run multiple ventures, pursue big goals, and stay grounded in faith without burning out — or going crazy.",
+  },
+  {
+    title: "Endurance & Leadership",
+    desc: "What 3 Ironmans and ultramarathons taught me about pain, perseverance, and building things that last. The finish line is never where you think it is.",
   },
   {
     title: "Raising Kids in a World of AI",
     desc: "Equipping parents and youth leaders to help the next generation develop discernment, character, and faith in an age of unprecedented technological change.",
   },
   {
+    title: "The Persecuted Church & the Western Call",
+    desc: "What the global persecuted church can teach the comfortable Western church about courage, conviction, and what it actually costs to follow Jesus.",
+  },
+  {
+    title: "Pastoring in the Digital Age",
+    desc: "Practical guidance for church leaders navigating AI-generated content, digital discipleship, and maintaining authentic community in a tech-saturated world.",
+  },
+  {
+    title: "Starting Something From Nothing",
+    desc: "Lessons from launching ventures across industries and continents. What it actually takes to go from idea to operating business — and why most advice is wrong.",
+  },
+  {
     title: "Custom Topics",
-    desc: "Mark is happy to develop custom presentations tailored to your audience's specific needs and questions about faith and technology.",
+    desc: "Mark develops custom presentations tailored to your audience — whether it's a church, a boardroom, a podcast, or something in between.",
   },
 ];
 
@@ -46,7 +62,6 @@ const engagements = [
   { title: "Keynotes", desc: "Conference and event presentations", image: "/images/speaking-stage.jpg" },
   { title: "Podcasts", desc: "Guest appearances and interviews", image: "/images/hero-workspace.jpg" },
   { title: "Churches", desc: "Sunday messages and series", image: "/images/church-interior.jpg" },
-  { title: "Workshops", desc: "Interactive group sessions", image: "/images/bible-study.jpg" },
   { title: "Media", desc: "TV, radio, and online", image: "/images/tech-minimal.jpg" },
 ];
 
@@ -61,7 +76,7 @@ export default function SpeakingPage() {
               Speaking &amp; Media
             </h1>
             <p className="font-playfair text-gold italic text-lg mb-6">
-              Engaging conversations on faith, technology, and the future
+              Faith, business, endurance, and everything at the intersection
             </p>
             <p className="text-cream/70 leading-relaxed">
               Mark is available for speaking engagements, podcast interviews, and
@@ -98,11 +113,10 @@ export default function SpeakingPage() {
                 <p className="text-cream/70 leading-relaxed">
                   Mark Ross Junkans is an entrepreneur and advocate for business as
                   mission. He&apos;s a partner in ventures spanning AI consultancy,
-                  international project development, the energy industry, coffee
-                  roasting, and Christian mission work — including co-founding LINC
-                  Ministries, planting churches among immigrant and refugee
-                  communities. His books and speaking draw from all of it: faith and
-                  technology, ancient wisdom and modern tools.
+                  petroleum operations, international development, coffee roasting,
+                  and cross-cultural Christian mission. His books and speaking draw
+                  from all of it: faith and technology, ancient wisdom and modern
+                  tools.
                 </p>
               </div>
             </div>
