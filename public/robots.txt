@@ -1,0 +1,18 @@
+# markrossjunkans.com
+User-agent: *
+Allow: /
+
+Sitemap: https://markrossjunkans.com/sitemap.xml
+
+# AI Crawlers - Welcome
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
