@@ -86,17 +86,8 @@ export default function HomePage() {
       {/* ── The Intersection ── */}
       <section className="py-20 md:py-28 bg-dark">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <ScrollFade>
-            <div className="text-center mb-6">
-              <h2 className="section-heading">What I&apos;m Working On</h2>
-              <p className="text-warm-gray mt-4 max-w-2xl mx-auto">
-                Three worlds. One life. It gets interesting.
-              </p>
-            </div>
-          </ScrollFade>
-
           {/* Constellation graphic */}
-          <Constellation className="mb-0" />
+          <Constellation />
         </div>
       </section>
 
