@@ -1,6 +1,18 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  safelist: [
+    "border-l-amber-500",
+    "border-l-emerald-500",
+    "border-l-sky-400",
+    "border-l-rose-400",
+    "border-l-orange-400",
+    "bg-amber-500",
+    "bg-emerald-500",
+    "bg-sky-400",
+    "bg-rose-400",
+    "bg-orange-400",
+  ],
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
