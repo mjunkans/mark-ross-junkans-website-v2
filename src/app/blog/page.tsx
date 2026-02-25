@@ -53,8 +53,7 @@ export default function BlogPage() {
               Blog
             </h1>
             <p className="text-cream/70 text-lg leading-relaxed">
-              Faith, technology, and the intersection of everything. Honest
-              reflections from someone who lives in the messy middle.
+              Faith, technology, and the intersection of everything.
             </p>
           </ScrollFade>
         </div>
