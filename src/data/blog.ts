@@ -170,82 +170,58 @@ Try it for a week. See what happens. I think you'll be surprised.`,
   },
   {
     slug: "business-as-mission-more-than-a-slogan",
-    title: "Business as Mission: More Than a Slogan",
+    title: "Business as Mission: The Part Nobody Talks About",
     date: "2024-12-20",
     category: "Business & Faith",
     excerpt:
-      "What I've learned from running ventures across coffee, energy, AI, and missions. How business expands the kingdom.",
-    content: `I've had people look at my business card and get confused.
+      "Most of what passes for 'business as mission' is either charity wearing a business costume or a regular company with a Bible verse on the wall.",
+    content: `## The Slogan Problem
 
-Coffee roasting. Energy and commodities trading. AI consultancy. International development. Oh, and ordained pastor. Not exactly a LinkedIn profile that makes sense.
+Somewhere along the way, "business as mission" became a thing you put in your conference bio. It sounds good. It tests well with church audiences and investor decks alike. It suggests you've figured out something most people haven't: how to make money and do God's work at the same time, without any of the usual mess.
 
-"So... what do you actually do?" they ask.
+I've been around this phrase for a long time now. Long enough to notice that the people who say it the loudest are often the ones doing it the least.
 
-The honest answer: I try to build things that make money and do good at the same time. And I've learned (the hard way, multiple times) that those two goals aren't as contradictory as most people think.
+Here's what I mean. There are two common versions of "business as mission," and both of them are wrong.
 
-## The Problem with "Business as Mission"
+The first version is charity cosplaying as business. Someone starts a venture in a developing country, prices it below sustainability, subsidizes it with donations, and calls it a business. It isn't. It's a nonprofit with a product. The moment the donations dry up, the "business" evaporates, and so do the jobs. The people who depended on those jobs are worse off than before, because now they've restructured their lives around something that was never real.
 
-Let me be upfront: I cringe a little every time someone uses "business as mission" as a hashtag. Not because the concept is wrong (it's deeply right) but because it's become a slogan that lets people slap a spiritual label on their side hustle and feel holy about it.
+The second version is business cosplaying as ministry. A company does ordinary commercial work, tithes some profits, maybe sponsors a mission trip, and slaps "business as mission" on the website. That's fine. Generosity is good. But it's not what this phrase is supposed to mean. It's just a business with a charitable giving line item.
 
-Real business as mission is messier than that. It means making payroll in a country where the currency just collapsed. It means sitting across from a government official who wants a bribe and figuring out how to say no without losing the contract. It means wrestling with whether to cut costs in a way that's legal but exploitative.
+Neither version grapples with the actual tension. And the tension is where all the interesting stuff lives.
 
-It's business. All the way. With all the complexity, pressure, and moral ambiguity that entails. The "mission" part isn't a veneer. It's the foundation.
+## What the Tension Actually Feels Like
 
-## What I've Learned from Coffee
+The real version of business as mission doesn't photograph well. It's not a ribbon-cutting in a village or a baptism in a warehouse. It's a spreadsheet. It's a payroll run on a Friday when receivables are late. It's a supply chain decision where the cheaper option cuts corners on the people at the bottom, and the ethical option might price you out of the market.
 
-My wife and I got into specialty coffee years ago, roasting beans from East Africa. It wasn't a missions project. It was a real business. We needed to compete on quality, price, and logistics.
+It's Tuesday afternoon, and you're deciding whether to extend credit to a customer who probably can't pay, in a place where your refusal means their family doesn't eat this month. There's no conference breakout session for that.
 
-But the farmers we bought from were real people. Their families depended on the price we paid. The supply chain decisions we made (direct trade vs. commodity markets, payment terms, shipping methods) all had human consequences.
+If you've spent time building businesses in places where the economy is fragile, you learn something fast: good intentions are not a business plan. The market does not care about your mission statement. Customers don't buy your product because you're trying to help people. They buy it because it works, or because it's priced right, or because you showed up when the other guy didn't. The mission part has to survive contact with all of that, or it's just decoration.
 
-That's where "mission" lives. Not in a mission statement. In the actual decisions you make on Tuesday afternoon when nobody's watching.
+This is the thing that rarely gets said at the conferences. For business as mission to be real, the business has to actually work. As a business. It has to compete. It has to be solvent. It has to make hard calls about margins and overhead and personnel, the same as any other company. If it can't do that, it's not a mission. It's a slow-motion collapse with good PR.
 
-I learned that paying a fair price isn't charity. It's justice. And it's also good business, because farmers who get paid well grow better coffee. Everyone wins. That's not idealism. That's economics.
+## The Colossians Problem
 
-## What I've Learned from Energy
+Paul writes to the Colossians: "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters." That verse gets quoted a lot in business-as-mission circles, usually as a kind of spiritual permission slip. See? Work is sacred. Commerce is calling. Go build your startup for Jesus.
 
-The energy sector taught me that scale matters. You can change one family's life by buying their coffee at a fair price. But structural economic development, the kind that lifts communities, requires capital, infrastructure, and systems.
+But I think the verse is harder than people make it. "With all your heart" means you can't half-build the business and hope the mission part covers for the gaps. It means the quality of the work matters. The integrity of the supply chain matters. Whether you pay people on time matters. Whether your product actually serves the customer or just serves your narrative about yourself: that matters.
 
-That means working with governments, banks, and multinational partners. It means navigating regulations and politics. It's not romantic. It's often tedious.
+Working "as for the Lord" doesn't elevate your business into something automatically holy. If anything, it raises the bar. It means you don't get to cut corners and hide behind the mission. It means the ordinary, boring, operational stuff is exactly where the faithfulness lives. Not in the vision statement. In the execution.
 
-But here's what I keep coming back to: the gospel doesn't just save souls. It builds societies. The Great Commission isn't just "go and preach." It's "go and make disciples of all nations," and discipled nations need functional economies, honest institutions, and businesses that serve the common good.
+## Why People Get It Wrong
 
-## What I've Learned from AI
+Most people get business as mission wrong for a simple reason: it's easier to talk about than to do. The talking version lets you skip the hard parts. You can have a compelling origin story, a photogenic project, and a narrative arc that makes sense at a fundraising dinner. You can feel like you're doing something important without ever confronting the grinding, unglamorous reality of running a going concern in a difficult market.
 
-Running an AI consultancy has taught me that technology is never neutral. Every tool we build carries assumptions about who matters, what's efficient, and what's acceptable.
+The doing version is less satisfying. You spend years in places most people can't find on a map, solving problems that aren't interesting to anyone but the people who have them. You learn that economic development is slow and unsexy and full of failures that nobody writes blog posts about. You discover that the people you're trying to help have their own ideas about what they need, and those ideas don't always match your pitch deck.
 
-When we deploy AI for a client, we're not just solving a technical problem. We're shaping how they make decisions, what they optimize for, who gets included and excluded.
+And you learn that profit isn't the enemy of purpose. Profit is what keeps the lights on. Profit is what lets you hire the next person, buy the next piece of equipment, survive the next downturn. Without it, your mission is a hobby with an expiration date.
 
-That's theological work, whether anyone calls it that or not.
+The uncomfortable truth is that the most missional thing a business can do is stay in business. Keep people employed. Keep showing up. Keep being a reliable part of a local economy that desperately needs reliable things.
 
-I've sat in meetings where the "optimal" AI recommendation would save money by eliminating jobs. And I've had to ask: "Is optimal the same as right? And who gets to decide?"
+## Honest Ending
 
-Business as mission means asking those questions. Even when the answer is expensive.
+I don't have a neat conclusion for this. Business as mission, done honestly, doesn't resolve into a clean takeaway. It's a long obedience in the same direction, to borrow Eugene Peterson's phrase. Most days it looks like work. Because it is work.
 
-## The Hard Part
-
-Here's what nobody tells you about business as mission: sometimes it fails. Sometimes the business fails. Sometimes the mission fails. Sometimes both.
-
-I've had ventures that lost money. I've had projects that didn't help the people they were supposed to help. I've made decisions I regret.
-
-The temptation, when that happens, is to retreat. To separate business and mission back into their own lanes. Do your work over here, do your faith over there, and stop trying to integrate them because integration is hard and messy and full of failure.
-
-But I keep coming back to something Paul wrote to the Colossians: "Whatever you do, work at it with all your heart, as working for the Lord."
-
-Not "whatever ministry you do." Whatever you do. The spreadsheets. The supply chain. The client calls. The P&L review. All of it.
-
-## A Better Definition
-
-Here's my working definition of business as mission, refined by a decade of getting it wrong:
-
-**Business as mission is doing excellent work, in real markets, with real accountability, in a way that creates human flourishing and points to the kingdom of God.**
-
-It's not charity with a business plan. It's not a side hustle with a Jesus fish. It's the conviction that God cares about economies, supply chains, and balance sheets, because he cares about the people who depend on them.
-
-Every job you create is a family you feed. Every honest deal you close is trust you build. Every product you make with integrity is a small act of kingdom-building.
-
-That's not a slogan. That's a calling.
-
-And if you're a business person who's ever felt like your work doesn't "count" because it's not ministry, I'm telling you, as a pastor: it counts. It counts more than you know.`,
+The best version of it I've seen, and the version I keep trying to practice, doesn't announce itself. It just shows up on Monday morning, does the job, pays its people, serves its customers, and tries to leave things a little better than it found them. No slogan required.`,
   },
   {
     slug: "what-ultramarathons-taught-me-about-faith",
