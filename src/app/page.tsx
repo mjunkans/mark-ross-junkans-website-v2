@@ -92,7 +92,7 @@ export default function HomePage() {
           <Constellation />
           <ScrollFade>
             <p className="text-center text-cream/70 leading-relaxed max-w-2xl mx-auto mt-10">
-              The world wants you to compartmentalize: faith in one room, ambition in another, technology somewhere down the hall. I&apos;ve spent my life kicking down the walls between them. This site is where pastoral theology meets artificial intelligence, where startups meet sacraments, where mystery refuses to stay in its lane. If that sounds like your kind of restlessness, welcome.
+              The world wants you to compartmentalize: keep each part of your life in its own room, on its own shelf, with its own label. I&apos;ve never been able to do that. Every area I&apos;ve poured effort into ends up connected to the others. Right now, that nexus is faith, technology, and ventures. If that sounds like your kind of restlessness, welcome.
             </p>
           </ScrollFade>
         </div>
