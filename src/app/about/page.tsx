@@ -103,7 +103,7 @@ export default function AboutPage() {
                 <div className="w-16 h-[2px] bg-gold mb-8 mx-auto md:mx-0" />
                 <p className="text-cream/70 text-lg leading-relaxed mb-6">
                   I do a lot of things. Some of them make money. Some of them
-                  make sense. The overlap is smaller than you&apos;d think.
+                  make a difference. The overlap is smaller than you&apos;d think.
                 </p>
                 <p className="text-cream/70 leading-relaxed mb-6">
                   I write books, build businesses, roast coffee, run very long
