@@ -47,7 +47,7 @@ export default function HomePage() {
           </ScrollFade>
 
           <ScrollFade delay={100}>
-            <h2 className="font-playfair text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium text-cream mb-6 leading-tight hidden sm:block">
+            <h2 className="font-playfair text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-medium text-cream mb-6 leading-tight">
               Mark Ross Junkans
             </h2>
           </ScrollFade>

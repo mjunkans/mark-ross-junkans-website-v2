@@ -21,17 +21,8 @@ export default function Header() {
   return (
     <header className="bg-dark-deeper border-b border-dark-border">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        {/* Top: Site title */}
-        <div className="pt-8 pb-4 text-center">
-          <Link href="/" className="inline-block">
-            <h1 className="font-playfair text-2xl sm:text-3xl md:text-4xl font-medium text-cream tracking-wide">
-              Mark Ross Junkans
-            </h1>
-          </Link>
-        </div>
-
         {/* Mobile hamburger */}
-        <div className="flex justify-center md:hidden pb-4">
+        <div className="flex justify-center md:hidden pt-4 pb-4">
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
             className="text-cream/70 hover:text-gold transition-colors p-2"
@@ -50,7 +41,7 @@ export default function Header() {
         </div>
 
         {/* Desktop nav */}
-        <nav className="hidden md:block pb-6">
+        <nav className="hidden md:block pt-6 pb-6">
           <ul className="flex justify-center gap-8 lg:gap-12">
             {navLinks.map((link) => (
               <li key={link.href}>
