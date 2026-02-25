@@ -41,7 +41,7 @@ const topics = [
   },
   {
     title: "Business as Mission",
-    desc: "Coffee, petroleum, AI consulting, international development: how to build ventures that expand Jesus' kingdom of grace, not just the bottom line.",
+    desc: "How to build ventures that expand Jesus' kingdom of grace, not just the bottom line. What it looks like to do real work in real markets as an act of faith.",
   },
   {
     title: "The Uncompartmentalized Life",
@@ -91,7 +91,7 @@ export default function SpeakingPage() {
               Speaking &amp; Media
             </h1>
             <p className="font-playfair text-gold italic text-lg mb-6">
-              Faith, business, endurance, and everything at the intersection
+              Faith, technology, ventures, and everything at the intersection
             </p>
             <p className="text-cream/70 leading-relaxed">
               Mark is available for speaking engagements, podcast interviews, and
@@ -126,12 +126,12 @@ export default function SpeakingPage() {
                   About the Speaker
                 </h2>
                 <p className="text-cream/70 leading-relaxed">
-                  Mark Ross Junkans is an entrepreneur and advocate for business as
-                  mission. He&apos;s a partner in ventures spanning AI consultancy,
-                  petroleum operations, international development, coffee roasting,
-                  and cross-cultural Christian mission. His books and speaking draw
-                  from all of it: faith and technology, ancient wisdom and modern
-                  tools.
+                  Mark Ross Junkans is an author, entrepreneur, and endurance
+                  athlete who lives at the intersection of faith, technology, and
+                  ventures. His books and speaking draw from a career spent
+                  launching things across industries and continents, always asking
+                  the same question: how do we follow Jesus in a world that&apos;s
+                  changing faster than any of us expected?
                 </p>
               </div>
             </div>

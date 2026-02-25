@@ -136,12 +136,10 @@ export default function AboutPage() {
 
             <div className="space-y-6 text-cream/70 leading-relaxed">
               <p>
-                My career has been... non-linear. I&apos;ve traded fuel on international
-                markets, developed infrastructure projects across multiple countries,
-                founded a church planting ministry, started a specialty coffee
-                roasting company, completed three Ironmans and more ultramarathons
-                than my knees would like to remember, and now run an AI consultancy.
-                If that sounds scattered, I prefer &quot;interdisciplinary.&quot;
+                My career has been non-linear. I&apos;ve launched ventures across
+                industries and continents, each one teaching me something the last
+                one couldn&apos;t. If that sounds scattered, I prefer
+                &quot;interdisciplinary.&quot;
               </p>
 
               <p>

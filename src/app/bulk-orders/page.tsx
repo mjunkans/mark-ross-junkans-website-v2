@@ -78,11 +78,8 @@ export default function BulkOrdersPage() {
                     <th className="p-4 text-center font-playfair text-cream text-lg font-medium border-b border-dark-border">
                       Small Group
                     </th>
-                    <th className="p-4 text-center font-playfair text-cream text-lg font-medium border-b border-gold/50 bg-dark-card relative">
+                    <th className="p-4 text-center font-playfair text-cream text-lg font-medium border-b border-dark-border bg-dark-card">
                       Leadership Team
-                      <span className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-0.5 bg-gold text-dark-deeper text-[9px] font-bold tracking-widest uppercase">
-                        Most Popular
-                      </span>
                     </th>
                     <th className="p-4 text-center font-playfair text-cream text-lg font-medium border-b border-dark-border">
                       Congregation
