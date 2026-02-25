@@ -71,9 +71,7 @@ export default function HomePage() {
               Author. Entrepreneur. Restless thinker.
             </p>
             <p className="text-cream/50 text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-              I write books because the questions won&apos;t leave me alone.
-              Who is God to me, and who am I to Him? What happens to faith
-              when machines can do everything we thought made us human?
+              Who is God to me, and who am I to others?
             </p>
           </ScrollFade>
 
