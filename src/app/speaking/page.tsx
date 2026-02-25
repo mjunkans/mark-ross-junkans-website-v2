@@ -172,7 +172,7 @@ export default function SpeakingPage() {
             </h2>
           </ScrollFade>
 
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
             {engagements.map((e, i) => (
               <ScrollFade key={e.title} delay={i * 80}>
                 <div className="group relative aspect-[3/4] overflow-hidden">
