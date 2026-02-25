@@ -35,7 +35,7 @@ const quickLinks = [
   {
     title: "Bulk Orders",
     desc: "Group discounts for churches & organizations",
-    href: "/contact",
+    href: "/bulk-orders",
     image: "/images/bulk-orders-books.jpg",
   },
   {
