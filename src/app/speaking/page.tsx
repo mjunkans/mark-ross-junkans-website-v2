@@ -106,34 +106,57 @@ export default function SpeakingPage() {
       <div className="gold-line" />
 
       {/* About the Speaker */}
-      <section className="py-12 md:py-16 bg-dark">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+      <section className="py-12 md:py-20 bg-dark">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6">
           <ScrollFade>
-            <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
-              <div className="flex-shrink-0">
-                <div className="relative w-[200px] h-[240px] md:w-[240px] md:h-[300px] overflow-hidden">
+            <div className="flex flex-col md:flex-row items-start gap-8 md:gap-14">
+              <div className="flex-shrink-0 mx-auto md:mx-0">
+                <div className="relative w-[220px] h-[280px] md:w-[260px] md:h-[340px] overflow-hidden border border-dark-border">
                   <Image
                     src="/images/mark-headshot.png"
                     alt="Mark Ross Junkans, Christian speaker on faith and technology"
                     fill
                     className="object-cover"
-                    sizes="240px"
+                    sizes="260px"
                   />
                 </div>
               </div>
-              <div className="text-center md:text-left">
-                <h2 className="font-playfair text-2xl text-cream font-medium mb-4">
+              <div className="text-center md:text-left flex-1">
+                <p className="text-gold text-xs font-semibold tracking-[0.15em] uppercase mb-3">
                   About the Speaker
+                </p>
+                <h2 className="font-playfair text-2xl md:text-3xl text-cream font-medium mb-5">
+                  Mark Ross Junkans
                 </h2>
-                <p className="text-cream/70 leading-relaxed">
+                <p className="text-cream/70 leading-relaxed mb-6">
                   Mark writes and speaks about what happens when faith meets
                   technology, when business meets mission, and when the world
-                  changes faster than our theology anticipated. He brings
-                  20+ years of building ventures in developing countries, a
-                  background in ministry, and the kind of honesty that comes
-                  from getting things wrong enough times to know what right
-                  looks like.
+                  changes faster than our theology anticipated.
                 </p>
+                <div className="grid grid-cols-2 gap-x-8 gap-y-4 text-sm">
+                  <div>
+                    <p className="text-gold font-semibold mb-1">Background</p>
+                    <p className="text-cream/50">20+ years building ventures across 4 continents</p>
+                  </div>
+                  <div>
+                    <p className="text-gold font-semibold mb-1">Ministry</p>
+                    <p className="text-cream/50">Ordained pastor, cross-cultural mission leader</p>
+                  </div>
+                  <div>
+                    <p className="text-gold font-semibold mb-1">Author</p>
+                    <p className="text-cream/50">4 books on faith, AI, and devotional life</p>
+                  </div>
+                  <div>
+                    <p className="text-gold font-semibold mb-1">Endurance</p>
+                    <p className="text-cream/50">3x Ironman, ultramarathon runner</p>
+                  </div>
+                </div>
+                <div className="mt-6 pt-6 border-t border-dark-border">
+                  <p className="text-cream/40 text-sm italic leading-relaxed">
+                    &ldquo;He brings the kind of honesty that comes from getting
+                    things wrong enough times to know what right looks like.&rdquo;
+                  </p>
+                </div>
               </div>
             </div>
           </ScrollFade>
