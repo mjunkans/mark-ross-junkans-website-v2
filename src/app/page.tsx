@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import BookCard from "@/components/BookCard";
+import Constellation from "@/components/Constellation";
 import NewsletterSignup from "@/components/NewsletterSignup";
 import ScrollFade from "@/components/ScrollFade";
 import { books } from "@/data/books";
@@ -81,14 +82,16 @@ export default function HomePage() {
       <section className="py-20 md:py-28 bg-dark">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <ScrollFade>
-            <div className="text-center mb-16">
+            <div className="text-center mb-6">
               <h2 className="section-heading">The Intersection</h2>
               <p className="text-warm-gray mt-4 max-w-2xl mx-auto">
                 For anyone living in two or more of these worlds at once.
               </p>
-              <div className="w-16 h-[2px] bg-gold mx-auto mt-6" />
             </div>
           </ScrollFade>
+
+          {/* Constellation graphic */}
+          <Constellation className="mb-12 md:mb-16" />
 
           <div className="grid md:grid-cols-3 gap-8 md:gap-12">
             <ScrollFade delay={0}>
