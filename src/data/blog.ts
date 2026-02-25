@@ -93,80 +93,60 @@ AI can write a sermon. It can't be a pastor. And until we understand the differe
     date: "2025-01-08",
     category: "Devotional Life",
     excerpt:
-      "Three verses a day. No commentary, no study guides. Just you and the text. Here's why it works.",
-    content: `I've tried every devotional system you can imagine.
+      "Three verses a day, all around one theme, gave me something small enough to do daily and focused enough to actually absorb.",
+    content: `## Starting Small
 
-The read-the-Bible-in-a-year plan (abandoned by February, every time). The fancy journaling method with color-coded pens. The 45-minute quiet time that required waking up at 4:30 AM and a level of discipline I do not possess.
+I want to tell you about a practice that has made a real difference in my life with Scripture. Not a system, not a program. Just a habit.
 
-I've read more *about* the Bible than I've actually read the Bible. Which is embarrassing for a guy who wrote a devotional book, but there it is.
+Three verses a day.
 
-Then I stumbled onto something so simple it felt almost wrong. And it changed everything.
+That's it. You pick three verses, all around the same theme, and you sit with them. Not skim them. Not check them off a list. You read them, and then you let them read you.
 
-## Three Verses a Day
+## What It Actually Looks Like
 
-That's it. Three verses. Every day. No commentary. No study guide. No cross-references. No app with a daily reading plan and achievement badges.
+I started in the Gospel of John.
 
-Just open the Bible. Read three verses. Sit with them.
+Day 1, John 1:1-3: "In the beginning was the Word, and the Word was with God, and the Word was God. He was with God in the beginning. Through him all things were made; without him nothing was made that has been made." Three verses. Done.
 
-I started in the Gospel of John. "In the beginning was the Word, and the Word was with God, and the Word was God." Three verses. Done.
+Day 2, John 1:4-6: "In him was life, and that life was the light of all mankind. The light shines in the darkness, and the darkness has not overcome it. There was a man sent from God whose name was John." Three more. Done.
 
-The next day: "He was with God in the beginning. Through him all things were made; without him nothing was made that has been made. In him was life, and that life was the light of all mankind."
+That's the whole method. Three verses. One theme. Every day.
 
-Three more. Done.
+The point is not speed. It's not about getting through the Bible faster or being more efficient with your morning. The point is that three verses, grouped around a single theme, give you something to actually think about for the rest of the day. And doing it daily, even when it feels small, builds something that bigger plans never could: consistency.
 
-## Why So Few?
+## Why Three Verses Works
 
-Because the point isn't to *finish*. The point is to *hear*.
+Most devotional plans fail for the same reason most diets fail. They ask too much too soon. Read four chapters a day. Follow a 90-day plan. Cover the whole Bible in a year. Those are fine goals, but when you miss a day or two, the gap feels impossible to close. So you stop.
 
-Most Bible reading plans are designed around completion. You're trying to get through the whole thing, which means you're reading fast, checking boxes, and retaining nothing. You're sprinting through a museum.
+Three verses is small enough that you can actually do it. Every day. Even on the hard days, the busy days, the days when you have almost nothing to give. You can still read three verses. And small wins, stacked up over weeks and months, build something that ambitious plans rarely deliver.
 
-Three verses forces you to slow down. You can't rush three verses. You read them, and then you just... sit there. With nothing else to read. Nowhere else to go. Just you and the text.
+But it's not just about being small. It's about being focused. Three verses around a theme gives your mind something specific to hold onto. You're not covering ground. You're standing still with a passage and noticing what's there.
 
-And something happens in that silence.
+## Sitting With a Word
 
-The words start to settle. You notice things. "The Word was *with* God." With. What does that word mean? What kind of relationship is that? You sit with *with* for a while.
+Here's what I found. When you slow down to three verses, you start noticing things you would have missed at any other pace.
 
-You're not studying. You're not analyzing. You're listening.
+Take that word "with" in John 1. "The Word was with God." You could read right past it. But if you're sitting with just three verses, you have time to wonder about that word. What does "with" mean here? Not just proximity. Something deeper. Relationship. Presence. The Word didn't just exist alongside God. The Word was with God.
 
-## What I Discovered
+That kind of noticing doesn't happen when you're trying to cover three chapters before breakfast. It happens when you give yourself permission to go slow.
 
-After about two weeks, I noticed something: I was thinking about the Bible during the day. Not because I was trying to. But because three verses, truly absorbed, stick. They get into you. They become part of the operating system.
+Martin Luther once said the Bible is alive, it speaks to me; it has feet, it runs after me; it has hands, it lays hold of me. I think that's true. But you have to hold still long enough for it to catch you.
 
-I'd be driving and John 1:5 would surface: "The light shines in the darkness, and the darkness has not overcome it." And I'd just... chew on it. Not as a theological exercise. As a conversation.
+## Consistency Over Volume
 
-That's the thing I'd been missing with all the fancy systems. I was treating the Bible like a textbook when it's actually a letter. From someone who knows me. To me.
+The real gift of this practice is not any single morning. It's what happens over time. Day after day, three verses at a time, you build a rhythm. Scripture becomes something you return to naturally, not something you force yourself through.
 
-You don't speed-read a love letter.
+And there's something freeing about giving yourself permission to do less. You stop measuring your devotional life by how much you covered and start measuring it by whether you showed up. Most days, showing up is the whole thing.
 
-## How to Start
+## The Book (and Why You Don't Need It)
 
-Pick a book. I'd recommend John, or one of the Psalms. Start at the beginning.
+I wrote a short book about this called *3 Verses a Day: 30 Days*. It walks through thirty days of three-verse readings, each grouped around a theme, with space to write down what you notice.
 
-Read three verses. Out loud if you can. There's something about hearing the words that changes the experience.
+But here's the honest truth: you don't need the book to do this. Open your Bible to any book. Read three verses. Think about them. Come back tomorrow and read three more. That's the whole practice.
 
-Then close the book. That's it. Don't analyze. Don't journal (unless you want to). Don't feel guilty about not doing more.
+The book just makes the first thirty days easier by choosing the passages for you. If that's helpful, it's there. If not, your Bible is enough.
 
-Three verses. Every day. For 30 days.
-
-If you miss a day, pick up where you left off. No guilt. No starting over. Just keep going.
-
-## What It's Not
-
-It's not a replacement for deep Bible study. It's not a theological method. It's not going to make you a Greek scholar.
-
-What it *is* is a practice of presence. You're showing up. Consistently. With minimal barriers. And you're letting the text do the work instead of trying to master it yourself.
-
-Martin Luther once said something along the lines of: "The Bible is alive, it speaks to me; it has feet, it runs after me; it has hands, it lays hold of me."
-
-Three verses a day is just giving it room to catch you.
-
-## The Book
-
-I ended up writing a whole devotional based on this method: *3 Verses a Day: 30 Days*. It walks you through a month of this practice with the Gospel of John. No commentary from me. Just the verses, a brief reflection question, and space.
-
-But honestly? You don't need the book. You just need a Bible and the willingness to go slow.
-
-Try it for a week. See what happens. I think you'll be surprised.`,
+Either way, try three verses tomorrow morning. Just three. See what you notice.`,
   },
   {
     slug: "business-as-mission-more-than-a-slogan",
