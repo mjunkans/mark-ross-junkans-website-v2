@@ -29,6 +29,18 @@ export const metadata: Metadata = {
   },
 };
 
+const categoryColors: Record<string, string> = {
+  "Faith & AI": "border-l-amber-500",
+  "Faith & Culture": "border-l-emerald-500",
+  "Devotional Life": "border-l-sky-400",
+  "Business & Faith": "border-l-rose-400",
+  "Endurance & Faith": "border-l-orange-400",
+};
+
+function getCategoryColor(category: string): string {
+  return categoryColors[category] || "border-l-gold";
+}
+
 function formatDate(dateStr: string): string {
   const date = new Date(dateStr + "T12:00:00");
   return date.toLocaleDateString("en-US", {
@@ -38,22 +50,33 @@ function formatDate(dateStr: string): string {
   });
 }
 
+function estimateReadTime(content: string): string {
+  const words = content.split(/\s+/).length;
+  const minutes = Math.max(1, Math.round(words / 230));
+  return `${minutes} min read`;
+}
+
 export default function BlogPage() {
   const sortedPosts = [...blogPosts].sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
 
+  const [featured, ...rest] = sortedPosts;
+
   return (
     <>
-      {/* Hero */}
-      <section className="py-20 md:py-32 bg-dark-deeper text-center">
+      {/* Hero - tighter, more editorial */}
+      <section className="pt-16 pb-12 md:pt-24 md:pb-16 bg-dark-deeper text-center">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <ScrollFade>
-            <h1 className="font-playfair text-4xl md:text-5xl text-cream font-medium mb-6">
-              Blog
+            <p className="text-gold text-xs font-semibold tracking-[0.15em] uppercase mb-4">
+              Writing
+            </p>
+            <h1 className="font-playfair text-4xl md:text-5xl text-cream font-medium mb-4">
+              Long-Form Thinking
             </h1>
-            <p className="text-cream/70 text-lg leading-relaxed">
-              Faith, technology, and the intersection of everything.
+            <p className="text-cream/50 text-lg">
+              No hot takes. No listicles. Just honest writing about faith, technology, and the places they collide.
             </p>
           </ScrollFade>
         </div>
@@ -61,45 +84,91 @@ export default function BlogPage() {
 
       <div className="gold-line" />
 
-      {/* Posts */}
-      <section className="py-16 md:py-24 bg-dark">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6">
-          <div className="space-y-8">
-            {sortedPosts.map((post, i) => (
-              <ScrollFade key={post.slug} delay={i * 100}>
-                <Link
-                  href={`/blog/${post.slug}`}
-                  className="block group"
-                >
-                  <article className="p-8 border border-dark-border hover:border-gold/30 transition-all duration-300 group-hover:-translate-y-1">
-                    <div className="flex items-center gap-4 mb-4">
-                      <span className="text-gold text-xs font-semibold tracking-[0.1em] uppercase">
-                        {post.category}
-                      </span>
-                      <span className="text-warm-gray text-xs">
-                        {formatDate(post.date)}
-                      </span>
-                    </div>
-                    <h2 className="font-playfair text-xl md:text-2xl text-cream font-medium mb-3 group-hover:text-gold transition-colors">
-                      {post.title}
-                    </h2>
-                    <p className="text-cream/60 leading-relaxed mb-4">
-                      {post.excerpt}
-                    </p>
-                    <span className="text-gold text-xs font-semibold tracking-[0.1em] uppercase">
-                      Read More →
+      {/* Featured Post */}
+      {featured && (
+        <section className="py-12 md:py-16 bg-dark">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6">
+            <ScrollFade>
+              <Link
+                href={`/blog/${featured.slug}`}
+                className="block group"
+              >
+                <article className="relative p-8 md:p-12 border border-dark-border hover:border-gold/40 transition-all duration-300 bg-gradient-to-br from-dark-deeper/50 to-transparent">
+                  <div className="flex items-center gap-4 mb-6">
+                    <span className="px-3 py-1 bg-gold/10 text-gold text-xs font-semibold tracking-[0.1em] uppercase border border-gold/20">
+                      {featured.category}
                     </span>
-                  </article>
-                </Link>
-              </ScrollFade>
-            ))}
+                    <span className="text-warm-gray text-xs">
+                      {formatDate(featured.date)}
+                    </span>
+                    <span className="text-warm-gray/50 text-xs">
+                      {estimateReadTime(featured.content)}
+                    </span>
+                  </div>
+                  <h2 className="font-playfair text-2xl md:text-4xl text-cream font-medium mb-4 group-hover:text-gold transition-colors leading-tight">
+                    {featured.title}
+                  </h2>
+                  <p className="text-cream/60 text-lg leading-relaxed mb-6 max-w-3xl">
+                    {featured.excerpt}
+                  </p>
+                  <span className="inline-flex items-center gap-2 text-gold text-xs font-semibold tracking-[0.1em] uppercase group-hover:gap-3 transition-all">
+                    Read the Full Essay
+                    <span className="transition-transform group-hover:translate-x-1">→</span>
+                  </span>
+                </article>
+              </Link>
+            </ScrollFade>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
+
+      {/* Remaining Posts - 2-column grid */}
+      {rest.length > 0 && (
+        <section className="py-12 md:py-16 bg-dark-deeper">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6">
+            <div className="grid md:grid-cols-2 gap-6">
+              {rest.map((post, i) => (
+                <ScrollFade key={post.slug} delay={i * 100}>
+                  <Link
+                    href={`/blog/${post.slug}`}
+                    className="block group h-full"
+                  >
+                    <article className={`h-full p-6 md:p-8 border border-dark-border border-l-2 ${getCategoryColor(post.category)} hover:border-gold/30 hover:border-l-gold transition-all duration-300 group-hover:-translate-y-1`}>
+                      <div className="flex items-center gap-3 mb-4">
+                        <span className="text-gold text-xs font-semibold tracking-[0.1em] uppercase">
+                          {post.category}
+                        </span>
+                        <span className="text-warm-gray/40">·</span>
+                        <span className="text-warm-gray/50 text-xs">
+                          {estimateReadTime(post.content)}
+                        </span>
+                      </div>
+                      <h2 className="font-playfair text-lg md:text-xl text-cream font-medium mb-3 group-hover:text-gold transition-colors leading-snug">
+                        {post.title}
+                      </h2>
+                      <p className="text-cream/50 text-sm leading-relaxed mb-4">
+                        {post.excerpt}
+                      </p>
+                      <div className="flex items-center justify-between">
+                        <span className="text-warm-gray/40 text-xs">
+                          {formatDate(post.date)}
+                        </span>
+                        <span className="text-gold text-xs font-semibold tracking-[0.1em] uppercase opacity-0 group-hover:opacity-100 transition-opacity">
+                          Read →
+                        </span>
+                      </div>
+                    </article>
+                  </Link>
+                </ScrollFade>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       <NewsletterSignup
         heading="Get new posts delivered to your inbox"
-        className="bg-dark-deeper"
+        className="bg-dark"
       />
     </>
   );
