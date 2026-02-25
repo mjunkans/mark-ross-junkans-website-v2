@@ -125,7 +125,7 @@ export default function StorePage() {
       />
 
       {/* Hero */}
-      <section className="pt-16 pb-12 md:pt-24 md:pb-16 bg-dark-deeper text-center">
+      <section className="py-14 md:py-20 bg-dark-deeper text-center">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <ScrollFade>
             <p className="text-gold text-xs font-semibold tracking-[0.15em] uppercase mb-4">
