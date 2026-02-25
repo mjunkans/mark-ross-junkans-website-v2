@@ -129,12 +129,10 @@ export default function StorePage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <ScrollFade>
             <h1 className="font-playfair text-4xl md:text-5xl text-cream font-medium mb-6">
-              Resources for Pastors, Entrepreneurs &amp; Mission Leaders
+              Store
             </h1>
             <p className="text-cream/70 text-lg leading-relaxed">
-              Practical tools to help you navigate AI, streamline your work, and
-              lead with confidence. Built from real-world experience in ministry,
-              business, and technology.
+              Digital tools, templates, and guides.
             </p>
           </ScrollFade>
         </div>
