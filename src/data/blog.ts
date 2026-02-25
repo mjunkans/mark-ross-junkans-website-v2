@@ -89,7 +89,7 @@ AI can write a sermon. It can't be a pastor. And until we understand the differe
   },
   {
     slug: "the-devotional-habit-that-changed-everything",
-    title: "The Devotional Habit That Changed Everything",
+    title: "The Devotional Habit That Made the Difference",
     date: "2025-01-08",
     category: "Devotional Life",
     excerpt:
