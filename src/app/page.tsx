@@ -94,16 +94,11 @@ export default function HomePage() {
       {/* ── The Intersection ── */}
       <section className="py-20 md:py-28 bg-dark">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <ScrollFade>
-            <p className="text-center text-cream/40 text-sm tracking-widest uppercase mb-8">
-              Who is God to me, and who am I to others?
-            </p>
-          </ScrollFade>
           {/* Constellation graphic */}
           <Constellation />
           <ScrollFade>
-            <p className="text-center text-cream/40 text-sm tracking-widest uppercase mt-8">
-              I live somewhere in the middle.
+            <p className="text-center text-cream/70 leading-relaxed max-w-2xl mx-auto mt-10">
+              The world wants you to compartmentalize: faith in one room, ambition in another, technology somewhere down the hall. I&apos;ve spent my life kicking down the walls between them. This site is where pastoral theology meets artificial intelligence, where startups meet sacraments, where mystery refuses to stay in its lane. If that sounds like your kind of restlessness, welcome.
             </p>
           </ScrollFade>
         </div>
