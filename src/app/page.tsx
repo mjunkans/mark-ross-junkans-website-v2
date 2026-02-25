@@ -55,7 +55,7 @@ export default function HomePage() {
 
           <ScrollFade delay={200}>
             <p className="text-cream/70 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-              Author. Entrepreneur. Missionary. Runner. Restless thinker.
+              Author. Entrepreneur. Restless thinker.
             </p>
           </ScrollFade>
 
