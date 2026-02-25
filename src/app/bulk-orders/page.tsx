@@ -44,7 +44,7 @@ export default function BulkOrdersPage() {
       </section>
 
       {/* Book Preview */}
-      <section className="py-8 bg-dark-deeper flex justify-center">
+      <section className="pt-2 pb-8 bg-dark-deeper flex justify-center">
         <ScrollFade>
           <div className="relative w-[180px] h-[270px] shadow-2xl shadow-black/40">
             <Image
@@ -70,8 +70,8 @@ export default function BulkOrdersPage() {
           </ScrollFade>
 
           <ScrollFade delay={100}>
-            <div className="overflow-x-auto">
-              <table className="w-full border-collapse">
+            <div className="overflow-x-auto -mx-4 sm:mx-0 px-4 sm:px-0">
+              <table className="w-full border-collapse min-w-[500px]">
                 <thead>
                   <tr>
                     <th className="p-4 text-left text-cream/60 text-xs font-semibold tracking-widest uppercase border-b border-dark-border" />
