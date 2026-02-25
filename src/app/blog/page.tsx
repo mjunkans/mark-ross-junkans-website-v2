@@ -3,6 +3,7 @@ import Link from "next/link";
 import ScrollFade from "@/components/ScrollFade";
 import NewsletterSignup from "@/components/NewsletterSignup";
 import { blogPosts } from "@/data/blog";
+import { getCategoryBorderColor } from "@/data/categories";
 
 export const metadata: Metadata = {
   title: "Blog | Faith, AI & Ventures Reflections",
@@ -28,18 +29,6 @@ export const metadata: Metadata = {
     canonical: "https://markrossjunkans.com/blog",
   },
 };
-
-const categoryColors: Record<string, string> = {
-  "Faith & AI": "border-l-amber-500",
-  "Faith & Culture": "border-l-emerald-500",
-  "Devotional Life": "border-l-sky-400",
-  "Business & Faith": "border-l-rose-400",
-  "Endurance & Faith": "border-l-orange-400",
-};
-
-function getCategoryColor(category: string): string {
-  return categoryColors[category] || "border-l-gold";
-}
 
 function formatDate(dateStr: string): string {
   const date = new Date(dateStr + "T12:00:00");
@@ -130,7 +119,7 @@ export default function BlogPage() {
                     href={`/blog/${post.slug}`}
                     className="block group h-full"
                   >
-                    <article className={`h-full p-6 md:p-8 border border-dark-border border-l-2 ${getCategoryColor(post.category)} hover:border-gold/30 hover:border-l-gold transition-all duration-300 group-hover:-translate-y-1`}>
+                    <article className={`h-full p-6 md:p-8 border border-dark-border border-l-2 ${getCategoryBorderColor(post.category)} hover:border-gold/30 hover:border-l-gold transition-all duration-300 group-hover:-translate-y-1`}>
                       <div className="flex items-center gap-3 mb-4">
                         <span className="text-gold text-xs font-semibold tracking-[0.1em] uppercase">
                           {post.category}

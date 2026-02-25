@@ -6,6 +6,7 @@ import NewsletterSignup from "@/components/NewsletterSignup";
 import ScrollFade from "@/components/ScrollFade";
 import { books } from "@/data/books";
 import { getRecentPosts } from "@/data/blog";
+import { getCategoryBorderColor } from "@/data/categories";
 
 export const metadata: Metadata = {
   title: "Mark Ross Junkans | Faith & Technology Author",
@@ -138,7 +139,7 @@ export default function HomePage() {
           <ScrollFade>
             <h2 className="section-heading">Latest Writing</h2>
             <p className="text-warm-gray text-lg mt-4 mb-10">
-              Long-form thinking. No hot takes.
+              Long-form thinking.
             </p>
           </ScrollFade>
 
@@ -148,7 +149,7 @@ export default function HomePage() {
                 <Link
                   key={post.slug}
                   href={`/blog/${post.slug}`}
-                  className="group p-6 border border-dark-border text-left hover:border-gold/30 transition-colors"
+                  className={`group p-6 border border-dark-border border-l-2 ${getCategoryBorderColor(post.category)} text-left hover:border-gold/30 hover:border-l-gold transition-colors`}
                 >
                   <p className="text-gold text-xs font-semibold tracking-[0.1em] uppercase mb-3">
                     {post.category}

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import ScrollFade from "@/components/ScrollFade";
 import NewsletterSignup from "@/components/NewsletterSignup";
 import { blogPosts, getPostBySlug } from "@/data/blog";
+import { getCategoryDotColor } from "@/data/categories";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -110,7 +111,8 @@ export default async function BlogPostPage({ params }: PageProps) {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
           <ScrollFade>
             <div className="flex items-center justify-center gap-4 mb-6">
-              <span className="text-gold text-xs font-semibold tracking-[0.1em] uppercase">
+              <span className="flex items-center gap-2 text-gold text-xs font-semibold tracking-[0.1em] uppercase">
+                <span className={`inline-block w-2 h-2 rounded-full ${getCategoryDotColor(post.category)}`} />
                 {post.category}
               </span>
               <span className="text-warm-gray text-xs">
