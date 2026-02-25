@@ -93,26 +93,36 @@ AI can write a sermon. It can't be a pastor. And until we understand the differe
     date: "2025-01-08",
     category: "Devotional Life",
     excerpt:
-      "Three verses a day, all around one theme, gave me something small enough to do daily and focused enough to actually absorb.",
+      "One verse from the Old Testament, one from the Psalms, one from the Gospels. Same theme. Every day. Here's why it works.",
     content: `## Starting Small
 
 I want to tell you about a practice that has made a real difference in my life with Scripture. Not a system, not a program. Just a habit.
 
-Three verses a day.
+Three verses a day. One from the Old Testament, one from the Psalms, one from the Gospels. All three share the same theme.
 
-That's it. You pick three verses, all around the same theme, and you sit with them. Not skim them. Not check them off a list. You read them, and then you let them read you.
+That's it. You read them, sit with them, and let them talk to each other. Not skim them. Not check them off a list. You read them, and then you let them read you.
+
+## Where This Comes From
+
+This isn't something I invented. It comes from the historical lectionary, the ancient practice of pairing Scripture readings around a common theme. The church has been doing this for centuries. I just stripped it down to its simplest form: three verses, one theme, every day.
+
+The lectionary understood something that modern Bible reading plans often miss. Scripture wasn't meant to be read in isolation. The Old Testament, the Psalms, and the Gospels are one conversation. When you read them together around a shared theme, you hear things you'd never catch reading straight through.
 
 ## What It Actually Looks Like
 
-I started in the Gospel of John.
+Here's a day built around the theme of light.
 
-Day 1, John 1:1-3: "In the beginning was the Word, and the Word was with God, and the Word was God. He was with God in the beginning. Through him all things were made; without him nothing was made that has been made." Three verses. Done.
+Old Testament, Isaiah 9:2: "The people walking in darkness have seen a great light; on those living in the land of deep darkness a light has dawned."
 
-Day 2, John 1:4-6: "In him was life, and that life was the light of all mankind. The light shines in the darkness, and the darkness has not overcome it. There was a man sent from God whose name was John." Three more. Done.
+Psalms, Psalm 27:1: "The Lord is my light and my salvation; whom shall I fear?"
 
-That's the whole method. Three verses. One theme. Every day.
+Gospel, John 1:5: "The light shines in the darkness, and the darkness has not overcome it."
 
-The point is not speed. It's not about getting through the Bible faster or being more efficient with your morning. The point is that three verses, grouped around a single theme, give you something to actually think about for the rest of the day. And doing it daily, even when it feels small, builds something that bigger plans never could: consistency.
+Three verses. Three different books. One theme. Done.
+
+The next day, maybe the theme is shepherd. Isaiah 40:11, Psalm 23:1, John 10:11. Three angles on the same truth.
+
+The point is not speed. It's not about getting through the Bible faster or being more efficient with your morning. The point is that three verses, drawn from across Scripture and grouped around a single theme, give you something to meditate on for the rest of the day. And doing it daily, even when it feels small, builds something that bigger plans never could: consistency.
 
 ## Why Three Verses Works
 
@@ -126,7 +136,9 @@ But it's not just about being small. It's about being focused. Three verses arou
 
 Here's what I found. When you slow down to three verses, you start noticing things you would have missed at any other pace.
 
-Take that word "with" in John 1. "The Word was with God." You could read right past it. But if you're sitting with just three verses, you have time to wonder about that word. What does "with" mean here? Not just proximity. Something deeper. Relationship. Presence. The Word didn't just exist alongside God. The Word was with God.
+Take that word "with" in John 1:1. "The Word was with God." You could read right past it. But if you're sitting with just three verses, you have time to wonder about that word. What does "with" mean here? Not just proximity. Something deeper. Relationship. Presence. The Word didn't just exist alongside God. The Word was with God.
+
+And when you've also read Genesis 1:1 and Psalm 33:6 that same morning, all three verses start speaking to each other. Creation, the Word, God's presence. You didn't plan that connection. The lectionary did, centuries ago.
 
 That kind of noticing doesn't happen when you're trying to cover three chapters before breakfast. It happens when you give yourself permission to go slow.
 
@@ -140,9 +152,9 @@ And there's something freeing about giving yourself permission to do less. You s
 
 ## The Book (and Why You Don't Need It)
 
-I wrote a short book about this called *3 Verses a Day: 30 Days*. It walks through thirty days of three-verse readings, each grouped around a theme, with space to write down what you notice.
+I wrote a short book about this called *3 Verses a Day: 30 Days*. It walks through thirty days of three-verse readings, each grouped around a theme, with space to write down what you notice. One from the Old Testament, one from the Psalms, one from the Gospels. Thirty themes in thirty days.
 
-But here's the honest truth: you don't need the book to do this. Open your Bible to any book. Read three verses. Think about them. Come back tomorrow and read three more. That's the whole practice.
+But here's the honest truth: you don't need the book to do this. Pick a theme. Find one verse from the Old Testament, one from the Psalms, one from the Gospels. Read them. Think about them. Come back tomorrow with a new theme. That's the whole practice.
 
 The book just makes the first thirty days easier by choosing the passages for you. If that's helpful, it's there. If not, your Bible is enough.
 
