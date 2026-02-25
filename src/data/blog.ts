@@ -92,6 +92,7 @@ It just has nothing to do with your job title.`,
     title: "When AI Preaches Better Than Your Pastor",
     date: "2025-01-15",
     category: "Faith & AI",
+    image: "/images/blog/when-ai-preaches-better-than-your-pastor.png",
     excerpt:
       "What happens when a machine delivers a more polished sermon than a human? Does delivery matter more than incarnation?",
     content: `I need to tell you about the moment that broke something in me.
@@ -171,6 +172,7 @@ AI can write a sermon. It can't be a pastor. And until we understand the differe
     title: "The Devotional Habit That Made the Difference",
     date: "2025-01-08",
     category: "Devotional Life",
+    image: "/images/blog/the-devotional-habit-that-changed-everything.png",
     excerpt:
       "One verse from the Old Testament, one from the Psalms, one from the Gospels. Same theme. Every day. Here's why it works.",
     content: `## Starting Small
@@ -244,6 +246,7 @@ Either way, try three verses tomorrow morning. Just three. See what you notice.`
     title: "Business as Mission: The Part Nobody Talks About",
     date: "2024-12-20",
     category: "Business & Faith",
+    image: "/images/blog/business-as-mission-more-than-a-slogan.png",
     excerpt:
       "Most of what passes for 'business as mission' is either charity wearing a business costume or a regular company with a Bible verse on the wall.",
     content: `## The Slogan Problem
@@ -299,6 +302,7 @@ The best version of it I've seen, and the version I keep trying to practice, doe
     title: "What Ultramarathons Taught Me About Faith",
     date: "2024-12-10",
     category: "Endurance & Faith",
+    image: "/images/blog/what-ultramarathons-taught-me-about-faith.jpg",
     excerpt:
       "Endurance, suffering, the finish line. How running 50 miles parallels following Jesus.",
     content: `At mile 50 of a 100km race, I sat down on the side of the trail and couldn't get back up.
