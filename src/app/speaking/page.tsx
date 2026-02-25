@@ -56,8 +56,8 @@ const topics = [
     desc: "Equipping parents and youth leaders to help the next generation develop discernment, character, and faith in an age of unprecedented technological change.",
   },
   {
-    title: "The Persecuted Church & the Western Call",
-    desc: "What the global persecuted church can teach the comfortable Western church about courage, conviction, and what it actually costs to follow Jesus.",
+    title: "The Persecuted Church & the Church in the West",
+    desc: "The call of the Western church to pray for, walk alongside, and learn from believers who follow Jesus at great cost.",
   },
   {
     title: "Pastoring in the Digital Age",
@@ -227,7 +227,7 @@ export default function SpeakingPage() {
               <div className="border border-dark-border p-6">
                 <h3 className="font-playfair text-lg text-gold mb-3">What topics does Mark speak on?</h3>
                 <p className="text-cream/70 leading-relaxed">
-                  Mark speaks on faith and technology, AI ethics for churches, business as mission, the persecuted church and the Western call, endurance and leadership, raising kids in a world of AI, pastoring in the digital age, and starting ventures from nothing. He develops custom presentations tailored to each audience.
+                  Mark speaks on faith and technology, AI ethics for churches, business as mission, the persecuted church and the church in the West, endurance and leadership, raising kids in a world of AI, pastoring in the digital age, and starting ventures from nothing. He develops custom presentations tailored to each audience.
                 </p>
               </div>
             </ScrollFade>
@@ -288,7 +288,7 @@ export default function SpeakingPage() {
                 name: "What topics does Mark speak on?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Mark speaks on faith and technology, AI ethics for churches, business as mission, the persecuted church and the Western call, endurance and leadership, raising kids in a world of AI, pastoring in the digital age, and starting ventures from nothing.",
+                  text: "Mark speaks on faith and technology, AI ethics for churches, business as mission, the persecuted church and the church in the West, endurance and leadership, raising kids in a world of AI, pastoring in the digital age, and starting ventures from nothing.",
                 },
               },
               {
