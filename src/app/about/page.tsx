@@ -136,9 +136,9 @@ export default function AboutPage() {
             <div className="space-y-6 text-cream/70 leading-relaxed">
               <p>
                 I started in small business, moved into missions, then non-profit
-                work, then international development, then coffee, then energy,
-                then AI. If you&apos;re looking for a clean career arc, this
-                isn&apos;t it.
+                work, then international development, then construction, then
+                coffee, then energy and AI. If you&apos;re looking for a clean
+                career arc, this isn&apos;t it.
               </p>
 
               <p>
@@ -162,6 +162,12 @@ export default function AboutPage() {
                 ask why. The honest answer is that I process things by moving.
                 Some people journal. I run until the thinking stops and something
                 clearer takes its place.
+              </p>
+
+              <p>
+                I have a wife, three daughters, and four grandchildren. I come
+                from a family of 12 siblings. If you&apos;re wondering where the
+                high tolerance for chaos comes from, that&apos;s a good place to start.
               </p>
             </div>
           </ScrollFade>
