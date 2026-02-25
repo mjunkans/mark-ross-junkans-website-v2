@@ -88,6 +88,11 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           {/* Constellation graphic */}
           <Constellation />
+          <ScrollFade>
+            <p className="text-center text-cream/40 text-sm tracking-widest uppercase mt-8">
+              I live at the intersection of these three.
+            </p>
+          </ScrollFade>
         </div>
       </section>
 
