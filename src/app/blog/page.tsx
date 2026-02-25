@@ -72,12 +72,9 @@ export default function BlogPage() {
             <p className="text-gold text-xs font-semibold tracking-[0.15em] uppercase mb-4">
               Writing
             </p>
-            <h1 className="font-playfair text-4xl md:text-5xl text-cream font-medium mb-4">
+            <h1 className="font-playfair text-4xl md:text-5xl text-cream font-medium">
               Long-Form Thinking
             </h1>
-            <p className="text-cream/50 text-lg">
-              No hot takes. No listicles. Just honest writing about faith, technology, and the places they collide.
-            </p>
           </ScrollFade>
         </div>
       </section>
