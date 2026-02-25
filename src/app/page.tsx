@@ -67,11 +67,8 @@ export default function HomePage() {
           </ScrollFade>
 
           <ScrollFade delay={200}>
-            <p className="text-cream/70 text-lg md:text-xl max-w-2xl mx-auto mb-4 leading-relaxed">
+            <p className="text-cream/70 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
               Author. Entrepreneur. Restless thinker.
-            </p>
-            <p className="text-cream/50 text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-              Who is God to me, and who am I to others?
             </p>
           </ScrollFade>
 
@@ -97,6 +94,11 @@ export default function HomePage() {
       {/* ── The Intersection ── */}
       <section className="py-20 md:py-28 bg-dark">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <ScrollFade>
+            <p className="text-center text-cream/40 text-sm tracking-widest uppercase mb-8">
+              Who is God to me, and who am I to others?
+            </p>
+          </ScrollFade>
           {/* Constellation graphic */}
           <Constellation />
           <ScrollFade>
