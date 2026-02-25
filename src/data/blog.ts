@@ -4,6 +4,7 @@ export interface BlogPost {
   date: string;
   excerpt: string;
   category: string;
+  image?: string;
   content: string;
 }
 
@@ -13,6 +14,7 @@ export const blogPosts: BlogPost[] = [
     title: "You Are Not Your Job Title",
     date: "2025-02-24",
     category: "Faith & Culture",
+    image: "/images/blog/you-are-not-your-job-title.png",
     excerpt:
       "When your occupation disappears, your vocation doesn't, because who you are was never the same thing as what you do.",
     content: `## The Question That Follows You

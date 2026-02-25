@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import ScrollFade from "@/components/ScrollFade";
 import NewsletterSignup from "@/components/NewsletterSignup";
 import { blogPosts } from "@/data/blog";
@@ -79,28 +80,43 @@ export default function BlogPage() {
                 href={`/blog/${featured.slug}`}
                 className="block group"
               >
-                <article className="relative p-8 md:p-12 border border-dark-border hover:border-gold/40 transition-all duration-300 bg-gradient-to-br from-dark-deeper/50 to-transparent">
-                  <div className="flex items-center gap-4 mb-6">
-                    <span className="px-3 py-1 bg-gold/10 text-gold text-xs font-semibold tracking-[0.1em] uppercase border border-gold/20">
-                      {featured.category}
-                    </span>
-                    <span className="text-warm-gray text-xs">
-                      {formatDate(featured.date)}
-                    </span>
-                    <span className="text-warm-gray/50 text-xs">
-                      {estimateReadTime(featured.content)}
-                    </span>
+                <article className="relative border border-dark-border hover:border-gold/40 transition-all duration-300 overflow-hidden">
+                  <div className="flex flex-col md:flex-row">
+                    {featured.image && (
+                      <div className="relative w-full md:w-[320px] h-[200px] md:h-auto flex-shrink-0">
+                        <Image
+                          src={featured.image}
+                          alt={featured.title}
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 768px) 100vw, 320px"
+                        />
+                      </div>
+                    )}
+                    <div className="p-8 md:p-10 flex-1">
+                      <div className="flex items-center gap-4 mb-5">
+                        <span className="px-3 py-1 bg-gold/10 text-gold text-xs font-semibold tracking-[0.1em] uppercase border border-gold/20">
+                          {featured.category}
+                        </span>
+                        <span className="text-warm-gray text-xs">
+                          {formatDate(featured.date)}
+                        </span>
+                        <span className="text-warm-gray/50 text-xs">
+                          {estimateReadTime(featured.content)}
+                        </span>
+                      </div>
+                      <h2 className="font-playfair text-2xl md:text-3xl text-cream font-medium mb-4 group-hover:text-gold transition-colors leading-tight">
+                        {featured.title}
+                      </h2>
+                      <p className="text-cream/60 leading-relaxed mb-6">
+                        {featured.excerpt}
+                      </p>
+                      <span className="inline-flex items-center gap-2 text-gold text-xs font-semibold tracking-[0.1em] uppercase group-hover:gap-3 transition-all">
+                        Read the Full Essay
+                        <span className="transition-transform group-hover:translate-x-1">→</span>
+                      </span>
+                    </div>
                   </div>
-                  <h2 className="font-playfair text-2xl md:text-4xl text-cream font-medium mb-4 group-hover:text-gold transition-colors leading-tight">
-                    {featured.title}
-                  </h2>
-                  <p className="text-cream/60 text-lg leading-relaxed mb-6 max-w-3xl">
-                    {featured.excerpt}
-                  </p>
-                  <span className="inline-flex items-center gap-2 text-gold text-xs font-semibold tracking-[0.1em] uppercase group-hover:gap-3 transition-all">
-                    Read the Full Essay
-                    <span className="transition-transform group-hover:translate-x-1">→</span>
-                  </span>
                 </article>
               </Link>
             </ScrollFade>
@@ -119,7 +135,19 @@ export default function BlogPage() {
                     href={`/blog/${post.slug}`}
                     className="block group h-full"
                   >
-                    <article className={`h-full p-6 md:p-8 border border-dark-border border-l-2 ${getCategoryBorderColor(post.category)} hover:border-gold/30 hover:border-l-gold transition-all duration-300 group-hover:-translate-y-1`}>
+                    <article className={`h-full border border-dark-border border-l-2 ${getCategoryBorderColor(post.category)} hover:border-gold/30 hover:border-l-gold transition-all duration-300 group-hover:-translate-y-1 overflow-hidden`}>
+                      {post.image && (
+                        <div className="relative w-full h-[160px]">
+                          <Image
+                            src={post.image}
+                            alt={post.title}
+                            fill
+                            className="object-cover"
+                            sizes="(max-width: 768px) 100vw, 50vw"
+                          />
+                        </div>
+                      )}
+                      <div className={`p-6 md:p-8 ${!post.image ? '' : ''}`}>
                       <div className="flex items-center gap-3 mb-4">
                         <span className="text-gold text-xs font-semibold tracking-[0.1em] uppercase">
                           {post.category}
@@ -142,6 +170,7 @@ export default function BlogPage() {
                         <span className="text-gold text-xs font-semibold tracking-[0.1em] uppercase opacity-0 group-hover:opacity-100 transition-opacity">
                           Read →
                         </span>
+                      </div>
                       </div>
                     </article>
                   </Link>
