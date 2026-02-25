@@ -51,20 +51,15 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero */}
-      <section className="py-16 md:py-24 bg-dark-deeper text-center">
+      <section className="pt-16 pb-12 md:pt-24 md:pb-16 bg-dark-deeper text-center">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <ScrollFade>
-            <h1 className="font-playfair text-4xl md:text-5xl text-cream font-medium mb-6">
-              Get in Touch
+            <p className="text-gold text-xs font-semibold tracking-[0.15em] uppercase mb-4">
+              Reach Out
+            </p>
+            <h1 className="font-playfair text-4xl md:text-5xl text-cream font-medium">
+              Contact
             </h1>
-            <p className="font-playfair text-gold italic text-lg mb-4">
-              I&apos;d love to hear from you
-            </p>
-            <p className="text-cream/70 leading-relaxed">
-              Whether you have a question about my books, want to discuss a
-              speaking engagement, or just want to say hello, feel free to reach
-              out using the form below.
-            </p>
           </ScrollFade>
         </div>
       </section>

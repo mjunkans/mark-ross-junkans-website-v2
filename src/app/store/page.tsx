@@ -125,15 +125,15 @@ export default function StorePage() {
       />
 
       {/* Hero */}
-      <section className="py-16 md:py-24 bg-dark-deeper text-center">
+      <section className="pt-16 pb-12 md:pt-24 md:pb-16 bg-dark-deeper text-center">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <ScrollFade>
-            <h1 className="font-playfair text-4xl md:text-5xl text-cream font-medium mb-6">
+            <p className="text-gold text-xs font-semibold tracking-[0.15em] uppercase mb-4">
+              Digital Products
+            </p>
+            <h1 className="font-playfair text-4xl md:text-5xl text-cream font-medium">
               Store
             </h1>
-            <p className="text-cream/70 text-lg leading-relaxed">
-              Digital tools, templates, and guides.
-            </p>
           </ScrollFade>
         </div>
       </section>

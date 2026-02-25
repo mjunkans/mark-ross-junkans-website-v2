@@ -84,21 +84,15 @@ export default function SpeakingPage() {
   return (
     <>
       {/* Hero */}
-      <section className="py-16 md:py-24 bg-dark-deeper text-center">
+      <section className="pt-16 pb-12 md:pt-24 md:pb-16 bg-dark-deeper text-center">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <ScrollFade>
-            <h1 className="font-playfair text-4xl md:text-5xl text-cream font-medium mb-6">
+            <p className="text-gold text-xs font-semibold tracking-[0.15em] uppercase mb-4">
+              Engagements
+            </p>
+            <h1 className="font-playfair text-4xl md:text-5xl text-cream font-medium">
               Speaking &amp; Media
             </h1>
-            <p className="font-playfair text-gold italic text-lg mb-6">
-              Faith, technology, ventures, and everything at the intersection
-            </p>
-            <p className="text-cream/70 leading-relaxed">
-              Mark is available for speaking engagements, podcast interviews, and
-              media appearances. He brings thoughtful, accessible perspectives on
-              how faith communities can navigate the rapidly changing technological
-              landscape.
-            </p>
           </ScrollFade>
         </div>
       </section>
