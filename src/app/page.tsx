@@ -49,7 +49,7 @@ export default function HomePage() {
   return (
     <>
       {/* ── Hero ── */}
-      <section className="relative bg-dark-deeper py-12 md:pt-24 md:pb-16 overflow-hidden">
+      <section className="relative bg-dark-deeper py-12 md:pt-20 md:pb-10 overflow-hidden">
         {/* Subtle gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-dark-deeper via-dark to-dark-deeper opacity-50" />
 
@@ -86,12 +86,12 @@ export default function HomePage() {
       </section>
 
       {/* ── The Intersection ── */}
-      <section className="py-16 md:pt-16 md:pb-24 bg-dark">
+      <section className="py-12 md:pt-10 md:pb-20 bg-dark">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           {/* Constellation graphic */}
-          <Constellation />
+          <Constellation className="md:max-w-md" />
           <ScrollFade>
-            <p className="text-center text-cream/70 leading-relaxed max-w-2xl mx-auto mt-10">
+            <p className="text-center text-cream/70 leading-relaxed max-w-2xl mx-auto mt-8">
               The world wants you to compartmentalize: keep each part of your life in its own room, on its own shelf, with its own label. I&apos;ve never been able to do that. Every area I&apos;ve poured effort into ends up connected to the others. Right now, that nexus is faith, technology, and ventures. If that sounds like your kind of restlessness, welcome.
             </p>
           </ScrollFade>
