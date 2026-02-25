@@ -16,6 +16,19 @@ export const metadata: Metadata = {
     description:
       "Christian author and entrepreneur at the intersection of faith, technology, and ventures as mission. Books on AI, devotionals, and practical ministry tools.",
     url: "https://markrossjunkans.com",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Mark Ross Junkans — Author, Entrepreneur, Restless Thinker",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@mjunkans",
+    creator: "@mjunkans",
   },
   keywords: [
     "faith and technology",
