@@ -110,9 +110,10 @@ export default function HomePage() {
               <div className="group p-8 border border-dark-border hover:border-gold/30 transition-colors">
                 <h3 className="font-playfair text-xl text-gold mb-4">Technology</h3>
                 <p className="text-cream/70 leading-relaxed">
-                  I run an AI consultancy and spend most days thinking about
-                  what these tools can do. Then I spend most evenings thinking
-                  about what they probably shouldn&apos;t.
+                  I&apos;ve been building things with computers since I was a
+                  kid and reading sci-fi almost as long. Now I work with AI
+                  every day. The tools keep getting more powerful. The questions
+                  about what we should do with them keep getting more important.
                 </p>
               </div>
             </ScrollFade>
