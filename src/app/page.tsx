@@ -67,12 +67,6 @@ export default function HomePage() {
           </ScrollFade>
 
           <ScrollFade delay={200}>
-            <p className="text-cream/70 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-              Author. Entrepreneur. Restless thinker.
-            </p>
-          </ScrollFade>
-
-          <ScrollFade delay={300}>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/books"
