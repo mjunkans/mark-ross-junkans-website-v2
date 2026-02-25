@@ -106,11 +106,11 @@ export default function AboutPage() {
                   make sense. The overlap is smaller than you&apos;d think.
                 </p>
                 <p className="text-cream/70 leading-relaxed mb-6">
-                  I write books, build businesses, roast coffee, run very long
-                  distances, and try to follow Jesus in a world that&apos;s
-                  changing faster than any of us expected. I live in Houston
-                  with my wife Natalia. That last part is the most important
-                  thing on this page.
+                  I&apos;m an ordained pastor who writes books, builds businesses,
+                  roasts coffee, runs very long distances, and tries to follow
+                  Jesus in a world that&apos;s changing faster than any of us
+                  expected. I live in Houston with my wife Natalia. That last
+                  part is the most important thing on this page.
                 </p>
                 <p className="text-cream/70 leading-relaxed">
                   The question that drives all of it: how do you do faithful
