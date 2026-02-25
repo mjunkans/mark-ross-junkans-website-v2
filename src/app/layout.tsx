@@ -44,15 +44,15 @@ export const metadata: Metadata = {
     url: "https://markrossjunkans.com",
     images: [
       {
-        url: "/images/mark-headshot.png",
-        width: 800,
-        height: 800,
-        alt: "Mark Ross Junkans, Christian author, entrepreneur, and faith and technology speaker",
+        url: "/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Mark Ross Junkans — Author, Entrepreneur, Restless Thinker",
       },
     ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     site: "@mjunkans",
     creator: "@mjunkans",
   },
