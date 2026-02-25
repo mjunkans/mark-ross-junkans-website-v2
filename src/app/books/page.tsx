@@ -167,7 +167,7 @@ export default function BooksPage() {
               <div className="border border-dark-border p-6">
                 <h3 className="font-playfair text-lg text-gold mb-3">What is the 3 Verses a Day devotional?</h3>
                 <p className="text-cream/70 leading-relaxed">
-                  The <em>3 Verses a Day</em> series is a simple daily devotional practice: read three Bible verses each day, then sit with them. No fluff, no theological gymnastics. Just you, the Word, and space to listen. The first volume covers 30 days in the Gospel of John; <em>Trust in God</em> focuses on what scripture says about trusting God when life doesn&apos;t make sense. Perfect as a devotional for busy people who want depth without overwhelm.
+                  The <em>3 Verses a Day</em> series is a daily devotional built on the historic lectionary tradition: one verse from the Old Testament, one from the Psalms, one from the Gospels. All three share the same theme. It&apos;s small enough to do every day and focused enough to actually stick. The first volume walks you through 30 days of themed readings. <em>Trust in God</em> focuses on what scripture says about trusting God when life doesn&apos;t make sense.
                 </p>
               </div>
             </ScrollFade>
@@ -232,7 +232,7 @@ export default function BooksPage() {
                 name: "What is the 3 Verses a Day devotional?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "The 3 Verses a Day series is a simple daily devotional practice: read three Bible verses each day, then sit with them. No fluff, no theological gymnastics. The first volume covers 30 days in the Gospel of John; Trust in God focuses on what scripture says about trusting God when life doesn't make sense.",
+                  text: "The 3 Verses a Day series is a daily devotional built on the historic lectionary tradition: one verse from the Old Testament, one from the Psalms, one from the Gospels. All three share the same theme. The first volume walks you through 30 days of themed readings. Trust in God focuses on trusting God when life doesn't make sense.",
                 },
               },
               {

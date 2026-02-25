@@ -95,10 +95,10 @@ export default function HomePage() {
               <div className="group p-8 border border-dark-border hover:border-gold/30 transition-colors">
                 <h3 className="font-playfair text-xl text-gold mb-4">Faith</h3>
                 <p className="text-cream/70 leading-relaxed">
-                  I write devotionals, help spread the Gospel around the world, and
-                  wrestle with what it means to follow God in a world that&apos;s
-                  automating everything, including church. I believe business should help expand Jesus&apos; kingdom of grace.
-                  That&apos;s not a bumper sticker. It&apos;s the business plan.
+                  I write devotionals and wrestle with what it means to follow
+                  God in a world that&apos;s automating everything. The questions
+                  are getting harder. The ancient answers are holding up better
+                  than I expected.
                 </p>
               </div>
             </ScrollFade>
@@ -107,9 +107,9 @@ export default function HomePage() {
               <div className="group p-8 border border-dark-border hover:border-gold/30 transition-colors">
                 <h3 className="font-playfair text-xl text-gold mb-4">Technology</h3>
                 <p className="text-cream/70 leading-relaxed">
-                  By day, I run multiple enterprises and ventures, including an
-                  AI consultancy. By night, I wonder if we&apos;re building something
-                  beautiful or something dangerous. Usually both.
+                  I run an AI consultancy and spend most days thinking about
+                  what these tools can do. Then I spend most evenings thinking
+                  about what they probably shouldn&apos;t.
                 </p>
               </div>
             </ScrollFade>
@@ -118,10 +118,9 @@ export default function HomePage() {
               <div className="group p-8 border border-dark-border hover:border-gold/30 transition-colors">
                 <h3 className="font-playfair text-xl text-gold mb-4">Ventures</h3>
                 <p className="text-cream/70 leading-relaxed">
-                  Coffee roasting, energy and commodities, AI consultancy,
-                  international finance and development. I start ventures, build
-                  teams, and keep them all going on caffeine and a high tolerance
-                  for pain. Three Ironmans will do that to you.
+                  I build businesses in places and industries that don&apos;t
+                  always go together. The conviction behind all of them is the
+                  same: commerce should serve something beyond itself.
                 </p>
               </div>
             </ScrollFade>
@@ -262,7 +261,7 @@ export default function HomePage() {
               <div className="border border-dark-border p-6">
                 <h3 className="font-playfair text-lg text-gold mb-3">What is business as mission?</h3>
                 <p className="text-cream/70 leading-relaxed">
-                  Business as mission is the conviction that business should help expand Jesus&apos; kingdom of grace, not just as a way to pay bills, but as a way to participate in something eternal. It means doing excellent work in real markets with real accountability in a way that creates human flourishing and points to the kingdom of God. Mark lives this through ventures in AI consulting, coffee roasting, energy, and international development.
+                  Business as mission is the conviction that commerce should serve something beyond the bottom line. It means doing real work in real markets with real accountability, in a way that creates human flourishing. Not charity wearing a business costume. Not a regular company with a Bible verse on the wall. The actual, unglamorous work of building something sustainable that leaves things a little better than it found them.
                 </p>
               </div>
             </ScrollFade>
@@ -299,7 +298,7 @@ export default function HomePage() {
                 name: "What is business as mission?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Business as mission is the conviction that business should help expand Jesus' kingdom of grace: doing excellent work in real markets with real accountability in a way that creates human flourishing and points to the kingdom of God. Mark lives this through ventures in AI consulting, coffee roasting, energy, and international development.",
+                  text: "Business as mission is the conviction that commerce should serve something beyond the bottom line. It means doing real work in real markets with real accountability, in a way that creates human flourishing. Not charity wearing a business costume. Not a regular company with a Bible verse on the wall. The actual work of building something sustainable that leaves things better than it found them.",
                 },
               },
             ],

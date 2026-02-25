@@ -298,7 +298,7 @@ That's it. That's the whole strategy.
 
 Keep going. Even when it hurts. Especially when it hurts. Because the finish line isn't just an end point. It's a transformation.
 
-"Let us not grow weary of doing good, for at the proper time we will reap a harvest if we do not give up." — Galatians 6:9
+"Let us not grow weary of doing good, for at the proper time we will reap a harvest if we do not give up." Galatians 6:9
 
 I've got that verse taped to my running shoes. And my desk. And my Bible.
 

@@ -126,12 +126,13 @@ export default function SpeakingPage() {
                   About the Speaker
                 </h2>
                 <p className="text-cream/70 leading-relaxed">
-                  Mark Ross Junkans is an author, entrepreneur, and endurance
-                  athlete who lives at the intersection of faith, technology, and
-                  ventures. His books and speaking draw from a career spent
-                  launching things across industries and continents, always asking
-                  the same question: how do we follow Jesus in a world that&apos;s
-                  changing faster than any of us expected?
+                  Mark writes and speaks about what happens when faith meets
+                  technology, when business meets mission, and when the world
+                  changes faster than our theology anticipated. He brings
+                  20+ years of building ventures in developing countries, a
+                  background in ministry, and the kind of honesty that comes
+                  from getting things wrong enough times to know what right
+                  looks like.
                 </p>
               </div>
             </div>

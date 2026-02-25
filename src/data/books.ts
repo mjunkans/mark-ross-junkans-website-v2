@@ -41,7 +41,7 @@ export const books: Book[] = [
     shortTitle: "3 Verses a Day: 30 Days",
     hook: "30 days to deepen your relationship with God.",
     description:
-      "A simple, powerful devotional practice: three verses a day, every day, for 30 days. No fluff, no theological gymnastics. Just you, the Word, and space to listen. Whether you're new to scripture or have been reading for decades, this guide meets you where you are.",
+      "One verse from the Old Testament, one from the Psalms, one from the Gospels. Same theme. Every day for 30 days. Based on the historic lectionary tradition of pairing Scripture readings, this devotional gives you something small enough to do daily and focused enough to actually absorb. No fluff. Just the verses, a reflection, and space to listen.",
     coverImage: "/images/Cover Final.jpeg",
     buyLink:
       "https://www.amazon.com/Verses-Day-Days-Deepen-Relationship-ebook/dp/B0FLZ7SC8P",

@@ -102,21 +102,20 @@ export default function AboutPage() {
                 </h1>
                 <div className="w-16 h-[2px] bg-gold mb-8 mx-auto md:mx-0" />
                 <p className="text-cream/70 text-lg leading-relaxed mb-6">
-                  I&apos;m the kind of person who writes a book about AI and faith,
-                  runs an ultramarathon, flies to three continents, then comes home
-                  and roasts coffee beans, because apparently I needed one more thing
-                  to explain at dinner parties. My wife Natalia thinks this is
-                  charming. My accountant is less sure.
+                  I do a lot of things. Some of them make money. Some of them
+                  make sense. The overlap is smaller than you&apos;d think.
                 </p>
                 <p className="text-cream/70 leading-relaxed mb-6">
-                  I also run a mission organization and an AI consultancy.
-                  I&apos;ve been blessed with energy and a mind that thrives on
-                  holding opposites together.
+                  I write books, build businesses, roast coffee, run very long
+                  distances, and try to follow Jesus in a world that&apos;s
+                  changing faster than any of us expected. I live in Houston
+                  with my wife Natalia. That last part is the most important
+                  thing on this page.
                 </p>
                 <p className="text-cream/70 leading-relaxed">
-                  I live in Houston, Texas, and I&apos;m trying to figure out how
-                  to follow Jesus in a world that&apos;s changing faster than any of
-                  us expected. That question drives everything else.
+                  The question that drives all of it: how do you do faithful
+                  work in a world that&apos;s automating everything? I don&apos;t
+                  have a clean answer. But I keep showing up to the question.
                 </p>
               </div>
             </div>
@@ -136,34 +135,33 @@ export default function AboutPage() {
 
             <div className="space-y-6 text-cream/70 leading-relaxed">
               <p>
-                My career has been non-linear. I&apos;ve launched ventures across
-                industries and continents, each one teaching me something the last
-                one couldn&apos;t. If that sounds scattered, I prefer
-                &quot;interdisciplinary.&quot;
+                I started in small business, moved into missions, then non-profit
+                work, then international development, then coffee, then energy,
+                then AI. If you&apos;re looking for a clean career arc, this
+                isn&apos;t it.
               </p>
 
               <p>
-                The thread connecting all of it is a conviction that business should
-                help expand Jesus&apos; kingdom of grace, not just as a way to pay
-                bills, but as a way to participate in something eternal.
-                That&apos;s not a tagline. It&apos;s the operating system.
+                The thread connecting all of it is a conviction that business
+                should serve something beyond itself. I believe commerce can
+                expand the kingdom of God. Not as a slogan. As a Tuesday
+                afternoon operating principle.
               </p>
 
               <p>
-                My books come from the intersection of all these worlds. &quot;The Return
-                of Mystery&quot; asks what happens to faith when machines can do
-                everything we thought made us human. The &quot;3 Verses a Day&quot; series
-                is for people who want to engage scripture without a PhD in theology.
-                And &quot;Your AI Employee&quot; is for anyone who wants to actually use AI
-                instead of just talking about it.
+                I write books because the questions won&apos;t leave me alone.
+                What happens to faith when machines can do everything we thought
+                made us human? How do you read Scripture when you have ten minutes
+                and a restless mind? How do you actually use AI instead of just
+                talking about it? Those became <em>The Return of Mystery</em>,
+                the <em>3 Verses a Day</em> series, and <em>Your AI Employee</em>.
               </p>
 
               <p>
-                When I&apos;m not writing or consulting, I&apos;m probably training
-                for my next race, roasting coffee, reading something I shouldn&apos;t
-                be reading at 2am, or having a conversation about theology that goes
-                45 minutes too long. The endurance athlete thing isn&apos;t a hobby.
-                It&apos;s how I process. Some people journal. I run 50 miles.
+                I&apos;ve done three Ironmans and several ultramarathons. People
+                ask why. The honest answer is that I process things by moving.
+                Some people journal. I run until the thinking stops and something
+                clearer takes its place.
               </p>
             </div>
           </ScrollFade>
