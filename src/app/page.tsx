@@ -103,7 +103,7 @@ export default function HomePage() {
           <Constellation />
           <ScrollFade>
             <p className="text-center text-cream/40 text-sm tracking-widest uppercase mt-8">
-              This is where I live.
+              I live somewhere in the middle.
             </p>
           </ScrollFade>
         </div>
