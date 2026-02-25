@@ -138,7 +138,7 @@ export default function AboutPage() {
                 I started in small business, moved into missions, then non-profit
                 work, then international development, then construction, then
                 coffee, then energy and AI. If you&apos;re looking for a clean
-                career arc, this isn&apos;t it. Now, through various teams,
+                career arc, this isn&apos;t it. Now, through various ventures and partnerships,
                 I&apos;m doing all of it at once. It&apos;s exciting.
               </p>
 
