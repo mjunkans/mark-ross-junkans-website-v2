@@ -107,7 +107,7 @@ export default async function BlogPostPage({ params }: PageProps) {
   return (
     <>
       {/* Header */}
-      <section className="py-16 md:py-24 bg-dark-deeper">
+      <section className="relative py-12 md:py-16 bg-dark-deeper">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
           <ScrollFade>
             <div className="flex items-center justify-center gap-4 mb-6">
@@ -132,7 +132,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       <div className="gold-line" />
 
       {/* Content */}
-      <article className="py-16 md:py-20 bg-dark">
+      <article className="py-10 md:py-14 bg-dark">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <ScrollFade>{renderContent(post.content)}</ScrollFade>
         </div>
