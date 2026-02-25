@@ -131,7 +131,7 @@ export default function SpeakingPage() {
                 <p className="text-cream/70 leading-relaxed mb-6">
                   Mark writes and speaks about what happens when faith meets
                   technology, when business meets mission, and when the world
-                  changes faster than our theology anticipated.
+                  changes faster than our church culture has been ready to engage.
                 </p>
                 <div className="grid grid-cols-2 gap-x-8 gap-y-4 text-sm">
                   <div>
