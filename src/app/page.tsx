@@ -54,8 +54,13 @@ export default function HomePage() {
           </ScrollFade>
 
           <ScrollFade delay={200}>
-            <p className="text-cream/70 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+            <p className="text-cream/70 text-lg md:text-xl max-w-2xl mx-auto mb-4 leading-relaxed">
               Author. Entrepreneur. Restless thinker.
+            </p>
+            <p className="text-cream/50 text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
+              I write books because the questions won&apos;t leave me alone.
+              Who is God to me, and who am I to Him? What happens to faith
+              when machines can do everything we thought made us human?
             </p>
           </ScrollFade>
 
@@ -98,10 +103,10 @@ export default function HomePage() {
               <div className="group p-8 border border-dark-border hover:border-gold/30 transition-colors">
                 <h3 className="font-playfair text-xl text-gold mb-4">Faith</h3>
                 <p className="text-cream/70 leading-relaxed">
-                  I write devotionals and wrestle with what it means to follow
-                  God in a world that&apos;s automating everything. The questions
-                  are getting harder. The ancient answers are holding up better
-                  than I expected.
+                  I&apos;m an ordained pastor who writes devotionals and wrestles
+                  with what it means to follow God in a world that&apos;s automating
+                  everything. The questions are getting harder. The ancient answers
+                  are holding up better than I expected.
                 </p>
               </div>
             </ScrollFade>
