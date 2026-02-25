@@ -9,6 +9,87 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "you-are-not-your-job-title",
+    title: "You Are Not Your Job Title",
+    date: "2025-02-24",
+    category: "Faith & Culture",
+    excerpt:
+      "When your occupation disappears, your vocation doesn't, because who you are was never the same thing as what you do.",
+    content: `## The Question Nobody Knows How to Answer
+
+"So, what do you do?"
+
+Five words. The most common icebreaker in the English language. Also the most loaded question you can ask a person, because what they hear is: "Tell me who you are."
+
+I've been asked that question hundreds of times. And for most of my adult life, I haven't known how to answer it cleanly.
+
+Not because I don't do anything. Because I've done too many things, and none of them stayed the same long enough to become a comfortable identity.
+
+## The Revolving Door
+
+I started as a small business owner. Then I became a missionary. People who knew me in business didn't know what to do with that. Some thought I'd had a breakdown. Others figured it was a phase.
+
+Then I moved into non-profit leadership, which people could at least file under "doing good work." But when I shifted into international development and business, the assumption was that I'd sold out. Left the ministry. Gone secular. People need categories, and I kept refusing to stay in one.
+
+From there it was construction. Then coffee roasting. Then energy. Now AI.
+
+If you're keeping score, please stop. That's not the point.
+
+The point is that every single one of those transitions forced the same question, and it never got easier: if I'm not the missionary, if I'm not the non-profit guy, if I'm not the coffee roaster, then who am I?
+
+I remember people just giving up. "So what is it you do now?" said with the slight exhaustion of someone who had already updated my mental file three times. I couldn't blame them. I was exhausted by it too. Every time the title changed, some part of me had to go looking for solid ground again.
+
+## This Is About to Happen to Everyone
+
+Here's why I'm writing this now and not five years ago: artificial intelligence is about to do to millions of people what career changes did to me, only faster and less voluntarily.
+
+When your job gets automated, restructured, or simply made irrelevant, you don't just lose a paycheck. You lose the answer to the question. The one at the dinner party. The one on your LinkedIn profile. The one you tell yourself when you're trying to fall asleep.
+
+If "what you do" is "who you are," then losing what you do means losing who you are. That's not an economic problem. That's an existential one.
+
+And we're walking straight into it.
+
+## The Wrong Foundation
+
+The reason that question hits so hard is that we've built identity on the wrong thing. Not accidentally. Deliberately. Western culture, American culture especially, treats your occupation as your primary identity marker. Your job title is your introduction, your social position, your worth.
+
+But scripture says something different. Genesis 1:27 says we are made in the image of God. Not in the image of our employer. Not in the image of our productivity. The very first thing the Bible says about human identity has nothing to do with work. It has to do with whose image we bear.
+
+Paul puts it starkly in Galatians 2:20: "I have been crucified with Christ. It is no longer I who live, but Christ who lives in me." That's an identity statement. And it doesn't mention a job title.
+
+Ephesians 2:10 calls us "his workmanship, created in Christ Jesus for good works." Notice the order. You are his workmanship first. The good works flow from that. You're not defined by the works. You're defined by the one who made you.
+
+And then 1 Peter 2:9: "But you are a chosen people, a royal priesthood, a holy nation, God's special possession." Chosen. Royal. Holy. Possessed by God. None of that depends on whether your employer still needs your skill set.
+
+## Vocation Is Not Occupation
+
+Martin Luther understood something that the modern world has mostly forgotten: your vocation is not your job.
+
+Luther taught that vocation includes every calling in your life. Parent. Spouse. Neighbor. Citizen. Church member. Friend. Worker, yes, but worker is one piece of a much larger picture. Vocation is the whole shape of how God works through you in every relationship and every role you inhabit.
+
+Your occupation is what you get paid to do. Your vocation is how you live.
+
+Occupations come and go. I know this personally. They shift with markets, with technology, with circumstances you didn't choose. But vocation, the life lived in response to God's call, is not subject to market disruption. Nobody can automate your calling as a father. No algorithm replaces your role as a neighbor. AI is not coming for your identity as a child of God.
+
+That distinction matters more now than it has in a long time.
+
+## What Holds
+
+I won't pretend I figured this out gracefully. Every career transition came with a quiet season of not knowing who I was. The world's question, "what do you do?", kept finding me without a clean answer. And the temptation every time was to believe that the confusion about my title meant confusion about my identity.
+
+It didn't. But it took me years to learn that.
+
+What I know now is that the confidence to walk through those transitions didn't come from finally finding the right occupation. It came from something underneath all of them. Identity in Christ is not a career track. It's a foundation. It doesn't update when your LinkedIn does.
+
+The AI age is going to force a lot of people into the question I've been sitting with for years. Occupations will change radically. Some will vanish entirely. And millions of people are going to discover that the answer they've been giving to "what do you do?" was never really the answer to "who are you?"
+
+That's disorienting. But it can also be freeing, if you know where to look.
+
+I'm not going to tie this up neatly. The tension between identity and occupation isn't something you solve once. It comes back every time the ground shifts. But the ground underneath the ground, the one that doesn't shift, is still there. It's always been there.
+
+It just has nothing to do with your job title.`,
+  },
+  {
     slug: "when-ai-preaches-better-than-your-pastor",
     title: "When AI Preaches Better Than Your Pastor",
     date: "2025-01-15",
