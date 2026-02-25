@@ -88,9 +88,9 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <ScrollFade>
             <div className="text-center mb-6">
-              <h2 className="section-heading">The Intersection</h2>
+              <h2 className="section-heading">What I&apos;m Working On</h2>
               <p className="text-warm-gray mt-4 max-w-2xl mx-auto">
-                For anyone living in two or more of these worlds at once.
+                Three worlds. One life. It gets interesting.
               </p>
             </div>
           </ScrollFade>
@@ -144,7 +144,7 @@ export default function HomePage() {
             <div className="text-center mb-16">
               <h2 className="section-heading">Books</h2>
               <p className="section-subheading mx-auto mt-2">
-                Faith, technology, and everything in between.
+                What I&apos;ve written so far. More coming.
               </p>
             </div>
           </ScrollFade>
@@ -177,7 +177,7 @@ export default function HomePage() {
           <ScrollFade>
             <h2 className="section-heading">Latest Writing</h2>
             <p className="text-warm-gray text-lg mt-4 mb-10">
-              Thoughts on faith, technology, and the messy middle where they meet.
+              Long-form thinking. No hot takes.
             </p>
           </ScrollFade>
 
