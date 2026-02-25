@@ -52,9 +52,9 @@ const ventures = [
     href: "https://advira.ai",
   },
   {
-    name: "CrossCM",
-    desc: "Cross-cultural Christian mission",
-    href: "https://crosscm.org",
+    name: "CrossConnect Ministries",
+    desc: "Bible studies written, translated, and freely distributed in 28+ languages",
+    href: "https://crossconnect-website.vercel.app",
   },
   {
     name: "Spur Coffee",
@@ -67,7 +67,7 @@ const ventures = [
     href: "https://flagshipresources.com",
   },
   {
-    name: "PJIC",
+    name: "PJ-IC, Inc.",
     desc: "International project development",
     href: "https://pjic.com",
   },
