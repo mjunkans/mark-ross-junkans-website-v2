@@ -15,29 +15,25 @@ export const blogPosts: BlogPost[] = [
     category: "Faith & Culture",
     excerpt:
       "When your occupation disappears, your vocation doesn't, because who you are was never the same thing as what you do.",
-    content: `## The Question Nobody Knows How to Answer
+    content: `## The Question That Follows You
 
 "So, what do you do?"
 
 Five words. The most common icebreaker in the English language. Also the most loaded question you can ask a person, because what they hear is: "Tell me who you are."
 
-I've been asked that question hundreds of times. And for most of my adult life, I haven't known how to answer it cleanly.
+I've never had a good answer for that one. Not because I don't do anything. Because what I do keeps growing, and the new thing never quite matches what people already decided I am.
 
-Not because I don't do anything. Because I've done too many things, and none of them stayed the same long enough to become a comfortable identity.
+## When You Stop Fitting the Box
 
-## The Revolving Door
+Here's what nobody warns you about: when you build something, people attach your identity to it. You become "the guy who does X." And that's fine, until you start doing Y. Not instead of X. On top of it. For the same reasons, toward the same purpose. But from the outside, it looks like you've lost the plot.
 
-I started as a small business owner. Then I became a missionary. People who knew me in business didn't know what to do with that. Some thought I'd had a breakdown. Others figured it was a phase.
+I've watched it happen in real time. You're known for one thing, and then you show up doing something that doesn't fit the category people filed you under. The looks change. Not hostile, just confused. Like you've broken an unspoken agreement about who you're supposed to be.
 
-Then I moved into non-profit leadership, which people could at least file under "doing good work." But when I shifted into international development and business, the assumption was that I'd sold out. Left the ministry. Gone secular. People need categories, and I kept refusing to stay in one.
+The worst part isn't their confusion. It's that some of it lands. You start wondering if maybe they're right. Maybe you have drifted. Maybe the thing you were known for was the thing you were supposed to stay. There's a quiet embarrassment in it, like you owe people an explanation for not being who they thought you were.
 
-From there it was construction. Then coffee roasting. Then energy. Now AI.
+I've felt that more times than I'd like to admit. You build something, it becomes part of your identity, and then you keep building. You keep stacking new work on top of old callings, and at some point the stack doesn't make sense to anyone but you. People stop asking "what do you do?" with curiosity and start asking it with a kind of tired patience. You can hear the subtext: "OK, what is it this time?"
 
-If you're keeping score, please stop. That's not the point.
-
-The point is that every single one of those transitions forced the same question, and it never got easier: if I'm not the missionary, if I'm not the non-profit guy, if I'm not the coffee roaster, then who am I?
-
-I remember people just giving up. "So what is it you do now?" said with the slight exhaustion of someone who had already updated my mental file three times. I couldn't blame them. I was exhausted by it too. Every time the title changed, some part of me had to go looking for solid ground again.
+And you don't have a clean answer. Because the truth is, you're not doing one thing. You're doing several things, all connected by a thread that's obvious to you and invisible to everyone else.
 
 ## This Is About to Happen to Everyone
 
