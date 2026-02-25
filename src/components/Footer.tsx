@@ -24,6 +24,10 @@ const socialLinks = [
     href: "https://www.linkedin.com/in/markjunkans",
     label: "LinkedIn",
   },
+  {
+    href: "https://substack.com/@markrossjunkans",
+    label: "Substack",
+  },
 ];
 
 export default function Footer() {

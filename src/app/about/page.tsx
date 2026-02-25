@@ -43,6 +43,10 @@ const socialLinks = [
     href: "https://www.linkedin.com/in/markjunkans",
     label: "LinkedIn",
   },
+  {
+    href: "https://substack.com/@markrossjunkans",
+    label: "Substack",
+  },
 ];
 
 const ventures = [
