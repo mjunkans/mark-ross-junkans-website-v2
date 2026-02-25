@@ -118,10 +118,10 @@ export default function HomePage() {
               <div className="group p-8 border border-dark-border hover:border-gold/30 transition-colors">
                 <h3 className="font-playfair text-xl text-gold mb-4">Ventures</h3>
                 <p className="text-cream/70 leading-relaxed">
-                  Coffee roasting, energy and commodities, international finance
-                  and development. I start ventures, build teams, and keep them all
-                  going on caffeine and a high tolerance for pain. Three Ironmans
-                  will do that to you.
+                  Coffee roasting, energy and commodities, AI consultancy,
+                  international finance and development. I start ventures, build
+                  teams, and keep them all going on caffeine and a high tolerance
+                  for pain. Three Ironmans will do that to you.
                 </p>
               </div>
             </ScrollFade>
