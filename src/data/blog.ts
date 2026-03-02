@@ -10,6 +10,110 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "called-beyond-your-career-theology-of-vocation-ai-age",
+    title: "Called Beyond Your Career: A Theology of Vocation for the AI Age",
+    date: "2026-03-03",
+    category: "Faith & Culture",
+    image: "",
+    excerpt:
+      "AI will take jobs. It cannot take vocations. When machines do what you do for a living, the question that remains is the one that always mattered most: who are you?",
+    content: \`## The Question Nobody's Ready For
+
+This is a continuation of my earlier post, "You Are Not Your Job Title," where I wrote about the difference between occupation and vocation. About how "what do you do?" is the most dangerous question in the English language, because we hear it as "who are you?" I wrote that piece from experience, having lived through enough career shifts to know that the world's categories for you expire faster than you expect.
+
+That piece laid the groundwork. This one goes deeper.
+
+Because the question is no longer theoretical. AI is accelerating job displacement at a pace that makes previous technological disruptions look gentle. McKinsey estimates that by 2030, up to 30 percent of current work hours in the US could be automated. Goldman Sachs says 300 million jobs globally are exposed to generative AI. You can quibble with the numbers. The direction is not in dispute.
+
+And when the displacement hits, it won't announce itself with a pink slip and a severance package. It will happen gradually, then suddenly. Your role will shrink. Your tasks will be absorbed. Your title will quietly become decorative. And one morning you'll realize that the thing you told people you "do" is something a machine does better, faster, and for free.
+
+That's an economic problem, sure. But underneath the economic problem is a much deeper one. When the job goes, what's left of you?
+
+## The Identity We Built on Sand
+
+We did this to ourselves. Not maliciously. Culturally. Over generations, Western society, American society in particular, fused identity to occupation so thoroughly that most people can't separate the two. Your job is your introduction at parties, your bio on social media, your answer when your kids' friends ask what your dad does. It's how you measure your own worth on the days you're honest enough to admit you're measuring.
+
+The fusion runs deep. Studies consistently show that job loss correlates with depression, substance abuse, divorce, and suicide at rates that can't be explained by financial stress alone. People don't just lose income. They lose the story they tell about themselves. They lose the plot.
+
+And the plot was always borrowed. That's the part we don't want to face.
+
+Pope John Paul II saw this with remarkable clarity. In his 1981 encyclical *Laborem Exercens*, he distinguished between the "objective" and "subjective" dimensions of work. The objective dimension is what gets produced: the report, the bridge, the quarterly earnings. The subjective dimension is the person doing the producing. And John Paul insisted, against every instinct of modern economics, that the subjective dimension always takes priority. The worker is more important than the product. The person matters more than the output. That principle was radical enough in 1981. In the age of AI, where the objective dimension of work can increasingly be handled by machines, it becomes the whole ballgame. If the product was the point, we're in trouble. If the person was always the point, we might be standing on firmer ground than we think.
+
+Scripture is relentless on this point. Genesis 1:27 establishes human identity before any work is assigned: "So God created mankind in his own image, in the image of God he created them; male and female he created them." The dominion mandate comes later. The image comes first. You bear the image of God before you bear any title.
+
+Paul drives it further in Galatians 2:20: "I have been crucified with Christ. It is no longer I who live, but Christ who lives in me." Read that slowly. Paul is not describing a career change. He's describing an identity replacement. The self that seeks validation through accomplishment, through title, through the world's answer to "what do you do?" has been crucified. What remains is Christ.
+
+Ephesians 2:10 names us "his workmanship, created in Christ Jesus for good works, which God prepared beforehand, that we should walk in them." The order matters enormously. Workmanship first. Good works second. You are not what you produce. You are whose you are, and the works flow from that belonging.
+
+And Peter, writing to scattered, displaced, economically marginal Christians who had every reason to feel like nobodies, calls them "a chosen race, a royal priesthood, a holy nation, a people for his own possession" (1 Peter 2:9). Chosen. Royal. Holy. Possessed by God himself. Not one word about employment status.
+
+## What Luther Knew That Silicon Valley Doesn't
+
+Martin Luther developed a theology of vocation in the sixteenth century that the twenty-first century desperately needs. His core insight was simple and revolutionary: your vocation is not your job.
+
+For Luther, vocation encompassed every station in life where God placed you to serve your neighbor. Father. Mother. Spouse. Citizen. Church member. Worker, yes. But worker was one thread in a much larger fabric. Your occupation might change. Your vocations, the callings woven through every relationship, persist as long as those relationships do.
+
+Luther saw that the medieval church had created a two-tier system of spiritual significance: monks and clergy at the top, everyone else beneath. His radical correction was to insist that the milkmaid and the farmer serve God as truly as the priest at the altar. The cobbler's hammer and the mother's lullaby are divine vocations. Not because the work is sacred in itself, but because God works through ordinary people in ordinary stations to care for his creation.
+
+Luther wasn't alone in this. Dorothy Sayers, the Anglican writer best known for her mystery novels, made a strikingly similar argument in her 1942 essay "Why Work?" Sayers insisted that work done well is itself an offering to God, regardless of whether anyone labels it "ministry." But she went further. She argued that the worth of work lies in the doing, not in the wages or the status it confers. A carpenter who builds an honest chair serves God in the building. If you strip away the paycheck and the title, the service remains. That's a theology of vocation that survives automation.
+
+Dietrich Bonhoeffer, writing from inside a collapsing civilization, pushed this even further. In his *Ethics*, Bonhoeffer argued that vocation is not an abstraction you discern through personality tests and prayer retreats. It is the concrete responsibility God lays on you right where you stand. Your neighbor, the actual flesh-and-blood person in front of you, is the site of your calling. Not some idealized future role. Not the career you're curating on LinkedIn. The person across the table who needs something you can give. Bonhoeffer wrote those words while actively conspiring against the Nazi regime, knowing his own "career" was finished in any conventional sense. His vocation had never been clearer.
+
+But here's the part that doesn't get enough attention. The conversation about AI usually stops at job displacement. Lost paychecks. Unemployment statistics. That's real, but it's not the whole story. Because the deeper disruption is not just that machines will take jobs. It's that machines can now produce. They can write. They can design. They can build strategies, compose music, generate images, draft legal briefs. They can do the things we always assumed required a human mind, human hands, human creativity.
+
+And that raises a question the economists aren't asking: what is the value of making something yourself when a machine can make it faster and, by some measures, better?
+
+There is something in the act of creation that matters beyond the output. The carpenter who shapes a joint by hand knows something the CNC machine does not. The writer who wrestles a sentence into clarity is doing something a language model cannot replicate, even if the language model produces a sentence that reads just as well. The farmer who works the soil, the engineer who walks a job site, the pastor who labors over a sermon: these acts have dignity not because of what they produce, but because of what they require. Attention. Intention. The full presence of a person made in the image of a God who himself works, who himself creates, who called the creation good and rested.
+
+Genesis doesn't just say God created. It says he saw what he made and declared it good. The goodness was in the seeing, in the relationship between the maker and the made. Strip that relationship away, automate the making, and you still get output. But you lose something that no efficiency metric can capture.
+
+This is where vocation theology meets the AI age most directly. The value of human work was never reducible to its economic output. It was always also about formation. Work shapes the worker. The discipline of building something with your hands or your mind, the patience it demands, the skill it develops, the humility it enforces when the thing doesn't turn out right: that process is part of how God grows you. A machine that produces the same output skips the formation entirely. The product arrives, but the person doesn't grow.
+
+So the question for the AI age is not just "who will do the work?" It's "what happens to us when we stop doing it?"
+
+This is where Luther, Sayers, Bonhoeffer, and the rest reframe the entire conversation. If vocation equals occupation, then automation is an existential threat to human purpose. But if vocation is the whole shape of how God works through you, then automation can change your occupation without touching your calling. And if the value of work includes the formation of the worker, then there are reasons to keep building, keep writing, keep making, even when machines can do it cheaper.
+
+Your job as an accountant might get absorbed by an algorithm. Your vocation as a father does not. Your title as a radiologist might become obsolete. Your calling as a neighbor, as a citizen, as a member of Christ's body, remains untouched. The machine can do your spreadsheets. It cannot do your life.
+
+## The Baptismal Identity
+
+There's a reason Lutheran theology ties identity to baptism rather than to achievement. In baptism, God names you. He claims you. He drowns the old self that needs a title to feel like somebody and raises a new self that is somebody because God says so.
+
+That's not a metaphor. It's a declaration. And it holds whether you're a CEO or unemployed, whether your LinkedIn profile impresses people or confuses them, whether the market values your skills or has moved on.
+
+I work in international infrastructure development. Roads, bridges, rail, ports, housing across Africa and Asia. I'm also an ordained LCMS pastor. I've watched people try to reconcile those two facts about me, and I've watched them give up. The categories don't fit. To most people, you're one thing or you're suspicious.
+
+But vocation doesn't care about categories. Abraham Kuyper, the Dutch Reformed theologian who also served as Prime Minister of the Netherlands, famously declared that there is not one square inch in all of creation over which Christ does not say, "Mine." Kuyper meant it as a statement about sovereignty, but it's also a statement about calling. There is no corner of your life that falls outside God's claim on you. The sacred and the secular are not two separate zones. The conference room and the sanctuary, the job site and the dinner table, are all territory where Christ reigns and where your vocation unfolds. My father brought me to theology. Life brought me to infrastructure. Both are callings. Both are places where God put me to serve. Neither one defines me more than the other, and neither one defines me as much as the name spoken over me in baptism.
+
+That's the foundation AI can't touch.
+
+## So What Do You Actually Do With This?
+
+Theory is fine. But if you're reading this and your job is already shrinking, or you can see it shrinking from here, you need something more concrete than "remember your baptism." Fair enough. Let me get practical.
+
+First, audit your vocations. Sit down and list every role you hold. Not job titles. Roles. Parent. Child. Spouse. Friend. Church member. Neighbor. Volunteer. Mentor. You will find that your occupation is one line on a very long list. That list is your life. The occupation is a subset, not the whole.
+
+Second, invest in the vocations that can't be automated. Pour into your relationships. Show up for your neighbors. Serve your church. Mentor someone younger. These callings don't generate a W-2, but they constitute the irreplaceable core of a human life. No algorithm will ever visit a sick friend in the hospital, coach a Little League team with patience, or sit with a grieving widow and say nothing because nothing needs to be said.
+
+Third, practice introducing yourself without your job title. It sounds small. It's not. Try it at the next gathering you attend. When someone asks what you do, tell them something else. Tell them what you care about. What you're building. Who you're raising. Watch how it changes the conversation. Watch how it changes you.
+
+Fourth, root your morning in something other than productivity. Before the email, before the task list, before the machine starts humming, remember whose you are. Open the scripture. Pray the prayer. Let God tell you who you are before the market does.
+
+## The Freedom on the Other Side
+
+I won't romanticize displacement. Losing a job is hard. Financial stress is real. The grief of watching your expertise become irrelevant is legitimate and painful. I don't dismiss any of that.
+
+But I've been through enough transitions to know that something waits on the other side of the loss. A clarity. A freedom. The moment you stop needing the title to feel like yourself is the moment you discover a self that was there all along, underneath all the titles, underneath all the striving. The self that God made, that God named, that God holds.
+
+The Catholic philosopher Josef Pieper wrote a small, devastating book in 1948 called *Leisure: The Basis of Culture*. His argument was that modern society had made "total work" its highest value, defining human beings entirely by their usefulness and output. Pieper countered that the deepest human activities, contemplation, worship, genuine rest, are not productive in any economic sense. They are receptive. They are the moments when we stop performing and simply receive. A culture that cannot do this, Pieper warned, has lost contact with its own soul. He was writing about post-war industrialism. He could have been writing about us.
+
+If AI forces us to reckon with what we are beyond our output, that reckoning might be a gift wrapped in a crisis. We might rediscover contemplation. We might remember that Sabbath is not laziness but obedience. We might find, on the other side of productivity, the presence of God that was always there but drowned out by the noise of proving ourselves useful.
+
+The AI age is going to strip away a lot of the scaffolding we've built around our identities. That's going to be disorienting for millions of people. But scaffolding was never the building. And the building, the real one, the one God constructed and Christ inhabits, does not depend on market conditions.
+
+You are not your job. You never were. And the sooner you know that in your bones, the freer you'll be when the world finally agrees with you.\`,
+  },
+  {
     slug: "you-are-not-your-job-title",
     title: "You Are Not Your Job Title",
     date: "2025-02-24",
