@@ -17,7 +17,7 @@ export const blogPosts: BlogPost[] = [
     image: "/images/blog/your-identity-is-not-your-job-vocation-ai.png",
     excerpt:
       "AI will take jobs. It cannot take vocations. When machines do what you do for a living, the question that remains is the one that always mattered most: who are you?",
-    content: \`## The Question Nobody's Ready For
+    content: `## The Question Nobody's Ready For
 
 This is a continuation of my earlier post, "You Are Not Your Job Title," where I wrote about the difference between occupation and vocation. About how "what do you do?" is the most dangerous question in the English language, because we hear it as "who are you?" I wrote that piece from experience, having lived through enough career shifts to know that the world's categories for you expire faster than you expect.
 
@@ -111,7 +111,7 @@ If AI forces us to reckon with what we are beyond our output, that reckoning mig
 
 The AI age is going to strip away a lot of the scaffolding we've built around our identities. That's going to be disorienting for millions of people. But scaffolding was never the building. And the building, the real one, the one God constructed and Christ inhabits, does not depend on market conditions.
 
-You are not your job. You never were. And the sooner you know that in your bones, the freer you'll be when the world finally agrees with you.\`,
+You are not your job. You never were. And the sooner you know that in your bones, the freer you'll be when the world finally agrees with you.`,
   },
   {
     slug: "you-are-not-your-job-title",
