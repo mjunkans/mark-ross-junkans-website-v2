@@ -14,7 +14,7 @@ export const blogPosts: BlogPost[] = [
     title: "Called Beyond Your Career: A Theology of Vocation for the AI Age",
     date: "2026-03-03",
     category: "Faith & Culture",
-    image: "",
+    image: "/images/blog/your-identity-is-not-your-job-vocation-ai.png",
     excerpt:
       "AI will take jobs. It cannot take vocations. When machines do what you do for a living, the question that remains is the one that always mattered most: who are you?",
     content: \`## The Question Nobody's Ready For
