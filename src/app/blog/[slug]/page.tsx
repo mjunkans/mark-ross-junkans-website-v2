@@ -19,6 +19,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const post = getPostBySlug(slug);
   if (!post) return { title: "Post Not Found" };
 
+  const ogImage = post.image
+    ? `https://markrossjunkans.com${post.image}`
+    : "https://markrossjunkans.com/og-image.png";
+
   return {
     title: post.title,
     description: post.excerpt,
@@ -28,11 +32,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url: `https://markrossjunkans.com/blog/${post.slug}`,
       type: "article",
       publishedTime: post.date,
+      images: [{ url: ogImage }],
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
       title: post.title,
       description: post.excerpt,
+      images: [ogImage],
     },
     alternates: {
       canonical: `https://markrossjunkans.com/blog/${post.slug}`,
@@ -164,6 +170,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             "@type": "BlogPosting",
             headline: post.title,
             description: post.excerpt,
+            image: post.image ? `https://markrossjunkans.com${post.image}` : undefined,
             datePublished: post.date,
             keywords: post.category,
             author: {
