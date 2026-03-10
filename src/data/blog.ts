@@ -10,6 +10,64 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "multiply-your-calling-before-the-algorithm-does",
+    title: "Multiply Your Calling Before the Algorithm Does",
+    date: "2026-03-10",
+    category: "Faith & Culture",
+    image: "/images/blog/multiply-your-calling.png",
+    excerpt:
+      "AI is eliminating jobs faster than anyone predicted. But it can't eliminate a calling. The question is whether you'll wait for the disruption or build ahead of it.",
+    content: `In the first post of this series, I argued that your identity was never meant to rest on a job title. In the second, I laid out a theological framework for vocation that goes deeper than career: the Reformation idea that God calls you through every station of life, not just the one that pays you.
+
+Now I want to get practical. Because if you believe those things, the next question is obvious: what do you actually do with that belief when the economy is shifting under your feet?
+
+## The Shift Is Already Here
+
+This isn't speculative. Goldman Sachs estimates 300 million jobs globally are exposed to generative AI. McKinsey projects up to 30 percent of current US work hours could be automated by 2030. White-collar roles that seemed untouchable five years ago, legal research, financial analysis, copywriting, medical imaging, are already being reshaped.
+
+Most people hear these numbers and feel fear. That's reasonable. But fear is a terrible strategist.
+
+There's another response available, one that vocation theology actually equips you for: multiplication. Not clinging to one role and hoping it survives. Building across multiple callings so that no single disruption can take you out.
+
+## Multiplication, Not Diversification
+
+I want to be precise here, because this isn't the same as the "side hustle" advice you find in every LinkedIn feed. Portfolio careers, passive income streams, personal brand optimization: that's diversification for its own sake. It's defensive. It's about hedging.
+
+What I'm describing is different. It's about recognizing that your calling may be larger than any single role can contain, and building accordingly.
+
+I develop large-scale projects for governments in Africa and Asia: engineering, project management, finance across multiple teams, markets, and time zones. I direct a mission organization that builds partnerships across borders. I run businesses that generate revenue specifically to fund mission work in other countries. I wrote a book about faith and technology. I roast coffee.
+
+Is it hectic? Yes. Multiple teams, projects, markets running simultaneously. But these aren't unrelated ventures stitched together by accident. Every one of them serves the same purpose: fulfilling a calling to business as mission. The project development funds and enables the mission work. The mission work gives the business ventures their reason for existing. The book asks the theological questions that all of it raises.
+
+This is multiplication. Each piece amplifies the others. Remove one and the rest get weaker.
+
+## The Tool, Not Just the Threat
+
+Here's where the AI conversation gets interesting. I don't just write about AI and vocation. I use AI daily, alongside my teams, to manage all of this.
+
+The same technology that people fear will eliminate their jobs is the technology that allows me to coordinate projects across multiple continents, manage communications in several markets, develop strategy for a mission organization, and still have time to write. AI didn't replace my calling. It gave me more capacity to fulfill it.
+
+That's not a small distinction. Most of the AI conversation is framed around loss: lost jobs, lost roles, lost relevance. But if your starting point is calling rather than career, AI looks different. It becomes a tool for multiplication. Not a replacement for human purpose, but an amplifier of it.
+
+The nurse who uses AI to handle documentation has more time for patients. The teacher who uses it for lesson planning has more energy for students. The project developer who uses it for analysis has more bandwidth for the relationships that actually make projects succeed in difficult economies. The technology handles the tasks. The person fulfills the vocation.
+
+## Why Vocation Theology Matters Here
+
+Luther didn't use the language of "portfolio careers," but his theology of vocation supports exactly this kind of life. When he insisted that the milkmaid serves God as truly as the priest, he wasn't just democratizing spiritual significance. He was multiplying it. Every role, every relationship, every responsibility: these are all places where God works through you.
+
+The practical implication is radical. You don't have to choose between your "spiritual" calling and your "secular" work. You don't have to apologize for having a complex life that doesn't fit on a business card. The complexity might be the point. God rarely calls people to simple lives. He calls them to faithful ones, and faithfulness often looks like holding more than one thing at the same time.
+
+## Building Before You Have To
+
+If you're reading this and your career still feels stable, you have an advantage. You have time to build. Not out of panic, but out of purpose.
+
+Ask yourself: if your current role disappeared tomorrow, what would remain of your calling? If the answer is "not much," that's not a failure. It's an invitation. Start building the other load-bearing walls now. Serve your church. Mentor someone. Start the business that funds the work you care about. Write the thing you've been carrying. Learn the skill that connects your faith to your competence. Pick up the AI tools that let you do more with the time you have.
+
+Don't wait for the algorithm to force the question. The question was always there, underneath the job title: who are you, and what are you building?
+
+The disruption is coming. Your calling doesn't have to wait for it.`,
+  },
+  {
     slug: "called-beyond-your-career-theology-of-vocation-ai-age",
     title: "Called Beyond Your Career: A Theology of Vocation for the AI Age",
     date: "2026-03-03",
