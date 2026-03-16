@@ -10,6 +10,71 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "when-calling-demands-construction",
+    title: "When Calling Demands Construction",
+    date: "2026-03-17",
+    category: "Business & Faith",
+    excerpt:
+      "Vocation tells you who you are. But at some point, it also tells you to build something. A business, a ministry, a project that didn't exist before you started. That's where calling gets expensive.",
+    content: `For the last three weeks, I've been writing about vocation. About how your identity was never meant to rest on a job title. About how the Reformation gave us a theology of calling that goes deeper than career. About how to multiply that calling before the algorithm forces the question.
+
+All of that is true. And all of it is incomplete.
+
+Because there comes a point where vocation stops being a concept and starts being a construction site. Where the thing God called you to doesn't exist yet, and the only way it will exist is if you build it. Not theoretically. Physically. Financially. Organizationally. With permits and payroll and partners who don't return your calls.
+
+That's where this series turns. From *who you are* to *what you're building*.
+
+## The Part Nobody Warns You About
+
+Most of what gets written about calling focuses on discernment. How do I find my calling? How do I know if I'm in the right place? Those are real questions. But they assume the thing you're called to already exists and you just need to locate it.
+
+Sometimes it doesn't. Sometimes your calling requires you to create something from nothing. To start the business, launch the nonprofit, design the program, develop the project. Not because you read a book about entrepreneurship and got inspired, but because the need was there and nobody else was building toward it.
+
+This is where calling gets uncomfortable. Discernment is interior work. Construction is exterior. It costs money. It takes years. It exposes you to failure in ways that private reflection never does. You can be wrong about your calling quietly. You cannot be wrong about a building project quietly.
+
+## Building Is Theological
+
+There is a strong biblical case for building as a form of faithfulness. Nehemiah rebuilt the walls of Jerusalem while his enemies mocked and threatened. The early church didn't just preach; they built networks of mutual aid that fed widows and orphans across cities. Paul didn't just plant churches; he organized supply chains of financial support between congregations in different countries.
+
+Building things, real things that serve real people, is not a distraction from spiritual work. In many cases, it is the spiritual work. The hospital that gets built serves more people than the sermon about compassion. The business that employs people in a struggling economy does more for human dignity than the conference paper about human dignity.
+
+This does not mean every construction project is holy. Plenty of things get built for ego, for profit with no purpose, for the appearance of progress. The difference is in the why. When you build because the need demands it and your calling equips you for it, the work itself becomes a form of obedience.
+
+## Why Calling Needs Structure
+
+Here is something I've learned from building things across multiple countries and industries: calling without structure collapses.
+
+You can have the clearest sense of purpose in the world. If you don't build the systems, the partnerships, the revenue streams, and the organizational scaffolding to sustain it, your calling will die of starvation. Good intentions do not pay suppliers. Vision does not file permits. Passion does not negotiate contracts.
+
+The people who change things over the long run are not the ones with the most inspiring ideas. They are the ones who figured out how to fund the idea, staff the idea, sustain the idea through the years when nobody was paying attention. That's not glamorous. It's plumbing. But plumbing is what makes a building livable.
+
+Luther understood this intuitively. His theology of vocation wasn't just about the spiritual significance of ordinary work. It was about the practical reality that God works through structures. Through families, governments, economies, trades. Through the cobbler's shop and the magistrate's court and the farmer's field. These are not obstacles to calling. They are the infrastructure of calling. Without them, vocation is just a nice word for wishful thinking.
+
+## The Uncomfortable Math
+
+Building things means confronting numbers. Budgets. Timelines. Return on investment. For people who entered their calling through a sense of spiritual purpose, this can feel like a betrayal. As if the spreadsheet is the enemy of the soul.
+
+It isn't. The spreadsheet is what tells you whether your calling can survive next quarter. The budget is what separates a ministry that lasts from one that burns through donated money and closes in three years. The timeline is what forces you to make decisions instead of endlessly discerning.
+
+I've watched good people with genuine callings fail because they treated the business side of their work as beneath them. They could articulate their mission beautifully. They could not explain their revenue model. The mission died, not from lack of purpose, but from lack of structure.
+
+The inverse is also true. I've seen people build impressive structures, profitable businesses, well-funded organizations, that serve no calling at all. The structure survived. The purpose was never there to begin with.
+
+The goal is both. Purpose that demands structure. Structure that serves purpose. Calling that builds, and building that serves the calling.
+
+## What This Series Is About
+
+For the next several posts, I'm going to write about what it means to build things as an act of faith. Not building as a metaphor. Building as in: projects, businesses, organizations that serve people in real economies, often in hard places.
+
+I'm going to write about what it costs. About what it looks like when the timeline doubles and the budget triples and you stay anyway because your word means something. About the theology underneath the construction, the God who keeps covenants reflected in people who keep commitments.
+
+And I'm going to write about how AI changes the equation. Because the same tools that threaten to displace workers are the tools that allow a small team to build what used to require an army. Multiplication, the theme of the last post, isn't just about diversifying your calling. It's about amplifying your capacity to build.
+
+If vocation is the *why*, building is the *how*. And the *how* is where most callings either come to life or quietly die.
+
+Next week: what happens when you try to build something in a place where everyone has heard the pitch before and nobody believes it anymore.`,
+  },
+  {
     slug: "multiply-your-calling-before-the-algorithm-does",
     title: "Multiply Your Calling Before the Algorithm Does",
     date: "2026-03-10",
