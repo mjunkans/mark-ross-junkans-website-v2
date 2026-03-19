@@ -14,7 +14,7 @@ export const blogPosts: BlogPost[] = [
     title: "When Calling Demands Building Something",
     date: "2026-03-17",
     category: "Business & Faith",
-    image: "/images/blog/building-in-places-nobody-wants-to-go.png",
+    image: "/images/blog/when-calling-demands-building-something.png",
     excerpt:
       "Vocation tells you who you are. But at some point, it also tells you to build something. A business, a ministry, a project that didn't exist before you started. That's where calling gets expensive.",
     content: `For the last three weeks, I've been writing about vocation. About how your identity was never meant to rest on a job title. About how the Reformation gave us a theology of calling that goes deeper than career. About how to multiply that calling before the algorithm forces the question.
