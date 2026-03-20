@@ -61,11 +61,6 @@ const ventures = [
     href: "https://crossconnect-website.vercel.app",
   },
   {
-    name: "Spur Coffee",
-    desc: "Specialty coffee roasting",
-    href: "https://spur.coffee",
-  },
-  {
     name: "Flagship Resources",
     desc: "Petroleum operations & international trade",
     href: "https://flagshipresources.com",
@@ -111,7 +106,7 @@ export default function AboutPage() {
                 </p>
                 <p className="text-cream/70 leading-relaxed mb-6">
                   I&apos;m an ordained pastor who writes books, builds businesses,
-                  roasts coffee, runs very long distances, and tries to follow
+                  runs very long distances, and tries to follow
                   Jesus in a world that&apos;s changing faster than any of us
                   expected. I live in Houston with my wife Natalia. That last
                   part is the most important thing on this page.
@@ -141,7 +136,7 @@ export default function AboutPage() {
               <p>
                 I started in small business, moved into missions, then non-profit
                 work, then international development, then construction, then
-                coffee, then energy and AI. If you&apos;re looking for a clean
+                then energy and AI. If you&apos;re looking for a clean
                 career arc, this isn&apos;t it. Now, through various ventures and partnerships,
                 I&apos;m doing all of it at once. It&apos;s exciting.
               </p>

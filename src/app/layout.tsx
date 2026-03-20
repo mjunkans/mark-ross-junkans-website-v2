@@ -106,7 +106,7 @@ export default function RootLayout({
                     "https://markrossjunkans.com/images/mark-headshot.png",
                   jobTitle: "Author & Entrepreneur",
                   description:
-                    "Christian author, entrepreneur, and advocate for business as mission. Partner in ventures spanning AI consultancy, international project development, the energy industry, coffee roasting, and cross-cultural Christian mission work. Speaker on faith and technology, AI ethics, and the persecuted church.",
+                    "Christian author, entrepreneur, and advocate for business as mission. Partner in ventures spanning AI consultancy, international project development, the energy industry, and cross-cultural Christian mission work. Speaker on faith and technology, AI ethics, and the persecuted church.",
                   sameAs: [
                     "https://www.amazon.com/stores/Mark-Ross-Junkans/author/B0GCXX63WC",
                     "https://www.linkedin.com/in/markjunkans",
@@ -147,7 +147,7 @@ export default function RootLayout({
                     {
                       "@type": "Occupation",
                       name: "Entrepreneur",
-                      description: "Partner in ventures spanning coffee roasting, energy, international development, and Christian mission",
+                      description: "Partner in ventures spanning energy, international development, and Christian mission",
                     },
                   ],
                   memberOf: [

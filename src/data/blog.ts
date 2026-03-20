@@ -101,7 +101,7 @@ I want to be precise here, because this isn't the same as the "side hustle" advi
 
 What I'm describing is different. It's about recognizing that your calling may be larger than any single role can contain, and building accordingly.
 
-I develop large-scale projects for governments in Africa and Asia: engineering, project management, finance across multiple teams, markets, and time zones. I direct a mission organization that builds partnerships across borders. I run businesses that generate revenue specifically to fund mission work in other countries. I wrote a book about faith and technology. I roast coffee.
+I develop large-scale projects for governments in Africa and Asia: engineering, project management, finance across multiple teams, markets, and time zones. I direct a mission organization that builds partnerships across borders. I run businesses that generate revenue specifically to fund mission work in other countries. I wrote a book about faith and technology.
 
 Is it hectic? Yes. Multiple teams, projects, markets running simultaneously. But these aren't unrelated ventures stitched together by accident. Every one of them serves the same purpose: fulfilling a calling to business as mission. The project development funds and enables the mission work. The mission work gives the business ventures their reason for existing. The book asks the theological questions that all of it raises.
 

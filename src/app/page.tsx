@@ -216,7 +216,7 @@ export default function HomePage() {
               <div className="border border-dark-border p-6">
                 <h3 className="font-playfair text-lg text-gold mb-3">Who is Mark Ross Junkans?</h3>
                 <p className="text-cream/70 leading-relaxed">
-                  Mark Ross Junkans is a Christian author, entrepreneur, and faith and technology speaker. He writes about faith in the age of AI, publishes daily devotionals, and runs an AI consultancy (Advira.ai) alongside ventures in coffee roasting, energy, international development, and cross-cultural Christian mission. He&apos;s a 3x Ironman and ultrarunner who lives in Houston, Texas.
+                  Mark Ross Junkans is a Christian author, entrepreneur, and faith and technology speaker. He writes about faith in the age of AI, publishes daily devotionals, and runs an AI consultancy (Advira.ai) alongside ventures in energy, international development, and cross-cultural Christian mission. He&apos;s a 3x Ironman and ultrarunner who lives in Houston, Texas.
                 </p>
               </div>
             </ScrollFade>
@@ -253,7 +253,7 @@ export default function HomePage() {
                 name: "Who is Mark Ross Junkans?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Mark Ross Junkans is a Christian author, entrepreneur, and faith and technology speaker. He writes about faith in the age of AI, publishes daily devotionals, and runs an AI consultancy (Advira.ai) alongside ventures in coffee roasting, energy, international development, and cross-cultural Christian mission. He's a 3x Ironman and ultrarunner who lives in Houston, Texas.",
+                  text: "Mark Ross Junkans is a Christian author, entrepreneur, and faith and technology speaker. He writes about faith in the age of AI, publishes daily devotionals, and runs an AI consultancy (Advira.ai) alongside ventures in energy, international development, and cross-cultural Christian mission. He's a 3x Ironman and ultrarunner who lives in Houston, Texas.",
                 },
               },
               {
