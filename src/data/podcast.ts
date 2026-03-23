@@ -59,8 +59,8 @@ export const episodes: PodcastEpisode[] = [
     psalmRef: "Psalm 136:1",
     otRef: "Lamentations 3:22-23",
     ntRef: "1 John 4:16",
-    duration: "3:47",
-    durationSeconds: 227,
+    duration: "3:49",
+    durationSeconds: 229,
     audioFile: "episode-01-final.mp3",
     description:
       "Day 1 of the 30-day devotional. Theme: God's Unfailing Love. Verses from Psalm 136:1, Lamentations 3:22-23, and 1 John 4:16.",
@@ -91,8 +91,8 @@ export const episodes: PodcastEpisode[] = [
     psalmRef: "Psalm 119:105",
     otRef: "Habakkuk 2:4",
     ntRef: "2 Corinthians 5:7",
-    duration: "3:06",
-    durationSeconds: 186,
+    duration: "3:09",
+    durationSeconds: 189,
     audioFile: "episode-03-final.mp3",
     description:
       "Day 3 of the 30-day devotional. Theme: Walking by Faith. Verses from Psalm 119:105, Habakkuk 2:4, and 2 Corinthians 5:7.",
@@ -107,8 +107,8 @@ export const episodes: PodcastEpisode[] = [
     psalmRef: "Psalm 73:26",
     otRef: "Isaiah 40:29-31",
     ntRef: "2 Corinthians 12:9-10",
-    duration: "3:42",
-    durationSeconds: 222,
+    duration: "3:50",
+    durationSeconds: 230,
     audioFile: "episode-04-final.mp3",
     description:
       "Day 4 of the 30-day devotional. Theme: God's Strength in Weakness. Verses from Psalm 73:26, Isaiah 40:29-31, and 2 Corinthians 12:9-10.",
@@ -395,7 +395,7 @@ export const episodes: PodcastEpisode[] = [
     psalmRef: "Psalm 100:2",
     otRef: "Isaiah 58:10-11",
     ntRef: "Mark 10:43-44",
-    duration: "3:47",
+    duration: "3:49",
     durationSeconds: 228,
     audioFile: "episode-22-final.mp3",
     description:
