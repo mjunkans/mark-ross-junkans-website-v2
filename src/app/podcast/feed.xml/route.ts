@@ -32,6 +32,9 @@ function getFileSize(audioFile: string): number {
   }
 }
 
+export const dynamic = "force-dynamic";
+export const revalidate = 3600; // Revalidate every hour
+
 export async function GET() {
   const {
     title,
@@ -44,7 +47,13 @@ export async function GET() {
     language,
   } = podcastMeta;
 
-  const sortedEpisodes = [...episodes].sort(
+  // Only include episodes that have been "released" (date <= today)
+  const now = new Date();
+  now.setHours(23, 59, 59, 999); // Include all of today
+  const releasedEpisodes = episodes.filter(
+    (ep) => new Date(ep.date + "T06:00:00-05:00") <= now
+  );
+  const sortedEpisodes = [...releasedEpisodes].sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
 

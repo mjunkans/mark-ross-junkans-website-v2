@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import ScrollFade from "@/components/ScrollFade";
-import { podcastMeta, getEpisodesSorted } from "@/data/podcast";
+import { podcastMeta, getReleasedEpisodes } from "@/data/podcast";
 import PodcastPlayer from "@/components/PodcastPlayer";
 
 export const metadata: Metadata = {
@@ -44,7 +44,7 @@ function formatDate(dateStr: string): string {
 }
 
 export default function PodcastPage() {
-  const episodes = getEpisodesSorted();
+  const episodes = getReleasedEpisodes();
 
   return (
     <>
