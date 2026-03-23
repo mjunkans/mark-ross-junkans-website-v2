@@ -24,7 +24,7 @@ export const podcastMeta = {
   email: "mark@markrossjunkans.com",
   siteUrl: "https://markrossjunkans.com",
   feedUrl: "https://markrossjunkans.com/podcast/feed.xml",
-  coverImage: "/images/3-verses-cover.jpg",
+  coverImage: "/podcast/cover.jpg",
   language: "en-us",
   category: "Religion & Spirituality",
   subcategory: "Christianity",
