@@ -2,12 +2,12 @@ export interface PodcastEpisode {
   slug: string;
   title: string;
   day: number; // 0 = welcome/intro
+  season: number; // 1 = Book 1, 2 = Book 2
   date: string; // YYYY-MM-DD
-  discipline: string;
   theme: string;
-  scripture: string;
-  writer: string;
-  source: string;
+  psalmRef: string; // Psalm verse reference
+  otRef: string; // Old Testament verse reference
+  ntRef: string; // New Testament verse reference
   duration: string; // "M:SS" format
   durationSeconds: number;
   audioFile: string; // filename only, served from /podcast/audio/
@@ -15,67 +15,71 @@ export interface PodcastEpisode {
 }
 
 export const podcastMeta = {
-  title: "Drawing Near: A 30-Day Journey Through the Spiritual Disciplines",
+  title: "3 Verses a Day",
+  subtitle:
+    "A daily devotional podcast — three verses, one reflection, five minutes with God.",
   description:
-    "A curated daily devotional drawing from Scripture and the tested voices of the Christian faith. No AI-generated teaching — only God's Word and the wisdom of those who walked closely with Him. Each episode offers a short Scripture reading, a word from a classic Christian writer, and a simple daily practice.",
+    "A 5-minute daily devotional from the book series by Mark Ross Junkans. Three verses. One reflection. A prayer for your day.",
   author: "Mark Ross Junkans",
   email: "mark@markrossjunkans.com",
   siteUrl: "https://markrossjunkans.com",
   feedUrl: "https://markrossjunkans.com/podcast/feed.xml",
-  coverImage: "/images/drawing-near-cover.jpg",
+  coverImage: "/images/3-verses-cover.jpg",
   language: "en-us",
   category: "Religion & Spirituality",
   subcategory: "Christianity",
+  amazonVol1: "https://a.co/d/0YqMmQK",
+  amazonVol2: "https://a.co/d/aUmkLXB",
 };
 
 export const episodes: PodcastEpisode[] = [
   {
-    slug: "day-02-the-greatness-of-god",
-    title: "Day 2: The Greatness of God",
+    slug: "day-02-trust-in-the-lord",
+    title: "Day 2: Trust in the Lord",
     day: 2,
+    season: 1,
     date: "2026-03-23",
-    discipline: "Prayer — Adoration",
-    theme: "The Greatness of God",
-    scripture: "Psalm 145:1-13",
-    writer: "A.W. Tozer",
-    source: "The Knowledge of the Holy, Chapter 1: 'Why We Must Think Rightly About God'",
+    theme: "Trust in the Lord",
+    psalmRef: "Psalm 37:3-5",
+    otRef: "Proverbs 3:5-6",
+    ntRef: "Hebrews 11:1",
     duration: "2:01",
     durationSeconds: 121,
     audioFile: "day-02-2026-03-23.mp3",
     description:
-      "Exploring the discipline of adoration through Psalm 145 and Tozer's famous insight: 'What comes into our minds when we think about God is the most important thing about us.' Today's practice: ten minutes of pure praise.",
+      "(Preliminary — audio will be replaced with the final book recording.) A reflection on trusting God with your whole heart, drawn from three verses across the Psalms, Old Testament, and New Testament.",
   },
   {
-    slug: "day-01-hungering-for-the-word",
-    title: "Day 1: Hungering for the Word",
+    slug: "day-01-the-goodness-of-god",
+    title: "Day 1: The Goodness of God",
     day: 1,
+    season: 1,
     date: "2026-03-22",
-    discipline: "Scripture Meditation / Lectio Divina",
-    theme: "Hungering for the Word",
-    scripture: "Psalm 119:97-105",
-    writer: "A.W. Tozer",
-    source: "The Pursuit of God, Chapter 4: 'Apprehending God'",
+    theme: "The Goodness of God",
+    psalmRef: "Psalm 34:8",
+    otRef: "Lamentations 3:22-23",
+    ntRef: "James 1:17",
     duration: "1:53",
     durationSeconds: 113,
     audioFile: "day-01-2026-03-22.mp3",
     description:
-      "Beginning our journey with the ancient practice of Lectio Divina. Psalm 119 reveals the sweetness of God's Word, and Tozer asks why some find God in ways others do not. Today's practice: read, meditate, pray, contemplate.",
+      "(Preliminary — audio will be replaced with the final book recording.) Tasting and seeing that the Lord is good. Three verses that reveal the relentless goodness of God from morning to night.",
   },
   {
     slug: "welcome",
-    title: "Welcome to Drawing Near",
+    title: "Welcome to 3 Verses a Day",
     day: 0,
+    season: 0,
     date: "2026-03-21",
-    discipline: "Introduction",
-    theme: "Beginning the Journey",
-    scripture: "James 4:8",
-    writer: "",
-    source: "",
+    theme: "Introduction",
+    psalmRef: "",
+    otRef: "",
+    ntRef: "",
     duration: "3:49",
     durationSeconds: 229,
     audioFile: "ep0-welcome.mp3",
     description:
-      "An introduction to Drawing Near — a 30-day devotional journey through the spiritual disciplines. What this podcast is, how to use it, and an invitation to draw near to God.",
+      "(Preliminary — audio will be replaced with the final book recording.) An introduction to 3 Verses a Day — a daily devotional podcast based on the book series by Mark Ross Junkans. Each episode: three Bible verses, a reflection, a prayer, and a practical application. Five minutes with God to start your day.",
   },
 ];
 

@@ -33,8 +33,16 @@ function getFileSize(audioFile: string): number {
 }
 
 export async function GET() {
-  const { title, description, author, email, siteUrl, coverImage, language } =
-    podcastMeta;
+  const {
+    title,
+    subtitle,
+    description,
+    author,
+    email,
+    siteUrl,
+    coverImage,
+    language,
+  } = podcastMeta;
 
   const sortedEpisodes = [...episodes].sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
@@ -49,6 +57,7 @@ export async function GET() {
       const audioUrl = `${siteUrl}/podcast/audio/${ep.audioFile}`;
       const fileSize = getFileSize(ep.audioFile);
       const episodeNum = ep.day > 0 ? ep.day : undefined;
+      const seasonNum = ep.season > 0 ? ep.season : undefined;
 
       return `    <item>
       <title>${escapeXml(ep.title)}</title>
@@ -61,7 +70,7 @@ export async function GET() {
       <itunes:author>${escapeXml(author)}</itunes:author>
       <itunes:summary>${escapeXml(ep.description)}</itunes:summary>
       <itunes:duration>${formatDurationRSS(ep.durationSeconds)}</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>${episodeNum !== undefined ? `\n      <itunes:episode>${episodeNum}</itunes:episode>` : ""}
+      <itunes:explicit>false</itunes:explicit>${seasonNum !== undefined ? `\n      <itunes:season>${seasonNum}</itunes:season>` : ""}${episodeNum !== undefined ? `\n      <itunes:episode>${episodeNum}</itunes:episode>` : ""}
       <itunes:episodeType>${ep.day === 0 ? "trailer" : "full"}</itunes:episodeType>
     </item>`;
     })
@@ -80,6 +89,7 @@ export async function GET() {
     <lastBuildDate>${lastBuildDate}</lastBuildDate>
     <atom:link href="${siteUrl}/podcast/feed.xml" rel="self" type="application/rss+xml" />
 
+    <itunes:subtitle>${escapeXml(subtitle)}</itunes:subtitle>
     <itunes:author>${escapeXml(author)}</itunes:author>
     <itunes:owner>
       <itunes:name>${escapeXml(author)}</itunes:name>

@@ -4,10 +4,10 @@ import { podcastMeta, getEpisodesSorted } from "@/data/podcast";
 import PodcastPlayer from "@/components/PodcastPlayer";
 
 export const metadata: Metadata = {
-  title: "Drawing Near Podcast | 30-Day Spiritual Disciplines Devotional",
+  title: "3 Verses a Day Podcast | Daily Devotional by Mark Ross Junkans",
   description: podcastMeta.description,
   openGraph: {
-    title: "Drawing Near: A 30-Day Journey Through the Spiritual Disciplines",
+    title: "3 Verses a Day — A Daily Devotional Podcast",
     description: podcastMeta.description,
     url: "https://markrossjunkans.com/podcast",
     images: [
@@ -15,16 +15,16 @@ export const metadata: Metadata = {
         url: podcastMeta.coverImage,
         width: 3000,
         height: 3000,
-        alt: "Drawing Near Podcast Cover",
+        alt: "3 Verses a Day Podcast Cover",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Drawing Near Podcast",
+    title: "3 Verses a Day Podcast",
     description:
-      "A 30-day devotional journey through the spiritual disciplines. Scripture, classic Christian wisdom, and daily practice.",
+      "A 5-minute daily devotional. Three Bible verses. One reflection. A prayer for your day.",
   },
   alternates: {
     canonical: "https://markrossjunkans.com/podcast",
@@ -56,13 +56,32 @@ export default function PodcastPage() {
               Podcast
             </p>
             <h1 className="font-playfair text-4xl md:text-5xl text-cream font-medium mb-6">
-              Drawing Near
+              3 Verses a Day
             </h1>
-            <p className="text-cream/60 text-lg leading-relaxed max-w-2xl mx-auto">
-              A 30-day journey through the spiritual disciplines. Each episode
-              offers a short Scripture reading, a word from a classic Christian
-              writer, and a simple daily practice.
+            <p className="text-cream/60 text-lg leading-relaxed max-w-2xl mx-auto mb-6">
+              Three Bible verses. One reflection. A prayer for your day. Each
+              5-minute episode draws from the devotional book series by Mark Ross
+              Junkans — one Psalm, one Old Testament verse, and one New Testament
+              verse to anchor your morning.
             </p>
+            <div className="flex flex-wrap justify-center gap-3">
+              <a
+                href={podcastMeta.amazonVol1}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-gold/10 border border-gold/30 text-gold hover:bg-gold/20 text-xs font-semibold tracking-[0.08em] uppercase transition-colors"
+              >
+                📖 Get Volume 1 on Amazon
+              </a>
+              <a
+                href={podcastMeta.amazonVol2}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-gold/10 border border-gold/30 text-gold hover:bg-gold/20 text-xs font-semibold tracking-[0.08em] uppercase transition-colors"
+              >
+                📖 Get Volume 2 on Amazon
+              </a>
+            </div>
           </ScrollFade>
         </div>
       </section>
@@ -116,9 +135,9 @@ export default function PodcastPage() {
                 <article className="border border-dark-border hover:border-gold/30 transition-colors p-6 md:p-8">
                   {/* Episode header */}
                   <div className="flex flex-wrap items-center gap-3 mb-3">
-                    {episode.day > 0 && (
+                    {episode.day > 0 && episode.season > 0 && (
                       <span className="px-3 py-1 bg-gold/10 text-gold text-xs font-semibold tracking-[0.1em] uppercase border border-gold/20">
-                        {episode.discipline}
+                        Season {episode.season}
                       </span>
                     )}
                     <span className="text-warm-gray/50 text-xs">
@@ -135,11 +154,12 @@ export default function PodcastPage() {
                     {episode.title}
                   </h2>
 
-                  {/* Scripture reference */}
+                  {/* Scripture references */}
                   {episode.day > 0 && (
                     <p className="text-gold/70 text-sm mb-3 italic">
-                      {episode.scripture}
-                      {episode.writer && ` · ${episode.writer}`}
+                      {[episode.psalmRef, episode.otRef, episode.ntRef]
+                        .filter(Boolean)
+                        .join(" · ")}
                     </p>
                   )}
 
@@ -168,20 +188,47 @@ export default function PodcastPage() {
               About This Podcast
             </h2>
             <p className="text-cream/60 leading-relaxed max-w-2xl mx-auto mb-4">
-              Drawing Near is a curated daily devotional drawing from Scripture
-              and the tested voices of the Christian faith — writers like A.W.
-              Tozer, Dietrich Bonhoeffer, C.S. Lewis, Andrew Murray, and
-              Augustine.
+              3 Verses a Day is the audio companion to the devotional book series
+              by Mark Ross Junkans. Each episode reads three Bible verses — one
+              Psalm, one from the Old Testament, and one from the New Testament —
+              followed by a short reflection, a prayer, and a practical
+              application for your day.
             </p>
             <p className="text-cream/60 leading-relaxed max-w-2xl mx-auto mb-6">
-              No AI-generated teaching. No hot takes. Only God&apos;s Word and
-              the wisdom of those who walked closely with Him. Each episode is
-              short enough for your morning quiet time and deep enough to carry
-              with you through the day.
+              Season 1 follows{" "}
+              <em className="text-cream/80">
+                3 Verses a Day: A 30-Day Devotional
+              </em>
+              . Season 2 follows{" "}
+              <em className="text-cream/80">
+                3 Verses a Day: Trust in God
+              </em>
+              . Five minutes. Three verses. One God who is always faithful.
             </p>
-            <p className="text-cream/40 text-sm italic">
-              &ldquo;Draw near to God, and He will draw near to you.&rdquo;
-              &mdash; James 4:8
+
+            {/* Book CTAs */}
+            <div className="flex flex-wrap justify-center gap-4 mt-8">
+              <a
+                href={podcastMeta.amazonVol1}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 border border-gold/40 text-gold hover:bg-gold/10 text-sm font-medium tracking-[0.05em] transition-colors"
+              >
+                Volume 1: A 30-Day Devotional →
+              </a>
+              <a
+                href={podcastMeta.amazonVol2}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 border border-gold/40 text-gold hover:bg-gold/10 text-sm font-medium tracking-[0.05em] transition-colors"
+              >
+                Volume 2: Trust in God →
+              </a>
+            </div>
+
+            <p className="text-cream/40 text-sm italic mt-8">
+              &ldquo;Your word is a lamp to my feet and a light to my
+              path.&rdquo; &mdash; Psalm 119:105
             </p>
           </ScrollFade>
         </div>
