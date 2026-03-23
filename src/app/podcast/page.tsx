@@ -49,38 +49,52 @@ export default function PodcastPage() {
   return (
     <>
       {/* Hero */}
-      <section className="py-14 md:py-20 bg-dark-deeper text-center">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6">
+      <section className="py-14 md:py-20 bg-dark-deeper">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6">
           <ScrollFade>
-            <p className="text-gold text-xs font-semibold tracking-[0.15em] uppercase mb-4">
-              Podcast
-            </p>
-            <h1 className="font-playfair text-4xl md:text-5xl text-cream font-medium mb-6">
-              3 Verses a Day
-            </h1>
-            <p className="text-cream/60 text-lg leading-relaxed max-w-2xl mx-auto mb-6">
-              Three Bible verses. One reflection. A prayer for your day. Each
-              5-minute episode draws from the devotional book series by Mark Ross
-              Junkans — one Psalm, one Old Testament verse, and one New Testament
-              verse to anchor your morning.
-            </p>
-            <div className="flex flex-wrap justify-center gap-3">
-              <a
-                href={podcastMeta.amazonVol1}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-gold/10 border border-gold/30 text-gold hover:bg-gold/20 text-xs font-semibold tracking-[0.08em] uppercase transition-colors"
-              >
-                📖 Get Volume 1 on Amazon
-              </a>
-              <a
-                href={podcastMeta.amazonVol2}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-gold/10 border border-gold/30 text-gold hover:bg-gold/20 text-xs font-semibold tracking-[0.08em] uppercase transition-colors"
-              >
-                📖 Get Volume 2 on Amazon
-              </a>
+            <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+              {/* Cover Art */}
+              <div className="flex-shrink-0 w-64 md:w-80">
+                <img
+                  src={podcastMeta.coverImage}
+                  alt="3 Verses a Day Podcast Cover"
+                  className="w-full h-auto rounded-lg shadow-2xl shadow-black/40 border border-dark-border"
+                />
+              </div>
+
+              {/* Text Content */}
+              <div className="text-center md:text-left">
+                <p className="text-gold text-xs font-semibold tracking-[0.15em] uppercase mb-4">
+                  Podcast
+                </p>
+                <h1 className="font-playfair text-4xl md:text-5xl text-cream font-medium mb-6">
+                  3 Verses a Day
+                </h1>
+                <p className="text-cream/60 text-lg leading-relaxed mb-6">
+                  Three Bible verses. One reflection. A prayer for your day.
+                  Each 5-minute episode draws from the devotional book series by
+                  Mark Ross Junkans — one Psalm, one Old Testament verse, and
+                  one New Testament verse to anchor your morning.
+                </p>
+                <div className="flex flex-wrap justify-center md:justify-start gap-3">
+                  <a
+                    href={podcastMeta.amazonVol1}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-5 py-2.5 bg-gold/10 border border-gold/30 text-gold hover:bg-gold/20 text-xs font-semibold tracking-[0.08em] uppercase transition-colors"
+                  >
+                    📖 Get Volume 1 on Amazon
+                  </a>
+                  <a
+                    href={podcastMeta.amazonVol2}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-5 py-2.5 bg-gold/10 border border-gold/30 text-gold hover:bg-gold/20 text-xs font-semibold tracking-[0.08em] uppercase transition-colors"
+                  >
+                    📖 Get Volume 2 on Amazon
+                  </a>
+                </div>
+              </div>
             </div>
           </ScrollFade>
         </div>
