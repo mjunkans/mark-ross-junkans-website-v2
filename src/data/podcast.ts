@@ -530,3 +530,16 @@ export const episodes: PodcastEpisode[] = [
       "Day 30 of the 30-day devotional. Theme: Living with Eternal Perspective. Verses from Psalm 90:12, Isaiah 40:8, and 2 Corinthians 4:17-18.",
   },
 ];
+
+// Helper: format seconds to HH:MM:SS for RSS feed
+export function formatDurationRSS(seconds: number): string {
+  const h = Math.floor(seconds / 3600);
+  const m = Math.floor((seconds % 3600) / 60);
+  const s = seconds % 60;
+  return `${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
+}
+
+// Helper: get episodes sorted by day number
+export function getEpisodesSorted(): PodcastEpisode[] {
+  return [...episodes].sort((a, b) => (a.day ?? 0) - (b.day ?? 0));
+}
