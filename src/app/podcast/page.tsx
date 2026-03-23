@@ -110,13 +110,17 @@ export default function PodcastPage() {
                 RSS Feed
               </a>
               <a
-                href="#"
+                href="https://podcasts.apple.com/us/podcast/3-verses-a-day/id1887331118"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 border border-dark-border text-cream/60 hover:border-gold hover:text-gold text-xs font-medium tracking-[0.08em] uppercase transition-colors"
               >
                 Apple Podcasts
               </a>
               <a
-                href="#"
+                href="https://open.spotify.com/show/6tHwx7sBIwyrlFmhqDliti"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 border border-dark-border text-cream/60 hover:border-gold hover:text-gold text-xs font-medium tracking-[0.08em] uppercase transition-colors"
               >
                 Spotify
