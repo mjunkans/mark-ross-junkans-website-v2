@@ -21,7 +21,7 @@ export const podcastMeta = {
   description:
     "A 5-minute daily devotional from the book series by Mark Ross Junkans. Three verses. One reflection. A prayer for your day.",
   author: "Mark Ross Junkans",
-  email: "mark@markrossjunkans.com",
+  email: "mark@advira.ai",
   siteUrl: "https://markrossjunkans.com",
   feedUrl: "https://markrossjunkans.com/podcast/feed.xml",
   coverImage: "/podcast/cover.jpg",
