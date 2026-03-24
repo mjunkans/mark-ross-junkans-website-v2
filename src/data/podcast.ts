@@ -75,8 +75,8 @@ export const episodes: PodcastEpisode[] = [
     psalmRef: "Psalm 62:1-2",
     otRef: "Isaiah 30:15",
     ntRef: "Matthew 11:28-30",
-    duration: "3:30",
-    durationSeconds: 210,
+    duration: "3:43",
+    durationSeconds: 223,
     audioFile: "episode-02-final.mp3",
     description:
       "Day 2 of the 30-day devotional. Theme: Finding Rest. Verses from Psalm 62:1-2, Isaiah 30:15, and Matthew 11:28-30.",
