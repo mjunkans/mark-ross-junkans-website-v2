@@ -14,6 +14,7 @@ export const blogPosts: BlogPost[] = [
     title: "From Doing to Being",
     date: "2026-03-25",
     category: "Faith & AI",
+    image: "/images/blog/from-doing-to-being.png",
     excerpt:
       "The vocation conversation addresses what happens when AI replaces your tasks. But there's a deeper question: who are you when the machine starts shaping your inner life?",
     content: `*Faith Through the Singularity — Week 1*
