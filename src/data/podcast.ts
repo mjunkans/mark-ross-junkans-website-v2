@@ -59,8 +59,8 @@ export const episodes: PodcastEpisode[] = [
     psalmRef: "Psalm 136:1",
     otRef: "Lamentations 3:22-23",
     ntRef: "1 John 4:16",
-    duration: "3:49",
-    durationSeconds: 229,
+    duration: "3:52",
+    durationSeconds: 232,
     audioFile: "episode-01-final.mp3",
     description:
       "Day 1 of the 30-day devotional. Theme: God's Unfailing Love. Verses from Psalm 136:1, Lamentations 3:22-23, and 1 John 4:16.",
