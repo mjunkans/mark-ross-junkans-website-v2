@@ -10,6 +10,105 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "from-doing-to-being",
+    title: "From Doing to Being",
+    date: "2026-03-25",
+    category: "Faith & AI",
+    excerpt:
+      "The vocation conversation addresses what happens when AI replaces your tasks. But there's a deeper question: who are you when the machine starts shaping your inner life?",
+    content: `*Faith Through the Singularity — Week 1*
+
+---
+
+In 1916, a British soldier named Ernest Swinton watched men die by the thousands along the Western Front. Machine guns had made infantry charges suicidal. Barbed wire had made movement impossible. The war that was supposed to be over by Christmas had turned into an industrial meat grinder, and the men sent to fight it were trained for a kind of warfare that no longer existed.
+
+Swinton's solution was the tank. Not a better soldier, but a machine that changed what "soldier" meant entirely. The Mark I rolled across the Somme in September 1916, and the men inside it were no longer riflemen in any traditional sense. They were operators. Machine-tenders. Their courage hadn't changed, but their relationship to the battlefield had. The machine didn't just do their old job better. It redefined the job, and in doing so, it redefined them.
+
+By the Second World War, the transformation was total. A GI in 1944 was less an individual warrior than a component in an industrial system: mechanized infantry, combined arms, supply chains that stretched across oceans, strategic bombing campaigns run by mathematicians and actuaries. The individual still mattered (ask anyone who was at Omaha Beach), but the *nature* of mattering had fundamentally shifted. Who you were as a soldier depended on what machines you operated, what system you belonged to, what role the apparatus assigned you.
+
+Every time, there was a moral reckoning. And every time, the reckoning came *after* the invention. Not before. Humanity didn't pause to reflect on the ethics of mechanized warfare before deploying it. We built the thing, watched what it did, and then tried to construct a moral framework that could hold the weight of what we'd created. The Geneva Conventions, the laws of war, the entire architecture of modern military ethics. All of it was retroactive. We kept building. The question was always whether our conscience could keep pace with our engineering.
+
+I've been thinking about that pattern a lot lately.
+
+## The Conversation I Keep Having
+
+For the past several months, I've been writing about vocation and AI. About how your identity was never meant to rest on a job title. About how Luther's theology of calling goes deeper than career and survives automation intact. About how to multiply your calling before the algorithm forces the question.
+
+I believe all of that. I stand behind every word.
+
+But I've noticed something in the conversations those pieces have generated. People nod along with the vocation argument. They agree that they are more than their job title. They understand, intellectually, that their baptismal identity is more fundamental than their LinkedIn profile. And then they say something like this:
+
+"But Mark, the thing I'm struggling with isn't that AI will take my job. It's that AI is changing how I *think*." And they're right, because the vocation conversation, as important as it is, doesn't quite reach this.
+
+The vocation framework addresses what happens when AI replaces your tasks. It answers the question: *who are you when the machine does your job?* That's crucial. But there's a deeper question underneath it, one that the vocation conversation only touches the edge of: *who are you when the machine starts shaping your inner life?*
+
+## When the Tool Shapes the Thinker
+
+I use AI every day. I'm not speaking theoretically about this. I manage projects across multiple continents. I run organizations. I write. And AI tools are woven into nearly all of it: analysis, communication, research, drafting, strategy. I couldn't do what I do at the scale I do it without these tools. I'm not interested in pretending otherwise.
+
+And here's what I've noticed in myself: the tools are changing how I approach problems. Not just making me faster, though they do that. They're reshaping the *shape* of my thinking. I catch myself framing questions in ways that will generate useful AI outputs rather than in ways that might lead to genuine insight. I notice that my first instinct when facing a complex problem is increasingly to consult the machine rather than to sit with the difficulty myself.
+
+I don't think I'm unusual in this. I think this is happening to everyone who uses these tools seriously, and I think most people haven't slowed down enough to notice.
+
+The parallel to mechanized warfare is uncomfortably direct. The soldiers inside Swinton's tanks didn't just gain a new capability. They lost an old one. They stopped being the kind of soldiers who could survive on open ground with a rifle and their wits, because they didn't need to be. The machine didn't just augment them. It made certain human capacities unnecessary, and unused capacities atrophy.
+
+What capacities are atrophying in us?
+
+I can feel it in my own writing practice. There was a time when the blank page was genuinely terrifying, and working through that terror was part of the process. The wrestling produced something that the finished product alone doesn't capture. It produced *me*. A version of me that had been changed by the struggle. Now I can shortcut that struggle. I can generate a draft in seconds and edit from there. The output might be just as good. But the process that formed me as a writer, as a thinker, as a person who works through difficulty rather than around it? That process gets thinner every time I skip it.
+
+This is a different kind of displacement than job loss. This is displacement of the interior life. And I don't think we have a framework for it yet.
+
+## The Formation Problem
+
+Luther's theology of vocation included something that gets overlooked in most summaries: the idea that work forms the worker. The cobbler isn't just producing shoes. The cobbler is being *shaped* by the discipline of cobbling. Patience, attention to detail, the humility that comes when the leather doesn't cooperate. The work is formative. It makes you into someone.
+
+The same is true of intellectual and creative work. Writing forms the writer. Studying forms the student. Praying, the genuine and sustained kind where you don't know what to say and say it anyway, forms the person praying. These aren't just activities that produce outputs. They're practices that produce *people*.
+
+And AI, for all its genuine utility, can short-circuit the formation.
+
+Teachers are already seeing this. Students who lean on AI for essays and problem sets aren't developing the critical thinking and writing skills that the assignments were designed to build. The point of the essay was never the essay. The point was what happens inside the student while they write it: the slow, frustrating work of organizing thoughts, defending a position, discovering what you actually believe by trying to put it into words. Skip that process and you get a polished document written by nobody, for nobody, forming nobody.
+
+I've seen this in my own devotional life, and I'll be honest about it because I think honesty matters more than appearing to have it together. There are mornings when I've been tempted to ask an AI to generate a devotional reflection on the day's lectionary reading rather than doing the slow work of sitting with the text myself. The AI-generated reflection would be theologically sound. It might even be insightful. But it would skip the part where the text reads *me*, where I bring my confusion and my half-formed thoughts to the passage and the Holy Spirit does something with them that I didn't plan and couldn't predict.
+
+That's the part that matters. And that's the part most at risk.
+
+## Neither Luddite nor Disciple of the Machine
+
+I want to be clear about where I'm standing, because the usual positions on this are both inadequate.
+
+One camp says: reject the technology. Go back. Unplug. The machines are corrupting us and the only safe response is retreat. I understand the impulse, but I reject the conclusion. Unless we're prepared to become Amish (and I mean that with genuine respect for the Amish, who at least have the courage of their convictions), there is no retreat to a place where technology doesn't shape our lives. There hasn't been since the printing press. We cannot be the people trying to smash the machines that propel our future. That's not faithfulness. That's fear wearing faithfulness as a costume.
+
+The other camp says: embrace it all. Move fast. The technology is neutral, and progress is always good, and anyone who raises concerns is just afraid of change. I reject this too. The technology is not neutral. Tools shape their users. McLuhan was right: we shape our tools, and then our tools shape us. Pretending otherwise is not optimism. It's negligence.
+
+The position I'm staking out, and the position this series will explore over the coming weeks, is in the middle, with eyes open. We keep building. Humanity has always kept building. The tank, the bomber, the atomic bomb, the internet, the algorithm. We don't stop. The question is whether we have a framework sturdy enough to hold us while the ground shifts.
+
+I believe we do. I believe faith is that framework. Not faith as a vague spiritual feeling, but faith as a concrete trust in a God who is greater than our inventions, even the ones that surpass us in intelligence and power.
+
+## What the Singularity Actually Threatens
+
+The word "singularity" gets thrown around loosely. I'm using it deliberately. The technological singularity, the hypothetical point where artificial intelligence surpasses human intelligence in a general sense, is no longer a science fiction concept. Reasonable people disagree about the timeline. Almost nobody serious disagrees about the direction.
+
+And what makes the singularity genuinely threatening is not that machines will be smarter than us. It's that we've built our entire sense of human significance on being the smartest things in the room. If rationality is what makes us special, and the machine out-reasons us, then what are we?
+
+Scripture answers this question so directly that it's almost embarrassing how little attention it gets in the tech ethics conversation. You are not significant because you are intelligent. You are significant because you bear the image of God. Full stop. Genesis 1:27 doesn't say God created humanity in his own *intelligence*. It says he created them in his own *image*. The imago Dei is not a cognitive category. It's a relational one. You bear God's image because God chose to stamp his likeness on you, not because you can outperform a calculator.
+
+This means that the singularity, if and when it arrives, threatens our pride but not our dignity. It threatens the story we've told about ourselves, that we are the crown of creation because of what we *can do*, but it doesn't touch the actual foundation, which is what God has *declared us to be*. Chosen. Named. Claimed. Loved.
+
+A machine can exceed your processing power. It cannot bear the image of God. And the distance between those two things is infinite.
+
+## Where This Series Goes
+
+Over the next several weeks, I want to explore what it means to be human, genuinely and theologically and practically human, in an age when machines are becoming capable of things we once thought only humans could do. Each week, I'll anchor the conversation in a moment from the great wars of the twentieth century, because I think the pattern of escalation and moral reckoning we see in wartime is the same pattern playing out now with AI, just on a different battlefield.
+
+We'll talk about creativity and whether it means what we think it means. We'll talk about prayer and whether AI devotional tools help or hollow out the life of faith. We'll talk about community, about embodiment, about what it means to be a creature and not a creator. We'll talk about death, because the transhumanists want to solve that too, and the Christian tradition has something to say about it.
+
+And underneath all of it, the same conviction: God is greater than our machines. Even the ones we haven't built yet. Even the ones that might, by every measurable standard, surpass us. The God who spoke creation into existence and called it good, who took on flesh and dwelt among us, who conquered death by dying. That God is not threatened by a large language model. And neither, if we remember whose we are, are we.
+
+The soldiers in those first tanks at the Somme had to learn a new way of fighting. But they were still men. Still flesh. Still mortal. Still capable of courage and cowardice, love and cruelty, faith and despair. The machine changed what they did. It didn't change who they were.
+
+We're in the tank now. All of us. The question is whether we know who's driving.`,
+  },
+  {
     slug: "when-calling-demands-construction",
     title: "When Calling Demands Building Something",
     date: "2026-03-17",
