@@ -4,6 +4,8 @@ import ScrollFade from "@/components/ScrollFade";
 import { podcastMeta, getReleasedEpisodes } from "@/data/podcast";
 import PodcastPlayer from "@/components/PodcastPlayer";
 
+export const revalidate = 3600; // Revalidate every hour so new episodes appear on schedule
+
 export const metadata: Metadata = {
   title: "3 Verses a Day Podcast | Daily Christian Devotional by Mark Ross Junkans",
   description: podcastMeta.description,
