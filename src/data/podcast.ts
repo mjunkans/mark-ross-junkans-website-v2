@@ -17,9 +17,9 @@ export interface PodcastEpisode {
 export const podcastMeta = {
   title: "3 Verses a Day",
   subtitle:
-    "A daily devotional podcast — three verses, one reflection, five minutes with God.",
+    "A short daily Christian devotional — three Scripture readings, a reflection, and a prayer in five minutes.",
   description:
-    "A 5-minute daily devotional from the book series by Mark Ross Junkans. Three verses. One reflection. A prayer for your day.",
+    "A daily Christian devotional podcast for your morning. Each 5-minute episode reads three Bible verses — one Psalm, one Old Testament, one New Testament — followed by a short reflection and prayer. Based on the devotional book series by Mark Ross Junkans. Whether you have five minutes over coffee or need a moment of Scripture before your day starts, 3 Verses a Day is a simple daily Bible reading to keep God's Word close.",
   author: "Mark Ross Junkans",
   email: "mark@advira.ai",
   siteUrl: "https://markrossjunkans.com",
@@ -47,11 +47,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 248,
     audioFile: "episode-00-final.mp3",
     description:
-      "An introduction to the 3 Verses a Day podcast and devotional series by Mark Ross Junkans.",
+      "Welcome to 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans. In this short introduction, Mark shares how the devotional was born from a simple realization: connecting with God doesn't need to be complicated. What if you just read three verses a day and talked to God about them? Each episode reads one Psalm, one Old Testament verse, and one New Testament verse — followed by a reflection, a prayer, and a practical application. Whether it's five minutes with your morning coffee or a brief pause in a busy day, this podcast is designed to fit your real life. God doesn't need your spiritual performance to be perfect — He just wants your heart to be present. Based on the devotional book series by Mark Ross Junkans, 3 Verses a Day is a daily Bible reading for anyone ready to keep God's Word close.",
   },
   {
     slug: "day-01-gods-unfailing-love",
-    title: "Day 1: God's Unfailing Love",
+    title: "Daily Devotional — Day 1: God's Unfailing Love",
     day: 1,
     season: 1,
     date: "2026-03-24",
@@ -63,11 +63,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 232,
     audioFile: "episode-01-final.mp3",
     description:
-      "Day 1 of the 30-day devotional. Theme: God's Unfailing Love. Verses from Psalm 136:1, Lamentations 3:22-23, and 1 John 4:16.",
+      "Day 1 of the 30-day devotional explores God's unfailing love through three Scripture readings: Psalm 136:1, Lamentations 3:22-23, and First John 4:16. The psalmist declares that God's love endures forever — not from a place of ease, but while running for his life and hiding in caves. Jeremiah penned his words about new mercies during one of the darkest chapters in Israel's history, reminding us that when we wake up tomorrow, we're not starting with yesterday's mistakes hanging over us. And John takes it deeper: God doesn't just have love — God is love. Every interaction with Him is an encounter with perfect, unchanging love. This daily devotional includes a reflection, prayer, and a practical application to carry through your day. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-02-finding-rest",
-    title: "Day 2: Finding Rest",
+    title: "Daily Devotional — Day 2: Finding Rest",
     day: 2,
     season: 1,
     date: "2026-03-25",
@@ -79,11 +79,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 223,
     audioFile: "episode-02-final.mp3",
     description:
-      "Day 2 of the 30-day devotional. Theme: Finding Rest. Verses from Psalm 62:1-2, Isaiah 30:15, and Matthew 11:28-30.",
+      "Day 2 of this daily Bible reading focuses on finding rest through Psalm 62:1-2, Isaiah 30:15, and Matthew 11:28-30. In a culture that celebrates busyness and wears exhaustion like a badge of honor, what if the most productive thing you could do today is rest? David found rest not in the absence of problems but in the presence of God. Isaiah reminds us that rest comes through trust, not through trying harder. And Jesus offers the most beautiful invitation: 'Come to me, all you who are weary and burdened, and I will give you rest.' His yoke is easy not because life becomes simple, but because you're no longer carrying the weight alone. This morning devotional includes Scripture reading, a short reflection, and a prayer for your day. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-03-walking-by-faith",
-    title: "Day 3: Walking by Faith",
+    title: "Daily Devotional — Day 3: Walking by Faith",
     day: 3,
     season: 1,
     date: "2026-03-26",
@@ -95,11 +95,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 197,
     audioFile: "episode-03-final.mp3",
     description:
-      "Day 3 of the 30-day devotional. Theme: Walking by Faith. Verses from Psalm 119:105, Habakkuk 2:4, and 2 Corinthians 5:7.",
+      "Day 3 of this daily devotional explores walking by faith through Psalm 119:105, Habakkuk 2:4, and Second Corinthians 5:7. God's Word is a lamp for our feet — not a spotlight for our entire future. He provides just enough light for the next step. Like learning to drive on country roads at night, faith means focusing on what the headlights show you, trusting that it's enough to get you safely home. Habakkuk wrestled with why God seemed silent while his nation fell apart, yet God's answer was a call to live by faithfulness. Paul reminds us that walking by faith means making decisions based on what we know to be true about God's character, not just what we can see. This 5-minute devotional includes Bible reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-04-gods-strength-in-weakness",
-    title: "Day 4: God's Strength in Weakness",
+    title: "Daily Devotional — Day 4: God's Strength in Weakness",
     day: 4,
     season: 1,
     date: "2026-03-27",
@@ -111,11 +111,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 231,
     audioFile: "episode-04-final.mp3",
     description:
-      "Day 4 of the 30-day devotional. Theme: God's Strength in Weakness. Verses from Psalm 73:26, Isaiah 40:29-31, and 2 Corinthians 12:9-10.",
+      "Day 4 of this daily Bible reading examines how God's strength works through our weakness, drawing from Psalm 73:26, Isaiah 40:29-31, and Second Corinthians 12:9-10. Sometimes faith feels hard and we feel weak — maybe you're facing a health crisis, dealing with anxiety, or in a spiritually dry season. Here's what these Scriptures reveal: weakness isn't the opposite of faith; it's often the gateway to experiencing God's strength in ways you never knew possible. The psalmist acknowledges that flesh and heart may fail, but God becomes our strength. Isaiah promises that those who hope in the Lord will soar on wings like eagles. And Paul discovered something revolutionary: God's power actually works best through our weakness. This short devotional includes Scripture, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-05-peace-in-the-storm",
-    title: "Day 5: Peace in the Storm",
+    title: "Daily Devotional — Day 5: Peace in the Storm",
     day: 5,
     season: 1,
     date: "2026-03-28",
@@ -127,11 +127,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 212,
     audioFile: "episode-05-final.mp3",
     description:
-      "Day 5 of the 30-day devotional. Theme: Peace in the Storm. Verses from Psalm 29:11, Isaiah 26:3, and John 14:27.",
+      "Day 5 of this morning devotional explores finding peace in the storm through Psalm 29:11, Isaiah 26:3, and John 14:27. A painting contest once asked artists to depict peace — the winner showed a raging waterfall with a tiny bird's nest tucked safely behind the cascade, a mother bird sitting peacefully with her babies. That's the kind of peace God offers: not the absence of storms, but the presence of safety in the midst of them. Isaiah reveals the secret — perfect peace comes to those whose minds are steadfast on God. And Jesus promises a peace different from what the world gives, one that doesn't depend on circumstances aligning perfectly. This daily Bible study includes three Scripture readings, a short reflection, and a prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-06-gods-perfect-timing",
-    title: "Day 6: God's Perfect Timing",
+    title: "Daily Devotional — Day 6: God's Perfect Timing",
     day: 6,
     season: 1,
     date: "2026-03-29",
@@ -143,11 +143,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 219,
     audioFile: "episode-06-final.mp3",
     description:
-      "Day 6 of the 30-day devotional. Theme: God's Perfect Timing. Verses from Psalm 31:15, Ecclesiastes 3:1, and Galatians 4:4-5.",
+      "Day 6 of this daily devotional addresses God's perfect timing through Psalm 31:15, Ecclesiastes 3:1, and Galatians 4:4-5. Waiting is one of the hardest things we do — we live in a microwave culture but serve a slow-cooker God, and the tension can be maddening. David understood that his times were in God's hands, not with passive resignation, but with active trust. Ecclesiastes reminds us that life has seasons and each season has its purpose. And Paul points to the ultimate example: Jesus didn't come randomly — He came at exactly the right moment in history. If God's timing was perfect for our salvation, His timing is perfect for the smaller details of your life too. Your waiting isn't wasted time; it's preparation time. This morning devotional includes Bible reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-07-forgiveness-and-freedom",
-    title: "Day 7: Forgiveness and Freedom",
+    title: "Daily Devotional — Day 7: Forgiveness and Freedom",
     day: 7,
     season: 1,
     date: "2026-03-30",
@@ -159,11 +159,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 234,
     audioFile: "episode-07-final.mp3",
     description:
-      "Day 7 of the 30-day devotional. Theme: Forgiveness and Freedom. Verses from Psalm 103:8-12, Isaiah 1:18, and Ephesians 1:7.",
+      "Day 7 of this daily Bible reading explores forgiveness and freedom through Psalm 103:8-12, Isaiah 1:18, and Ephesians 1:7. How far is the east from the west? Unlike north and south, which have poles that define their limits, east and west never meet — you can travel east forever and never start going west. That's how far God has removed your sins from you. David wasn't speaking theoretically; he experienced this grace personally after adultery and murder. Isaiah uses the imagery of scarlet becoming white as snow — even permanent stains disappear completely with God's forgiveness. Paul connects it all to Jesus' sacrifice: the debt is paid in full, and the receipt is marked 'finished.' Stop carrying guilt that God has already taken from you. This short devotional includes Scripture, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-08-hope-for-tomorrow",
-    title: "Day 8: Hope for Tomorrow",
+    title: "Daily Devotional — Day 8: Hope for Tomorrow",
     day: 8,
     season: 1,
     date: "2026-03-31",
@@ -175,11 +175,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 219,
     audioFile: "episode-08-final.mp3",
     description:
-      "Day 8 of the 30-day devotional. Theme: Hope for Tomorrow. Verses from Psalm 42:5, Jeremiah 29:11, and Romans 15:13.",
+      "Day 8 of this daily devotional focuses on hope for tomorrow through Psalm 42:5, Jeremiah 29:11, and Romans 15:13. Have you ever felt stuck in a pit, looking up at everyone else who seemed to have their lives figured out? The psalmist knows that feeling — he has an honest conversation with his own soul, acknowledging the downcast feeling while choosing hope anyway. Hope isn't always an emotion; sometimes it's a decision. Jeremiah delivered his famous words about God's plans to people in exile, their city destroyed and temple gone. And Paul calls God 'the God of hope,' praying that we would overflow with hope — not wishful thinking, but hope rooted in the character of a God who specializes in resurrection. Your current chapter isn't your final chapter. This morning devotional includes Scripture reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-09-trusting-gods-plan",
-    title: "Day 9: Trusting God's Plan",
+    title: "Daily Devotional — Day 9: Trusting God's Plan",
     day: 9,
     season: 1,
     date: "2026-04-01",
@@ -191,11 +191,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 207,
     audioFile: "episode-09-final.mp3",
     description:
-      "Day 9 of the 30-day devotional. Theme: Trusting God's Plan. Verses from Psalm 138:8, Proverbs 19:21, and Romans 8:28.",
+      "Day 9 of this daily Bible reading explores trusting God's plan through Psalm 138:8, Proverbs 19:21, and Romans 8:28. Watching a master chess player is fascinating — while you focus on the next move, he's thinking five moves ahead, seeing patterns and possibilities you completely miss. That's a picture of how God works in our lives. We see the current move and often don't understand it. David trusted that God would vindicate him, holding onto the truth that God doesn't abandon what He starts. Proverbs acknowledges that we make plans, but ultimately God's purposes prevail. And Paul's famous verse isn't saying everything that happens is good — cancer isn't good, betrayal isn't good — but God has the ability to work even through bad things for our ultimate benefit. Trust the Master strategist. This 5-minute devotional includes Scripture, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-10-joy-in-the-journey",
-    title: "Day 10: Joy in the Journey",
+    title: "Daily Devotional — Day 10: Joy in the Journey",
     day: 10,
     season: 1,
     date: "2026-04-02",
@@ -207,11 +207,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 216,
     audioFile: "episode-10-final.mp3",
     description:
-      "Day 10 of the 30-day devotional. Theme: Joy in the Journey. Verses from Psalm 16:11, Nehemiah 8:10, and John 15:11.",
+      "Day 10 of this daily devotional discovers joy in the journey through Psalm 16:11, Nehemiah 8:10, and John 15:11. When was the last time you felt genuinely joyful — not just happy because something went your way, but deeply joyful regardless of circumstances? David discovered that fullness of joy comes from being in God's presence, not from having perfect health, ideal relationships, or financial security. Nehemiah told people rebuilding their lives from scratch that the joy of the Lord is their strength — joy isn't just a nice feeling, it's a source of power. And when Jesus promises that His joy may be in us, He's talking about deep, settled confidence that comes from knowing we're loved by God. Joy is available right now, not because your life is perfect, but because God's presence is perfect. This morning devotional includes Bible reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-11-gods-provision",
-    title: "Day 11: God's Provision",
+    title: "Daily Devotional — Day 11: God's Provision",
     day: 11,
     season: 1,
     date: "2026-04-03",
@@ -223,11 +223,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 204,
     audioFile: "episode-11-final.mp3",
     description:
-      "Day 11 of the 30-day devotional. Theme: God's Provision. Verses from Psalm 23:1, 1 Kings 17:14, and Philippians 4:19.",
+      "Day 11 of this daily Bible reading explores God's provision through Psalm 23:1, First Kings 17:14, and Philippians 4:19. Money stress keeps a lot of people awake at night — maybe you're calculating bills, wondering how you'll make ends meet. David's declaration that he lacks nothing might sound impossible when you're looking at an empty bank account, but notice who he's looking at: the Lord as his shepherd, who guides to food and water and ensures His sheep have what they need. The widow in First Kings was down to her last meal before God multiplied her resources in a way that defied natural explanation. And Paul writes about God meeting our needs from 'the riches of his glory' — not everything we want, but everything we truly need. God's provision often comes through means we don't expect. This short devotional includes Scripture reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-12-courage-for-today",
-    title: "Day 12: Courage for Today",
+    title: "Daily Devotional — Day 12: Courage for Today",
     day: 12,
     season: 1,
     date: "2026-04-04",
@@ -239,11 +239,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 204,
     audioFile: "episode-12-final.mp3",
     description:
-      "Day 12 of the 30-day devotional. Theme: Courage for Today. Verses from Psalm 27:1, Joshua 1:9, and 2 Timothy 1:7.",
+      "Day 12 of this daily devotional focuses on courage for today through Psalm 27:1, Joshua 1:9, and Second Timothy 1:7. Fear has a way of making everything seem bigger than it really is — that difficult conversation looms like a mountain, test results feel like they hold the power to destroy your peace. But what if fear is lying to you? David faced bears, lions, giants, and armies yet could ask 'Whom shall I fear?' not because he was naturally brave, but because he knew who was with him. God told Joshua to be strong and courageous multiple times precisely because Joshua was scared — about to lead millions into battles he'd never fought. And Paul reminds us that the Spirit within us gives power, love, and sound judgment. Courage isn't the absence of fear; it's taking the next right step despite fear. This morning devotional includes Bible reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-13-gratitude-in-all-things",
-    title: "Day 13: Gratitude in All Things",
+    title: "Daily Devotional — Day 13: Gratitude in All Things",
     day: 13,
     season: 1,
     date: "2026-04-05",
@@ -255,11 +255,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 205,
     audioFile: "episode-13-final.mp3",
     description:
-      "Day 13 of the 30-day devotional. Theme: Gratitude in All Things. Verses from Psalm 100:4, 1 Chronicles 16:34, and 1 Thessalonians 5:18.",
+      "Day 13 of this daily Bible reading explores gratitude in all things through Psalm 100:4, First Chronicles 16:34, and First Thessalonians 5:18. Here's a challenge: try to feel anxious and grateful at the same time — it's nearly impossible. Gratitude has an amazing ability to shift our perspective and change our emotional temperature. But when life gets hard, gratitude can feel forced. The key is understanding what Scripture means by giving thanks 'in all circumstances' — not for everything that happens, but finding things to be grateful for even in the midst of difficulty. David says gratitude is like a doorway into experiencing God's goodness more fully. Paul's instruction comes from someone who'd been beaten, imprisoned, and shipwrecked — he discovered that gratitude transforms how we experience any circumstances. This 5-minute devotional includes Scripture, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-14-gods-faithfulness",
-    title: "Day 14: God's Faithfulness",
+    title: "Daily Devotional — Day 14: God's Faithfulness",
     day: 14,
     season: 1,
     date: "2026-04-06",
@@ -271,11 +271,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 219,
     audioFile: "episode-14-final.mp3",
     description:
-      "Day 14 of the 30-day devotional. Theme: God's Faithfulness. Verses from Psalm 89:2, Lamentations 3:23, and 2 Timothy 2:13.",
+      "Day 14 of this daily devotional celebrates God's faithfulness through Psalm 89:2, Lamentations 3:23, and Second Timothy 2:13. Sarah stared at the pregnancy test, tears streaming. Negative. Again. After three years of trying, she wondered if God had forgotten His promises. Maybe you've been there — not necessarily with pregnancy, but with some hope that keeps getting deferred. God's faithfulness is as reliable as the stars that shine night after night, as consistent as the sunrise every morning. Jeremiah wrote about God's faithfulness from the ruins of Jerusalem, everything he'd known destroyed, yet he declared that God's mercies are new every morning. And Paul's words are perhaps the most comforting: even when we struggle with doubt, He remains faithful. God hasn't forgotten you. This morning devotional includes Scripture reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-15-wisdom-for-decisions",
-    title: "Day 15: Wisdom for Decisions",
+    title: "Daily Devotional — Day 15: Wisdom for Decisions",
     day: 15,
     season: 1,
     date: "2026-04-07",
@@ -287,11 +287,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 211,
     audioFile: "episode-15-final.mp3",
     description:
-      "Day 15 of the 30-day devotional. Theme: Wisdom for Decisions. Verses from Psalm 25:4-5, Proverbs 3:5-6, and James 1:5.",
+      "Day 15 of this daily Bible reading seeks wisdom for decisions through Psalm 25:4-5, Proverbs 3:5-6, and James 1:5. Standing at a crossroads can be paralyzing — should you take that job, end that relationship, move to a different city? The weight of making the 'right' decision can keep you stuck. David's prayer is beautifully simple: 'Show me your ways, Lord.' He's asking for guidance for the next step, not a detailed roadmap twenty years into the future. Proverbs gives us the key: trust in the Lord with all your heart — our trust relationship with God should be the starting point for every decision. And James adds something wonderful: God gives wisdom generously without finding fault. He delights in helping His children make good choices. This short devotional includes Scripture reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-16-finding-purpose",
-    title: "Day 16: Finding Purpose",
+    title: "Daily Devotional — Day 16: Finding Purpose",
     day: 16,
     season: 1,
     date: "2026-04-08",
@@ -303,11 +303,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 230,
     audioFile: "episode-16-final.mp3",
     description:
-      "Day 16 of the 30-day devotional. Theme: Finding Purpose. Verses from Psalm 139:13-14, Jeremiah 1:5, and Ephesians 2:10.",
+      "Day 16 of this daily devotional explores finding purpose through Psalm 139:13-14, Jeremiah 1:5, and Ephesians 2:10. 'What's my purpose?' is one of the most common and anxiety-producing questions people ask. But what if the pressure to find your 'one thing' is actually keeping you from living purposefully right now? David marvels at how intentionally God created each of us — you weren't mass-produced or randomly assembled. God told Jeremiah, 'Before I formed you in the womb I knew you' — your purpose isn't something you stumble upon accidentally, it's something God has been weaving into your story all along. And Paul reminds us that we are God's handiwork, literally His 'poem' in the original Greek. Stop waiting to discover your purpose before you start living purposefully. This morning devotional includes Bible reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-17-healing-and-restoration",
-    title: "Day 17: Healing and Restoration",
+    title: "Daily Devotional — Day 17: Healing and Restoration",
     day: 17,
     season: 1,
     date: "2026-04-09",
@@ -319,11 +319,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 252,
     audioFile: "episode-17-final.mp3",
     description:
-      "Day 17 of the 30-day devotional. Theme: Healing and Restoration. Verses from Psalm 147:3, Isaiah 61:1-3, and 2 Corinthians 1:3-4.",
+      "Day 17 of this daily Bible reading explores healing and restoration through Psalm 147:3, Isaiah 61:1-3, and Second Corinthians 1:3-4. Broken hearts come in many forms — shattered by betrayal, crushed by loss, or slowly fractured by disappointment. God doesn't minimize your heartbreak or tell you to get over it quickly. The psalmist says He heals the brokenhearted and binds up their wounds — notice the process: healing takes time, tenderness, and careful attention. Isaiah's prophecy, which Jesus later claimed as His mission statement, is full of transformation language: beauty instead of ashes, praise instead of despair. And Paul adds that the comfort we receive from God isn't just for us — our healing becomes a source of healing for others. The very wounds that once seemed like disqualifications become qualifications for ministry. This short devotional includes Scripture, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-18-gods-protection",
-    title: "Day 18: God's Protection",
+    title: "Daily Devotional — Day 18: God's Protection",
     day: 18,
     season: 1,
     date: "2026-04-10",
@@ -335,11 +335,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 230,
     audioFile: "episode-18-final.mp3",
     description:
-      "Day 18 of the 30-day devotional. Theme: God's Protection. Verses from Psalm 91:1-2, Isaiah 43:2, and John 10:28-29.",
+      "Day 18 of this daily devotional explores God's protection through Psalm 91:1-2, Isaiah 43:2, and John 10:28-29. The world can feel dangerous — turn on the news and you'll hear about natural disasters, crime, and economic uncertainty. The psalmist uses beautiful imagery: dwelling in the shelter of the Most High isn't about physical location but spiritual position. When we live in conscious dependence on God, we find refuge that no earthly shelter can provide. But notice something important in Isaiah's promise: it doesn't say you won't go through waters or fire. It says when you do, God will be with you. And Jesus' words give us ultimate security — no circumstance, no person, no spiritual force can separate us from God's love and care. God's protection is less like a bubble and more like a fortress that provides safety in the midst of battle. This morning devotional includes Bible reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-19-patience-in-process",
-    title: "Day 19: Patience in Process",
+    title: "Daily Devotional — Day 19: Patience in Process",
     day: 19,
     season: 1,
     date: "2026-04-11",
@@ -351,11 +351,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 220,
     audioFile: "episode-19-final.mp3",
     description:
-      "Day 19 of the 30-day devotional. Theme: Patience in Process. Verses from Psalm 27:14, Isaiah 55:8-9, and Romans 8:25.",
+      "Day 19 of this daily Bible reading explores patience in the process through Psalm 27:14, Isaiah 55:8-9, and Romans 8:25. We live in an instant-everything culture, but God often works at what feels like a glacial pace. What if impatience is actually a trust issue in disguise? When David says 'wait for the Lord,' the Hebrew word implies active, hopeful expectation — like a guard on duty who knows relief is coming. This kind of waiting requires strength and courage. Isaiah reminds us why patience is necessary: God's thoughts and ways are higher than ours. We see one piece of the puzzle; He sees the completed picture. And Paul connects patience with hope — we're saying, 'I believe God is working even when I can't see evidence of it.' God's delays aren't usually denials; they're developments. This 5-minute devotional includes Scripture reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-20-community-and-fellowship",
-    title: "Day 20: Community and Fellowship",
+    title: "Daily Devotional — Day 20: Community and Fellowship",
     day: 20,
     season: 1,
     date: "2026-04-12",
@@ -367,11 +367,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 220,
     audioFile: "episode-20-final.mp3",
     description:
-      "Day 20 of the 30-day devotional. Theme: Community and Fellowship. Verses from Psalm 133:1, Ecclesiastes 4:12, and Hebrews 10:24-25.",
+      "Day 20 of this daily devotional explores community and fellowship through Psalm 133:1, Ecclesiastes 4:12, and Hebrews 10:24-25. 'I don't need church — I can worship God on my own.' Sound familiar? People can be difficult and community can feel complicated, but God designed us for connection. Trying to live the Christian life in isolation is like trying to play football by yourself. David celebrates the deep unity that comes from being connected to the same God. Ecclesiastes illustrates it practically: a cord of three strands — you, another person, and God — is incredibly strong. When life knocks you down, you need people to help you get back up. And Hebrews reminds us that when life gets hard, that's exactly when we need community most. Yes, people will disappoint you, but isolation isn't the answer. This morning devotional includes Scripture reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-21-gods-word-as-guide",
-    title: "Day 21: God's Word as Guide",
+    title: "Daily Devotional — Day 21: God's Word as Guide",
     day: 21,
     season: 1,
     date: "2026-04-13",
@@ -383,11 +383,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 222,
     audioFile: "episode-21-final.mp3",
     description:
-      "Day 21 of the 30-day devotional. Theme: God's Word as Guide. Verses from Psalm 119:105, Isaiah 55:11, and 2 Timothy 3:16-17.",
+      "Day 21 of this daily Bible reading explores God's Word as our guide through Psalm 119:105, Isaiah 55:11, and Second Timothy 3:16-17. Have you ever tried to navigate a dark room without a flashlight? You stumble over furniture and bump into walls. That's what life feels like when we try to make decisions without God's Word to guide us. The psalmist describes Scripture as both a lamp and a light — steady, reliable illumination that shows you what you need to see when you need to see it. Isaiah reminds us that God's Word has power: when God speaks, His words accomplish what He intends. And Paul describes Scripture as 'God-breathed' — not just ancient literature, but God's actual communication to us. But here's the key: God's Word only functions as a guide when we actually read it. A GPS app can't help you if you never open it. This short devotional includes Scripture, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-22-serving-others",
-    title: "Day 22: Serving Others",
+    title: "Daily Devotional — Day 22: Serving Others",
     day: 22,
     season: 1,
     date: "2026-04-14",
@@ -399,11 +399,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 233,
     audioFile: "episode-22-final.mp3",
     description:
-      "Day 22 of the 30-day devotional. Theme: Serving Others. Verses from Psalm 100:2, Isaiah 58:10-11, and Mark 10:43-44.",
+      "Day 22 of this daily devotional focuses on serving others through Psalm 100:2, Isaiah 58:10-11, and Mark 10:43-44. It's 6 AM and Lisa is already exhausted — between work, kids' activities, and household responsibilities, she feels like she's running on empty. When her pastor talked about serving, her first thought was 'I don't have anything left to give.' But what if serving isn't about giving from your overflow? What if God multiplies what you offer, no matter how small? Isaiah paints a beautiful picture: when we spend ourselves on behalf of others, our own darkness is replaced with light. Jesus turns the world's definition of greatness upside down — in His kingdom, the greatest are those who serve. You don't have to have your life perfectly together to serve. This morning devotional includes Bible reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-23-overcoming-fear",
-    title: "Day 23: Overcoming Fear",
+    title: "Daily Devotional — Day 23: Overcoming Fear",
     day: 23,
     season: 1,
     date: "2026-04-15",
@@ -415,11 +415,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 223,
     audioFile: "episode-23-final.mp3",
     description:
-      "Day 23 of the 30-day devotional. Theme: Overcoming Fear. Verses from Psalm 56:3-4, Isaiah 41:10, and 1 John 4:18.",
+      "Day 23 of this daily Bible reading tackles overcoming fear through Psalm 56:3-4, Isaiah 41:10, and First John 4:18. Fear doesn't knock politely and wait for permission to enter — it barges in uninvited, usually in the middle of the night or when you're trying to focus. But feeling afraid doesn't mean you lack faith. Even David, the giant-killer, admits to being afraid. The difference is what he did with fear when it showed up: 'When I am afraid, I put my trust in you.' Not 'if' but 'when.' Isaiah records God's direct response to our fears: 'Do not fear, for I am with you.' And John gives us the ultimate solution: perfect love drives out fear. You are more loved, more protected, and more equipped than your fears want you to believe. This 5-minute devotional includes Scripture reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-24-perseverance-through-trials",
-    title: "Day 24: Perseverance Through Trials",
+    title: "Daily Devotional — Day 24: Perseverance Through Trials",
     day: 24,
     season: 1,
     date: "2026-04-16",
@@ -431,11 +431,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 237,
     audioFile: "episode-24-final.mp3",
     description:
-      "Day 24 of the 30-day devotional. Theme: Perseverance Through Trials. Verses from Psalm 30:5, Isaiah 43:1-2, and James 1:2-4.",
+      "Day 24 of this daily devotional explores perseverance through trials with Psalm 30:5, Isaiah 43:1-2, and James 1:2-4. Some seasons of life feel like they'll never end — the job search drags on, illness persists, relationships struggle despite counseling. David knew about long, dark nights. He spent years hiding in caves, wondering if God had forgotten His promises, yet he could declare that weeping may last for the night, but joy comes in the morning. Isaiah speaks to people in exile, displaced from everything familiar, reminding them they belong to God — they are His, called by name. James offers a radically different perspective: consider trials joy, not because suffering is good, but because God uses difficulty to develop perseverance, character, and hope. Your trial has an expiration date. Morning is coming. This morning devotional includes Scripture reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-25-gods-grace",
-    title: "Day 25: God's Grace",
+    title: "Daily Devotional — Day 25: God's Grace",
     day: 25,
     season: 1,
     date: "2026-04-17",
@@ -447,11 +447,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 230,
     audioFile: "episode-25-final.mp3",
     description:
-      "Day 25 of the 30-day devotional. Theme: God's Grace. Verses from Psalm 103:10-12, Isaiah 55:7, and Ephesians 2:8-9.",
+      "Day 25 of this daily Bible reading explores God's grace through Psalm 103:10-12, Isaiah 55:7, and Ephesians 2:8-9. Grace is the most beautiful and hardest-to-accept concept in all of Christianity. We live in a performance-based world where you get what you earn — then God offers unconditional love, unearned forgiveness, and undeserved favor. It's almost too good to believe. Maybe you've been trying to earn God's approval for so long that receiving it as a gift feels impossible. David marvels that God doesn't treat us as our sins deserve. Isaiah's invitation is scandalous: turn to God, who will freely pardon — no payment required, no probationary period. And Paul makes it crystal clear: salvation is a gift, not a reward. You can stop trying to make God love you more — He already loves you completely. This short devotional includes Scripture reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-26-contentment-and-peace",
-    title: "Day 26: Contentment and Peace",
+    title: "Daily Devotional — Day 26: Contentment and Peace",
     day: 26,
     season: 1,
     date: "2026-04-18",
@@ -463,11 +463,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 232,
     audioFile: "episode-26-final.mp3",
     description:
-      "Day 26 of the 30-day devotional. Theme: Contentment and Peace. Verses from Psalm 37:4, Isaiah 26:3, and Philippians 4:11-13.",
+      "Day 26 of this daily devotional explores contentment and peace through Psalm 37:4, Isaiah 26:3, and Philippians 4:11-13. Contentment feels almost countercultural in our age of endless upgrades, constant advertisements, and social media highlight reels. But what if contentment isn't about lowering your expectations — what if it's about finding satisfaction in the right source? David talks about delighting in the Lord, and then our desires align with His will. Isaiah reveals that perfect peace comes to those whose minds are steadfast on God. And Paul's words about contentment are remarkable because he wrote them from prison — his contentment wasn't circumstantial but relational. Here's his secret: contentment comes through Christ's strength, not our circumstances. Contentment isn't settling for less; it's discovering you already have more than enough in Christ. This morning devotional includes Bible reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-27-hope-for-the-future",
-    title: "Day 27: Hope for the Future",
+    title: "Daily Devotional — Day 27: Hope for the Future",
     day: 27,
     season: 1,
     date: "2026-04-19",
@@ -479,11 +479,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 216,
     audioFile: "episode-27-final.mp3",
     description:
-      "Day 27 of the 30-day devotional. Theme: Hope for the Future. Verses from Psalm 31:24, Jeremiah 31:17, and Romans 15:4.",
+      "Day 27 of this daily Bible reading focuses on hope for the future through Psalm 31:24, Jeremiah 31:17, and Romans 15:4. Hope can feel dangerous when you've been disappointed before — after enough letdowns, it's tempting to protect your heart by expecting less. But what if hopelessness is actually more dangerous than hope? David encourages those who hope in the Lord to be strong and take heart — this isn't generic positive thinking, it's hope anchored in God's unchanging character. Jeremiah spoke to parents whose children had been taken into exile, yet God promised hope for their descendants. And Paul reminds us that every story of God's faithfulness in Scripture is meant to strengthen our confidence in His faithfulness for our future. Your story isn't over. God is still writing. This morning devotional includes Scripture reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-28-gods-presence",
-    title: "Day 28: God's Presence",
+    title: "Daily Devotional — Day 28: God's Presence",
     day: 28,
     season: 1,
     date: "2026-04-20",
@@ -495,11 +495,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 231,
     audioFile: "episode-28-final.mp3",
     description:
-      "Day 28 of the 30-day devotional. Theme: God's Presence. Verses from Psalm 139:7-10, Isaiah 43:4, and Matthew 28:20.",
+      "Day 28 of this daily devotional explores God's presence through Psalm 139:7-10, Isaiah 43:4, and Matthew 28:20. Loneliness might be one of the most painful experiences we face — it's possible to feel lonely in a crowded room, isolated even when surrounded by family. But what if you're never actually alone? David asks a rhetorical question: where can I go from God's presence? His answer reveals that there is nowhere in the universe, no situation in life, no emotional state where God is absent. God's hand guides and holds us wherever we are — this is personal, intimate presence, not distant observation. Isaiah records one of the most tender declarations in all of Scripture: you are precious and honored in God's sight. And Jesus' final words before ascending were a promise: 'I am with you always.' Your feelings of loneliness are real, but they don't reflect the truth about your situation. This morning devotional includes Bible reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-29-walking-in-truth",
-    title: "Day 29: Walking in Truth",
+    title: "Daily Devotional — Day 29: Walking in Truth",
     day: 29,
     season: 1,
     date: "2026-04-21",
@@ -511,11 +511,11 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 217,
     audioFile: "episode-29-final.mp3",
     description:
-      "Day 29 of the 30-day devotional. Theme: Walking in Truth. Verses from Psalm 86:11, Isaiah 30:21, and John 14:6.",
+      "Day 29 of this daily Bible reading explores walking in truth through Psalm 86:11, Isaiah 30:21, and John 14:6. We live in an age where truth feels relative and subjective — 'your truth,' 'my truth,' 'speak your truth.' While personal perspectives matter, they leave us adrift without an anchor. David prays for an undivided heart, one that's not torn between competing loyalties. Isaiah promises that when we're walking with God, we'll hear His voice guiding us: 'This is the way; walk in it.' Truth isn't just something we believe — it's something we follow. And Jesus makes the most exclusive claim in history: He is the way, the truth, and the life. Not a way among many, but the way. Truth isn't a burden that restricts your freedom; it's the foundation that makes real freedom possible. This short devotional includes Scripture reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
   {
     slug: "day-30-living-with-eternal-perspective",
-    title: "Day 30: Living with Eternal Perspective",
+    title: "Daily Devotional — Day 30: Living with Eternal Perspective",
     day: 30,
     season: 1,
     date: "2026-04-22",
@@ -527,7 +527,7 @@ export const episodes: PodcastEpisode[] = [
     durationSeconds: 225,
     audioFile: "episode-30-final.mp3",
     description:
-      "Day 30 of the 30-day devotional. Theme: Living with Eternal Perspective. Verses from Psalm 90:12, Isaiah 40:8, and 2 Corinthians 4:17-18.",
+      "Day 30 of this daily devotional concludes the 30-day journey with an eternal perspective through Psalm 90:12, Isaiah 40:8, and Second Corinthians 4:17-18. After four weeks of diving into God's character and promises, this final day is about carrying these truths forward. Moses, who lived 120 years, prays for wisdom to number our days — not a morbid obsession with death, but recognition that our time is limited and precious. Isaiah contrasts the temporary nature of everything we see with the eternal nature of God's Word: empires rise and fall, trends change daily, but God's truth remains constant. Paul gives the ultimate perspective shift: our current troubles, no matter how overwhelming, are light and momentary compared to the eternal glory waiting for us. You've spent 30 days discovering that God is faithful, loving, present, and good. Now spend the rest of your life living in the light of those truths. This morning devotional includes the final Bible reading, reflection, and prayer. From 3 Verses a Day, a daily Christian devotional podcast by Mark Ross Junkans.",
   },
 ];
 

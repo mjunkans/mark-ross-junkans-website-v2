@@ -74,7 +74,7 @@ export async function GET() {
       <pubDate>${formatRFC2822(ep.date)}</pubDate>
       <enclosure url="${escapeXml(audioUrl)}" length="${fileSize}" type="audio/mpeg" />
       <guid isPermaLink="false">${siteUrl}/podcast/${ep.slug}</guid>
-      <link>${siteUrl}/podcast</link>
+      <link>${siteUrl}/podcast/${ep.slug}</link>
       <itunes:title>${escapeXml(ep.title)}</itunes:title>
       <itunes:author>${escapeXml(author)}</itunes:author>
       <itunes:summary>${escapeXml(ep.description)}</itunes:summary>

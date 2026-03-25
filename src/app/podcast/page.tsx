@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import ScrollFade from "@/components/ScrollFade";
 import { podcastMeta, getReleasedEpisodes } from "@/data/podcast";
 import PodcastPlayer from "@/components/PodcastPlayer";
 
 export const metadata: Metadata = {
-  title: "3 Verses a Day Podcast | Daily Devotional by Mark Ross Junkans",
+  title: "3 Verses a Day Podcast | Daily Christian Devotional by Mark Ross Junkans",
   description: podcastMeta.description,
   openGraph: {
-    title: "3 Verses a Day — A Daily Devotional Podcast",
+    title: "3 Verses a Day — A Daily Christian Devotional Podcast",
     description: podcastMeta.description,
     url: "https://markrossjunkans.com/podcast",
     images: [
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "3 Verses a Day Podcast",
     description:
-      "A 5-minute daily devotional. Three Bible verses. One reflection. A prayer for your day.",
+      "A daily Christian devotional podcast. Three Bible verses. One reflection. A prayer for your day. Five minutes with God.",
   },
   alternates: {
     canonical: "https://markrossjunkans.com/podcast",
@@ -45,6 +46,39 @@ function formatDate(dateStr: string): string {
 
 export default function PodcastPage() {
   const episodes = getReleasedEpisodes();
+
+  // Build PodcastSeries JSON-LD with episode list
+  const podcastSeriesJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "PodcastSeries",
+    name: podcastMeta.title,
+    description: podcastMeta.description,
+    url: "https://markrossjunkans.com/podcast",
+    author: {
+      "@type": "Person",
+      name: podcastMeta.author,
+      url: "https://markrossjunkans.com",
+    },
+    image: `https://markrossjunkans.com${podcastMeta.coverImage}`,
+    webFeed: podcastMeta.feedUrl,
+    inLanguage: "en-US",
+    genre: "Religion & Spirituality",
+    episode: episodes.map((ep) => ({
+      "@type": "PodcastEpisode",
+      name: ep.title,
+      description: ep.description,
+      url: `https://markrossjunkans.com/podcast/${ep.slug}`,
+      datePublished: ep.date,
+      timeRequired: `PT${Math.floor(ep.durationSeconds / 60)}M${ep.durationSeconds % 60}S`,
+      ...(ep.day > 0 && {
+        episodeNumber: ep.day,
+        partOfSeason: {
+          "@type": "PodcastSeason",
+          seasonNumber: ep.season,
+        },
+      }),
+    })),
+  };
 
   return (
     <>
@@ -71,10 +105,11 @@ export default function PodcastPage() {
                   3 Verses a Day
                 </h1>
                 <p className="text-cream/60 text-lg leading-relaxed mb-6">
-                  Three Bible verses. One reflection. A prayer for your day.
-                  Each 5-minute episode draws from the devotional book series by
-                  Mark Ross Junkans — one Psalm, one Old Testament verse, and
-                  one New Testament verse to anchor your morning.
+                  A daily Christian devotional podcast. Three Bible verses. One
+                  reflection. A prayer for your day. Each 5-minute episode draws
+                  from the devotional book series by Mark Ross Junkans — one
+                  Psalm, one Old Testament verse, and one New Testament verse to
+                  anchor your morning.
                 </p>
                 <div className="flex flex-wrap justify-center md:justify-start gap-3">
                   <a
@@ -167,9 +202,14 @@ export default function PodcastPage() {
                     </span>
                   </div>
 
-                  {/* Title */}
+                  {/* Title — link to episode page */}
                   <h2 className="font-playfair text-xl md:text-2xl text-cream font-medium mb-2">
-                    {episode.title}
+                    <Link
+                      href={`/podcast/${episode.slug}`}
+                      className="hover:text-gold transition-colors"
+                    >
+                      {episode.title}
+                    </Link>
                   </h2>
 
                   {/* Scripture references */}
@@ -181,10 +221,20 @@ export default function PodcastPage() {
                     </p>
                   )}
 
-                  {/* Description */}
-                  <p className="text-cream/50 text-sm leading-relaxed mb-5">
-                    {episode.description}
+                  {/* Description (truncated for listing) */}
+                  <p className="text-cream/50 text-sm leading-relaxed mb-3">
+                    {episode.description.length > 250
+                      ? episode.description.slice(0, 247) + "..."
+                      : episode.description}
                   </p>
+
+                  {/* Read full transcript link */}
+                  <Link
+                    href={`/podcast/${episode.slug}`}
+                    className="text-gold/70 hover:text-gold text-xs font-semibold tracking-[0.08em] uppercase transition-colors mb-5 inline-block"
+                  >
+                    Read Full Transcript →
+                  </Link>
 
                   {/* Audio Player */}
                   <PodcastPlayer
@@ -206,11 +256,11 @@ export default function PodcastPage() {
               About This Podcast
             </h2>
             <p className="text-cream/60 leading-relaxed max-w-2xl mx-auto mb-4">
-              3 Verses a Day is the audio companion to the devotional book series
-              by Mark Ross Junkans. Each episode reads three Bible verses — one
-              Psalm, one from the Old Testament, and one from the New Testament —
-              followed by a short reflection, a prayer, and a practical
-              application for your day.
+              3 Verses a Day is a daily Christian devotional podcast and the
+              audio companion to the devotional book series by Mark Ross Junkans.
+              Each episode reads three Bible verses — one Psalm, one from the Old
+              Testament, and one from the New Testament — followed by a short
+              reflection, a prayer, and a practical application for your day.
             </p>
             <p className="text-cream/60 leading-relaxed max-w-2xl mx-auto mb-6">
               Season 1 follows{" "}
@@ -221,7 +271,8 @@ export default function PodcastPage() {
               <em className="text-cream/80">
                 3 Verses a Day: Trust in God
               </em>
-              . Five minutes. Three verses. One God who is always faithful.
+              . Five minutes of morning devotional. Three Scripture readings. One
+              God who is always faithful.
             </p>
 
             {/* Book CTAs */}
@@ -252,25 +303,11 @@ export default function PodcastPage() {
         </div>
       </section>
 
-      {/* PodcastSeries Structured Data */}
+      {/* PodcastSeries + Episodes Structured Data */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "PodcastSeries",
-            name: podcastMeta.title,
-            description: podcastMeta.description,
-            url: "https://markrossjunkans.com/podcast",
-            author: {
-              "@type": "Person",
-              name: podcastMeta.author,
-              url: "https://markrossjunkans.com",
-            },
-            image: `https://markrossjunkans.com${podcastMeta.coverImage}`,
-            webFeed: podcastMeta.feedUrl,
-            inLanguage: "en-US",
-          }),
+          __html: JSON.stringify(podcastSeriesJsonLd),
         }}
       />
     </>
