@@ -15,12 +15,24 @@ export default function ScrollFade({ children, className = "", delay = 0 }: Scro
     const el = ref.current;
     if (!el) return;
 
+    let revealed = false;
+    const reveal = () => {
+      if (revealed) return;
+      revealed = true;
+      setTimeout(() => {
+        el.classList.add("visible");
+      }, delay);
+    };
+
+    // Fallback: if IntersectionObserver doesn't fire (e.g. Facebook in-app browser),
+    // reveal after 1.5s so content is never permanently hidden
+    const fallbackTimer = setTimeout(reveal, 1500);
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          setTimeout(() => {
-            el.classList.add("visible");
-          }, delay);
+          clearTimeout(fallbackTimer);
+          reveal();
           observer.unobserve(el);
         }
       },
@@ -28,7 +40,10 @@ export default function ScrollFade({ children, className = "", delay = 0 }: Scro
     );
 
     observer.observe(el);
-    return () => observer.disconnect();
+    return () => {
+      clearTimeout(fallbackTimer);
+      observer.disconnect();
+    };
   }, [delay]);
 
   return (
