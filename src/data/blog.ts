@@ -10,6 +10,62 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "the-coming-symbiosis",
+    title: "The Coming Symbiosis",
+    date: "2026-04-21",
+    category: "Faith & AI",
+    image: "/images/blog/the-coming-symbiosis.png",
+    excerpt:
+      "Neuralink can thread electrodes into your motor cortex. The first generation of brain-computer interfaces restores what was lost. The second generation won't be so restrained.",
+    content: `*Faith Through the Singularity — Week 4*
+
+---
+
+Noland Arbaugh lost the use of his limbs in a diving accident eight years ago. In January 2024, a surgical robot threaded 1,024 electrodes into his motor cortex. Weeks later, he was playing chess on a laptop. No hands. No voice commands. Just thought, translated into cursor movement by a chip the size of a coin.
+
+That chip is Neuralink's N1 implant, and Arbaugh is one of a growing number of people whose inner life now passes through silicon on its way to the outside world. The technology is still crude by its own ambitions. Musk talks about memory augmentation, about cognitive enhancement, about a future where the boundary between brain and network dissolves entirely. We are not there yet. But we are closer than most Sunday sermons acknowledge.
+
+For three weeks, this series has been pressing a single question from different angles: what remains distinctly human when machines can mirror more and more of what we do? We started with identity, moved to the image of God, then to the interior life of prayer. Each week the circle has tightened. Now it tightens all the way to the skull.
+
+Because this week the question is no longer metaphorical.
+
+## When the Machine Moves In
+
+There is a long Christian tradition of tool use that does not trouble the conscience. Eyeglasses correct fallen vision. Pacemakers steady a faltering heart. Cochlear implants restore hearing. We do not hold conferences about the theology of the knee replacement. The body has always accepted assistance from the outside, and the church has generally blessed it.
+
+But the brain is not the knee.
+
+The brain is where we form prayers. It is where we recognize the face of the person we love. It is where language and memory and moral reasoning converge into something we call, however imprecisely, the self. When we talk about the soul, we may mean something beyond the brain, but we do not mean something disconnected from it. The Christian tradition has never been purely dualist. The body matters. That is the whole point of the Incarnation: God did not transmit a message to humanity. God became a body. And the resurrection is not the escape of the soul from the flesh but the redemption of the flesh itself.
+
+So when a chip crosses the blood-brain barrier and begins to mediate between thought and action, we are in territory that deserves more than a utilitarian cost-benefit analysis. We need theological language.
+
+The question is not whether BCIs are sinful. That framing is too small. The better question is: what are we saying about ourselves when we choose to merge cognition with computation? Are we extending the body, the way a hearing aid extends the ear? Or are we editing the person?
+
+## The Body That God Called Good
+
+Genesis 1 and 2 do not describe the human body as a limitation to be overcome. They describe it as the specific, chosen form in which God's image would dwell. "The Lord God formed the man from the dust of the ground and breathed into his nostrils the breath of life." The dust is not incidental. It is the medium. The breath and the dust together make the living soul.
+
+This is why sacramental theology takes physical matter so seriously. Water, bread, wine. Not symbols pointing away from the material world, but God working through it. The body is not a vehicle for the mind. In Christian anthropology, the body is part of what it means to be a creature made in the image of God.
+
+None of this automatically makes BCIs wrong. Restoring lost function to a paralyzed man is an act of mercy, full stop. Noland Arbaugh playing chess with his thoughts is a good thing, and I do not think we need to theologize our way out of saying so.
+
+But restoration and augmentation are different projects. Giving sight to the blind is one thing. Engineering a species that no longer needs eyes is another. And the transhumanist vision behind much of BCI development is not modest. It is not interested in restoring the body to its intended function. It is interested in surpassing the body entirely.
+
+That ambition has a theological name, though we rarely use it in polite company. It is the old impulse dressed in new materials: the conviction that the human creature, as given, is not enough.
+
+## What We Cannot Yet Say
+
+I want to be honest about the limits of my own thinking here. I do not have a neat framework for where the line falls between a cochlear implant and a cognitive enhancement chip. I am not sure anyone does. The Catholic tradition of natural law offers some tools. The Lutheran emphasis on vocation and creatureliness offers others. But neither tradition has had to reckon seriously with a technology that sits inside the organ where we do our reckoning.
+
+What I can say is that the Christian faith has resources for this conversation that secular ethics does not. We have a doctrine of the body that is not reducible to function. We have an account of human dignity that does not depend on cognitive capacity. We have a story about a God who entered the material world and sanctified it, not by elevating it beyond its nature, but by inhabiting it.
+
+These are not answers to the BCI question. They are the vocabulary we will need in order to ask it well.
+
+And we will need to ask it soon. The technology is not waiting for theology to catch up. The first generation of brain-computer interfaces is medical, therapeutic, aimed at restoring what was lost. The second generation will not be so restrained. When the pitch shifts from "help the paralyzed walk" to "make the healthy smarter," the church will need something more substantive than discomfort.
+
+We have spent four weeks now tracing the outline of what remains human in an age of intelligent machines. Identity. Creativity. Prayer. The body itself. Next week, the final piece: what holds all of it together, and why the old traditions may be the surest guide through what comes next.`,
+  },
+  {
     slug: "the-prayer-the-machine-cannot-say",
     title: "The Prayer the Machine Cannot Say",
     date: "2026-04-08",
