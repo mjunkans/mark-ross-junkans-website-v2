@@ -12,7 +12,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "the-missing-word-in-the-room",
     title: "The Missing Word in the Room",
-    date: "2026-04-20",
+    date: "2026-05-05",
     category: "Faith & AI",
     image: "/images/blog/the-missing-word-in-the-room.png",
     excerpt:
