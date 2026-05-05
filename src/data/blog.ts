@@ -66,6 +66,56 @@ And we will need to ask it soon. The technology is not waiting for theology to c
 We have spent four weeks now tracing the outline of what remains human in an age of intelligent machines. Identity. Creativity. Prayer. The body itself. Next week, the final piece: what holds all of it together, and why the old traditions may be the surest guide through what comes next.`,
   },
   {
+    slug: "the-missing-word-in-the-room",
+    title: "The Missing Word in the Room",
+    date: "2026-04-20",
+    category: "Faith & AI",
+    image: "/images/blog/the-missing-word-in-the-room.png",
+    excerpt:
+      "The EU AI Act protects human dignity without defining it. Governments will regulate what they cannot name. The church has been absent from the conversation.",
+    content: `On April 1, the EU AI Act went fully into force. Somewhere in Brussels, a bureaucrat filed the last compliance document, and the largest regulatory framework for artificial intelligence in human history became law. Risk tiers. Transparency mandates. Prohibited uses. Fines up to 35 million euros or 7% of global revenue, whichever stings more.
+
+I read the full summary that week. All 113 pages of the condensed version. And what struck me was not what it said. It was what it assumed without ever saying it.
+
+The entire framework rests on the protection of human dignity. That phrase appears over and over. Human dignity must be preserved. Human oversight must be maintained. Systems that manipulate human behavior are prohibited because they violate... human dignity.
+
+But nowhere does the document account for what human dignity actually is. Where it comes from. What grounds it. Why a machine that can outperform a radiologist at detecting tumors is still, in some crucial sense, less than the radiologist. The Act simply asserts dignity as a given and moves on to enforcement mechanisms.
+
+I do not say this to be dismissive. The people who wrote this legislation are serious, and the problems they are trying to solve are real. Deepfakes that destroy reputations. Hiring algorithms that encode racial bias into a system no one can audit. Social scoring that reduces a citizen to a number. These are genuine harms, and governments are right to address them.
+
+But there is something underneath all of it that no one seems willing to name.
+
+You cannot protect what you cannot define. And the modern secular West has no consensus definition of the human person. We have utility. We have autonomy. We have preference satisfaction. We have a vague sense that people matter more than machines. But when pressed on why, the conversation gets uncomfortable fast.
+
+Here is the tension: if dignity is grounded in capability, then any sufficiently capable machine threatens it. If dignity is grounded in autonomy, then systems that subtly shape our choices erode it by degree. If dignity is grounded in nothing at all, just a cultural inheritance we have decided to keep, then it can be legislated away as easily as it was legislated in. The next parliament can simply decide otherwise.
+
+This is not a hypothetical. The history of the twentieth century is a history of governments deciding that certain humans did not, in fact, possess dignity. They had reasons. They had frameworks. They had intellectuals who provided the justifications. What they lacked was an account of personhood that existed outside their own authority to grant or revoke it.
+
+The Christian tradition offers exactly that account.
+
+Imago Dei. The image of God. Genesis 1:27 does not say humans are valuable because they are useful, or conscious, or capable of suffering, or productive members of an economy. It says they bear the image of their Creator. Full stop, as it were. The dignity is not earned. It is not contingent on performance. It cannot be compared away by a machine that writes better poetry or diagnoses cancer faster.
+
+This is not a minor theological footnote. It is the only framework I know of that anchors human worth in something no government and no technology can touch.
+
+And the church, by and large, has been absent from the conversation.
+
+I spent two years wrestling with this in Return of Mystery. Not the policy questions specifically, but the deeper architecture: what happens to faith, to personhood, to the experience of being human when the machines get good enough to imitate us convincingly? The question that kept returning was not "will AI replace us?" It was "do we have an account of ourselves that can survive the comparison?"
+
+I think we do. But I also think we have been lazy about articulating it.
+
+The theologians who shaped Western civilization were not afraid of public discourse. Augustine wrote City of God in direct conversation with Roman political philosophy. Aquinas engaged Aristotle on his own terms. The reformers published in the vernacular because they believed ordinary people could handle serious ideas about God and governance and what it means to be human.
+
+Somewhere along the way, we retreated. We decided these conversations belonged to ethicists and policy analysts and Silicon Valley executives. We let the utilitarian framework become the only framework, not because it won the argument, but because we stopped showing up.
+
+I am not suggesting the church should lobby for specific AI regulations. I am not qualified to draft legislation, and frankly, most pastors are not either. But the question underneath the legislation, the question of what a person is and why that matters even when a machine can do what a person does, that question belongs to us. We have been thinking about it for two thousand years. We have language for it. We have Scripture that speaks to it. Psalm 8: "What is mankind that you are mindful of them?" The psalmist asked the question before anyone imagined a large language model.
+
+The governance moment is here. Governments will regulate AI. They will do it with or without theological input. They will protect something they call dignity, rooted in something they cannot name. And the people who could name it will be in the other room, debating worship styles.
+
+I would rather be in the room where the question is being asked. Even if my contribution is small. Even if all I can do is point to the one claim that cannot be eroded by Moore's Law: that we are not merely what we produce, or what we can do, or what distinguishes us from machines. We are image-bearers. That was true before the first transistor, and it will be true long after the last server farm goes dark.
+
+The conversation is open. The chair is empty. I wonder who will sit down.`,
+  },
+  {
     slug: "the-prayer-the-machine-cannot-say",
     title: "The Prayer the Machine Cannot Say",
     date: "2026-04-08",
