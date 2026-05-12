@@ -10,6 +10,70 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-ai-cant-forget",
+    title: "What AI Can't Forget",
+    date: "2026-05-12",
+    category: "Faith & AI",
+    image: "/images/blog/what-ai-cant-forget.png",
+    excerpt:
+      "Persistent memory in AI systems raises a deeper question: in a world built for total recall, is forgiveness even possible? And what does it mean that the church has been silent about it.",
+    content: `A few weeks ago I had a conversation with an AI assistant that I immediately regretted. Nothing dramatic — I was working through a business problem, frustrated, and I said some things in that chat window that I wouldn't say out loud to a person. The logic felt fine in the moment. It's just a machine. No one is listening.
+
+Then I remembered that the session was saved. Labeled. Sitting in a sidebar with a timestamp. Searchable.
+
+It wasn't the words that unsettled me. It was the permanence. The interaction I'd written off as disposable had become a record.
+
+---
+
+## The Feature Nobody Questioned
+
+Persistent memory in AI systems is being sold as an obvious improvement. Of course the assistant should remember what you told it last week. Of course it should know your preferences, your history, your context. Why would you want to repeat yourself?
+
+The pitch is convenience, and the pitch is not wrong. Memory is useful. I am not arguing we should prefer amnesia in our tools.
+
+But I've been sitting with a different question lately, one that came into focus while I was reading through Hebrews. The writer, describing the new covenant God establishes through Christ, quotes Jeremiah and adds this as the capstone promise: "I will remember their sins no more."
+
+Not forgive and remember. Not pardon but retain the record. Remember no more.
+
+I have read that verse many times and mostly rushed past it. Lately it stops me.
+
+---
+
+## When the Record Becomes the Person
+
+There's a pattern in contemporary life that AI memory is going to make structural. We already live in a world where a mistake from ten years ago can be retrieved in thirty seconds and treated as definitive evidence of who you are now. The tweet from 2014. The op-ed from college. The recorded conversation that ended up somewhere you didn't expect. The past is increasingly permanent, and increasingly, people are being held to it without much room for the kind of change that used to happen quietly over time.
+
+I don't think this started with technology. The impulse to fix a person to their worst moment is older than the internet. But technology has removed the friction that used to allow transformation to outrun the record. Things used to fade. Now they don't.
+
+AI memory is about to take this several steps further. Not just public posts but private conversations. Not just what you said, but how you said it, the mood you were in, the doubt you expressed before you figured something out, the question you asked that you'd be embarrassed to ask now. All of it logged, retrievable, available to whoever has access.
+
+The question worth asking is not whether this is efficient. Of course it is. The question is what kind of world it builds — and whether that world has room for the thing we call grace.
+
+---
+
+## What Forgiveness Actually Requires
+
+I don't think forgiveness is possible without something like forgetting. Not the erasure of memory exactly — that's not what Hebrews is describing. God is not claiming he has amnesia. The "remember no more" is a covenant act, a choice to no longer hold the thing against the person. A deliberate refusal to let the record govern the relationship.
+
+But that act of refusal becomes harder, in a practical sense, the more accessible the record is.
+
+Bonhoeffer wrote about this from a different angle in "Life Together." He observed that Christian community requires a specific kind of discipline around what you carry about another person: not allowing the incomplete picture you have of someone to calcify into a verdict. He was thinking about face-to-face community, not surveillance architecture. But the principle holds. The more detailed and permanent the record, the harder it becomes to see a person as something other than their accumulated data.
+
+This is not a problem technology created from scratch. It is a problem technology is amplifying in ways that are going to require serious thought from people who take forgiveness seriously.
+
+I don't have a clean framework for where the line falls. I am not a technologist, and I am skeptical of anyone who claims to have an obvious solution to this. But I keep coming back to what the Christian tradition insists on, which is that a person is not the sum of their file. That identity runs deeper than behavior, that the self God knows and loves is not reducible to a retrievable transaction history.
+
+Psalm 103 puts it in spatial terms: "as far as the east is from the west, so far has he removed our transgressions from us." The image is not merely poetic. It is a claim about distance, about the relationship between who you were and who you are, about the radical possibility that the past does not have to determine the present.
+
+That claim is going to feel increasingly strange in a world built for total recall.
+
+---
+
+I am not suggesting we should fear AI memory or refuse to use it. I use these tools daily. But I think the people who care most about forgiveness, about second chances, about the possibility of genuine change, have something to say about the infrastructure we are building.
+
+We are shaping systems that will remember everything. Someone needs to keep asking whether that is wisdom or a trap. The tradition I come from has been thinking about that question for a very long time. I'd rather see it in the room than discover we left it out.`,
+  },
+  {
     slug: "the-missing-word-in-the-room",
     title: "The Missing Word in the Room",
     date: "2026-05-05",
