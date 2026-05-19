@@ -10,6 +10,68 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "the-god-who-doesnt-explain-himself",
+    title: "The God Who Doesn't Explain Himself",
+    date: "2026-05-18",
+    category: "Faith & Mystery",
+    image: "/images/blog/the-god-who-doesnt-explain-himself.png",
+    excerpt:
+      "When we can answer almost any question instantly, what happens to faith? God's response to Job wasn't an explanation. It was presence.",
+    content: `I have an answer for almost everything now. That is what the last two years have done to my daily life, and I have started paying attention to what it is doing to me.
+
+Ask about the etymology of a Hebrew word at 6 AM and the answer arrives before the coffee is finished. Covenant theology, OPEC production data, the phonetic structure of ancient Greek: the questions go in and the answers come out, and the uncertainty that was there a moment ago dissolves into something that feels like resolution. This is genuinely useful. I use these tools constantly. But there is a texture to a life without unresolved questions that I have been noticing, and I am not sure I like it.
+
+---
+
+## The World We Are Building
+
+Every major technology reshapes the questions we think are worth asking. The printing press didn't just spread information: it rearranged what kind of knowledge felt authoritative. The scientific method didn't just improve medicine: it changed the hierarchy of explanation. We solved problems that had mystified people for centuries, and gradually we became a culture that expects problems to yield.
+
+AI is accelerating this pattern at a speed we haven't encountered before. Give it your symptoms and it will outline a differential diagnosis. Give it a poem and it will explain what the poet meant. Give it your fear and it will name the cognitive distortion behind it. The explanations are faster now, and they cover more ground, and they come with a confidence that makes it easy to mistake them for something more than what they are.
+
+What they are is very good pattern recognition across enormous amounts of human knowledge. They are not wisdom. Most days I know that. But the feel of consulting them is very close to the feel of understanding, and I am not sure we have thought hard enough about what a steady diet of that does to the soul.
+
+We are building a world that is increasingly allergic to unresolved questions. For people of faith, that deserves attention.
+
+---
+
+## Where Were You
+
+Job gets thirty-seven chapters into his ordeal before God shows up.
+
+In those thirty-seven chapters, Job argues, demands, and mourns. His friends offer systematic theology to account for why he is suffering. They have explanations. They are wrong about what is happening, and God says so directly, but they have explanations. Job wants something more than what his friends are offering: he wants to present his case directly to the one responsible. He believes the thing would make sense if he could just get access to the right conversation.
+
+Then God speaks out of the whirlwind.
+
+He doesn't answer a single question Job has raised. He asks where Job was when the morning stars sang together and the angels shouted for joy. He describes the storehouses of snow, the binding of the Pleiades, the way young lions crouch when they are hungry. The force of it is not information. God is asking: how large is the frame you have been using? Because it is not large enough to hold what you are standing in.
+
+Job's response is not philosophical enlightenment. He doesn't say: now I understand. He says: "My ears had heard of you but now my eyes have seen you." The resolution is encounter, not explanation. The suffering doesn't get accounted for. Something else happens instead.
+
+This is what the Christian tradition has always meant by mystery: not a gap in knowledge waiting to be filled but a presence that exceeds the categories we bring to it. Gregory of Nyssa called it divine darkness, not because God is absent but because God's light is brighter than the eye can take in. The mystical tradition that followed him wasn't advocating ignorance. It was describing what happens when you move toward a reality genuinely larger than your comprehension.
+
+---
+
+## The Doxology at the End of the Argument
+
+Paul writes the most systematic letter in the New Testament. Eleven chapters of theology so dense that seminaries devote whole semesters to it. He covers justification, election, sanctification, the relationship between Israel and the Gentiles. He builds the argument with precision and obvious care.
+
+And then, at the end of chapter eleven, having reached the far edge of what can be said, he stops arguing and starts singing:
+
+"Oh, the depth of the riches of the wisdom and knowledge of God. How unsearchable his judgments, and his paths beyond tracing out."
+
+He is not giving up. He has done the hard intellectual work, and the doxology comes after the argument, not instead of it. But when he reaches the end of what systematic theology can do, he finds not a conclusion but a horizon: vast, lit from an angle he cannot see around, pointing toward something that will not resolve into a proposition.
+
+Bonhoeffer made a similar observation in a different key. He wrote that the church's temptation in every age is to turn the relationship with God into a system, something manageable, something that can be administered. The cross, he kept insisting, keeps breaking those systems. God is personal, and persons exceed their descriptions.
+
+---
+
+I wrote a book about what it means to hold onto faith in an age that is very good at answering questions. The questions I care about are not the ones AI is good at answering. They are the ones you sit with over time, the ones that change you in the sitting, the ones where the answer, if it comes at all, arrives as presence rather than proposition.
+
+A God who could be fully explained would be a complex system. The difference between a complex system and a person is not a matter of degree. It is the difference between a map and a place.
+
+The tradition has been pointing at this for a long time. We could afford to remember it.`,
+  },
+  {
     slug: "what-ai-cant-forget",
     title: "What AI Can't Forget",
     date: "2026-05-12",
