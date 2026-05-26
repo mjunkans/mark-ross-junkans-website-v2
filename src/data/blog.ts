@@ -10,6 +10,95 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "nobody-celebrates-maintenance",
+    title: "Nobody Celebrates Maintenance",
+    date: "2026-05-25",
+    category: "Faith & Mystery",
+    excerpt:
+      "Civilization does not run on launches. It runs on upkeep, on ordinary faithfulness, and on the quiet work that keeps a life inhabitable.",
+    content: `I have spent enough years around infrastructure projects to know which moments get photographed.
+
+Groundbreakings get photographed. Ribbon cuttings get photographed. The minister in a hard hat, the smiling delegation, the glossy rendering of what the finished port or housing project will look like, all of that makes sense to people. It feels like progress. It gives you something to point to.
+
+What never gets photographed is the long middle. The inspections. The repairs. The budget meeting about drainage. The argument over whether the contractor used the right grade of material. The unglamorous work required to keep a road passable five years after the celebration is over.
+
+That work matters more than the ribbon.
+
+I have been thinking about that lately because our culture has developed a deep love affair with the new. New platforms. New products. New announcements. New breakthroughs. Even our language gives prestige to the act of launching while quietly treating maintenance as the fate of people who could not get in on the exciting part.
+
+The problem is that civilization does not run on launches. It runs on upkeep.
+
+Every meaningful human system depends on someone doing work that does not feel impressive in the moment. Someone changes the oil. Someone checks the bearings. Someone patches the roof before the leak becomes structural. Someone notices the drift while there is still time to correct it. The people who do this work rarely become the face of the project. Most of the time, nobody applauds at all. They simply prevent collapse.
+
+That deserves more respect than we give it.
+
+---
+
+## The Moral Weight of Upkeep
+
+I do not mean this only in an engineering sense, though engineering teaches it well.
+
+Maintenance has moral weight because it is one of the clearest ways we refuse the lie that other people are disposable. A neglected bridge is eventually a danger to families who have to cross it. A neglected power system leaves hospitals vulnerable. A neglected church becomes a place where small distortions are allowed to harden into something harder to correct later. A neglected marriage rarely explodes all at once. It drifts.
+
+Decay is patient. That is why maintenance has to be patient too.
+
+This is one reason the Christian tradition has always had a stronger doctrine of ordinary faithfulness than the modern world knows what to do with. Scripture is full of dramatic moments, but actual discipleship is full of repetition. Daily bread. Daily prayer. Weekly worship. Confession that returns again because the heart keeps needing repair. The life of faith is not sustained by novelty. It is sustained by habits strong enough to hold when feeling does not.
+
+We understand this instinctively in a few parts of life. Parents know it. Pastors know it, at least the honest ones. Anyone who has had to keep a business alive through lean years knows it. There are seasons when the highest form of leadership is not invention. It is maintenance. You hold the thing together. You make the needed repair. You preserve trust. You keep showing up.
+
+It sounds less heroic than disruption. Often it is more costly.
+
+## Why We Undervalue It
+
+Part of the reason we undervalue maintenance is simple vanity. Starting something new gives you a story about yourself. It lets you feel visionary. Maintenance forces a different kind of posture. You have to submit to reality as it is. You have to admit that things wear down, including the things you built yourself. You have to pay attention to details that do not flatter the ego.
+
+There is also a deeper spiritual issue underneath it.
+
+Novelty gives the illusion of transcendence. It whispers that the old limitations can be escaped if we can just build the next thing fast enough. Maintenance confronts us with creatureliness. Pipes corrode. Bodies age. Institutions drift. Attention weakens. We are not gods presiding over frictionless systems. We are stewards in a world where good things require care.
+
+That word matters: stewards.
+
+Stewardship is not mainly about ownership. It is about responsibility under authority. The house is not mine in any ultimate sense, but I am still responsible to care for it. The people under my leadership do not belong to me, but I will answer for how I treated them. Time is given, not possessed. Attention is given, not possessed. A body is given. A calling is given. If you start there, maintenance stops feeling secondary. It becomes one of the primary ways gratitude takes shape.
+
+You care for what you have received.
+
+## The Temptation to Live on Announcements
+
+I see a version of this temptation in technology circles all the time. We are trained to talk about transformation at the level of product launches and big claims. Every week there is another unveiling, another bold forecast, another suggestion that the future has arrived ahead of schedule.
+
+Maybe some of it has. Fine.
+
+What interests me more is whether anybody is asking who will maintain the world those systems are entering. Who will carry the human cost when convenience scales faster than wisdom. Who will keep institutions honest when speed becomes the only metric anyone respects. Who will preserve actual neighborhoods, actual congregations, actual families, while the digital layer of life keeps expanding over all of them.
+
+I wrote Return of Mystery because I am convinced the deepest human questions do not go away when our tools become more powerful. If anything, they become harder to ignore. One of those questions is painfully ordinary: will we still value the work that keeps a life inhabitable?
+
+Not efficient. Inhabitable.
+
+There is a difference.
+
+A system can be highly efficient and still leave people fragmented, lonely, distracted, and spiritually malnourished. A community can look unimpressive from the outside and still be doing the quiet work of making souls durable. Maintenance lives in that gap. It asks whether the thing in front of us can still bear weight, whether it is still fit for human flourishing, whether the structure is sound enough to carry real life and not just good messaging.
+
+## The People I Trust More
+
+The older I get, the more I trust people who know how to maintain things.
+
+I trust the leader who notices small cracks before they become public failures. I trust the friend who does the hard follow-up instead of disappearing into vague goodwill. I trust the engineer who is harder to impress because he has seen what shortcuts cost later. I trust the church member who has been praying quietly for twenty years more than the one who needs every conviction to arrive wrapped in novelty.
+
+Most of the best people I know are builders, yes, but they are also caretakers. They understand that starting well is not enough. What matters is whether the thing remains faithful under weather, pressure, and time.
+
+That is true of roads. It is true of institutions. It is true of convictions.
+
+And it is true of a soul.
+
+There is a kind of maturity that stops asking to be excited all the time. It learns to love steadiness. It learns to welcome repetition. It learns that a life worth living is usually held together by practices so ordinary they would never make a keynote presentation.
+
+Pray. Repair what you can. Tell the truth early. Check on the weak point before it fails. Keep your word. Return to the work in front of you.
+
+Nobody celebrates maintenance. That is fine.
+
+Some of the most important work in the world has always happened without applause.`,
+  },
+  {
     slug: "the-god-who-doesnt-explain-himself",
     title: "The God Who Doesn't Explain Himself",
     date: "2026-05-18",
