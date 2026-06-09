@@ -10,6 +10,140 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "the-human-work-that-still-has-to-be-done",
+    title: "The Human Work That Still Has To Be Done",
+    date: "2026-06-08",
+    category: "Faith & AI",
+    image: "/images/tech-minimal.jpg",
+    excerpt:
+      "AI can remove unnecessary drag from our work, but it cannot carry the obedience, patience, repentance, attention, and embodied presence that make us human.",
+    content: `I was cleaning up a small mess in one of my work systems last week and caught myself feeling irritated that the machine had not simply handled it.
+
+It was not a dramatic problem. A broken connection. A draft stuck in the wrong place. A report that existed but did not create any visible movement. The kind of thing that used to be ordinary clerical work and now feels oddly offensive because so many other tasks have become instantaneous.
+
+That bothered me.
+
+Not the broken system. My reaction to it.
+
+The more useful our tools become, the easier it is to treat every remaining bit of friction as an insult. A slow reply. A confusing conversation. A person who needs more context. A process that requires follow-through. Even our own hesitation can start to feel like a bug in the system rather than a normal part of being human.
+
+I think that is one of the subtler spiritual pressures of this moment. AI does not only change what we can produce. It changes what we expect life to feel like.
+
+And a lot of human life is supposed to feel slower than a prompt.
+
+## When Help Becomes Expectation
+
+I use AI every day. I am past the point of pretending these tools are a novelty. They help me organize thoughts, compare information, draft options, and see patterns I might have missed. Some of that is genuinely good. Used wisely, a tool can remove unnecessary drag from the work God has put in front of us.
+
+But usefulness has a way of becoming entitlement.
+
+Once a machine can summarize ten pages in seconds, reading slowly can begin to feel wasteful. Once a machine can generate a clean first draft, the awkwardness of forming your own sentence can feel inefficient. Once a machine can give you a calm answer at midnight, the inconvenience of waiting for a real conversation can feel unreasonable.
+
+That shift matters because our expectations become our habits.
+
+If I expect every task to resolve quickly, I become less patient with the tasks that require time. If I expect every relationship to adapt to my preferences, I become less prepared for the relationships that require sacrifice. If I expect every question to produce an immediate answer, I become less able to sit in the presence of God without needing him to explain himself on demand.
+
+The tool may be external. The formation is internal.
+
+## The Parts AI Cannot Carry For Us
+
+There are parts of life that cannot be delegated without changing the thing itself.
+
+You can use AI to draft a note of apology. You still have to repent.
+
+You can use AI to organize a Bible reading plan. You still have to submit your attention to Scripture when you would rather be entertained.
+
+You can use AI to outline a hard conversation. You still have to sit across from another person and risk being misunderstood, challenged, or forgiven.
+
+You can use AI to analyze your schedule. You still have to decide what kind of man you are becoming with your hours.
+
+That line is not always easy to see in advance. I do not think every use of AI in these areas is wrong. Sometimes a tool helps us do the human thing more faithfully. A scattered person may need help getting words onto the page. A pastor may use a tool to organize research so he has more time for prayer and people. A tired parent may use a tool to bring order to a chaotic week.
+
+Good. Use the help.
+
+But do not confuse help with obedience.
+
+The Christian life has always involved work that cannot be automated because the work is doing something to us. Prayer shapes us partly because it requires attention. Confession shapes us partly because it costs us pride. Service shapes us partly because other people are inconvenient. Worship shapes us partly because it pulls us out of private preference and into a body.
+
+Remove all the cost, and you may remove part of the formation.
+
+## A Faith Built For Embodied Life
+
+One reason I keep returning to the word mystery is that mystery protects us from reducing faith to information.
+
+Christianity is not less than truth. It makes claims. It teaches doctrine. It asks us to believe certain things and reject others. I care about that deeply.
+
+But the faith is not merely a set of correct explanations transferred into the mind. It is life in Christ. It is worship, repentance, communion, suffering, forgiveness, endurance, and love. It is the word of God read aloud among people with actual bodies. It is bread and wine. It is a hand on a shoulder. It is a funeral where nobody knows what to say and still shows up.
+
+That embodied texture is not decoration. It is part of the thing itself.
+
+This is why the church should be careful about adopting technological habits without asking what they train us to love. A frictionless tool can serve embodied life when it clears away clutter so we can be more present. It can also hollow embodied life out when it teaches us to prefer the manageable simulation to the demanding reality.
+
+The difference will not always show up in the output.
+
+Two people may produce the same polished paragraph. One used a tool as a servant. The other used it to avoid thinking. Two churches may use the same administrative software. One freed staff for pastoral care. The other became more efficient at keeping people at a distance. Two Christians may ask AI for help with a difficult passage. One returns to Scripture with deeper attention. The other learns to let the machine stand between him and the text.
+
+The visible result can look similar while the spiritual result diverges.
+
+That should sober us.
+
+## Stewardship Requires Attention
+
+Paul writes, "I will not be mastered by anything." I have always found that line bracing because mastery rarely announces itself. It usually arrives through small permissions.
+
+I can use this once.
+
+I can save time here.
+
+I can skip the hard part today.
+
+None of those decisions may be catastrophic on its own. Most are not. But habits do not ask for permission all at once. They gather weight by repetition. Eventually the tool that once served your judgment begins quietly supplying it.
+
+That is where stewardship has to become more than a word we admire.
+
+A steward asks what the tool is for. A steward asks what the tool is replacing. A steward pays attention to the kind of person being formed by the repeated use of the thing. A steward can receive help without surrendering responsibility.
+
+That last part matters most.
+
+Responsibility is one of the human burdens AI will tempt us to lay down. Not because the machines demand it, but because convenience invites it. Let the system decide. Let the assistant answer. Let the platform remember. Let the model draft. Let the algorithm choose.
+
+Sometimes that is fine. Sometimes it is even wise.
+
+But the responsibility remains ours.
+
+The calling remains ours.
+
+The soul remains ours.
+
+## The Slower Work
+
+I do not want to become the kind of person who resents every task that still requires me to be fully present.
+
+I need the slower work. I need the conversation that does not resolve neatly. I need the book that makes me sit with a paragraph longer than I expected. I need the friendship that cannot be optimized. I need the prayer that feels dry and still deserves to be prayed. I need the obligation that teaches me to keep my word when novelty has worn off.
+
+Most of us do.
+
+The future will be filled with tools that help us do more, faster, with less visible effort. Some of that will be a gift. I believe that. I am not interested in nostalgia pretending to be discernment.
+
+But Christians should be the kind of people who can ask a better question than whether something works.
+
+What is this doing to my loves?
+
+What is this doing to my patience?
+
+What is this doing to my ability to bear with real people?
+
+What is this doing to my willingness to meet God in silence, not merely consult religious language on demand?
+
+Those questions will not make us slower in every area. They may make us sharper. They may help us use powerful tools with cleaner motives and better limits. They may keep us from confusing acceleration with maturity.
+
+I want the tools. I also want the formation.
+
+And when those two are in tension, I want enough wisdom to choose the work that makes me more faithful, even when it feels inefficient.
+
+Especially then.`,
+  },
+  {
     slug: "nobody-celebrates-maintenance",
     title: "Nobody Celebrates Maintenance",
     date: "2026-05-25",
