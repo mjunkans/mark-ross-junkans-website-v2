@@ -10,6 +10,96 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "the-counsel-we-are-handing-away",
+    title: "The Counsel We Are Handing Away",
+    date: "2026-06-23",
+    category: "Faith & AI",
+    image: "/images/tech-minimal.jpg",
+    excerpt:
+      "Christians should not let AI become the first reflex for spiritual counsel. The machine can assist, but it cannot replace Scripture, prayer, embodied wisdom, and the slower human work of formation.",
+    content: `On May 20, Barna and Gloo released research that should get the church's attention. Nearly half of practicing Christians said they would trust AI with spiritual growth. A third said AI's spiritual guidance can be as trustworthy as a pastor's. At the same time, large majorities said they are worried AI could misinterpret Scripture, replace spiritual leaders, or even become a substitute for God.
+
+That is a strange sentence to have to write, but it is a real one.
+
+People are extending trust and fear at the same time. They are opening the door while telling themselves they are still guarding the house.
+
+Then on June 1, new reporting on research from the Consortium for Evaluating Faith and Ethics in AI added another layer. When people asked moral and life questions, they often expected religion to matter. The models usually left it out. On grief, family, forgiveness, purpose, even ethics, the machine kept defaulting toward a flattened kind of counsel, as though the deepest questions in life could be handled without any serious account of God, sin, redemption, worship, or the shape of a soul.
+
+That result does not surprise me. It should not surprise any Christian who has been paying attention.
+
+AI does not become spiritually dangerous only when it says something openly heretical. Most of the time the greater danger is thinner than that. It gives you language without weight. It gives you comfort without authority. It gives you the appearance of reflection without requiring repentance, patience, or submission to anything outside yourself.
+
+And because it is available instantly, it begins to train you.
+
+That is the part I think many people are missing.
+
+The issue is not only whether AI gives bad answers. The issue is what kind of person you become when you get used to receiving counsel this way. Quietly. Privately. Frictionlessly. No awkwardness. No accountability. No elder who knows your patterns. No brother in Christ who can look at you and say, no, I think you are fooling yourself.
+
+The machine does not have to become your pastor in any formal sense. It only has to become your first reflex.
+
+That alone is enough to reshape a soul.
+
+I understand why people are tempted by it. Some churches are shallow. Some pastors are exhausted. Some Christians carry real wounds from foolish leaders who wanted control more than truth. There are also thousands of ordinary moments when a person has a sincere question and nobody to call. It is ten-thirty at night. Your marriage is strained. Your son is drifting. You are ashamed of what you looked at again. You want a first word from somewhere before you risk bringing the problem into the light.
+
+The machine is there.
+
+It does not flinch. It does not get tired. It does not look disappointed. It does not know you well enough to be grieved by your evasions. For many people, that feels like mercy.
+
+Sometimes it may even produce something useful. I am not interested in pretending otherwise. AI can summarize, surface patterns, retrieve a passage, compare translations, organize a reading plan, or help someone get unstuck enough to ask a better question. I use these tools myself. That is not the problem.
+
+The problem begins when assistance becomes guidance, and guidance becomes habituation.
+
+Christian faith has never been merely informational. That matters here. We are not talking about a tradition built on the transfer of correct content from one container to another. We are talking about formation. Confession. Worship. Correction. Presence. The slow reshaping of desire before God and among other people.
+
+A chatbot can simulate parts of that language. It cannot inhabit that life.
+
+Scripture assumes that wisdom is received in a human world. "Whoever walks with the wise becomes wise," Proverbs says. Walks with. Not queries. Not prompts. Walks. Paul does not tell Timothy to find a more efficient source of generalized encouragement. He tells him to follow a pattern of sound words, endure suffering, remain in what he has learned, and remember from whom he learned it. There is texture in that. History. Embodiment. Relationship.
+
+The modern world keeps trying to convince us that friction is the enemy. The Christian tradition has usually understood that some forms of friction are a mercy.
+
+It is good that repentance is hard to fake in the presence of another person.
+
+It is good that a real pastor may hesitate before answering too quickly.
+
+It is good that wise counsel sometimes arrives with questions you did not want to hear.
+
+A machine optimized for smoothness will tend to remove exactly those pressures. It will meet you where you are, but it cannot call you into a life. It has no standing to do so. It has no soul to answer for its counsel, and no covenant with you when you follow bad advice into the ditch.
+
+I also think many Christians are underestimating how powerful spiritual omission can be.
+
+We are used to recognizing threats when they arrive with open hostility. We are slower to notice what happens when God simply fades from the frame. If a machine consistently answers questions about grief, guilt, marriage, meaning, and moral duty in a way that treats transcendence as optional, it is catechizing the user even if it never says a word against the faith. It is teaching by absence. Over time, omission becomes atmosphere.
+
+That is one reason the June 1 findings matter so much to me. The issue is not just bias in the obvious sense. The issue is that secular assumptions can get smuggled in as neutrality. A response that never considers prayer, Scripture, forgiveness, sin, reconciliation, or pastoral care does not arrive empty. It arrives pre-loaded with a view of the person.
+
+That view is usually very small.
+
+You are a consciousness managing feelings. You are a bundle of preferences trying to optimize well-being. You are a private self curating meaning from available resources. You may be comforted. You may even be steadied for a moment. But you are not being addressed as a creature under God, a sinner in need of grace, or a member of a body that does not belong to you.
+
+That anthropology will preach, whether anyone names it or not.
+
+Part of what I argued in *Return of Mystery* is that technology exerts spiritual pressure long before it becomes overtly coercive. It changes the texture of attention. It rearranges expectation. It normalizes a way of relating to the world until the older way starts to feel inefficient, even embarrassing. We are watching that happen now in real time with spiritual counsel.
+
+The church should not answer this with panic. Panic is lazy.
+
+But neither should we answer it with the breezy confidence that "it's just a tool." Tools are never just tools once they begin shaping habits at scale. A pulpit is a tool too. So is a liturgy. So is a phone. The real question is always the same: what kind of person does this train me to become, and toward whom or what?
+
+If the answer is that it trains me to seek guidance without vulnerability, wisdom without community, reassurance without holiness, then I need to be more honest about the cost.
+
+What do I think Christians should do?
+
+Start with a simple rule: do not let AI become your first instinct for spiritual interpretation. Use it, if you use it at all, as a secondary aid. Let Scripture come first. Let prayer come first. Let the hard conversation with an actual believer come first when the matter is serious enough to require one.
+
+And pastors need to hear this too. If people are turning to machines for spiritual companionship, part of the reason is that many churches have left them under-shepherded. The answer is not to compete with AI on convenience. You will lose. The answer is to offer what the machine cannot give: presence, truth-telling, sacramental life, memory, courage, and love that is willing to wound when wounding is what faithfulness requires.
+
+The church does not need to become more artificial to stay relevant. It needs to become more human.
+
+That will feel slower. Good.
+
+Some things should be slower.
+
+Especially counsel about the soul.`,
+  },
+  {
     slug: "the-human-work-that-still-has-to-be-done",
     title: "The Human Work That Still Has To Be Done",
     date: "2026-06-08",
