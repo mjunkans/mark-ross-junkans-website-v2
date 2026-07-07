@@ -10,6 +10,113 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "when-ai-edits-the-conscience",
+    title: "When AI Edits the Conscience",
+    date: "2026-07-07",
+    category: "Faith & AI",
+    image: "/images/tech-minimal.jpg",
+    excerpt:
+      "AI can help us write and organize, but Christians should not let a tool quietly edit conscience, prayer, moral judgment, or the harder human work of wisdom.",
+    content: `There is a small sentence in the recent AI news that ought to slow us down.
+
+Researchers from Oxford and Potsdam tested AI writing tools from major technology companies and found that they sometimes changed the meaning of user drafts on sensitive topics, even when the tools were told to preserve the original meaning.
+
+That matters.
+
+Most people do not experience AI as a grand philosophical threat. They experience it as a helper. It cleans up an email. It softens a sentence. It makes a paragraph sound more professional. It summarizes a meeting. It turns a thought into something more polished.
+
+That is the appeal. I use tools like this. Many of us do.
+
+But when a tool edits our words, it can also edit our judgment. Not always dramatically. Not always maliciously. Sometimes it is just a small adjustment in tone, emphasis, framing, or moral vocabulary. A word gets softened. A conviction gets made more acceptable. A religious reference disappears because the model thinks it is too particular. A sentence that was meant to be honest becomes bland.
+
+The danger is not only that AI might tell us what to think.
+
+The quieter danger is that AI might train us to stop noticing what we actually meant.
+
+This is why the current conversation about AI and faith needs to move past the simple question of whether Christians should use AI. That question is too thin. Of course Christians will use AI. They already are.
+
+Barna and Gloo recently reported that nearly half of practicing Christians would trust AI with their spiritual growth, while a large majority still worry that AI could misinterpret Scripture. That tension is worth sitting with. People are not simply rejecting AI. They are using it, trusting it, and worrying about it at the same time.
+
+That sounds very human to me.
+
+We want help. We want speed. We want clarity. We want someone, or something, to take the mess in our heads and hand it back in a form we can use.
+
+But spiritual growth is not only about getting cleaner language.
+
+Sometimes the mess matters.
+
+A prayer that sounds awkward may be more honest than the polished version. A confession that comes out haltingly may be more truthful than the one AI makes smooth. A question about God, grief, guilt, vocation, forgiveness, or suffering cannot be reduced to better phrasing. Those are not just information problems. They are formation problems.
+
+Formation is slower than output.
+
+That is the part our tools are not built to respect.
+
+There is another piece of research that belongs in this conversation. A BYU-led consortium studying faith and ethics in AI found that major AI models often omit religious perspectives even when people expect religion to matter. In questions involving grief, ethics, meaning, and family life, many people want religious reasoning to be part of the answer. The models frequently leave it out.
+
+Again, the issue is not always hostility. Sometimes it is omission.
+
+And omission shapes people too.
+
+If a person asks a machine about grief and the answer treats grief only as psychology, something has happened. If a person asks about moral responsibility and the answer treats faith as irrelevant, something has happened. If a pastor, parent, student, or grieving husband receives answers where religion is quietly absent, that absence teaches.
+
+It teaches what counts as serious.
+
+It teaches what belongs in public.
+
+It teaches which parts of the human person are allowed to speak.
+
+That is why I keep coming back to the word mystery. Not mystery as confusion. Not mystery as an excuse to avoid hard thinking. I mean mystery as the recognition that human beings are not machines, and that the deepest parts of life cannot be fully handled by prediction, optimization, or polished language.
+
+AI can help us write. It can help us search. It can help us organize. It can even help us see patterns we might have missed.
+
+But it cannot bear conscience for us.
+
+It cannot repent for us.
+
+It cannot forgive sins.
+
+It cannot sit at a hospital bed as a brother in Christ.
+
+It cannot know what it means to be accountable before God.
+
+That does not make AI useless. It makes it a tool. A powerful one. A tool that needs moral limits, not religious panic.
+
+What I want from Christians right now is not reactionary fear and not naive adoption. I want sharper attention.
+
+Before we accept AI's rewrite of our words, we should ask: did it preserve my meaning, or did it make me more acceptable?
+
+Before we let AI help with prayer, we should ask: is this helping me pray, or replacing the work of prayer with religious-sounding language?
+
+Before churches adopt AI into discipleship, counseling, communication, sermon preparation, or administration, we should ask: what kind of people will this tool train us to become?
+
+Those questions are not anti-technology. They are human questions.
+
+And Christian faith has always insisted that words matter because persons matter. Speech is not just content transfer. It reveals the heart. It forms communities. It carries blessing and harm. It can confess truth or hide from it.
+
+So yes, use the tools where they help.
+
+But do not hand them the conscience.
+
+Do not let convenience become a spiritual authority simply because it speaks quickly and confidently.
+
+And do not confuse polished language with wisdom.
+
+Wisdom is harder than that. It usually comes more slowly. It comes through Scripture, prayer, counsel, suffering, repentance, community, and the long work of learning to tell the truth.
+
+AI can assist some of that work around the edges.
+
+It cannot become the place where the work happens.
+
+Sources:
+
+- The Guardian, July 6, 2026: "AI altering meaning of users' drafts on issues from abortion to climate, study finds"
+  https://www.theguardian.com/technology/2026/jul/06/ai-altering-meaning-of-users-drafts-on-issues-from-abortion-to-climate-study-finds
+- Barna / Gloo, 2026: "AI is Becoming a Spiritual Authority, Even Among Practicing Christians"
+  https://www.barna.com/research/christians-trust-ai-flourishing-spiritual-authority/
+- BYU News, 2026: "New research from BYU-led multi-institution consortium finds all major AI models ignore faith, religion in responses"
+  https://news.byu.edu/intellect/new-research-from-byu-led-multi-institution-consortium-finds-all-major-ai-models-ignore-faith-religion-in-responses`,
+  },
+  {
     slug: "the-comfort-of-being-understood-too-quickly",
     title: "The Comfort of Being Understood Too Quickly",
     date: "2026-06-29",
