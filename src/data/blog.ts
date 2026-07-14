@@ -10,6 +10,129 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "vocation-in-the-age-of-intelligent-machines",
+    title: "Vocation in the Age of Intelligent Machines",
+    date: "2026-07-14",
+    category: "Faith & AI",
+    image: "/images/blog/your-identity-is-not-your-job-vocation-ai.png",
+    excerpt:
+      "AI will disrupt work, but Christians need a deeper vocabulary than productivity: calling, presence, formation, duty, neighbor love, and the image of God.",
+    content: `I have been thinking about a conversation most parents are going to have, if they have not had it already.
+
+A son or daughter asks what they should study. A teenager wonders whether college still makes sense. A young adult looks at the job market and sees machines learning to do the work that used to require years of training. Parents want to give wise counsel, but the old answers feel thinner than they used to.
+
+Get a degree.
+
+Learn a trade.
+
+Choose something stable.
+
+Those are still useful pieces of advice. I would not throw them away. But they do not reach deeply enough anymore, because the anxiety many people feel around AI is not only about jobs. It is about purpose.
+
+Religion News Service ran a piece last week asking whether AI can replace vocation. That is the right word to put in the center of the conversation. Vocation is more than employment. It is more than income, productivity, market demand, or personal preference. At its root, vocation has to do with calling. It assumes a Caller. It assumes the human person is not self-invented, but summoned.
+
+That language sounds strange in a world trained to think in terms of options, platforms, credentials, and optimization. We are used to asking what a person can do. We are less practiced at asking what a person is for.
+
+AI will force that question back into the open.
+
+I do not mean that every job will disappear. Some will. Some will change. Some new ones will be created. The usual economic arguments will continue, and many of them matter. We should care about workers, wages, training, displacement, and whether the benefits of these tools are shared or captured by the already powerful.
+
+But Christians cannot stop at labor-market analysis.
+
+If work is only output, then AI becomes a simple competitor. It produces faster. It does not need sleep. It does not get distracted. It can draft, summarize, design, calculate, classify, and respond at a speed that makes ordinary human effort look inefficient.
+
+That comparison is real, but it is also incomplete.
+
+A person is not valuable because he can outproduce a machine. A mother is not replaceable because a chatbot can generate parenting advice. A pastor is not measured by how quickly he can produce a sermon outline. A craftsman is not reduced to the finished object alone. A teacher is not merely a content delivery system with a warm voice.
+
+There is a kind of presence inside human work that efficiency cannot capture.
+
+I think about the hidden parts of good work. The patience of learning a skill. The humility of starting badly and getting better. The discipline of showing up when the task feels ordinary. The way work teaches us to serve people we might not have chosen. The quiet dignity of providing for a family. The friendships formed beside a desk, on a job site, in a classroom, in a kitchen, or in a truck before sunrise.
+
+None of that fits neatly into a productivity dashboard.
+
+Colossians says, "Whatever you do, work heartily, as for the Lord and not for men." That sentence changes the center of gravity. It does not make every job pleasant. It does not baptize every workplace as healthy or every employer as just. It does remind us that the Christian works before the face of God, not merely before the market.
+
+That matters because the market is very good at assigning price and very poor at assigning meaning.
+
+When a machine can perform a task, the market may conclude that the person who performed it has become less useful. The Church must be very careful not to absorb that logic. We can tell the truth about economic disruption without letting economic usefulness become the measure of the human being.
+
+This is where I think many Christian conversations about AI have been too small.
+
+We keep asking whether Christians may use AI. Of course they may. Use it to organize notes. Use it to speed up administrative work. Use it to explore an idea. Use it to find patterns in a large body of information. I use these tools, and I expect more Christians will use them in ordinary life and ministry.
+
+The harder question is what kind of people we become when the tool is always nearby.
+
+If a young person grows up believing that every difficult first draft should be outsourced, something formative has been lost. If a pastor slowly loses the habit of wrestling with a text because sermon assistance is instant, something has been traded away. If a worker begins to see his judgment as less trustworthy than the machine's polished recommendation, the damage may be quiet but real.
+
+We learn through friction.
+
+We learn by struggling with words, people, tools, boredom, deadlines, failure, and responsibility. The work itself forms us. Remove too much of the struggle and we may not become free. We may become thinner.
+
+I am not romanticizing drudgery. Some work is needlessly tedious. Some administrative burden should be automated. Some jobs grind people down and should be redesigned. There is no virtue in wasting human attention on tasks a machine can handle cleanly.
+
+Still, not every difficulty is waste.
+
+A hard conversation is not waste. Learning patience is not waste. Revising a paragraph until it finally says what you mean is not waste. Sitting with a grieving person when there is nothing efficient to say is not waste. Raising children is gloriously inefficient. Prayer often feels inefficient. Repentance is inefficient. Love is inefficient.
+
+The most human things are rarely optimized.
+
+That is why vocation has to remain bigger than occupation. A man can lose a job and not lose his calling. A woman can leave paid work for a season and not become less fruitful. A retired person can still be summoned into service. A disabled person whose body will not allow conventional productivity still bears the image of God in full.
+
+The Christian doctrine of vocation has always been wider than career.
+
+We are called as sons and daughters, neighbors, spouses, parents, friends, citizens, workers, servants, and members of the Body of Christ. Some of those callings involve wages. Many do not. All of them involve faithfulness.
+
+AI will test whether we actually believe that.
+
+If we have quietly accepted the idea that a person's worth is tied to economic output, AI will expose the weakness. If our discipleship has formed people to think of calling mainly as personal fulfillment, AI will expose that too. Fulfillment is not strong enough to carry suffering. Productivity is not strong enough to carry identity.
+
+Vocation has to be received before it can be lived.
+
+That is difficult for modern people. We like to choose. We like to curate. We like to keep our options open. A calling cuts against that instinct. It comes with duties, limits, people, and sacrifices.
+
+Some of the callings that matter most are the ones we would not have chosen.
+
+A parent caring for a sick child. A pastor staying with a hard congregation. A worker rebuilding after a layoff. A son caring for an aging father. A young adult choosing integrity when shortcuts are available everywhere. These are not impressive in the way the internet measures impressiveness. They are often hidden, costly, and slow.
+
+They are also the places where faith becomes visible.
+
+So when we talk about AI and the future of work, Christians should bring a deeper vocabulary. We should talk about wages, yes. We should talk about education, regulation, and corporate responsibility. But we should also talk about calling, presence, formation, duty, neighbor love, and the image of God.
+
+That vocabulary will sound inefficient to some people.
+
+So be it.
+
+The Church does not need to win an efficiency contest against machines. It needs to tell the truth about human beings.
+
+We need to help our children understand that their worth will not be secured by finding the one job AI cannot touch. That is too much pressure to put on them, and it is probably impossible to predict anyway. We need to help them become people who can serve God and neighbor faithfully in a changing world.
+
+That means we should teach them to use tools without being mastered by them. To work hard without worshiping work. To adapt without surrendering their judgment. To care about excellence without confusing excellence with speed.
+
+Most of all, we should teach them that God calls people, not machines.
+
+Machines can assist tasks. They can imitate language. They can accelerate research and generate options. They can even help us see where our own thinking is lazy.
+
+But they cannot receive a calling, stand before God, love a neighbor, or offer themselves in obedience.
+
+That is where the conversation has to land for Christians. The future of work matters, but the future of vocation matters more. If we lose the language of calling, we will start measuring ourselves by whatever the machines do better.
+
+That would be a tragic bargain.
+
+The better path is not panic. It is recovery. Recover the old words. Recover the patience to form people, not just train workers. Recover the courage to say that human beings are more than their outputs, even when their outputs are economically useful.
+
+AI may change the labor market faster than we are ready for.
+
+It cannot change what a human being is.
+
+Sources:
+
+- Religion News Service, July 10, 2026: "Can AI replace vocation?"
+  https://religionnews.com/2026/07/10/can-ai-replace-vocation/
+- Barna, 2026: "AI is Becoming a Spiritual Authority, Even Among Practicing Christians"
+  https://www.barna.com/research/christians-trust-ai-flourishing-spiritual-authority/`,
+  },
+  {
     slug: "when-ai-edits-the-conscience",
     title: "When AI Edits the Conscience",
     date: "2026-07-07",
