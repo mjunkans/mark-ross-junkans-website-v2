@@ -10,6 +10,205 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "the-church-needs-a-rule-of-life-for-ai",
+    title: "The Church Needs a Rule of Life for AI",
+    date: "2026-07-21",
+    category: "Faith & AI",
+    image: "/images/blog/the-church-needs-a-rule-of-life-for-ai.png",
+    excerpt:
+      "Churches do not need panic or a forty-page policy, but they do need a simple rule of life for AI that protects presence, judgment, honesty, privacy, and faith.",
+    content: `Most churches are going to use AI before they know what they believe about it.
+
+That is not a criticism. It is just how technology usually enters a community. First it feels useful. Then it feels normal. Then people start building habits around it. By the time we get around to having a serious conversation, the tool has already shaped the way we work.
+
+I think that is where many churches are right now.
+
+A pastor uses AI to summarize a long document. A ministry assistant uses it to draft a volunteer email. A worship leader asks for song ideas. A youth pastor tests it for discussion questions. A finance team uses it to clean up notes. Someone on staff asks it for language around grief, conflict, Scripture, sexuality, prayer, anxiety, or church discipline.
+
+Some of those uses are harmless. Some are genuinely helpful. Some are more serious than they first appear.
+
+Barna recently reported that a majority of church leaders use AI at least monthly, while only a third say their church is using AI in ministry or operations. That gap is worth noticing. The people are already using the tools, even when the institution has not named what is happening.
+
+The same Barna research says only 5 percent of churches have AI guidelines.
+
+That number should get our attention.
+
+I do not think every church needs a forty-page technology policy. Most churches do not have the staff, time, or appetite for that. But churches do need something more than vibes. They need a simple rule of life for AI.
+
+By rule of life, I do not mean a legalistic checklist. I mean a shared pattern that helps a community live faithfully. Christians have always needed practices that protect what matters when the surrounding culture pulls in another direction. We need rhythms of prayer because distraction is real. We need Sabbath because work expands without resistance. We need confession because self-deception is natural. We need generosity because money has a way of training the heart.
+
+AI belongs in that category.
+
+It is not just another office tool. It can write, counsel, summarize, imitate, suggest, classify, and decide. It can sit very close to the places where judgment gets formed.
+
+That is why the Church should not only ask whether AI is allowed. Of course it is allowed in many ordinary uses. The better question is what practices help us use it without being quietly formed by it.
+
+I would start with five commitments.
+
+First, the Church should preserve human presence.
+
+There are tasks that can be delegated and there are burdens that must be carried by people. We should know the difference.
+
+If AI helps a church staff member find a meeting time, clean up notes, organize a curriculum archive, or draft a first version of a building-use policy, fine. I have no interest in making people manually suffer through work that a machine can handle cleanly.
+
+But grief, confession, pastoral counsel, rebuke, prayer, reconciliation, discipleship, and spiritual discernment cannot be outsourced without loss.
+
+A grieving widow does not need a perfect paragraph first. She needs someone willing to sit with her. A young man wrestling with sin does not need a machine that can generate spiritual language on demand. He needs a mature Christian who can tell the truth with patience. A person asking whether God has abandoned them does not need a fast answer as much as they need faithful presence.
+
+Christian ministry is not primarily the transfer of religious information. It is embodied love in the name of Christ.
+
+AI can assist ministry around the edges. It cannot become the place where ministry happens.
+
+Second, the Church should protect the work of thinking.
+
+This one matters more than people realize.
+
+The appeal of AI is that it reduces friction. That can be a gift. A blank page can become less intimidating. A stack of notes can become more usable. A rough idea can get clearer.
+
+But friction is not always the enemy.
+
+Sometimes the struggle to find the right words is part of the moral work. Sometimes wrestling with a biblical text is the thing that exposes the preacher before God. Sometimes a slow conversation with elders, parents, teachers, or friends is the process through which wisdom forms.
+
+If we use AI to avoid every difficult first draft, every hard interpretive question, every awkward conversation, and every moment where we might have to sit in uncertainty, we will become quicker and thinner at the same time.
+
+That is a bad trade.
+
+Churches should teach people to use AI as an assistant to thought, not a substitute for judgment. Ask it for options. Ask it to organize notes. Ask it to point out blind spots. Then do the human work. Read. Pray. Compare. Test. Revise. Ask someone wise. Carry responsibility for the final judgment.
+
+The speed of the tool does not remove accountability from the person using it.
+
+Third, the Church should require honesty.
+
+AI makes it very easy to sound more prepared, more thoughtful, more compassionate, and more theologically careful than we actually are.
+
+That temptation is not small.
+
+A pastor can generate a sermon illustration he never lived. A leader can send a personal note that was barely personal. A student can submit writing that carries their name but not their work. A ministry can publish content that sounds spiritually serious while no one in the room has actually done the thinking.
+
+This is where integrity has to get practical.
+
+Churches should be clear about where AI may be used, where it must be disclosed, and where it should not be used at all. A staff member using AI to improve grammar is one thing. A counselor feeding confidential details into a public chatbot is another. A pastor using AI to create a sermon research outline is one thing. Presenting machine-generated spiritual reflection as the fruit of prayer and study is another.
+
+The issue is not whether every use must be announced from the pulpit. That would become silly very quickly.
+
+The issue is whether our use of the tool preserves truthfulness.
+
+If AI helped with something, we should be able to say so without embarrassment. If we would be embarrassed for people to know, that is probably information.
+
+Fourth, the Church should guard the sacred and the private.
+
+Churches hold tender information. Marriages in crisis. Confessions of sin. Financial hardship. Abuse disclosures. Medical fears. Immigration concerns. Doubts. Addictions. Family conflict. Prayer requests that were never meant to become training data.
+
+That kind of information should not be pasted casually into AI systems.
+
+This is not paranoia. It is basic stewardship.
+
+Barna's recent church-leader research found that data privacy is the top AI concern among leaders, with 83 percent expressing concern. They are right to be concerned. Churches should be slower than businesses when the data involves souls, children, trauma, confession, and pastoral trust.
+
+A simple rule would help: do not put personally identifiable, pastoral, counseling, child-related, financial, medical, legal, or abuse-related information into AI tools unless the church has explicitly approved the tool, the data protections are understood, and the person responsible can explain why it is necessary.
+
+That sentence is not glamorous.
+
+It may protect people.
+
+Fifth, the Church should remember that AI is often secular by default.
+
+This is one of the most important findings in the current faith and AI conversation. A BYU-led consortium studying faith and ethics in AI found that major AI models often omit religious perspectives from answers, even on questions where people expect faith to matter.
+
+Axios summarized one part of the problem clearly: on topics like grief and loss, people often consider religion relevant, while AI models mention it far less often.
+
+That matters because omission teaches.
+
+If a person asks about grief and receives an answer that treats grief only as psychology, they are being formed. If a teenager asks about guilt and receives only therapeutic language, they are being formed. If a parent asks about forgiveness and receives advice with no room for repentance, grace, sin, mercy, reconciliation, or the presence of God, they are being formed.
+
+The machine may not be attacking faith. It may simply be leaving faith out.
+
+Leaving faith out of the deepest human questions is not neutral.
+
+That does not mean Christians should demand that every AI answer sound like a sermon. It does mean pastors, parents, teachers, and church leaders should understand what kind of default world the tool tends to create.
+
+The Church has to train people to notice absence.
+
+What is missing from this answer?
+
+What account of the human person is assumed here?
+
+What does this tool treat as authoritative?
+
+What does it make easier to say?
+
+What does it make harder to say?
+
+Those are discipleship questions.
+
+I am aware that some people will hear all of this and think the Church is overcomplicating things. Just use the tool. Save time. Move on.
+
+I understand the instinct. Churches are stretched. Pastors are tired. Volunteers are hard to find. Administrative work keeps expanding. If AI can give a church back a few hours a week, that is not nothing.
+
+Use the time well.
+
+But do not confuse relief with wisdom.
+
+A tool can make ministry easier while also making certain forms of faithfulness less natural. That is the tension we need to hold. We do not need panic. We need moral attention.
+
+So what would a simple church rule of life for AI look like?
+
+It might be as plain as this:
+
+We use AI to serve people, not replace presence.
+
+We use AI to support thinking, not avoid judgment.
+
+We tell the truth about how our words and work are made.
+
+We protect confidential and sacred information.
+
+We test machine answers against Scripture, prayer, community, and the wisdom of the Church.
+
+We refuse to let speed become our definition of fruitfulness.
+
+That is not a complete policy. It is a beginning.
+
+And I think churches need beginnings they can actually live.
+
+The goal is not to become experts in every technical detail. Most pastors do not need to become AI engineers. Most churches do not need a technology committee that turns into a second denomination.
+
+The goal is to become the kind of people who can use powerful tools without surrendering the practices that make us Christian.
+
+That will take more than caution. It will take courage.
+
+It takes courage to say that a slower pastoral visit matters more than a faster content calendar. It takes courage to tell a staff member that confidential data cannot be used casually, even for convenience. It takes courage for a preacher to use helpful tools without letting them do the holy wrestling for him. It takes courage for parents to teach children that difficulty is sometimes the place where character is formed.
+
+AI will keep improving.
+
+That is the easy prediction.
+
+The harder question is whether our habits will improve with it.
+
+If the Church approaches AI only as a productivity tool, we will miss the deeper formation question. If we reject it out of reflex, we will miss real opportunities to reduce unnecessary burden and serve people better. The path forward is neither naive adoption nor anxious retreat.
+
+The path is disciplined use.
+
+The Church has always lived with tools, books, roads, letters, printing presses, microphones, radio, television, websites, smartphones, and now systems that can imitate parts of human language and judgment. Every tool brings gifts. Every tool brings temptations. Wisdom is learning the difference before the temptation becomes invisible.
+
+We need that wisdom now.
+
+Not someday, when every church has already built its habits.
+
+Now.
+
+Sources:
+
+- Barna, 2026: "How Church Leaders Are Using AI (And What Concerns Them Most)"
+  https://www.barna.com/research/church-leaders-ai-usage-concerns/
+- Barna, 2026: "AI is Becoming a Spiritual Authority, Even Among Practicing Christians"
+  https://www.barna.com/research/christians-trust-ai-flourishing-spiritual-authority/
+- Axios, June 1, 2026: "AI stumbles on questions of faith"
+  https://www.axios.com/2026/06/01/ai-religious-bias-catholics-chatbots
+- BYU News, May 27, 2026: "New research from BYU-led multi-institution consortium finds all major AI models ignore faith, religion in responses"
+  https://news.byu.edu/intellect/new-research-from-byu-led-multi-institution-consortium-finds-all-major-ai-models-ignore-faith-religion-in-responses`,
+  },
+  {
     slug: "vocation-in-the-age-of-intelligent-machines",
     title: "Vocation in the Age of Intelligent Machines",
     date: "2026-07-14",
