@@ -10,6 +10,201 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "when-human-authorship-has-to-be-certified",
+    title: "When Human Authorship Has to Be Certified",
+    date: "2026-07-28",
+    category: "Faith & AI",
+    image: "/images/blog/when-human-authorship-has-to-be-certified.png",
+    excerpt:
+      "When human authorship has to be certified, the deeper issue is not efficiency. It is trust, especially when spiritual language can be manufactured without embodied responsibility.",
+    content: `I never thought we would reach a point where a public religious leader might need a certificate proving he wrote his own words.
+
+But here we are.
+
+Last week, The Guardian reported that speeches and writings from Pope Leo XIV were reviewed by an Australian company called Proudly Human and certified as human-authored. The work included a book, Maps of Hope, prepared with Vatican involvement, Australian Catholic University, and former Australian chief scientist Alan Finkel.
+
+Set aside, for a moment, what anyone thinks about the pope, the Catholic Church, or AI detection tools.
+
+The fact itself is worth sitting with.
+
+We are entering a season where the ordinary assumption, that a human being wrote the words attached to his name, can no longer be taken for granted. In public life, academia, ministry, publishing, business, and even personal correspondence, authorship is becoming something that may need to be proved.
+
+That should trouble us.
+
+Not because tools are always bad. I use AI. Many thoughtful people use AI. Churches are beginning to use it for ordinary administrative help, research support, communication drafts, and planning. Some of that is sensible. Some of it saves real time.
+
+But when human authorship has to be certified, the deeper issue is not efficiency. It is trust.
+
+Trust is the unseen currency of words.
+
+When a pastor preaches, people assume his words have passed through his conscience. When a professor writes, readers assume the argument has passed through her judgment. When a father writes a letter to his child, the child assumes the words came from somewhere inside him, even if they were imperfect. When a church publishes a statement, the congregation assumes leaders have actually thought, prayed, argued, revised, and carried responsibility for the final language.
+
+That assumption is getting weaker.
+
+AI can produce competent religious language almost instantly. It can sound pastoral, careful, humble, and wise. It can produce a decent sermon outline, a comforting prayer, a theological reflection, a conflict-resolution email, or a devotional paragraph before the coffee gets cold.
+
+Sometimes that speed is useful.
+
+Sometimes it is spiritually dangerous.
+
+The danger is not only that AI might say something false, although that matters. The danger is that it can say something true in a way that bypasses the human formation that truth usually requires.
+
+A machine can generate a paragraph on forgiveness. It cannot forgive.
+
+It can summarize grief. It cannot grieve with hope.
+
+It can imitate conviction. It cannot repent.
+
+I know that sounds strong, but I think Christians need to be willing to say it clearly. Words are not just containers for information. Words reveal what we have attended to, wrestled with, loved, avoided, received, and resisted.
+
+That is why authorship matters.
+
+When Paul wrote to the Thessalonians, he was not merely transmitting propositions. He reminded them of his presence among them: "You know how we lived among you for your sake." The message and the messenger were not detached from each other. The truth came through a life.
+
+That does not mean every sentence has to be composed with a quill by candlelight. We should not romanticize inconvenience. Editors help writers. Friends sharpen arguments. Software corrects spelling. Research tools surface sources we would have missed. A person can use help and still be the author.
+
+But there is a line between assistance and substitution.
+
+The Church has to learn how to name that line before it becomes impossible to see.
+
+Barna's 2026 church technology research suggests we are already behind the habit curve. A majority of church leaders use AI at least monthly, while only about a third say their churches are using AI in ministry or operations. The same research reports that many leaders are concerned about privacy, plagiarism, message integrity, and authenticity in preaching and teaching.
+
+That combination makes sense. The practice is arriving faster than the moral vocabulary.
+
+Most people do not start by deciding to outsource their conscience. They start by asking for a little help.
+
+Clean this up.
+
+Make this warmer.
+
+Give me a better illustration.
+
+Draft a pastoral note.
+
+Summarize this counseling situation.
+
+Write a prayer for Sunday.
+
+Each request may feel small on its own. Over time, the habit can change a person. The first draft becomes less personal. The hard thinking becomes easier to skip. The language becomes more polished than the soul behind it.
+
+That is where disclosure matters.
+
+I do not mean every email needs a confession label. Nobody needs a footnote saying spellcheck caught three typos. If a church administrator uses AI to turn meeting notes into a cleaner agenda, that is ordinary tool use. If a writer uses AI to find redundancies in a draft he actually wrote, that does not erase authorship.
+
+But if the substance of the message was generated by a machine, and the audience reasonably believes it came from a person, we have moved into a different moral space.
+
+This is especially true in ministry.
+
+A sermon is not only religious content. It is an act of pastoral responsibility. A condolence note is not only emotional language. It is an act of human presence. A public statement after scandal or tragedy is not only reputation management. It is a moment when people are listening for truth, courage, repentance, and care.
+
+If those words are manufactured behind the curtain, trust is damaged even when the words are accurate.
+
+People are not wrong to want to know whether a human being carried the words.
+
+The AI Christian Partnership and the Faraday Institute recently released practical guidelines for Christian ministry in the UK. I am glad to see that kind of work happening, because churches need something more concrete than suspicion and enthusiasm. They need habits that protect what is sacred without turning every tool into a threat.
+
+I would start with this.
+
+If AI helps with grammar, organization, or clarity, say less and carry responsibility.
+
+By that I mean, do not hide behind the tool and do not make the tool the story. Use it as assistance. Then read every word. Test it. Revise it. Remove anything you cannot stand behind. If your name is attached, your judgment is attached.
+
+If AI generates the substance, disclose it.
+
+That may sound uncomfortable. Good. The discomfort is useful. If a leader would be embarrassed to say, "AI drafted most of this sermon reflection," then the leader already knows something is off. Embarrassment is not always moral wisdom, but it can be an early warning light.
+
+If the subject is pastoral, confidential, or spiritually tender, slow down.
+
+This is where convenience can become carelessness. Churches hold the private burdens of real people: marriages under strain, children in pain, financial pressure, hidden sin, abuse disclosures, immigration fear, illness, grief, and doubt. That information should not be fed casually into systems the church does not understand.
+
+If the words require spiritual authority, a human being has to carry them.
+
+There are sentences a pastor should not outsource. There are apologies a leader has to write with his own hand, or at least with his own conscience fully engaged. There are prayers that need to come from a congregation's actual wounds and hopes, not from a prompt asking for something "warm, sincere, and theologically rich."
+
+That phrase is useful. It is also revealing.
+
+AI can produce the texture of sincerity without the burden of sincerity.
+
+Christians should be careful around that.
+
+This does not mean human-written words are automatically faithful. A person can write manipulative sermons, shallow apologies, dishonest reports, and sentimental prayers with no help from technology. Human authorship is not the same as holiness.
+
+Still, human authorship keeps responsibility located where it belongs.
+
+A person can be corrected. A person can repent. A person can learn. A person can be held accountable by elders, friends, editors, readers, and the Church. A machine can be adjusted, updated, or replaced, but it cannot answer for itself before God.
+
+That distinction will matter more as AI becomes ordinary.
+
+The AP reported earlier this year that technology companies are increasingly seeking input from faith leaders on ethical AI, including through the Faith-AI Covenant. I welcome that conversation. Faith communities should not retreat from the moral questions shaping public life. If builders are asking religious leaders to speak about dignity, truth, and human flourishing, we should speak.
+
+But we should also look closer to home.
+
+The Church cannot credibly ask technology companies to honor human dignity if we are careless with authorship in our own pulpits, newsletters, classrooms, books, and pastoral care.
+
+The credibility test starts with our own words.
+
+When people read a Christian leader, they are not only asking whether the sentences are well-crafted. They are asking whether the words can be trusted. They want to know that someone stood behind the language, thought it through, prayed before saying it, and chose the words because they were true rather than merely effective.
+
+Those questions will not go away.
+
+I suspect we will see more certification systems, disclosure standards, institutional policies, and detection tools. Some will help. Some will be theater. Some will create a new class of compliance language that technically tells the truth while avoiding the real issue.
+
+The real issue is simpler and harder.
+
+Can I trust that these words came through a person?
+
+For Christians, that question reaches beyond publishing ethics. We believe God speaks through words, but not through words as bare data. Scripture comes to us through prophets, apostles, poets, witnesses, letters, lament, memory, command, confession, and testimony. The Word became flesh, not content.
+
+That should shape our instincts.
+
+We should care when language is detached from embodied responsibility.
+
+We should care when spiritual language becomes easy to manufacture.
+
+We should care when the public begins to assume every polished sentence might be synthetic until proven otherwise.
+
+There is a gift hidden inside this disruption, if we are willing to receive it. AI may force us to recover a better account of authorship. Not celebrity authorship. Not personal branding. Something older and sturdier.
+
+Authorship as witness.
+
+A witness does not merely report words. A witness bears responsibility for what has been seen, heard, tested, and lived.
+
+That kind of authorship cannot be automated.
+
+It can be assisted, edited, challenged, refined, and sharpened. It cannot be replaced without changing the meaning of the words themselves.
+
+So yes, churches should write AI guidelines. Schools should clarify academic standards. Publishers should decide how disclosure works. Ministries should protect confidential data. Public leaders should be honest about how their words are made.
+
+But beneath all of that, Christians need a renewed commitment to bearing our own words.
+
+If we preach, we carry the sermon.
+
+If we apologize, we carry the apology.
+
+If we comfort, we carry the care.
+
+If we publish, we carry the claim.
+
+If we sign our name, we carry the responsibility.
+
+That may become costly in a world where language is cheap.
+
+So be it.
+
+The Church has never been called to make words cheaply. We have been called to speak truthfully, love faithfully, and bear witness with our whole lives.
+
+Sources:
+
+- The Guardian, July 21, 2026: "Man of his word: Pope Leo speeches declared human-authored by Australian AI detection tool"
+  https://www.theguardian.com/world/2026/jul/21/pope-leo-speech-human-not-ai-artificial-intelligence
+- AI Christian Partnership, July 14, 2026: "UK churches offered new practical Guidelines for wise use of AI"
+  https://aichristian.org/press-release-uk-churches-offered-new-practical-guidelines-for-wise-use-of-ai/
+- Barna, 2026: "How Church Leaders Are Using AI (And What Concerns Them Most)"
+  https://www.barna.com/research/church-leaders-ai-usage-concerns/
+- AP, May 2026: "Tech is turning increasingly to religion in a quest to create ethical AI"
+  https://apnews.com/article/ai-artificial-intelligence-ethics-religion-roundtable-053a44133c64703f83fd50c9ee6124ea`,
+  },
+  {
     slug: "the-church-needs-a-rule-of-life-for-ai",
     title: "The Church Needs a Rule of Life for AI",
     date: "2026-07-21",
