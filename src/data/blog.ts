@@ -10,6 +10,187 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "before-christians-ask-ai-for-spiritual-guidance",
+    title: "Before Christians Ask AI for Spiritual Guidance",
+    date: "2026-08-04",
+    category: "Faith & AI",
+    image: "/images/blog/before-christians-ask-ai-for-spiritual-guidance.png",
+    excerpt:
+      "AI may offer useful religious language, but Christians should not confuse private chatbot answers with embodied spiritual guidance, accountable counsel, or the life of the Church.",
+    content: `I understand why people ask AI spiritual questions.
+
+Sometimes it is late. Sometimes the question feels too embarrassing to bring to a friend. Sometimes the pastor is busy, the small group feels too exposed, and a search engine gives you a thousand links when what you really want is one patient answer.
+
+So a person opens a chatbot and types what they are carrying.
+
+Why does God feel far away?
+
+What does this verse mean?
+
+Should I forgive him?
+
+How do I know if I am being called to something?
+
+Can you write a prayer for me?
+
+None of that surprises me. It also does not make me angry. The hunger underneath those questions is very human. People are not only looking for information. They are looking for clarity, comfort, permission, correction, and sometimes a little bit of courage.
+
+The problem is that AI is very good at sounding like it has those things.
+
+Barna released new research on July 21 showing that practicing Christians are using AI more often than most Americans. Forty-four percent say they use AI often or very often in their personal lives, compared with 31 percent of U.S. adults overall. Nearly half of practicing Christians say they would trust AI with their own spiritual growth. About one-third say they have used it in the past month for spiritual guidance or Bible-related questions.
+
+That is not a future scenario. That is where we are now.
+
+The same research says one in three practicing Christians want guidance from their own pastor on AI, while only 12 percent of pastors feel ready to give it.
+
+I keep coming back to that gap.
+
+The people are already asking. The shepherds often feel unprepared. In the space between those two realities, the machine is available all the time.
+
+I do not say that to shame pastors. Most pastors I know are already carrying more than people realize. They are preaching, counseling, visiting hospitals, managing staff, trying to keep budgets alive, dealing with conflict, and absorbing the private pain of families who may never tell the church what they are going through. Asking every pastor to become an AI expert by next Sunday is not serious.
+
+But the Church cannot treat this as a niche technology issue anymore.
+
+AI is becoming one of the places where people rehearse their questions before they bring them to another human being. It may be the first place a teenager asks about anxiety and sin. It may be the first place a young parent asks about grief. It may be the first place a burned-out leader asks whether walking away would be faithlessness or wisdom.
+
+That matters.
+
+The first answer a person receives can frame the next one. It can soften them toward truth, or make truth feel unnecessary. It can encourage confession, or give spiritual language to avoidance. It can point someone back toward Scripture and community, or make private interpretation feel sufficient.
+
+AI does not need to be malicious to shape us. It only needs to be useful.
+
+That is the part Christians should take seriously.
+
+We tend to talk about AI as if the main question is accuracy. Did it quote the right verse? Did it summarize the doctrine correctly? Did it hallucinate a source? Those questions matter. Bad information can do real damage.
+
+But spiritual guidance has never been only an information problem.
+
+When I ask someone wise for counsel, I am not only asking for an answer. I am placing myself, at least a little, under the care of another person. Their tone matters. Their patience matters. Their history with me matters. Their willingness to say something I may not want to hear matters.
+
+A good pastor, elder, parent, mentor, or friend does more than respond to the sentence I typed. They notice what I did not say. They hear the evasions. They ask whether I have slept. They know whether this is a pattern. They can sit in silence without needing to fill the room with language.
+
+That kind of care cannot be simulated without loss.
+
+AI can generate spiritual language with astonishing speed. It can sound gentle. It can sound theologically balanced. It can offer a prayer that feels moving enough to make someone cry.
+
+There may be times when that is a mercy.
+
+I do not want to flatten this into a simple warning. A person in real distress at two in the morning may receive a truthful reminder from an AI-generated paragraph that keeps them from despair until they can talk to someone. A new believer may ask a basic Bible question and receive an answer that points them back to Scripture. A tired parent may use AI to organize scattered thoughts into a prayer they could not find words for on their own.
+
+God can use strange instruments.
+
+Still, Christians should be careful about calling every helpful moment guidance.
+
+Guidance in the Christian life is connected to presence, accountability, wisdom, and love. It happens in the Body. It is tested over time. It involves Scripture, prayer, conscience, correction, and the slow work of learning to tell the truth about ourselves.
+
+That is one reason Paul's letters feel so different from religious content. He does not write as a detached advice machine. He writes as a man who knows churches, carries names, remembers faces, and bears wounds. To the Thessalonians he says, "You know how we lived among you for your sake." The life and the words belong together.
+
+That connection is easy to forget in a world of instant religious answers.
+
+We have already learned to accept disembodied information. We search for sermons from pastors who do not know us. We listen to podcasts from people who will never sit across a table from us. We read articles from strangers. I am aware of the irony as I write those words.
+
+Those things can help. They have helped me.
+
+But they do not replace the ordinary, embodied life of the Church. They should send us back into it with more clarity, not train us to live without it.
+
+AI raises the stakes because it does something different from a book, a sermon, or an article. It answers back. It adapts to us. It remembers the thread. It can mirror our vocabulary and emotional state. It can sound like someone is listening.
+
+That feeling is powerful.
+
+It may also be misleading.
+
+Being answered is not the same as being known. Being affirmed is not the same as being loved. Receiving a smooth spiritual explanation is not the same as being shepherded.
+
+Christians need categories for that distinction.
+
+I think families, churches, schools, and ministries should start with a few simple practices.
+
+First, do not ask AI questions you are unwilling to bring into the light with a trusted person.
+
+That does not mean every question has to become public. Privacy matters. Timing matters. Some questions are tender. But secrecy can become a place where bad counsel thrives. If AI becomes the only place you ask about your marriage, your anger, your temptation, your despair, your doubts, or your resentment, something has already gone wrong.
+
+Second, treat AI answers as prompts for discernment, not conclusions.
+
+If you ask for help understanding a passage of Scripture, read the passage yourself. Check the surrounding context. Compare translations. Look at a trusted commentary. Ask a pastor or mature believer. Let the answer be a starting point, not the end of the work.
+
+The Bereans were commended because they examined the Scriptures daily to see whether what they heard was true. That habit does not become less important when the voice answering us is synthetic.
+
+Third, be honest about your own motives.
+
+Sometimes we ask for guidance because we want wisdom. Sometimes we ask because we want a second opinion that will let us do what we already planned to do. AI can be very accommodating. If we keep adjusting the prompt until the answer becomes comfortable, we are not seeking counsel. We are shopping for permission.
+
+That is a spiritual problem, not a technical one.
+
+Fourth, pastors should speak sooner than they feel ready.
+
+Again, this does not require every pastor to become a technologist. Congregations do not need a lecture on model architecture. They need moral and spiritual categories.
+
+They need to hear that AI can be useful without becoming authoritative. They need to understand that privacy matters. They need to know that machine-generated spiritual language can be true and still lack pastoral responsibility. They need permission to bring embarrassing questions to real people before those questions harden into private habits.
+
+The Church has handled new forms of mediation before. Letters, books, radio, television, websites, livestreams, podcasts, apps. Each tool changed how teaching and community moved. Each brought gifts and distortions. Wisdom usually arrived after some damage.
+
+Maybe this time we can move a little faster.
+
+The upcoming AI & Church Summit, scheduled for August 25-27, is a sign that Christian leaders across traditions are beginning to take the question seriously. I am glad for that. We need ecumenical conversations, denominational guidance, school policies, ministry guidelines, and better language for ordinary believers.
+
+But most of the work will still happen locally.
+
+It will happen when a parent tells a teenager, "You can ask hard questions here."
+
+It will happen when a pastor says, "Bring me what the chatbot told you, and let's test it together."
+
+It will happen when a small group learns to sit with an awkward confession instead of rushing to fix it.
+
+It will happen when a Christian admits, "I have been asking a machine for counsel because I did not want anyone to know what I was really wrestling with."
+
+That last sentence may sound uncomfortable. It should.
+
+A lot of us have learned to hide behind polished language. AI makes that easier. We can ask for a prayer before we have prayed. We can ask for a confession before we have repented. We can ask for a theological explanation before we have obeyed the last thing we already knew was true.
+
+I am not above this. Nobody who uses these tools thoughtfully should pretend to be.
+
+The speed is useful. The convenience is real. The temptation is real too.
+
+"Be still, and know that I am God."
+
+That command assumes we are capable of stillness. It also exposes how quickly we reach for an answer before we have endured silence. Sometimes the most faithful thing we can do is wait long enough for the question to become honest.
+
+AI will not teach us that by default.
+
+It will answer.
+
+That is what it is built to do.
+
+The Church has to teach people when an answer is not enough.
+
+I keep thinking about the phrase spiritual authority. We tend to imagine authority as something official: a title, an office, a pulpit, a platform. But functional authority is often quieter. It is whatever we return to when we are confused. It is whatever frames the question before anyone else gets to speak. It is whatever we trust enough to shape our next step.
+
+By that measure, AI is already becoming an authority for many people.
+
+The Christian response should be neither panic nor indifference. Panic makes the Church sound brittle. Indifference leaves people alone with tools that are shaping them faster than they realize.
+
+We need a calmer courage.
+
+Use the tool where it helps. Refuse to let it become your shepherd. Ask questions. Check sources. Protect private information. Bring hard things into trusted community. Let Scripture have the first and final word. Give pastors grace, but do not let them ignore the issue forever.
+
+And when the question is heavy enough to touch your soul, do not settle for a machine that can answer you.
+
+Find someone who can bear witness with you.
+
+Someone who can listen, pray, correct, wait, remember, and love.
+
+Someone with a face.
+
+Sources:
+
+- Barna, July 21, 2026: "New Barna Data: Practicing Christians are Adopting AI Rapidly"
+  https://www.barna.com/research/christians-adopting-ai-rapidly/
+- Gloo / Barna, February 19, 2026: "AI is Becoming a Spiritual Authority in Americans' Lives, New Research Reveals"
+  https://gloo.com/press/releases/ai-is-becoming-a-spiritual-authority-in-americans%E2%80%99-lives-new-research-reveals
+- United Methodist Church event calendar: "AI & Church Summit - An Ecumenical Gathering on Artificial Intelligence"
+  https://www.umc.org/en/umc-calendar/events/2026/08/25/ai-church-summit-an-ecumenical-gathering-on-artificial-intelligence`,
+  },
+  {
     slug: "when-human-authorship-has-to-be-certified",
     title: "When Human Authorship Has to Be Certified",
     date: "2026-07-28",
