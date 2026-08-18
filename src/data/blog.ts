@@ -10,6 +10,164 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "the-faith-is-learned-in-bodies",
+    title: "The Faith Is Learned in Bodies",
+    date: "2026-08-18",
+    category: "Faith & AI",
+    image: "/images/blog/the-faith-is-learned-in-bodies.png",
+    excerpt:
+      "Christian formation is learned through shared embodied life, not merely through private access to instant religious answers, even when those answers sound useful or wise.",
+    content: `I keep thinking about how much of the Christian life I learned before I understood it.
+
+I learned by watching my father pray when he was tired. I learned by sitting in church when I would rather have been somewhere else. I learned by hearing hymns sung by people whose lives had carried more weight than mine. I learned by seeing adults confess sin, forgive each other, serve when no one applauded, and keep showing up.
+
+At the time, I did not have categories for most of it.
+
+That is how formation works. It gets into us before we can explain it.
+
+This matters more in the age of AI than most people realize. We are beginning to live in a world where explanations are cheap, instant, and often pretty good. A person can ask for a summary of Romans. A teenager can ask for help writing a prayer. A pastor can ask for a sermon outline. A parent can ask for language to explain suffering to a child.
+
+Some of that may help.
+
+I use these tools. I understand the appeal. When the page is blank, the calendar is full, and the brain feels like it has too many tabs open, a machine that can organize language in seconds feels like mercy.
+
+But there is a difference between receiving an explanation and being formed.
+
+The Church has to recover that distinction.
+
+We have spent a long time treating discipleship as if the primary problem were information. We teach doctrine, explain passages, offer classes, send links, record sermons, and build curriculum. Those things matter, and I am grateful for them.
+
+Still, something thinner can happen if we are not careful.
+
+We can mistake access to religious content for participation in a way of life. We can mistake theological language for obedience. We can mistake a well-worded answer for wisdom.
+
+AI did not create that temptation. It exposed it.
+
+For a long time, Christians have been able to live at a distance from the communities that supposedly form them. We can listen to sermons from pastors who will never know our names. We can read theologians without ever being corrected by a living elder. We can consume worship music alone in the car and call it our spiritual diet. We can follow Christian voices online and quietly let strangers become more influential than the people who actually share our lives.
+
+Again, those resources can help. I am not interested in scolding people for using what is available. Books, podcasts, sermons, articles, and online teaching have carried many of us through seasons when local resources were thin.
+
+But help becomes dangerous when it trains us to live without the Body.
+
+That is where AI raises the stakes.
+
+It does not only deliver content. It answers back, adapts to the thread, sounds patient, and produces spiritual language that feels personal enough to lower our guard.
+
+That is powerful.
+
+It is also limited in ways Christians need to name plainly.
+
+A machine can explain forgiveness, but it cannot forgive you. It can generate a prayer, but it cannot pray with you as a brother or sister. It can summarize a passage, but it cannot sit under the Word with you, week after week, until the text begins to search both of you.
+
+And when confession finally comes, it cannot look you in the eye while you tell the truth.
+
+I know that sounds obvious. Maybe it is. But many of the most important things we lose are obvious only after they are gone.
+
+The Christian faith has always been stubbornly embodied. God did not save us by sending an idea. The Word became flesh.
+
+That sentence should keep haunting our technology conversations.
+
+The incarnation means God meets us in history, skin, hunger, tears, dust, blood, and breath. Jesus teaches with words, yes, but he also touches lepers, eats with sinners, washes feet, weeps at a tomb, sleeps in a boat, breaks bread, and bears wounds in his risen body.
+
+The life of Christ cannot be reduced to information transfer.
+
+Neither can the life of his people.
+
+Paul writes to the Thessalonians, "You know how we lived among you for your sake." That line has been staying with me. He does not detach the message from the messenger. He does not treat teaching as clean content floating above the mess of shared life. The words mattered because the life was visible.
+
+That is deeply inconvenient.
+
+It means Christian formation is slower than we want. It means it requires proximity. It means some of what we need can only be learned by being near people long enough to see whether their faith holds under pressure.
+
+Children learn this way.
+
+They learn what prayer is by hearing someone pray when the family is anxious. They learn what repentance is by watching a father or mother apologize without making excuses. They learn whether church is central by noticing what gets protected on the calendar and what gets moved when life gets busy.
+
+They are reading the room long before they are reading theology.
+
+Adults learn this way too, though we pretend we are above it.
+
+We learn courage from people who keep telling the truth. We learn patience from people who do not need every wound resolved by Friday. We learn generosity from people whose giving costs them something. We learn reverence from people who handle holy things carefully. We learn endurance from saints who limp into worship and still sing.
+
+That kind of formation cannot be downloaded.
+
+It can only be received through shared life.
+
+This is part of why I worry about the private nature of AI-shaped spirituality. The danger is not simply that people will receive bad answers. Some will. The quieter danger is that people will receive decent answers in a way that makes embodied obedience feel less necessary.
+
+I can ask a machine about my anger and delay calling the person I need to forgive. I can ask for a prayer and avoid the silence in which my own heart is exposed. I can ask for a theological explanation of suffering and postpone sitting with someone who is suffering.
+
+I can even ask for language of confession and feel the relief of articulation without entering the humility of repentance.
+
+That is where a quiet loss begins.
+
+The habit itself starts to train us.
+
+We should be honest: embodied Christian life can be frustrating. People are slow. Churches disappoint. Pastors have limits. Friends misunderstand. Small groups can be awkward. Families carry old patterns. Real community does not respond instantly, and it rarely gives us the clean answer we hoped for.
+
+There are days when a private chat thread feels easier.
+
+I understand that more than I wish I did.
+
+But ease is not the same as faithfulness. Some of the grace God gives us comes through people we would not have chosen, at a pace we would not have selected, with words we would not have prompted.
+
+That is part of the mercy.
+
+The person who knows me can challenge the story I am telling myself. The friend who has seen my patterns can hear the evasion under my polished explanation. The elder who has walked through suffering can tell the difference between careful discernment and spiritualized avoidance. The church member sitting beside me can remind me that I am a body learning worship, not just a mind seeking answers.
+
+We need people who can interrupt our self-deception.
+
+AI will usually be too polite for that. Even when it challenges us, it does so inside a relationship we control. We can rephrase the prompt. We can start a new thread. We can ask again until the answer feels manageable.
+
+Embodied community is harder to edit.
+
+That is one reason God uses it.
+
+I am not arguing that Christians should refuse AI. That would be too easy, and I do not think it would be honest. These tools are already part of the world our children and grandchildren are inheriting. They will use them for school, work, study, communication, planning, and probably a dozen things we have not imagined yet.
+
+The better question is what kind of people they are becoming while they use them.
+
+Are they learning to seek wisdom, or only answers?
+
+Are they learning to confess, or only to process privately?
+
+Are they learning to listen, or only to generate language?
+
+Are they learning to belong to the Body, or only to manage their spiritual life as an individual project?
+
+Those questions belong in homes and churches now.
+
+Parents do not need to panic. Pastors do not need to become technologists overnight. Schools do not need to pretend they can policy their way out of every problem. But we do need to speak clearly.
+
+Use AI for what it is good at. Let it organize notes. Let it explain terms. Let it help you find a starting point. Let it reduce friction around tasks that do not require your soul.
+
+But do not let it become the place where your hidden life stays hidden.
+
+Do not let it become a substitute for confession, counsel, worship, repentance, friendship, or obedience.
+
+Do not let it teach you that Christian formation can happen without inconvenience.
+
+The early Church did not become the Church through efficient content delivery. They devoted themselves to the apostles' teaching and the fellowship, to the breaking of bread and the prayers. Teaching was there. So was fellowship. So was bread. So were prayers spoken together by people whose lives were being joined.
+
+That pattern still matters.
+
+The future will give us more religious language than we know what to do with. Some of it will be beautiful, some useful, some hollow. The presence of spiritual words will not tell us whether people are being formed in Christ.
+
+We will have to look for the older signs: forgiveness, repentance, worship when no one is watching, burdens carried, truth told, ordinary faithfulness over time.
+
+I do not want a faith that can only survive when it is convenient. I want a faith strong enough to be practiced in the kitchen, the hospital room, the church basement, the boardroom, the funeral, the ordinary Tuesday evening when everyone is tired and someone still has to choose patience.
+
+That is where much of the Christian life is learned.
+
+Not in abstraction.
+
+In bodies.
+
+In time.
+
+Together.`,
+  },
+  {
     slug: "before-ai-becomes-your-spiritual-authority",
     title: "Before AI Becomes Your Spiritual Authority",
     date: "2026-08-11",
