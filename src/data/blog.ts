@@ -10,6 +10,172 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "when-ai-becomes-a-spiritual-voice",
+    title: "When AI Becomes a Spiritual Voice",
+    date: "2026-08-25",
+    category: "Faith & AI",
+    image: "/images/blog/when-ai-becomes-a-spiritual-voice.png",
+    excerpt:
+      "As more Christians turn to AI for spiritual guidance, the Church needs to distinguish useful tools from embodied spiritual authority.",
+    content: `I have been watching a quiet shift happen in the Church, and I do not think we have named it clearly enough yet.
+
+Most of the public conversation about AI still sounds practical. Sermon prep. Administrative work. Email drafts. Research. Lesson plans. Social media captions. Church websites. The usual machinery of modern ministry.
+
+That conversation matters. Pastors and church staff are tired, and many of them are carrying more work than one person should carry. A tool that can reduce friction around ordinary tasks is not automatically a threat.
+
+But the deeper shift is happening somewhere more personal.
+
+People are not only asking AI to help them work faster. They are asking it for spiritual help.
+
+Barna released research this year showing that nearly half of practicing Christians say they would trust AI with their spiritual growth. One in three U.S. adults now says AI's spiritual guidance is as trustworthy as a pastor's. Among millennials, the number rises to 44 percent.
+
+Those numbers do not mean everyone is abandoning the Church. They do not mean every person using AI for a faith question is immature or careless. Some people are asking honest questions late at night. Some are trying to understand Scripture. Some are looking for language because they do not know how to pray through what they are carrying.
+
+I understand the impulse.
+
+There are moments when asking a machine feels easier than calling a person. The machine is available. It does not sound annoyed. It does not have a calendar. It will not remember your awkward wording later. You can type the question, delete it, rephrase it, ask again, and keep the whole exchange private.
+
+That privacy is part of the appeal.
+
+It is also part of the danger.
+
+The Christian life has always involved hidden places. Jesus assumes we will pray in secret. He warns us against performing our righteousness to be seen by others. There is a holy privacy that belongs to the life of God with the soul.
+
+But there is another kind of privacy that protects us from being known.
+
+That is where I think AI will test us.
+
+A person can ask AI, "How do I forgive someone who hurt me?" and receive a thoughtful answer. The answer may even quote Scripture. It may tell the person to be patient, to name the wound honestly, to release vengeance, and to seek wise counsel.
+
+All of that may be true.
+
+Still, something important has not happened yet.
+
+No brother has heard the tremor in the voice. No sister has noticed the evasions. No elder has asked whether forgiveness is being used as a way to avoid telling the truth. No pastor has discerned whether reconciliation is possible or whether distance is needed for safety.
+
+The answer may be correct, and the person may still remain alone.
+
+That distinction matters.
+
+AI is very good at producing religious language. It can summarize doctrine, organize biblical themes, generate prayers, compare traditions, and sound patient while doing it. The better systems get, the less strange this will feel. We should assume the language will become smoother, more contextual, and more emotionally convincing.
+
+The Church cannot respond to that by pretending the tools are useless.
+
+They are not useless.
+
+A tired parent may ask for help explaining a Bible story to a child. A small group leader may use AI to organize discussion notes. A new believer may ask for background on a passage before meeting with a mentor. A pastor may use it to clean up administrative work so there is more time for people.
+
+Those uses can be received with wisdom.
+
+But spiritual authority is different.
+
+The moment AI moves from assisting a task to shaping a conscience, we are in deeper water. The moment it becomes the first place a person brings shame, anger, lust, grief, doubt, resentment, or fear, the question changes.
+
+We are no longer talking about efficiency.
+
+We are talking about formation.
+
+This is why the timing of the current AI and Church conversations feels important. PC(USA)'s Office of Innovation is convening the AI & Church Summit this week, August 24 through 27, with leaders from multiple denominations asking how the Church should respond to generative AI in a way that honors the image of God. Fide AI has also released FMG-Bench, a benchmark for how large language models handle theological triage and pastoral-adjacent guidance.
+
+I am grateful for that work.
+
+We need careful research. We need benchmarks. We need theologians, technologists, pastors, educators, and ordinary church members in the same conversation. We need to know where models fail, where guardrails help, and where human referral is necessary.
+
+But no benchmark can do the Church's work for us.
+
+The deeper question is not only whether AI can give better answers. The deeper question is whether Christians are becoming the kind of people who know where answers belong.
+
+Some answers belong in study.
+
+Some belong in prayer.
+
+Some belong in the gathered church, where the Word is preached and the people of God receive it together.
+
+Some belong across a table from someone who knows your name.
+
+That last category is the one modern life keeps thinning out. AI did not create the problem. It arrived in a world already trained for private spirituality, private consumption, private anxiety, and private self-management.
+
+We can listen to sermons from pastors who will never shepherd us. We can read Christian commentary without anyone seeing whether it produces obedience. We can curate voices that affirm our instincts and avoid people who challenge us. We can keep the language of faith while quietly detaching from the relationships through which faith is supposed to mature.
+
+AI slides easily into that pattern.
+
+It offers spiritual language without the inconvenience of spiritual relationship.
+
+That should sober us.
+
+The New Testament does not imagine Christians being formed as isolated minds with religious content. Paul tells the Thessalonians, "You know how we lived among you for your sake." Teaching and life were joined together. The message was not detached from the visible witness of the messenger.
+
+John writes that the Word of life was heard, seen, looked upon, and touched. Christianity begins with the Word made flesh, not the Word converted into frictionless output.
+
+That matters for our discipleship.
+
+Embodied faith is slower than digital counsel. It has pauses. It includes misunderstanding. It requires patience with people who do not respond on demand. It asks us to receive correction from voices we cannot simply regenerate.
+
+Sometimes that feels inefficient.
+
+Often it is mercy.
+
+I have had moments in my life when I wanted an answer more than I wanted obedience. I wanted clarity that would let me stay in control. I wanted language that made me sound honest without requiring me to become more humble.
+
+That is a dangerous place.
+
+A private spiritual tool can help us articulate what is happening inside us. It can also let us rehearse our preferred version of the story until the language becomes polished enough to hide behind.
+
+The people who love us can interrupt that.
+
+They can say, gently or firmly, "I hear what you are saying, but I think you are leaving something out." They can ask why we are avoiding the conversation. They can remind us that confession is not the same as self-analysis. They can sit with us when the answer is not clean.
+
+That is not a lesser form of wisdom.
+
+It is part of how God keeps us from becoming strangers to ourselves.
+
+Pope Leo XIV made a related point last week when he warned lawmakers that AI must serve the common good rather than erode human dignity. His remarks were aimed at public policy, but the principle reaches into the Church as well. Any technology that handles human longing, moral agency, and spiritual language must be judged by what it does to persons, families, communities, and the vulnerable.
+
+The question is never only, "Did the tool produce a useful response?"
+
+The question is also, "What kind of dependence is being formed?"
+
+That is where pastors and parents have work to do.
+
+We do not need panic. Panic usually produces shallow rules that age badly. We also do not need naive optimism that baptizes every new tool because it saves time.
+
+We need a practical rule of life for AI.
+
+A family might decide that AI can help explain terms, summarize background, or organize notes, but that it cannot become the child's private spiritual counselor. A church staff might use AI for administrative drafts while refusing to outsource pastoral discernment, confession, care, or theological judgment. A small group might talk openly about when AI helps and when it becomes a way of avoiding people.
+
+The line will not always be obvious.
+
+That is why we should start drawing it together.
+
+I would rather see churches talk about this clumsily now than wait until the habits are already formed. Children are learning what counts as wisdom. Teenagers are learning where to take their shame. Adults are learning whether spiritual counsel should come from a body or a device.
+
+These lessons are already underway.
+
+The Church should not be late to them.
+
+Use AI where it genuinely serves. Let it reduce administrative burden. Let it support study when the user knows how to verify and discern. Let it help people find a starting point.
+
+But keep spiritual authority embodied.
+
+Bring confession to the light. Bring grief to the people who will sit with you. Bring theological confusion to teachers who can help you read Scripture with the Church. Bring moral decisions into prayer, counsel, and accountable community.
+
+Do not let the most intimate parts of the soul be trained only by a system that cannot love you.
+
+The future will produce more spiritual language than any generation before us has ever seen. Some of it will be useful. Some of it will be thin. Some of it will sound deep while quietly detaching us from the people God has given us.
+
+We will need discernment.
+
+More than that, we will need each other.
+
+Sources:
+
+- Barna: ["AI is Becoming a Spiritual Authority, Even Among Practicing Christians"](https://www.barna.com/research/christians-trust-ai-flourishing-spiritual-authority/)
+- Gloo / Barna press release: ["AI is Becoming a Spiritual Authority, Even Among Practicing Christians"](https://gloo.com/press/releases/ai-is-becoming-a-spiritual-authority-even-among-practicing-christians)
+- PC(USA): ["AI and the Church"](https://pcusa.org/about-pcusa/agencies-entities/life-witness/ministry-areas/innovation/ai-and-church)
+- Fide AI Research: ["When AI Is Your Pastor"](https://fideai.org/research/fmg-bench/)
+- OSV News: ["AI must serve common good, not dominate humanity, pope tells lawmakers"](https://www.osvnews.com/ai-must-serve-common-good-not-dominate-humanity-pope-tells-legislators/)`,
+  },
+  {
     slug: "the-faith-is-learned-in-bodies",
     title: "The Faith Is Learned in Bodies",
     date: "2026-08-18",
