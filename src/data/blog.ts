@@ -10,6 +10,186 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "the-questions-that-should-not-stay-private",
+    title: "The Questions That Should Not Stay Private",
+    date: "2026-09-01",
+    category: "Faith & AI",
+    image: "/images/blog/the-questions-that-should-not-stay-private.png",
+    excerpt:
+      "Private spiritual questions can begin with a tool, but confession, safety, repentance, and discernment have to move into embodied Christian community.",
+    content: `I keep thinking about the questions people ask when no one else is in the room.
+
+Not the public questions. Not the ones we ask in Bible study because they sound thoughtful enough to say out loud. I mean the questions that come after the house is quiet, after the argument, after the failure, after the thing we cannot quite admit has begun to own more of us than it should.
+
+Those are the questions that reveal us.
+
+They usually do not arrive cleanly. They come mixed with defensiveness, shame, exhaustion, anger, and a strange desire to be told that we are both understood and excused. Sometimes they are honest. Sometimes they are evasions dressed up as honesty.
+
+Should I forgive him?
+
+Am I wrong for wanting to leave?
+
+Is this really sin?
+
+Does God still hear me?
+
+How do I tell the truth without losing everything?
+
+I understand why people bring those questions to AI.
+
+The machine is available when people are not. It answers immediately. It does not look disappointed. It does not sigh. It does not remember that you asked the same question three weeks ago and did nothing with the answer. It lets you revise the question until it sounds a little more noble than it really is.
+
+There is a mercy in being able to start somewhere.
+
+There is also a danger in stopping there.
+
+The Church has spent the last few years talking about whether AI can give Christians useful answers. That conversation has value. Some answers are wrong. Some are shallow. Some sound orthodox until you press on them. Some are surprisingly helpful. Anyone who speaks seriously about these tools has to be honest about both sides.
+
+But I am increasingly convinced that answer quality is only part of the problem.
+
+Some questions are spiritually dangerous because of where we ask them.
+
+That sounds strange in a culture that treats privacy as a sign of safety. We have been trained to believe that the most honest version of ourselves is the version that emerges when no one can interrupt, correct, or misunderstand us. The private self feels truer because it feels unpressured.
+
+Maybe sometimes it is.
+
+There are hidden places in the Christian life that belong to God. Jesus tells us to pray in secret. The Psalms give language for grief, rage, confusion, and longing that many of us would struggle to say in a crowded room. A person should be able to bring an unpolished soul before the Lord without performing for an audience.
+
+But secrecy can become a shelter for self-deception.
+
+I know that from my own life.
+
+There have been seasons when I did not want counsel. I wanted a better argument for the decision I had already started making. I wanted words that would make my motives look cleaner. I wanted enough spiritual language around my preference that I could stop calling it a preference.
+
+That is not a technology problem first.
+
+It is a human problem.
+
+AI enters that human problem with unusual power because it is so good at helping us sound reasonable. It can take resentment and dress it in therapeutic vocabulary. It can take avoidance and call it boundaries. It can take compromise and call it nuance. It can take fear and call it prudence.
+
+It can also correct us.
+
+That is part of what makes the issue complicated. A model may tell someone to confess, seek counsel, forgive, repent, call a pastor, open Scripture, or stop hiding. I have seen AI give answers that were more careful than what some Christians might say off the cuff.
+
+Still, there is a difference between being given the right next sentence and being brought back into the light.
+
+The apostle John writes, "If we walk in the light, as he is in the light, we have fellowship with one another." He does not imagine light as a private experience only. Walking in the light draws us into fellowship. Truth before God begins to reorder truth with other people.
+
+That is where many of us resist.
+
+We want enough light to feel relief without enough exposure to be changed.
+
+AI can become useful in that half-light. It can help us process without confessing. It can help us interpret without submitting. It can help us rehearse hard conversations without ever having them. It can keep us spiritually busy while we remain relationally hidden.
+
+I do not say that as someone above the temptation.
+
+The temptation is ordinary.
+
+If you are ashamed, you want privacy. If you are angry, you want control over the narrative. If you are grieving, you may not have the strength to explain yourself to another person. If you are tempted, you may want help that does not require accountability. If your conscience is unsettled, you may want one more opinion before obedience becomes unavoidable.
+
+A chatbot fits neatly into that moment.
+
+It will stay with you as long as you keep typing.
+
+But it cannot bear witness to your life.
+
+That phrase matters to me. A witness is not merely someone who gives advice. A witness sees. A witness can say, "I know you, and I think you are leaving something out." A witness can remember the history you are conveniently forgetting. A witness can notice the pattern, not only the incident.
+
+The Christian life requires witnesses.
+
+Parents know this. A child can explain himself with perfect confidence and still need a mother or father to say, "Start again. Tell me what actually happened." Married people know it too, if they have been honest for more than five minutes. We are all capable of narrating a conflict in a way that makes our pain vivid and our sin blurry.
+
+Good friends interrupt that.
+
+So do pastors, elders, spouses, mentors, and brothers and sisters who have earned the right to speak because they have stayed close enough to know the difference between our voice and our excuses.
+
+This is one reason confession is so central to Christian sanity.
+
+James does not say, "Privately analyze your sins until you feel better about them." He says, "Confess your sins to one another and pray for one another, that you may be healed." The healing is not magic. It is not a performance of vulnerability. It is the grace of God meeting us through embodied truthfulness.
+
+Sin thrives when it can manage the room.
+
+Confession breaks that management.
+
+A machine can help a person find words for confession. I am grateful for anything that helps someone move toward the truth. A person who cannot yet say, "I have been lying," may need to start by typing, "Help me understand why I keep hiding things from my wife." That first step may matter.
+
+But the direction matters more than the tool.
+
+If the private exchange moves someone toward God and toward the right people, receive the help and keep walking. If the exchange becomes a replacement for telling the truth to someone who can actually know you, the tool is now serving the hiding place.
+
+That line will not always be obvious.
+
+Churches need enough wisdom to name it without panic.
+
+We do not need sermons that treat every AI use as rebellion. People will stop listening, partly because they know it is false. A weary teacher using AI to simplify a lesson plan is not the same as a man using AI to justify secret sin. A pastor organizing administrative notes is not the same as a teenager asking a machine whether life is worth living and never telling an adult.
+
+Those distinctions are morally important.
+
+We need a better pastoral vocabulary. Not slogans. Not fear. Not naive enthusiasm with Bible verses sprinkled on top. We need ordinary Christians to know which questions can be assisted by a tool and which questions require a human face.
+
+Some questions can begin in private.
+
+They should not remain there.
+
+If the question involves confession, you need a person.
+
+If the question involves whether you are safe, you need a person.
+
+If the question involves harming yourself or someone else, you need a person immediately.
+
+If the question involves a major act of obedience, repentance, reconciliation, divorce, calling, church discipline, abuse, addiction, or a pattern you keep repeating, you need more than a generated answer.
+
+You need the Body.
+
+That will sound inefficient to people trained by machines to expect instant response. It is inefficient. Love often is. The Church cannot compete with AI on speed, polish, or availability. It was never meant to.
+
+The Church carries a different gift.
+
+Presence.
+
+A real person can sit across from you in silence. A real person can pray with you after the words run out. A real person can say, "I am coming over." A real person can help you make the phone call, delete the app, tell the truth, go to counseling, call the police, meet with the elder, forgive slowly, or simply survive the next hour without pretending the pain is small.
+
+Presence is costly.
+
+That is why it forms us.
+
+AI does not get tired of our questions, which can feel comforting. But sometimes we need the kind of love that gets tired and stays anyway. We need people who have limits because limits are part of creaturely love. They remind us that we are not disembodied minds exchanging optimized language. We are souls in bodies, known by God and called into communion.
+
+I think this is where many churches have work to do before they ever publish an AI policy.
+
+If people would rather confess to a machine than to anyone in the congregation, the problem may not be only their technology habits. Some churches have made confession unsafe by being careless with shame. Some leaders have used truth without tenderness. Some communities have confused accountability with control. Some Christians have learned, from painful experience, that bringing a wound into the open can make the wound worse.
+
+We should tell the truth about that.
+
+AI should not become the new confessional booth. Churches have to become communities where truth can be spoken without being weaponized, where sin is named without theatrical disgust, where suffering is received without easy explanations, and where repentance is treated as the beginning of restoration rather than the end of someone's dignity.
+
+That kind of community cannot be automated.
+
+It has to be practiced.
+
+Week after week, around tables, in conversations, and through awkward apologies. People learning how to stay present without rushing to manage, fix, or flee.
+
+Most of that will never look impressive.
+
+It may be the most important AI preparation the Church can do.
+
+Because the real test will not be whether Christians can produce a clever position paper on artificial intelligence. The test will be whether a lonely person, at the edge of a dangerous private question, can think of someone in the Church who is safe enough to call.
+
+That is a discipleship issue.
+
+It is also an ecclesiology issue. We become the kind of church people turn to by actually becoming that kind of church. There is no shortcut around trust. No policy can manufacture it. No platform can simulate it for long.
+
+So yes, use the tool where it is truly a tool.
+
+Ask it to summarize. Ask it to organize. Ask it to help you find language when your thoughts are scattered. Ask it for a first draft of the hard conversation if that helps you stop avoiding the conversation.
+
+Then bring the real question into the light.
+
+Tell someone who can love you with skin in the game.
+
+The future of Christian faithfulness in an AI age may depend less on whether machines can answer spiritual questions and more on whether the people of God are still willing to be answerable to one another.`,
+  },
+  {
     slug: "when-ai-becomes-a-spiritual-voice",
     title: "When AI Becomes a Spiritual Voice",
     date: "2026-08-25",
