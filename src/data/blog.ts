@@ -10,6 +10,76 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-are-humans-for-when-genius-is-free",
+    title: "What Are Humans For When Genius Is Free?",
+    date: "2026-10-30",
+    category: "Faith & AI",
+    image: "/images/blog/what-are-humans-for-when-genius-is-free.png",
+    excerpt:
+      "When intelligence is cheap, human worth was never about cognitive output. Responsibility, presence, wonder, and vocation remain, and the real danger is our own comfort.",
+    content: `Picture a father and his young son building a birdhouse on a Saturday. The boy holds the hammer wrong. He bends two nails. The walls of the birdhouse don't line up. The father could finish it faster alone, and a factory production line could finish it even faster still, and nobody in the yard cares, because speed was never what they were there for.
+
+I think about how my father involved me in certain projects growing up when I sit at my desk and watch an AI draft in seconds what used to take me an afternoon. The honest fear arrives quietly: if thinking is cheap, if genius-level intelligence is now available to anyone with a browser, I wonder what exactly I am worth.
+
+That fear deserves a serious answer.
+
+## The Old Measuring Stick
+
+For a few centuries we told ourselves a story about human dignity that leaned hard on cognitive performance. We are the rational animal. We are the species that calculates, reasons, writes sonnets, proves theorems. Our worth, in this telling, tracks with our ability to outperform the rest of creation in raw mental output.
+
+It was always a thin story. It meant that the sharper mind was worth more than the slower one. It meant that the person with dementia had somehow become less human. It meant that a child, still years from abstract thought, carried a dignity that was provisional, not yet fully earned. Most of us would reject those conclusions if we said them out loud, but the framework was sitting there underneath, holding weight.
+
+Now a machine can write code faster than most programmers and can also pass the bar exam. If our worth was ever really about cognitive output, we are in trouble. But I do not think it was.
+
+## What Remains
+
+There is an older account of what a human being is. Genesis says we are made in the image of God. That phrase has been interpreted many ways over two thousand years, but the one that holds up best, I think, is relational: to bear God's image is to be the kind of creature that God addresses and that is answerable to God. It is a standing, and nobody earns it by being clever or loses it by being outperformed.
+
+This means that responsibility remains. You are accountable to your neighbor. You are the one who must decide, weigh, judge, act in this place with these people. A machine can give you options, calculate probabilities, draft the memo. It cannot be responsible. Responsibility cannot be optimized, because it belongs to a person who has to answer for it.
+
+And then there is presence. The Christian story makes an extraordinary claim: when God wanted to rescue the world, He did not send better information. He came. He showed up in a body, in a particular place, at a particular time. He ate with people. He touched lepers. The incarnation is, among other things, a statement about the irreducible value of showing up. Sitting with your grieving friend is not a problem to be solved. It is a gift only a body can give.
+
+Wonder stays too, though I almost hesitate to mention it because the word has been cheapened. I mean something specific: the response of a creature who knows it is a creature. You stand at the edge of the Grand Canyon or hold your newborn and something rises in you that is not information processing. It is the recognition that you are small and the universe is vast. Machines can map the canyon to the millimeter. They cannot stand there and be silenced by it.
+
+## The Real Danger
+
+The danger of free genius is our own comfort; smarter machines are the lesser worry. When every answer is instant, the temptation is to hand over not just the calculation but the judgment. Not just the drafting but the deciding, and eventually the conscience along with it.
+
+Convenience is relentless. It never asks you to hand over anything important all at once. It asks for small things. Let the algorithm pick the next article. Let the model write the condolence note. Let the assistant decide what deserves your attention today. Each one is minor. The accumulation is a person who has outsourced the very activities that made them someone in particular.
+
+I notice it in myself. I reach for the tool before I reach for the thought. I let the summary replace the reading. And every time I do, I'm weakening my ability to judge, to critique, to reason, to fully understand.
+
+## The Post You Were Given
+
+There is a tradition in Lutheran theology that I find clarifying here. It says that God does not need your good works. Your neighbor does. Your callings, your vocations, are the places where God's care for the world flows through you. The baker gives daily bread. The parent gives patience at 2 AM. The city council member gives attention to a zoning dispute nobody else cares about. These callings are, in Luther's phrase, masks of God: the ordinary human roles through which God shows up in the world.
+
+Work was part of the design before anything went wrong. Genesis 2 has Adam tending the garden before the fall. Work was never the punishment. It was given as a calling.
+
+Free genius changes the tools available to us in these callings. A pastor can use AI to research a sermon illustration. A nurse can use it to cross-check a dosage. A teacher can use it to build a better lesson plan. Good. Use the tools.
+
+Outsourcing is something else. Outsourcing means slipping out of the calling itself, like a night watchman handing his lantern to a stranger and going home to sleep. A simple test works for any new capability: ask whether it helps you serve your neighbor or lets you avoid serving. If it makes you more present in your vocation, use it. If it quietly replaces you, put it down.
+
+We keep asking what humans can still do that machines cannot. That is the wrong measuring stick. A father is not valuable because he out-computes a stranger; he is the father of these children and no better mind can take that place.
+
+## Toward Mystery
+
+Here is what I did not expect. The cheaper answers become, the more visible the unanswerable questions get. When you can look up anything in seconds, the things you cannot look up start to stand out. Why there is something rather than nothing. What it means to love well. What a person is for.
+
+Those questions never needed more processing power. They have always called for a different posture, one closer to attention and prayer than to analysis. Free genius, paradoxically, might be the thing that finally makes us notice how much of what matters most was never about intelligence in the first place.
+
+## A Practice
+
+Name your callings. Write them down if it helps. Spouse. Parent. Employee. Neighbor. Church member. Citizen. Friend. Then look at each one twice.
+
+First, notice where AI strengthens your ability to serve in that role. Maybe it handles scheduling so you have more time for your kids. Maybe it translates a letter so you can actually communicate with your neighbor. Use it there, gladly.
+
+Second, notice where it would quietly replace you if you let it. Maybe it writes your thank-you notes. Maybe it listens to your teenager's problems so you don't have to. Hold that line. That is your post.
+
+The birdhouse in that yard isn't perfect, but the boy, the father and the birds don't care. The birds have a home, and the boy built it with his father, and that was the whole point.
+
+I explore these ideas further in my book, *The Return of Mystery: Faith in an Age of Machines*: https://a.co/d/40uJU7H`,
+  },
+  {
     slug: "the-questions-that-should-not-stay-private",
     title: "The Questions That Should Not Stay Private",
     date: "2026-09-01",
